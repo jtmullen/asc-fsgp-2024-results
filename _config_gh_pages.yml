@@ -3,7 +3,7 @@ title: Results
 subtitle: American Solar Challenge 2022
 email: jtmullen@gmail.com
 description: See results here
-baseurl: "/asc-fsgp-2022-results" # the subpath of your site, e.g. /blog
+baseurl: "/fsgp-2023-results" # the subpath of your site, e.g. /blog
 url: 'https://jtmullen.github.io' # the base hostname & protocol for your site
 author:
 copyright:
