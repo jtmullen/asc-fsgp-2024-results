@@ -1,0 +1,85 @@
+
+#line-chart-sov {
+  height: 400px;
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #f6f6f6;
+   --color-1: #4363d8;
+   --color-2: #e6194B;
+   --color-3: #ffe119;
+   --color-4: #000075;
+   --color-5: #a9a9a9;
+   --color-6: #f58231;
+   --color-7: #FF69B4;
+   --color-8: #dcbeff;
+   --color-9: #469990;
+   --color-10: #000000;   
+}
+
+#legend-example-2 {
+  margin: 0 auto;
+  max-width: 900px;
+}
+#legend-example-2 .column {
+  height: 200px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+#legend-example-2 .legend {
+  margin-top: 20px;
+  justify-content: space-between;   
+}
+
+#legend-example-2 .legend > li:nth-of-type(1)::before {
+  background-color: #4363d8;
+}
+
+#legend-example-2 .legend > li:nth-of-type(2)::before {
+  background-color: #e6194B;
+}
+#legend-example-2 .legend > li:nth-of-type(3)::before {
+  background-color: #42d4f4;
+}
+#legend-example-2 .legend > li:nth-of-type(4)::before {
+  background-color: #000075;
+}
+#legend-example-2 .legend > li:nth-of-type(5)::before {
+  background-color: #fabed4;
+}
+#legend-example-2 .legend > li:nth-of-type(6)::before {
+  background-color: #f58231;
+}
+#legend-example-2 .legend > li:nth-of-type(7)::before {
+  background-color: #3cb44b;
+}
+#legend-example-2 .legend > li:nth-of-type(8)::before {
+  background-color: #dcbeff;
+}
+#legend-example-2 .legend > li:nth-of-type(9)::before {
+  background-color: #f032e6;
+}
+#legend-example-2 .legend > li:nth-of-type(10)::before {
+  background-color: #000000;
+}
+#legend-example-2 .legend > li:nth-of-type(11)::before {
+  background-color: #a9a9a9;
+}
+#legend-example-2 .legend > li:nth-of-type(12)::before {
+  background-color: #911eb4;
+}
+#legend-example-2 .legend > li:nth-of-type(13)::before {
+  background-color: #ffe119;
+}
+
+.tg th, tr {border: 1px solid;}
+.tg td {
+  border-right: solid 1px #8a8a8a; 
+  border-left: solid 1px #8a8a8a;
+}
+
+.score-table th, tr {border: 1px solid #000000;}
+.score-table td {
+  border-right: solid 1px #080808; 
+  border-left: solid 1px #080808;
+  border-collapse: none !important;
+}

@@ -1,0 +1,21 @@
+- title: "Results Home"
+  url: "/"
+  side: left
+
+- title: "Scrutineering"
+  url: "/scrutineering.html"
+  side: left
+
+- title: "Formula Sun Grand Prix"
+  url: "/fsgp.html"
+  side: left
+
+- title: "American Solar Challenge"
+  url: "/asc.html"
+  side: left
+
+- title: "ASC Website"
+  url: "/../.."
+  side: right
+
+

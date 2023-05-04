@@ -1,0 +1,51 @@
+{% comment %}
+FSGP Heat Table Generator
+{% endcomment %}{% assign class = include.class %}
+{%if class != "sov" and class != "mov" %} <i>Error generating Chart</i>
+{% else %}
+<link rel="stylesheet" href="{{site.baseurl}}/assets/css/fsgp-style.css">
+<table class="tg" style="margin:auto; border: 1px solid;">
+<thead>
+  <tr>
+  <th> Team </th>
+  <th style="border-right-width: 3px;border-left-width:3px;"> Total </th>
+  {% for team in site.data.fsgp.[class] %}
+	{% if team.team == "labels" and team.number == "table" %}
+		{% for item in team offset:6 %}
+			<th> {{item[1]}} </th>
+		{% endfor %}
+	{% endif %}
+  {% endfor %}
+  <th> Penalty </th>
+  <th> Fastest </th>
+  </tr>
+</thead>
+<tbody>
+{% assign modified = "" %}
+{% assign sorted_teams = site.data.fsgp.[class] | sort: "total" %}
+{% for team in sorted_teams reversed %}
+	{% if team.team != "labels" and team.team != "modified" %}
+		<tr style="background-color:#fafafa;"><td style="font-weight:bold;white-space: nowrap;">#{{team.number}} - {{team.team}} {{team.qualified}} </td>
+		{% assign totalLaps = 0 %}
+		{% assign totalTime = 0 %}
+		<td style="border-right-width: 3px;border-left-width:3px;"><b>{{team.total}}</b></td>
+		{% for item in team offset:6 %}
+			{% assign currentLaps = item[1] | plus:0 %}
+			{% if currentLaps > 0 %}
+				{% assign totalTime = totalTime | plus:4 %}
+			{% endif %}
+			{% assign totalLaps = totalLaps | plus:item[1] %}
+			<td style="background-color:rgba(183, 144, 1, calc({{currentLaps}}/50))">{{totalLaps}}</td> 
+		{% endfor %}
+		<td>{{team.penalty}}</td>
+		{% assign totalLaps = totalLaps | minus:team.penalty %}
+		<td>{{team.fastest}}</td>
+		</tr>
+	{% elsif team.team == "modified" %}
+		{% assign modified = team.number %}
+	{% endif %}
+{% endfor %}
+</tbody>
+</table>
+<div style="margin:auto; text-align:center;">✅ indicates ASC2022 Qualified<br><i>Last Updated: {{modified}}</i><br><b>Darkers Cells Indicate Teams Completing More Laps</b></div>
+{% endif %}

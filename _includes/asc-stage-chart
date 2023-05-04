@@ -1,0 +1,113 @@
+{% comment %}
+ASC Stage Chart Generator
+{% endcomment %}{% assign class = include.class %}{% assign stage = include.stage %}
+{% assign most_miles = 0 %}
+{% assign name = "" | split: ',' %}
+{% assign type = "" | split: ',' %}
+{% assign miles = "" | split: ',' %}
+{% for team in site.data.asc.[stage].[class] %}
+	{% if team.team == "data" %}
+		{% if team.number == "name" %}
+			{% for item in team | offset:6 %}
+				{% assign name = name | push:item[1] %}
+			{% endfor %}
+		{% elsif team.number == "type" %}
+			{% for item in team | offset:6 %}
+				{% assign type = type | push:item[1] %}
+			{% endfor %}
+		{% elsif team.number == "miles" %}
+			{% for item in team | offset:6 %}
+				{% assign miles = miles | push:item[1] %}
+			{% endfor %}
+		{% endif %}
+	{% endif %}
+{% endfor %}
+{% for team in site.data.asc.[stage].[class] %}
+	{% if team.team != "data" %}
+		{% assign this_miles = 0 %}
+		{% for item in team | offset:6 %}
+			{% if type[forloop.index0] == "base" %}
+				{% assign this_miles = this_miles | plus:item[1] %}
+			{% else %}
+				{% assign this_miles = item[1] | times:miles[forloop.index0] | plus:this_miles %}
+			{% endif %}
+		{% endfor %}
+		{% if this_miles > most_miles %}
+			{% assign most_miles = this_miles %}
+		{% endif %}
+	{% endif %}
+{% endfor %}
+{% assign full = 200 %}
+{% assign axis = 2 %}
+{% if most_miles > 1800 %}
+	{% assign full = 2000 %}
+	{% assign axis = 10 %}
+{% elsif most_miles > 1600 %}
+	{% assign full = 1800 %}
+	{% assign axis = 9 %}
+{% elsif most_miles > 1400 %}
+	{% assign full = 1600 %}
+	{% assign axis = 8 %}
+{% elsif most_miles > 1200 %}
+	{% assign full = 1400 %}
+	{% assign axis = 7 %}
+{% elsif most_miles > 1000 %}
+	{% assign full = 1200 %}
+	{% assign axis = 6 %}
+{% elsif most_miles > 900 %}
+	{% assign full = 1000 %}
+	{% assign axis = 10 %}
+{% elsif most_miles > 800 %}
+	{% assign full = 900 %}
+	{% assign axis = 9 %}
+{% elsif most_miles > 700 %}
+	{% assign full = 800 %}
+	{% assign axis = 8 %}
+{% elsif most_miles > 600 %}
+	{% assign full = 700 %}
+	{% assign axis = 7 %}
+{% elsif most_miles > 500 %}
+	{% assign full = 600 %}
+	{% assign axis = 6 %}
+{% elsif most_miles > 400 %}
+	{% assign full = 500 %}
+	{% assign axis = 5 %}
+{% elsif most_miles > 300 %}
+	{% assign full = 400 %}
+	{% assign axis = 4 %}
+{% elsif most_miles > 200 %}
+	{% assign full = 300 %}
+	{% assign axis = 30 %}
+{% endif %}
+{% if class == "sov" %}
+	{% assign caption = "Single Occupant Class <i>(Tap bars for details)</i>" %}
+{% else %}
+	{% assign caption = "Multi Occupant Class <i>(Tap bars for details)</i>" %}
+{% endif %}
+<link rel='stylesheet' href='{{site.baseurl}}/assets/css/charts.min.css'><link rel="stylesheet" href="{{site.baseurl}}/assets/css/asc-style.css"><div id="legend-example-2"><table id="stacked-example-3" class="charts-css column hide-data show-heading show-labels show-primary-axis show-{{axis}}-secondary-axes data-spacing-10 multiple stacked">
+  <caption> {{caption}} </caption>
+  <thead><tr></tr></thead><tbody>
+  {% for team in site.data.asc.[stage].[class] %}
+	{% if team.team != "data" %}
+		<tr>
+			<th scope="row"> {{team.team}} </th>
+			{% for item in team | offset:6 %}
+			{% if type[forloop.index0] == "base" %}
+				{% assign tooltip = {{name[forloop.index0]}} | append:" <br> " | append:{{item[1]}} | append: " of " | append:{{miles[forloop.index0]}} | append:" miles" %}
+				<td style="--size: calc({{item[1]}} / {{full}});--color: rgba(29,112,235,1);border:1px solid white"><span class="data"> {{item[1]}} mi. </span><span class="tooltip"> {{tooltip}} </span></td>
+			{% else %}
+				{% assign loopCount = item[1] | plus:0 %}
+				{% if loopCount > 0 %} 
+					{% assign tooltip = {{name[forloop.index0]}} | append:" <br> " | append:{{miles[forloop.index0]}} | append:" miles" %}
+					{% assign loopMiles = miles[forloop.index0] %}
+					{% for i in (1..loopCount) %}
+						<td style="--size: calc({{loopMiles}} / {{full}});--color: rgba(50,136,99,1);border:1px solid white"><span class="data"> {{loopMiles}} mi. </span><span class="tooltip"> {{tooltip}} </span></td>
+					{% endfor %}
+				{% endif %}
+			{% endif %}
+			{% endfor %}
+		</tr>
+	{% endif %}
+	{% endfor %}
+  </tbody>
+  </table>

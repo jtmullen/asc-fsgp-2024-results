@@ -1,0 +1,47 @@
+# site settings
+title: Results
+subtitle: American Solar Challenge 2022
+email: jtmullen@gmail.com
+description: See results here
+baseurl: "/2022/results" # the subpath of your site, e.g. /blog
+url: 'https://www.americansolarchallenge.org' # the base hostname & protocol for your site
+author:
+copyright:
+  year: 2022
+  org: Innovators Educational Foundation
+disclaimer: FSGP is not associated with Formula 1 Racing
+# homepage tiles
+tiles-source: pages # accepts "posts" or "pages"
+tiles-count: 6
+
+# social settings (key must match name of font awesome icon)
+# see https://fontawesome.com/icons?d=gallery&p=2&s=brands
+# Icons are not shown if value is empty
+# You need to restart jekyll for changes to have an effect
+socials:
+  GitHub:
+  GitLab:
+  Google-Plus:
+  Instagram:
+  LinkedIn: 
+  Twitter: https://twitter.com/ASC_SolarRacing
+  Facebook: https://www.facebook.com/AmericanSolarChallenge
+  Slack:
+  Flickr: https://www.flickr.com/photos/americansolarchallenge/
+
+# build settings
+markdown: kramdown
+
+sass:
+  style: compressed
+
+exclude:
+- "*.gemspec"
+- LICENSE.md
+- CONTRIBUTING.md
+- README.md 
+
+plugins:
+    - jekyll-asciidoc
+    - jekyll-gist
+    - jekyll-paginate

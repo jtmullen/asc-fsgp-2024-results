@@ -1,0 +1,20 @@
+- name: YouTube
+  url: https://www.youtube.com/channel/UCxqyDa-EgtE6HImEa0aJO9w
+  class: icon-youtube
+  title: "American Solar Challenge on Youtube"
+
+- name: Twitter
+  url: https://twitter.com/ASC_SolarRacing
+  class: icon-twitter
+  title: "American Solar Challenge on Twitter"
+
+- name: Facebook
+  url: https://www.facebook.com/AmericanSolarChallenge
+  class: icon-facebook
+  title: "American Solar Challenge on Facebook"
+
+- name: Flickr
+  url: https://www.flickr.com/photos/americansolarchallenge/
+  class: icon-flickr
+  title: "American Solar Challenge on Flickr"
+
