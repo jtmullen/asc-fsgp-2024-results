@@ -6,12 +6,12 @@
   url: "/scrutineering.html"
   side: left
 
-- title: "Formula Sun Grand Prix"
-  url: "/fsgp.html"
+- title: "Single Occupant Class"
+  url: "/fsgp_sov.html"
   side: left
 
-- title: "American Solar Challenge"
-  url: "/asc.html"
+- title: "Multi Occupant Class"
+  url: "/fsgp_mov.html"
   side: left
 
 - title: "ASC Website"

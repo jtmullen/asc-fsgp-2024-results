@@ -1,24 +1,25 @@
-team,number,order,1,2,3,4,5,6,7,8,9,10,11,12
-title,,,Driver Registration,Driver Operations,Lights & Vision,Body & Sizing,Electrical,Battery Protection,Mechanical,Dynamics,Array Testing,Safety,ASC Support,MOV
-Kentucky,3,5,G,G,G,G,G,G,G,G,G,G,G,N
-MIT,4,3,G,G,G,G,G,G,G,G,G,G,G,N
-Florida,5,18,G,G,G,G,G,G,G,G,G,G,N,N
-Berkeley,6,8,G,G,G,G,G,G,G,G,G,G,G,N
-UT Austin,8,,G,G,Y,B,G,Y,Y,,G,G,N,N
-Iowa State,9,7,G,G,G,G,G,G,G,G,G,G,G,G
-Michigan State,13,,G,G,G,G,G,G,B,,G,G,N,B
-Illinois State,17,13,G,G,G,G,G,G,B,G,G,G,N,N
-Illinois  ,22,1,G,G,G,G,G,G,G,G,G,G,G,N
-British Columbia,26,16,G,G,G,G,G,G,B,G,G,G,N,N
-Principia,32,12,G,G,G,G,G,G,G,G,G,G,G,N
-Minnesota,35,2,G,G,G,G,G,G,G,G,G,G,G,G
-Georgia Tech,49,6,G,G,G,G,G,G,G,G,G,G,N,N
-Poly Montreal,55,4,G,G,G,G,G,G,G,G,G,G,G,G
-Calgary,65,11,G,G,G,G,G,G,G,G,G,G,N,G
-Virginia,87,17,G,G,G,G,G,G,G,G,G,G,N,N
-NC State,99,15,G,G,G,G,G,G,G,G,G,G,N,G
-ETS,101,14,G,G,G,G,G,G,G,G,G,G,G,N
-Kansas,785,19,G,B,G,G,B,B,B,B,B,G,N,N
-Western Michigan,786,9,G,G,G,B,G,G,B,G,G,G,N,N
-App State,828,10,G,G,G,G,G,G,G,G,G,G,G,G
-modified,8 July 2022 – 11:55am US Central,,,,,,,,,,,,,
+team,number,order,1,2,3,4,5,6,7,8,9,10,11
+title,,,Driver Registration,Driver Operations,Lights & Vision,Body & Sizing,Electrical,Battery Protection,Mechanical,Dynamics,Array Testing,Safety,MOV
+Florida,5,,,,,,,,,,,,N
+Berkeley,6,,,,,,,,,,,,N
+Dalhousie,7,,,,,,,,,,,,N
+UT Austin,8,,,,,,,,,,,,N
+Northwestern,11,,,,,,,,,,,,N
+RIT,12,,,,,,,,,,,,N
+Illinois State,17,,,,,,,,,,,,N
+Cinncinnati,19,,,,,,,,,,,,N
+Kennesaw St.,21,,,,,,,,,,,,N
+Principia,32,,,,,,,,,,,,N
+Missouri S&T,42,,,,,,,,,,,,N
+Poly Montreal,55,,,,,,,,,,,,
+Rutgers,66,,,,,,,,,,,,N
+Virginia,87,,,,,,,,,,,,N
+W. Ontario,96,,,,,,,,,,,,
+NC State,99,,,,,,,,,,,,
+Virginia Tech,540,,,,,,,,,,,,N
+Wisconsin,608,,,,,,,,,,,,N
+Ohio State,614,,,,,,,,,,,,N
+UOP,777,,,,,,,,,,,,N
+Western Michigan,786,,,,,,,,,,,,N
+App State,828,,,,,,,,,,,,
+modified,6 May 2023 – 11:55pm US Central,,,,,,,,,,,,

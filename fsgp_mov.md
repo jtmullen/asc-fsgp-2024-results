@@ -1,5 +1,5 @@
 ---
-title: American Solar Challenge
+title: Multi Occupant Results
 layout: page-fullwidth
 description: '1400+ miles on the road following the Oregon National Historic Trail!'
 image: assets/images/minnesota_road.jpg

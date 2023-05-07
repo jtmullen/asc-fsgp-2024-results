@@ -1,13 +1,12 @@
 ---
 layout: page-fullwidth
 title: Scrutineering
-header: no
 description: "4 days of Tech Inspections and Dynamic Tests"
 image: assets/images/montreal-pull.jpg
 nav-menu: true
 ---
 
-Before they can get on the track or road, teams and their cars undergo several days of scrutiny from the event's technical staff. Teams will go through up to 12 of the following stations depending on their vehicle class and the competitions they are participating in.
+Before they can get on the track, teams and their cars undergo several days of scrutiny from the event's technical staff. All teams will go through the same 10 stations, and MOV teams will go through an additional 11th station.
 <table style="font-size:15px">
 <tbody>
   <tr>
@@ -51,12 +50,8 @@ Before they can get on the track or road, teams and their cars undergo several d
     <td>The Safety Check verifies that teams have the required safety equipment for solar car racing including fire extinguishers, first aid kits, and more. </td>
   </tr>
   <tr>
-    <td><b>ASC Support</b></td>
-    <td>This station checks that support vehicles have the required safety equipment, communication equipment, and signage for ASC.<br> (Teams not participating in ASC skip this station)</td>
-  </tr>
-  <tr>
     <td><b>MOV</b></td>
-    <td>Multi-Occupant Vehicles are checked for compatibility with required charging and metering equipment. <br>(Single Occupant Teams skip this station) <i><a href="https://www.americansolarchallenge.org/the-competition/vehicle-classes/">Learn More About the Vehicle Classes</a></i></td>
+    <td>Multi-Occupant Vehicles are checked for compatibility with required charging and metering equipment. <br>(Single Occupant Vehicles skip this station) <i><a href="https://www.americansolarchallenge.org/the-competition/vehicle-classes/">Learn More About the Vehicle Classes</a></i></td>
   </tr>
 </tbody>
 </table>
@@ -77,7 +72,7 @@ Before they can get on the track or road, teams and their cars undergo several d
 	</tr>
 	<tr>
 	  <td bgcolor="0000FF"> </td>
-	  <td><b>BLUE</b>: Improvement needed for ASC / Cleared for FSGP</td>
+	  <td><b>BLUE</b>: Improvement Needed / Cleared for Track</td>
 	</tr>
 	<tr>
 	  <td bgcolor="FFFF00"> </td>

@@ -1,6 +1,6 @@
 ---
 layout: page-fullwidth
-title: Formula Sun Grand Prix
+title: Single Occupant Results
 description: "3 Days of Racing on the Track to qualify for ASC"
 image: assets/images/illinois_track.jpg
 nav-menu: true

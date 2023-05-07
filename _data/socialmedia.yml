@@ -1,5 +1,5 @@
 - name: YouTube
-  url: https://www.youtube.com/channel/UCxqyDa-EgtE6HImEa0aJO9w
+  url: https://www.youtube.com/@AmericanSolarChallenge
   class: icon-youtube
   title: "American Solar Challenge on Youtube"
 
@@ -17,4 +17,9 @@
   url: https://www.flickr.com/photos/americansolarchallenge/
   class: icon-flickr
   title: "American Solar Challenge on Flickr"
+  
+- name: LinkedIn
+  url: https://www.linkedin.com/company/innovators-educational-foundation
+  class: icon-linkedin
+  title: "Innovators Educational Foundation on LinkedIn"
 
