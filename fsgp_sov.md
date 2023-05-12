@@ -1,21 +1,42 @@
 ---
 layout: page-fullwidth
 title: Single Occupant Results
-description: "3 Days of Racing on the Track to qualify for ASC"
+description: "3 Days of Racing on the Track For the Most Laps"
 image: assets/images/illinois_track.jpg
 nav-menu: true
 header: no
 ---
 
-FSGP 2022 is 3 days of racing on the 2.5 mile road course at [Heartland Motorsports Park](http://heartlandmotorsports.us/) in Topeka, Kansas. Solar Cars drive for 8 hours per day and have additonal solar charging time available in the morning and evening. For teams continuing onto ASC, this event also serves as the qualifier. Vehicles must complete 82 laps in a single day or 124 laps in two consecutive days and drivers must complete 22 laps to qualify.  FSGP is open to the public and free to attend! [Full Event Info →](https://www.americansolarchallenge.org/the-competition/2022-american-solar-challenge/)
+FSGP 2022 is 3 days of racing on the 2.5 mile road course at [Heartland Motorsports Park](http://heartlandmotorsports.us/) in Topeka, Kansas. Solar Cars drive for 8 hours per day and have additonal solar charging time available in the morning and evening. FSGP is open to the public and free to attend! [Full Event Info →](https://www.americansolarchallenge.org/the-competition/2023-formula-sun-grand-prix/)
 
 -----
 
-<ul class="actions">
-<a href="#single-occupant-class" class="button special" style="margin:5px">Single Occupant Lap Results</a>
-<a href="#multi-occupant-class" class="button special" style="margin:5px">Multi-Occupant Lap Results</a>
-<a href="#mov-score" class="button special" style="margin:5px">Multi-Occupant Score Results</a>
-</ul>
+Vehicles competing in the [Single Occupant Vehicle Class](https://www.americansolarchallenge.org/the-competition/vehicle-classes/) are ranked solely on laps completed. The most laps over 3 days wins!
+
+{% include fsgp-final-results class="sov" %}
+
+-----
+
+{% tabs day %}
+
+{% tab day Overall %}
+{% include fsgp-lap class="sov" %}
+
+{% endtab %}
+
+{% tab day Day 1 %}
+Whats
+{% endtab %}
+
+{% tab day Day 2 %}
+Hello
+{% endtab %}
+
+{% tab day Day 3 %}
+Test
+{% endtab %}
+
+{% endtabs %}
 
 -----
 ## Single Occupant Vehicle Class
@@ -74,3 +95,5 @@ The variables are as follows:
 <br>
 <div style="margin:auto; text-align:center;"> <i> Scroll right to see all data on small screens </i><br>Laps are shown cumulatively over the entire race.</div>
 {% include fsgp-table class="mov" %}
+
+<script src="/assets/js/tabs.js"></script>

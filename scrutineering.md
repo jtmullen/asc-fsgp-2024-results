@@ -3,35 +3,37 @@ layout: page-fullwidth
 title: Scrutineering
 description: "4 days of Tech Inspections and Dynamic Tests"
 image: assets/images/montreal-pull.jpg
+header: 
+  image_fullwidth: "assets/images/52379135184_f2d04df50a_k.jpg"
 nav-menu: true
 ---
 
-Before they can get on the track, teams and their cars undergo several days of scrutiny from the event's technical staff. All teams will go through the same 10 stations, and MOV teams will go through an additional 11th station.
+Before they can get on the track, teams and their solar cars undergo several days of scrutiny from the event's technical staff. All teams will go through the same 10 stations; MOV teams will go through an additional 11th station.
 <table style="font-size:15px">
 <tbody>
   <tr>
     <td><b>Driver Registration</b></td>
-    <td>At this station teams register their drivers (and passengers for MOV). They are checked for a valid license, allowable helmets, safe shoes, and weigh in for ballast.</td>
+    <td>At this station teams register their drivers (and MOV passengers). They are checked for a valid license, allowable helmets, safe shoes, and weigh in for ballast.</td>
   </tr>
   <tr>
     <td><b>Driver Operations</b></td>
-    <td>Here drivers (and passengers for MOV) are checked to ensure they fit in the car, have the proper equipment in the car (water, radio, ballast holder), and that they can egress the car in under 10 seconds.</td>
+    <td>Here drivers (and MOV passengers) are checked to ensure they fit in the car, have the proper equipment in the car (water, radio, ballast holder), and that they can egress the car in under 10 seconds.</td>
   </tr>
   <tr>
     <td><b>Lights &amp; Vision</b></td>
-    <td>Lights &amp; Vision ensures that drivers have the required field of view from the solar vehicle, including rear vision, and that the vehicle lights are visible and bright. </td>
+    <td>Lights &amp; Vision ensures that drivers have the required field of view from the solar vehicle, including rear vision, and that the vehicle lights meet brightness and visibility requirements. </td>
   </tr>
   <tr>
     <td><b>Body &amp; Sizing</b></td>
-    <td>This station ensures that the size and configuration of the vehicles is within regulations including: overall size, solar array size, seat belts, headrests, signage, weight, &amp; more. </td>
+    <td>This station ensures that the size and configuration of the vehicles is within regulations including: overall dimensions, solar array size, seat belt placement, headrests, signage, weight, &amp; more. </td>
   </tr>
   <tr>
     <td><b>Electrical</b></td>
-    <td>The electrical station verifies that a car electrical system meets all safety requirements and competitive requirements including battery size. </td>
+    <td>The electrical station verifies that the vehicles electrical system meets all safety and competitive requirements including battery size, driver controls, and emergency stops. </td>
   </tr>
   <tr>
     <td><b>Battery Protection</b></td>
-    <td>At this stations teams' batteries undergo tests to ensure the battery is only operated within safe ranges for voltage, current, and temperature. </td>
+    <td>At this stations teams' batteries undergo tests to ensure the battery will shutoff if operated outside safe ranges for voltage, current, and temperature. </td>
   </tr>
   <tr>
     <td><b>Mechanical </b></td>
@@ -39,7 +41,7 @@ Before they can get on the track, teams and their cars undergo several days of s
   </tr>
   <tr>
     <td><b>Dynamics</b></td>
-    <td>At dynamics cars and driver must pass U-Turn, Figure-8, Slalom, and Braking Tests with the requisite performance</td>
+    <td>At dynamics cars and drivers must pass U-Turn, Figure-8, Slalom, and Braking Tests with the requisite performance</td>
   </tr>
   <tr>
     <td><b>Array Testing</b></td>
