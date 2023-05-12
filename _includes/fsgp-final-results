@@ -1,0 +1,13 @@
+{% comment %}
+FSGP Final Results Display
+{% endcomment %}
+{% assign show = "yes" %}
+{% for class in site.data.fsgp.final %}
+	{% if team.first == "none" %}
+		{% assign show = "no" %}
+		{% break %}
+	{% endif %}
+{% endfor %}
+{% if show == "yes" %}
+Why s veverything highlihhte heheheh
+{% endif %}
