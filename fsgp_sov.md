@@ -95,5 +95,5 @@ The variables are as follows:
 <br>
 <div style="margin:auto; text-align:center;"> <i> Scroll right to see all data on small screens </i><br>Laps are shown cumulatively over the entire race.</div>
 {% include fsgp-table class="mov" %}
-
-<script src="/assets/js/tabs.js"></script>
+{% assign url = site.baseurl | prepend: site.url %}
+<script src="{{ url }}/assets/js/tabs.js"></script>
