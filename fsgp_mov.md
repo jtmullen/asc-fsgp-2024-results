@@ -84,5 +84,5 @@ Vehicles competing in the [Multi Occupant Vehicle Class](https://www.americansol
 -----
 
 
-
+{% assign url = site.baseurl | prepend: site.url %}
 <script src="{{ url }}/assets/js/tabs.js"></script>
