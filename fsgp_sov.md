@@ -2,7 +2,6 @@
 layout: page-fullwidth
 title: Single Occupant Results
 description: "3 Days of Racing on the Track For the Most Laps"
-image: assets/images/illinois_track.jpg
 nav-menu: true
 header: no
 ---

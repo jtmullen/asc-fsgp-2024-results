@@ -3,11 +3,16 @@ FSGP Final Results Display
 {% endcomment %}
 {% assign show = "yes" %}
 {% for class in site.data.fsgp.final %}
-	{% if team.first == "none" %}
+	{% if class.first == "none" %}
 		{% assign show = "no" %}
 		{% break %}
 	{% endif %}
 {% endfor %}
 {% if show == "yes" %}
-Why s veverything highlihhte heheheh
+## Final Results
+1.
+2.
+3.
+
+_Fastest Lap:_
 {% endif %}
