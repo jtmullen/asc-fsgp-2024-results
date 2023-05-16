@@ -69,20 +69,24 @@ Vehicles competing in the [Multi Occupant Vehicle Class](https://www.americansol
 {% include fsgp-lap-day day="day2" class="mov" %}
 <br>
 <div style="margin:auto; text-align:center;"> <i> Scroll right to see all data on small screens </i>
-{% include fsgp-table-day day="day2" class="mov" %}
+{% include fsgp-score-table-day day="day2" %}
 {% endtab %}
 
 {% tab day Day 3 %}
-{% include fsgp-lap-day day="day3" class="mov" %}
+{% include fsgp-score-table-day day="day3" %}
 <br>
 <div style="margin:auto; text-align:center;"> <i> Scroll right to see all data on small screens </i>
-{% include fsgp-table-day day="day3" class="mov" %}
+{% include fsgp-score-table-day day="day3" %}
 {% endtab %}
 
 {% endtabs %}
 
 -----
 
+\$$ S = \frac{D}{E} \times C \times T $$
 
 {% assign url = site.baseurl | prepend: site.url %}
 <script src="{{ url }}/assets/js/tabs.js"></script>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
