@@ -1,0 +1,92 @@
+{% comment %}
+FSGP Lap Chart Generator
+{% endcomment %}
+<canvas id="score-chart-full" width="1000" height="200px" style="max-height:500px"></canvas>
+<script type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js">
+</script>
+<script>
+var marksCanvas = document.getElementById("score-chart-full");
+
+
+Chart.defaults.font.family = "Lato";
+Chart.defaults.font.size = 22;
+Chart.defaults.color = "black";
+
+var marksData = {
+  labels: ["Person Miles [D]", "Completion Factor [C]", "Speed Derating [T]", "External Energy [1/E]"],
+  datasets: [
+    {
+      label: "Poly Montreal",
+      backgroundColor: "#00FFFF55",
+      borderColor: "black",
+      borderWidth: 1,
+      data: [91.86, 91.53, 100, 100]
+    },
+    {
+      label: "Minnesota",
+      backgroundColor: "#FF000055",
+      borderColor: "black",
+      borderWidth: 1,
+      data: [100, 100, 100, 21.73]
+    },
+    {
+      label: "Calgary",
+      backgroundColor: "#00FF2255",
+      borderColor: "black",
+      borderWidth: 1,
+      data: [83.73, 80.68, 100, 20.84]
+    },
+	    {
+      label: "Iowa State",
+      backgroundColor: "#00000055",
+      borderColor: "black",
+      borderWidth: 1,
+      data: [71.86, 70.85, 100, 23.25]
+    },
+    {
+      label: "App State",
+      backgroundColor: "#9ACD3255",
+      borderColor: "black",
+      borderWidth: 1,
+      data: [64.41, 64.41, 100, 20.44]
+    },
+    {
+      label: "NC State",
+      backgroundColor: "#77777755",
+      borderColor: "black",
+      borderWidth: 1,
+      data: [25.42, 25.42, 100, 12.8]
+    }
+  ]
+};
+
+var chartOptions = {
+  plugins: {
+    legend: {
+      align: "start"
+    }
+  },
+  scales: {
+    r: {
+      pointLabels: {
+        font: {
+          display: 20
+        }
+      },
+      ticks: {
+        display: false,
+      },
+      suggestedMin: 0,
+      suggestedMax: 100
+    }
+  }
+};
+
+var radarChart = new Chart(marksCanvas, {
+  type: "radar",
+  data: marksData,
+  options: chartOptions
+});
+
+</script>

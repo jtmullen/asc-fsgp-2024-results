@@ -17,7 +17,37 @@ Vehicles competing in the [Multi Occupant Vehicle Class](https://www.americansol
 -----
 ## MOV Score
 {% tabs day %}
+{% tab day Overall %}
+{% include fsgp-score-chart %}
+<br>
+<div style="margin:auto; text-align:center;"> <i> Scroll right to see all data on small screens </i>
+{% include fsgp-score-table %}
+{% endtab %}
+{% tab day Day 1 %}
+{% include fsgp-lap-day day="day1" class="mov" %}
+<br>
+<div style="margin:auto; text-align:center;"> <i> Scroll right to see all data on small screens </i>
+{% include fsgp-score-table-day day="day1" %}
+{% endtab %}
 
+{% tab day Day 2 %}
+{% include fsgp-lap-day day="day2" class="mov" %}
+<br>
+<div style="margin:auto; text-align:center;"> <i> Scroll right to see all data on small screens </i>
+{% include fsgp-score-table-day day="day2" %}
+{% endtab %}
+
+{% tab day Day 3 %}
+{% include fsgp-score-table-day day="day3" %}
+<br>
+<div style="margin:auto; text-align:center;"> <i> Scroll right to see all data on small screens </i>
+{% include fsgp-score-table-day day="day3" %}
+{% endtab %}
+{% endtabs %}
+
+-----
+## MOV Laps
+{% tabs day %}
 {% tab day Overall %}
 {% include fsgp-lap class="mov" %}
 <br>
@@ -45,40 +75,6 @@ Vehicles competing in the [Multi Occupant Vehicle Class](https://www.americansol
 <div style="margin:auto; text-align:center;"> <i> Scroll right to see all data on small screens </i>
 {% include fsgp-table-day day="day3" class="mov" %}
 {% endtab %}
-
-{% endtabs %}
------
-## MOV Laps
-{% tabs day %}
-
-{% tab day Overall %}
-{% include fsgp-lap class="mov" %}
-<br>
-<div style="margin:auto; text-align:center;"> <i> Scroll right to see all data on small screens </i>
-{% include fsgp-table class="mov" %}
-{% endtab %}
-
-{% tab day Day 1 %}
-{% include fsgp-lap-day day="day1" class="mov" %}
-<br>
-<div style="margin:auto; text-align:center;"> <i> Scroll right to see all data on small screens </i>
-{% include fsgp-table-day day="day1" class="mov" %}
-{% endtab %}
-
-{% tab day Day 2 %}
-{% include fsgp-lap-day day="day2" class="mov" %}
-<br>
-<div style="margin:auto; text-align:center;"> <i> Scroll right to see all data on small screens </i>
-{% include fsgp-score-table-day day="day2" %}
-{% endtab %}
-
-{% tab day Day 3 %}
-{% include fsgp-score-table-day day="day3" %}
-<br>
-<div style="margin:auto; text-align:center;"> <i> Scroll right to see all data on small screens </i>
-{% include fsgp-score-table-day day="day3" %}
-{% endtab %}
-
 {% endtabs %}
 
 -----
@@ -90,3 +86,7 @@ Vehicles competing in the [Multi Occupant Vehicle Class](https://www.americansol
 <script type="text/javascript" async
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
+
+
+
+
