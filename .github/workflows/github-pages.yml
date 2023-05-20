@@ -28,3 +28,4 @@ jobs:
           provider: 'github'
           token: ${{ secrets.GITHUB_TOKEN }}
           jekyll_cfg: "_config_gh_pages.yml"
+          pre_build_commands: 'git config --global http.version HTTP/1.1; apk fetch git-lfs;'
