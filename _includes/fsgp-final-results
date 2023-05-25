@@ -8,7 +8,7 @@ FSGP Final Results Display
 __First:__ {{class.first}}<br>
 __Second:__ {{class.second}}<br>
 __Third:__ {{class.third}}<br>
-<br><br>
+<br>
 _Fastest Lap:_ {{class.time}} {{class.driver}} - {{class.team}}
 		{% endif %}
 	{% endif %}
