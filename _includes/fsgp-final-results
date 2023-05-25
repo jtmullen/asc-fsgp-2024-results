@@ -2,7 +2,7 @@
 FSGP Final Results Display
 {% endcomment %}{% assign show_class = include.class %}
 {% for class in site.data.fsgp.final %}
-	{% if show_class = class %}
+	{% if show_class == class %}
 		{% if class.first %}
 ## Final Results
 __First:__ {{class.first}}
