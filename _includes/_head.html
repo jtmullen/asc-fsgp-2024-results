@@ -14,7 +14,7 @@
 {% capture description %}{% if page.meta_description %}{{ page.meta_description }}{% elsif page.teaser %}{{ page.teaser }}{% elsif page.excerpt %}{{ page.excerpt }}{% elsif site.description %}{{ site.description }}{% endif %}{% endcapture %}
 {% assign description = description | strip_html | escape | strip %}
 
-{% capture title %}{% if page.meta_title %}{{ page.meta_title}} | {{ site.title | strip_html | strip }}{% elsif page.title %}{{ page.title }} | {{ site.title | strip_html | strip }}{% else %}{{ site.title | strip_html | strip }}{% endif %}{% endcapture %}
+{% capture title %}{% if page.meta_title %}{{ page.meta_title}} | {{ site.title | strip_html | strip }}{% elsif page.title %}{{ page.title }} | {{ site.short_title | strip_html | strip }}{% else %}{{ site.title | strip_html | strip }}{% endif %}{% endcapture %}
 
 {% assign title = title | strip_html | escape | strip_newlines %}
 
@@ -97,5 +97,4 @@
 	</script>
 	<script async src='https://www.google-analytics.com/analytics.js'></script>
 	{% endif %}
-	<link rel="stylesheet" href="{{ url }}/assets/css/tabs.css">
 
