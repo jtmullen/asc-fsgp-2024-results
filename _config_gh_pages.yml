@@ -1,6 +1,7 @@
 # site settings
 title: Results
 subtitle: Electrek Formula Sun Grand Prix 2023
+short_title: Electrek FSGP 2023
 email: jonathan_mullen@americansolarchallenge.org
 description: See results here
 baseurl: "/fsgp-2023-results" # the subpath of your site, e.g. /blog
