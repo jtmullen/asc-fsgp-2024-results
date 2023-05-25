@@ -10,6 +10,7 @@ FSGP Heat Table Generator
   <tr>
   <th> Team </th>
   <th style="border-right-width: 3px;border-left-width:3px;"> Total </th>
+  <th> Day Start </th>
   {% for team in site.data.fsgp.[day].[class] %}
 	{% if team.team == "labels" and team.number == "table" %}
 		{% for item in team offset:6 %}
@@ -17,6 +18,7 @@ FSGP Heat Table Generator
 		{% endfor %}
 	{% endif %}
   {% endfor %}
+  <th> Day Total </th>
   <th> Penalty </th>
   <th> Fastest </th>
   </tr>
@@ -28,10 +30,12 @@ FSGP Heat Table Generator
 	{% if team.team != "labels" and team.team != "modified" %}
 		<tr style="background-color:#fafafa;"><td style="font-weight:bold;white-space: nowrap;">#{{team.number}} - {{team.team}} </td>
 		<td style="border-right-width: 3px;border-left-width:3px;"><b>{{team.total}}</b></td>
+		<td>{{team.start}}</td>
 		{% for item in team offset:6 %}
 			{% assign currentLaps = item[1] | plus:0 %}
 			<td style="background-color:rgba(183, 144, 1, calc({{currentLaps}}/13))">{{currentLaps}}</td> 
 		{% endfor %}
+		<td>{{team.total | minus: team.start}}</td>
 		<td>{{team.penalty}}</td>
 		<td>{{team.fastest}}</td>
 		</tr>

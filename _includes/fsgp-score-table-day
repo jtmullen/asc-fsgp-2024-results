@@ -28,7 +28,8 @@ FSGP MOV Table Generator
   </tr>
 </thead>
 <tbody>
-{% for team in site.data.fsgp.[day].mov-score %}
+{% assign sorted_teams = site.data.fsgp.[day].mov-score | sort: "score" %}
+{% for team in sorted_teams reversed %}
 {% if team.team != "modified" %}
 	<tr>
 		<td style="border-right-width: 3px;white-space: nowrap;"><b>#{{team.number}} - {{team.team}}</b></td>

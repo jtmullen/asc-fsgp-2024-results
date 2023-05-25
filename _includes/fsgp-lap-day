@@ -8,7 +8,7 @@ FSGP Lap Chart Generator
 {% assign most_laps = 0 %}
 {% for team in site.data.fsgp.[day].[class] %}
 	{% if team.team != "labels" %}
-		{% assign lapCount = team.total | plus:team.start %}
+		{% assign lapCount = team.total | plus: 0%}
 		{% if lapCount > most_laps %}
 			{% assign most_laps = lapCount %}
 		{% endif %}
@@ -71,17 +71,23 @@ FSGP Lap Chart Generator
 	    {% if team.team != "labels" %}
 			{% assign lowEnd = team.start %}
 			{% assign highEnd = team.start %}
+			{% assign show = true %}
 			{% for item in team offset:6 %}
 				{% if forloop.index0 < lastIndex %}
 					{% assign lowEnd = lowEnd | plus:item[1] %}
 				{% endif %}
 				{% if forloop.index0 < colindex %}
+					{% unless item[1] %}
+						{% assign show = false %}
+					{% endunless %}
 					{% assign highEnd = highEnd | plus:item[1] %}
 				{% endif %}
 			{% endfor %}
 			{% assign lowEnd = lowEnd | append:"" %}
 			{% assign highEnd = highEnd | append:"" %}
+			{% if show %}
 			<td style="--start: calc( {{lowEnd}} / {{full}}); --size: calc({{highEnd}} / {{full}}); --color:{{colors[forloop.index0]}};"><span class="data"> {{highEnd}} </span></td>
+			{% endif %}
 		{% endif %}
 	  {% endif %}
 	  {% endfor %}
@@ -90,7 +96,7 @@ FSGP Lap Chart Generator
   </tbody>
   </table>
   <ul class="charts-css legend legend-inline legend-square">
-	{% for team in site.data.fsgp.[class] %}
+	{% for team in site.data.fsgp.[day].[class] %}
 		{% if team.team != "labels" and team.team != "modified" %}
 		<li>#{{team.number}} - {{team.team}}</li>
 		{% endif %}
