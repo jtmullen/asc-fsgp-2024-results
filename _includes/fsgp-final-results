@@ -5,10 +5,10 @@ FSGP Final Results Display
 	{% if show_class == class.class %}
 		{% if class.first %}
 ## Final Results
-__First:__ {{class.first}}
-__Second:__ {{class.second}}
-__Third:__ {{class.third}}
-
+__First:__ {{class.first}}<br>
+__Second:__ {{class.second}}<br>
+__Third:__ {{class.third}}<br>
+<br><br>
 _Fastest Lap:_ {{class.time}} {{class.driver}} - {{class.team}}
 		{% endif %}
 	{% endif %}
