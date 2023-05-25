@@ -1,18 +1,15 @@
 {% comment %}
 FSGP Final Results Display
-{% endcomment %}
-{% assign show = "yes" %}
+{% endcomment %}{% assign show_class = include.class %}
 {% for class in site.data.fsgp.final %}
-	{% if class.first == "none" %}
-		{% assign show = "no" %}
-		{% break %}
+	{% if show_class = class %}
+		{% if class.first %}
+## Final Results
+__First:__ {{class.first}}
+__Second:__ {{class.second}}
+__Third:__ {{class.third}}
+
+_Fastest Lap:_ {{class.time}} {{class.driver}} - {{class.team}}
+		{% endif %}
 	{% endif %}
 {% endfor %}
-{% if show == "yes" %}
-## Final Results
-1.
-2.
-3.
-
-_Fastest Lap:_
-{% endif %}
