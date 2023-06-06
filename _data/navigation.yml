@@ -14,6 +14,10 @@
   url: "/fsgp_mov.html"
   side: left
 
+- title: "Updates"
+  url: "/updates"
+  side: right
+
 - title: "ASC Website"
   url: "/../.."
   side: right
