@@ -4,6 +4,7 @@ title: Single Occupant Results
 description: "3 Days of Racing on the Track For the Most Laps"
 nav-menu: true
 header: no
+permalink: "fsgp_sov"
 ---
 
 The Electrek Formula Sun Grand Prix 2023 is 3 days of racing on the 2.5 mile road course at [Heartland Motorsports Park](http://heartlandmotorsports.us/) in Topeka, Kansas. Solar Cars drive for 8 hours per day and have additonal solar charging time available in the morning and evening. FSGP is open to the public and free to attend! [Full Event Info →](https://www.americansolarchallenge.org/the-competition/2023-formula-sun-grand-prix/)

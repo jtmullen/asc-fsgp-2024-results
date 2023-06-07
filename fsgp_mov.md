@@ -4,6 +4,7 @@ layout: page-fullwidth
 description: '3 Days of Highly Efficient Driving Competing for the Highest Score'
 nav-menu: true
 header: no
+permalink: "fsgp_mov"
 ---
 
 
