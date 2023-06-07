@@ -24,12 +24,16 @@ socials:
   GitLab:
   Google-Plus:
   Instagram:
-  LinkedIn: https://www.linkedin.com/company/innovators-educational-foundation
-  Twitter: https://twitter.com/ASC_SolarRacing
-  Facebook: https://www.facebook.com/AmericanSolarChallenge
+  LinkedIn: "https://www.linkedin.com/company/innovators-educational-foundation"
+  Twitter: "https://twitter.com/ASC_SolarRacing"
+  Facebook: "https://www.facebook.com/AmericanSolarChallenge"
   Slack:
-  Flickr: https://www.flickr.com/photos/americansolarchallenge/
-  YouTube: https://www.youtube.com/@AmericanSolarChallenge
+  Flickr: "https://www.flickr.com/photos/americansolarchallenge/"
+  YouTube: "https://www.youtube.com/@AmericanSolarChallenge"
+
+
+collections:
+- updates
 
 # build settings
 markdown: kramdown
@@ -49,5 +53,3 @@ plugins:
     - jekyll-paginate
     - jekyll-tabs
     
-collections:
-  - updates
