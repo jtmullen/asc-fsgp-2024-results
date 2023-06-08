@@ -1,20 +1,15 @@
 {
   "checksum": {
-    "previous": "7be2fbaa241734553c0ca90fc0712c2de63d73b3a7174e6e134a5adfedec4f91",
-    "current": "7be2fbaa241734553c0ca90fc0712c2de63d73b3a7174e6e134a5adfedec4f91"
+    "previous": "03f5dd2a3a893dc3637cdfbb6da25d276f597ea03db701e7220b5dfcde6ef9bf",
+    "current": "03f5dd2a3a893dc3637cdfbb6da25d276f597ea03db701e7220b5dfcde6ef9bf"
   },
   "fonts": [
     "./iconfont.ttf",
     "./iconfont.svg",
     "./iconfont.woff",
-    "./iconfont.eot",
-    "./iconfont.woff2"
+    "./iconfont.eot"
   ],
   "glyphs": {
-    "ASC-Black---White-Logo": {
-      "codepoint": 61751,
-      "source": "svg-files-for-custom-font/ASC Black & White Logo.svg"
-    },
     "archive": {
       "codepoint": 61696,
       "source": "svg-files-for-custom-font/archive.svg"
@@ -103,10 +98,6 @@
       "codepoint": 61716,
       "source": "svg-files-for-custom-font/feather.svg"
     },
-    "flickr": {
-      "codepoint": 61752,
-      "source": "svg-files-for-custom-font/flickr.svg"
-    },
     "github": {
       "codepoint": 61717,
       "source": "svg-files-for-custom-font/github.svg"
@@ -114,6 +105,10 @@
     "globe": {
       "codepoint": 61718,
       "source": "svg-files-for-custom-font/globe.svg"
+    },
+    "googleplus": {
+      "codepoint": 61750,
+      "source": "svg-files-for-custom-font/googleplus.svg"
     },
     "heart": {
       "codepoint": 61719,
@@ -239,8 +234,6 @@
   "options": {
     "autowidth": false,
     "config": "fontcustom.yml",
-    "copyright": "",
-    "css3": false,
     "css_selector": ".icon-{{glyph}}",
     "debug": false,
     "font_ascent": 448,
@@ -250,8 +243,8 @@
     "font_name": "iconfont",
     "force": false,
     "input": {
-      "templates": "svg-files-for-custom-font",
-      "vectors": "svg-files-for-custom-font"
+      "templates": "svg-files-for-custom-font/",
+      "vectors": "svg-files-for-custom-font/"
     },
     "no_hash": true,
     "output": {
