@@ -15,7 +15,7 @@
 
 - name: Flickr
   url: https://www.flickr.com/photos/americansolarchallenge/
-  class: icon-flickr
+  class: icon-flickr-with-circle
   title: "American Solar Challenge on Flickr"
   
 - name: LinkedIn

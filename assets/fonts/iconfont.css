@@ -6,6 +6,7 @@
   font-family: "iconfont";
   src: url("./iconfont.eot");
   src: url("./iconfont.eot?#iefix") format("embedded-opentype"),
+       url("./iconfont.woff2") format("woff2"),
        url("./iconfont.woff") format("woff"),
        url("./iconfont.ttf") format("truetype"),
        url("./iconfont.svg#iconfont") format("svg");
@@ -45,9 +46,10 @@
 .icon-eye:before,
 .icon-facebook:before,
 .icon-feather:before,
+.icon-flickr:before,
+.icon-flickr-with-circle:before,
 .icon-github:before,
 .icon-globe:before,
-.icon-googleplus:before,
 .icon-heart:before,
 .icon-heart-outlined:before,
 .icon-home:before,
@@ -114,9 +116,10 @@
 .icon-eye:before { content: "\f112"; }
 .icon-facebook:before { content: "\f113"; }
 .icon-feather:before { content: "\f114"; }
+.icon-flickr:before { content: "\f138"; }
+.icon-flickr-with-circle:before { content: "\f139"; }
 .icon-github:before { content: "\f115"; }
 .icon-globe:before { content: "\f116"; }
-.icon-googleplus:before { content: "\f136"; }
 .icon-heart:before { content: "\f117"; }
 .icon-heart-outlined:before { content: "\f118"; }
 .icon-home:before { content: "\f119"; }

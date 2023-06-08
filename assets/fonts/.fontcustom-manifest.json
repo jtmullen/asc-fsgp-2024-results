@@ -1,13 +1,14 @@
 {
   "checksum": {
-    "previous": "03f5dd2a3a893dc3637cdfbb6da25d276f597ea03db701e7220b5dfcde6ef9bf",
-    "current": "03f5dd2a3a893dc3637cdfbb6da25d276f597ea03db701e7220b5dfcde6ef9bf"
+    "previous": "277d5c81936ed497225c667a295be1525fad3d195a0911726c365f49f9d8ec1b",
+    "current": "277d5c81936ed497225c667a295be1525fad3d195a0911726c365f49f9d8ec1b"
   },
   "fonts": [
     "./iconfont.ttf",
     "./iconfont.svg",
     "./iconfont.woff",
-    "./iconfont.eot"
+    "./iconfont.eot",
+    "./iconfont.woff2"
   ],
   "glyphs": {
     "archive": {
@@ -98,6 +99,14 @@
       "codepoint": 61716,
       "source": "svg-files-for-custom-font/feather.svg"
     },
+    "flickr": {
+      "codepoint": 61752,
+      "source": "svg-files-for-custom-font/flickr.svg"
+    },
+    "flickr-with-circle": {
+      "codepoint": 61753,
+      "source": "svg-files-for-custom-font/flickr-with-circle.svg"
+    },
     "github": {
       "codepoint": 61717,
       "source": "svg-files-for-custom-font/github.svg"
@@ -105,10 +114,6 @@
     "globe": {
       "codepoint": 61718,
       "source": "svg-files-for-custom-font/globe.svg"
-    },
-    "googleplus": {
-      "codepoint": 61750,
-      "source": "svg-files-for-custom-font/googleplus.svg"
     },
     "heart": {
       "codepoint": 61719,
@@ -234,6 +239,8 @@
   "options": {
     "autowidth": false,
     "config": "fontcustom.yml",
+    "copyright": "",
+    "css3": false,
     "css_selector": ".icon-{{glyph}}",
     "debug": false,
     "font_ascent": 448,
@@ -243,8 +250,8 @@
     "font_name": "iconfont",
     "force": false,
     "input": {
-      "templates": "svg-files-for-custom-font/",
-      "vectors": "svg-files-for-custom-font/"
+      "templates": "svg-files-for-custom-font",
+      "vectors": "svg-files-for-custom-font"
     },
     "no_hash": true,
     "output": {
