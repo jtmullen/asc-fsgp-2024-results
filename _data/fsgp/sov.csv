@@ -1,17 +1,17 @@
-team,number,penalty,fastest,total,1,2,3,4,5,6
-labels,graph,,,,Day 1: 10a-2p,Day 1: 2p-6p,Day 2: 9a–1p,Day 2: 1p-5p,Day 3: 9a–1p,Day 3: 1p-5p
-labels,table,,,,Day 0.5,Day 1,Day 1.5,Day 2,Day 2.5,Day 3
-Kentucky,3,0,3:08,37,37,,,,,
-MIT,4,0,3:15,51,51,,,,,
-Florida,5,0,3:56,0,0,,,,,
-Berkeley,6,0,4:07,43,43,,,,,
-Illinois State,17,0,3:18,4,4,,,,,
-Illinois,22,0,3:56,37,37,,,,,
-British Columbia,26,0,4:43,0,0,,,,,
-Principia,32,0,3:20,50,50,,,,,
-Georgia Tech,49,0,4:20,43,43,,,,,
-Virginia,87,0,4:53,0,0,,,,,
-ETS,101,0,3:40,0,0,,,,,
-Kansas,785,0,11:33,0,0,,,,,
-Western Michigan,786,0,4:02,27,27,,,,,
-modified,7 July 2022 – 6:35pm US Central,,,,,,,,,
+team,number,penalty,fastest,total,1,2,3
+labels,graph,,,,Day 1,Day 2,Day 3
+labels,table,,,,Day 1,Day 2,Day 3
+Kentucky,3,0,3:08,37,37,,
+MIT,4,0,3:15,51,51,,
+Florida,5,0,3:56,0,0,,
+Berkeley,6,0,4:07,43,43,,
+Illinois State,17,0,3:18,4,4,,
+Illinois,22,0,3:56,37,37,,
+British Columbia,26,0,4:43,0,0,,
+Principia,32,0,3:20,50,50,,
+Georgia Tech,49,0,4:20,43,43,,
+Virginia,87,0,4:53,0,0,,
+ETS,101,0,3:40,0,0,,
+Kansas,785,0,11:33,0,0,,
+Western Michigan,786,0,4:02,27,27,,
+modified,7 July 2022 – 6:35pm US Central,,,,,,

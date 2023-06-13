@@ -35,7 +35,7 @@ FSGP Heat Table Generator
 				{% assign totalTime = totalTime | plus:4 %}
 			{% endif %}
 			{% assign totalLaps = totalLaps | plus:item[1] %}
-			<td style="background-color:rgba(183, 144, 1, calc({{currentLaps}}/50))">{{currentLaps}}</td> 
+			<td style="background-color:rgba(183, 144, 1, calc({{currentLaps}}/100))">{{currentLaps}}</td> 
 		{% endfor %}
 		<td>{{team.penalty}}</td>
 		{% assign totalLaps = totalLaps | minus:team.penalty %}
