@@ -8,7 +8,7 @@ header:
 nav-menu: true
 ---
 
-Before they can get on the track, teams and their solar cars undergo several days of scrutiny from the event's technical staff. All teams will go through the same 10 stations; MOV teams will go through an additional 11th station.
+Before they can get on the track, teams and their solar cars undergo several days of scrutiny from the event's technical staff. All teams will go through the same 11 stations prior to being cleared for the track.
 <table style="font-size:15px">
 <tbody>
   <tr>
@@ -52,8 +52,8 @@ Before they can get on the track, teams and their solar cars undergo several day
     <td>The Safety Check verifies that teams have the required safety equipment for solar car racing including fire extinguishers, first aid kits, and more. </td>
   </tr>
   <tr>
-    <td><b>MOV</b></td>
-    <td>Multi-Occupant Vehicles are checked for compatibility with required charging and metering equipment. <br>(Single Occupant Vehicles skip this station) <i><a href="https://www.americansolarchallenge.org/the-competition/vehicle-classes/">Learn More About the Vehicle Classes</a></i></td>
+    <td><b>Impound &amp; MOV</b></td>
+    <td>All vehicles must demonstrate how their battery system is impounded outside of race hours. Multi-Occupant Vehicles are additionally outfitted with metering equipment for external charging. <br><i><a href="https://www.americansolarchallenge.org/the-competition/vehicle-classes/">Learn More About the Vehicle Classes</a></i></td>
   </tr>
 </tbody>
 </table>

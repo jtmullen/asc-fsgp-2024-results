@@ -1,25 +1,25 @@
 team,number,order,1,2,3,4,5,6,7,8,9,10,11
-title,,,Driver Registration,Driver Operations,Lights & Vision,Body & Sizing,Electrical,Battery Protection,Mechanical,Dynamics,Array Testing,Safety,MOV
-Florida,5,,,,,,,,,,,,N
-Berkeley,6,,,,,,,,,,,,N
-Dalhousie,7,,,,,,,,,,,,N
-UT Austin,8,,,,,,,,,,,,N
-Northwestern,11,,,,,,,,,,,,N
-RIT,12,,,,,,,,,,,,N
-Illinois State,17,,,,,,,,,,,,N
-Cinncinnati,19,,,,,,,,,,,,N
-Kennesaw State,21,,,,,,,,,,,,N
-Principia,32,,,,,,,,,,,,N
-Missouri S&T,42,,,,,,,,,,,,N
+title,,,Driver Registration,Driver Operations,Lights & Vision,Body & Sizing,Electrical,Battery Protection,Mechanical,Dynamics,Array Testing,Safety,Impound & MOV
+Florida,5,,,,,,,,,,,,
+Berkeley,6,,,,,,,,,,,,
+Dalhousie,7,,,,,,,,,,,,
+UT Austin,8,,,,,,,,,,,,
+Northwestern,11,,,,,,,,,,,,
+RIT,12,,,,,,,,,,,,
+Illinois State,17,,,,,,,,,,,,
+Cinncinnati,19,,,,,,,,,,,,
+Kennesaw State,21,,,,,,,,,,,,
+Principia,32,,,,,,,,,,,,
+Missouri S&T,42,,,,,,,,,,,,
 Poly Montreal,55,,,,,,,,,,,,
-Rutgers,66,,,,,,,,,,,,N
-Virginia,87,,,,,,,,,,,,N
+Rutgers,66,,,,,,,,,,,,
+Virginia,87,,,,,,,,,,,,
 W. Ontario,96,,,,,,,,,,,,
 NC State,99,,,,,,,,,,,,
-Virginia Tech,540,,,,,,,,,,,,N
-Wisconsin,608,,,,,,,,,,,,N
-Ohio State,614,,,,,,,,,,,,N
-UOP,777,,,,,,,,,,,,N
-W. Michigan,786,,,,,,,,,,,,N
+Virginia Tech,540,,,,,,,,,,,,
+Wisconsin,608,,,,,,,,,,,,
+Ohio State,614,,,,,,,,,,,,
+UOP,777,,,,,,,,,,,,
+W. Michigan,786,,,,,,,,,,,,
 App State,828,,,,,,,,,,,,
 modified,6 May 2023 – 11:55pm US Central,,,,,,,,,,,,
