@@ -1,4 +1,4 @@
-- title: "Results Home"
+- title: "Home"
   url: "/"
   side: left
 
@@ -16,6 +16,10 @@
 
 - title: "Updates"
   url: "/updates.html"
+  side: right
+
+- title: "Sponsors"
+  url: "https://www.americansolarchallenge.org/sponsorship/fsgp-2023-sponsors/"
   side: right
 
 - title: "ASC Website"
