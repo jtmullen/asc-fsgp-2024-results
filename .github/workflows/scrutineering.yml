@@ -1,0 +1,32 @@
+name: Update Scrutineering Status
+
+on: 
+    repository_dispatch:
+        types: [scrutineering]
+        
+
+jobs:
+    scutineering-update:
+        runs-on: ubuntu-latest
+        timeout-minutes: 5
+        steps:
+            - uses: actions/checkout@v3
+              with: 
+                ref: 'dev'
+              name: Checkout Repo
+            - uses: ./.github/actions/generate-csv
+              name: Generate New CSV File
+              with: 
+                board: scrutineering
+                new-data: ${{ github.event.client_payload.data }}
+            - name: Add Update
+              if: ${{ github.event.client_payload.silent }} == "False"
+              uses: ./.github/actions/generate-update
+              with: 
+                board: scrutineering
+            - name: Push to Git
+              run: |
+                git add *.csv
+                git add *.md
+                git commit -m"[BOT] Scrutineering Update ${GITHUB_RUN_ID}"
+                git push
