@@ -14,11 +14,11 @@ jobs:
               with: 
                 ref: 'dev'
               name: Checkout Repo
-            - uses: ./.github/actions/generate-csv
-              name: Generate New CSV File
-              with: 
-                board: scrutineering
-                new-data: ${{ github.event.client_payload.data }}
+            - name: Generate New CSV File
+              run: |
+                cd $GITHUB_WORKSPACE
+                cd _data
+                echo ${{ github.event.client_payload.data }} > scrutineering.csv
             - name: Add Update
               if: ${{ github.event.client_payload.silent }} == "False"
               uses: ./.github/actions/generate-update
