@@ -24,6 +24,7 @@ jobs:
               uses: ./.github/actions/generate-update
               with: 
                 board: scrutineering
+                time: ${{ github.event.client_payload.time }}
             - name: Push to Git
               run: |
                 git add *.csv
