@@ -21,6 +21,12 @@ jobs:
                 cd $GITHUB_WORKSPACE
                 cd _data
                 echo $'${{ github.event.client_payload.data }}' > scrutineering.csv
+            - name: Add Update
+              if: ${{ github.event.client_payload.silent }} == "False"
+              uses: ./.github/actions/generate-update
+              with: 
+                board: scrutineering
+                time: ${{ github.event.client_payload.time }}
             - name: Push to Git
               run: |
                 git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
