@@ -50,3 +50,4 @@ jobs:
               provider: 'github'
               token: ${{ secrets.GITHUB_TOKEN }}
               branch: 'gh-pages'
+              jekyll_cfg: "_config_deploy.yml,_config_gh_pages.yml"
