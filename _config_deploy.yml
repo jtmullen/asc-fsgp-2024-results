@@ -15,6 +15,8 @@ disclaimer: FSGP is not associated with Formula 1 Racing
 tiles-source: pages # accepts "posts" or "pages"
 tiles-count: 6
 
+timezone: America/Chicago
+
 # social settings (key must match name of font awesome icon)
 # see https://fontawesome.com/icons?d=gallery&p=2&s=brands
 # Icons are not shown if value is empty
