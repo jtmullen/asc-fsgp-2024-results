@@ -16,11 +16,12 @@ header:
 			<dd class="accordion-navigation">
 			<a href="#panel{{ counter }}"><span class="iconfont"></span> {{ post.date | date: "%-d %b %y - %l:%M%P" }} › <strong>{{ post.title }}</strong></a>
 				<div id="panel{{ counter }}" class="content">
-				{{post.subheadline}}  |  <a href="{{ site.url }}{{ site.baseurl }}/{{ post.link_url }}" title="Read {{ post.title | escape_once }}"><strong>View Update ›</strong></a><br><br>
+				{{post.subheadline}}  |  <a href="{{ site.url }}{{ site.baseurl }}/{{ post.link_url }}" title="Read {{ post.title | escape_once }} "> <strong>View ›</strong></a><br><br>
 				</div>
 			</dd>
 			{% assign counter=counter | plus:1 %}
 			{% endfor %}
 		</dl>
+		<p>All Times US Central</p>
 	</div><!-- /.small-12.columns -->
 </div><!-- /.row -->
