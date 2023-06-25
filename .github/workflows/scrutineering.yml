@@ -15,7 +15,7 @@ jobs:
             - name: Log Info
               run: |
                 echo "Time: ${{ github.event.client_payload.time }}"
-                echo "Silent: ${{ github.event.client_payload.silent }}"
+                echo "Update: ${{ github.event.client_payload.update }}"
                 echo "Data: ${{ github.event.client_payload.data }}"
             - uses: actions/checkout@v3
               with: 
@@ -27,7 +27,7 @@ jobs:
                 cd _data
                 echo -n $'${{ github.event.client_payload.data }}' > scrutineering.csv
             - name: Add Update
-              if: !${{ github.event.client_payload.silent }} 
+              if: ${{ github.event.client_payload.update }} 
               uses: ./.github/actions/generate-update
               with: 
                 board: scrutineering
