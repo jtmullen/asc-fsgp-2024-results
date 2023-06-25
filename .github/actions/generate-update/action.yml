@@ -33,7 +33,7 @@ runs:
         elif [[ "${{ inputs.board }}" == "mov" ]]; then
           POST_TITLE="Multi Occupant Class Lap Counts Updated"
           POST_URL="fsgp_mov.html"
-          if [[ ${{ inputs.board }} ]]; then
+          if [[ ${{ inputs.score }} ]]; then
             POST_HEADLINE="Multi Occupant Class Results Have Been Updated with New Lap Counts and Scores."
           else
             POST_HEADLINE="Multi Occupant Class Results Have Been Updated with New Lap Counts."
