@@ -15,7 +15,7 @@ jobs:
             - name: Log Info
               run: |
                 echo "Time: ${{ github.event.client_payload.time }}"
-                echo "Update: ${{ github.event.client_payload.update }}"
+                echo "Publish Update: ${{ github.event.client_payload.update }}"
                 echo "Data: ${{ github.event.client_payload.data }}"
             - uses: actions/checkout@v3
               with: 
@@ -40,6 +40,7 @@ jobs:
                 git commit -m"[BOT] Scrutineering Update ${GITHUB_RUN_ID}"
                 git push
     github-pages-deploy:
+        concurrency: website-update
         runs-on: ubuntu-latest
         needs: [scutineering-update]
         permissions:
