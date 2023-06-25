@@ -28,28 +28,28 @@ jobs:
               if: ${{ github.event.client_payload.sov }}
               run: |
                 cd $GITHUB_WORKSPACE
-                cd _data
+                cd _data/fsgp
                 echo -n $'${{ github.event.client_payload.sov_data }}' > sov.csv
             - name: Generate New MOV CSV File
               if: ${{ github.event.client_payload.mov }}
               run: |
                 cd $GITHUB_WORKSPACE
-                cd _data
+                cd _data/fsgp
                 echo -n $'${{ github.event.client_payload.mov_data }}' > mov.csv
             - name: Generate New Score CSV File
               if: ${{ github.event.client_payload.score }}
               run: |
                 cd $GITHUB_WORKSPACE
-                cd _data
+                cd _data/fsgp
                 echo -n $'${{ github.event.client_payload.score_data }}' > mov-score.csv
             - name: Add SOV Update
-              if: ${{ github.event.client_payload.update }} &&  ${{ github.event.client_payload.sov }}
+              if: ${{ github.event.client_payload.update && github.event.client_payload.sov }}
               uses: ./.github/actions/generate-update
               with: 
                 board: sov
                 time: ${{ github.event.client_payload.time }}
             - name: Add MOV Update
-              if: ${{ github.event.client_payload.update }} &&  ${{ github.event.client_payload.mov }}
+              if: ${{ github.event.client_payload.update && github.event.client_payload.mov }}
               uses: ./.github/actions/generate-update
               with: 
                 board: mov
@@ -60,7 +60,7 @@ jobs:
                 git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
                 git config --global user.name "github-actions[bot]"
                 git add *
-                git commit -m"[BOT] Scrutineering Update ${GITHUB_RUN_ID}"
+                git commit -m"[BOT] Results Update ${GITHUB_RUN_ID}"
                 git push
     github-pages-deploy:
         concurrency: website-update
