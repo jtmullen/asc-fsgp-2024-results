@@ -27,7 +27,7 @@ jobs:
                 cd _data
                 echo -n $'${{ github.event.client_payload.data }}' > scrutineering.csv
             - name: Add Update
-              if: ${{ github.event.client_payload.silent }} == "False"
+              if: ${{ github.event.client_payload.silent == "False" }} 
               uses: ./.github/actions/generate-update
               with: 
                 board: scrutineering
