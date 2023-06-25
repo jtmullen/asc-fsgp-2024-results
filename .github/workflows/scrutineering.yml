@@ -12,6 +12,9 @@ jobs:
             contents: write
         timeout-minutes: 5
         steps:
+            - name: Log Info
+              run: |
+                echo "${{ github.event.client_payload }}"
             - uses: actions/checkout@v3
               with: 
                 ref: 'dev'
