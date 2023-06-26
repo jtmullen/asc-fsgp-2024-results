@@ -1,7 +1,7 @@
 ---
 layout: landing
 title: Electrek FSGP 2023 Results
-description: "<b>June 27 - July 3. Heartland Motorsports Park. Topeka, KS</b>"
+description: "<b>June 27 - July 2. Heartland Motorsports Park. Topeka, KS</b>"
 ---
 
 <!-- Main -->
