@@ -7,7 +7,7 @@ FSGP Final Results Display
 ## Final Results
 __First:__ {{class.first}}<br>
 __Second:__ {{class.second}}<br>
-__Third:__ {{class.third}}<br>
+{% unless show_class=="mov" %}__Third:__ {{class.third}}<br>{% endunless %}
 <br>
 _Fastest Lap:_ {{class.time}} {{class.driver}} - {{class.team}}
 		{% endif %}
