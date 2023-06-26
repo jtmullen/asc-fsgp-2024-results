@@ -2,10 +2,8 @@
 layout: page-fullwidth
 title: Scrutineering
 description: "4 days of Tech Inspections and Dynamic Tests"
-image: assets/images/montreal-pull.jpg
-header: 
-  image_fullwidth: "assets/images/52379135184_f2d04df50a_k.jpg"
 nav-menu: true
+header: no
 ---
 
 Before they can get on the track, teams and their solar cars undergo several days of scrutiny from the event's technical staff. All teams will go through the same 11 stations prior to being cleared for the track.

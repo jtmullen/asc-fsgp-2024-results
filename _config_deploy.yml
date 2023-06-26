@@ -15,6 +15,8 @@ disclaimer: FSGP is not associated with Formula 1 Racing
 tiles-source: pages # accepts "posts" or "pages"
 tiles-count: 6
 
+fsgp-days-tabs: false
+
 timezone: America/Chicago
 
 # social settings (key must match name of font awesome icon)

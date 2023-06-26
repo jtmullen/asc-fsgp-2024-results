@@ -12,11 +12,12 @@ The Electrek Formula Sun Grand Prix 2023 is 3 days of racing on the 2.5 mile roa
 
 -----
 
-Vehicles competing in the [Multi Occupant Vehicle Class](https://www.americansolarchallenge.org/the-competition/vehicle-classes/) at FSGP are scored based on a formula that includes the number of miles (laps) driven, the number of passengers in the vehicle during those laps, external energy used, and average speed. The full formula is detailed at the bottom of this page. 
+Vehicles competing in the [Multi Occupant Vehicle Class](https://www.americansolarchallenge.org/the-competition/vehicle-classes/) at FSGP are scored based on a formula that includes the number of miles (laps) driven, the number of passengers in the vehicle during those laps, amount of external wall charging, and average speed. The full formula is detailed at the [bottom of this page](#mov-scoring-formula). 
 
 {% include fsgp-final-results class="mov" %}
 -----
 ## MOV Score
+{% if site.fsgp-days-tabs %}
 {% tabs day %}
 {% tab day Overall %}
 {% include fsgp-score-chart %}
@@ -44,10 +45,20 @@ Vehicles competing in the [Multi Occupant Vehicle Class](https://www.americansol
 <div style="margin:auto; text-align:center;"> <i> Scroll right to see all data on small screens </i>
 {% include fsgp-score-table-day day="day3" %}
 {% endtab %}
+{% endtabs %}{% else %}
+{% tabs dayonly %}
+{% tab dayonly Overall %}
+{% include fsgp-score-chart %}
+<br>
+<div style="margin:auto; text-align:center;"> <i> Scroll right to see all data on small screens </i>
+{% include fsgp-score-table %}
+{% endtab %}
 {% endtabs %}
+{% endif %}
 
 -----
 ## MOV Laps
+{% if site.fsgp-days-tabs %}
 {% tabs day %}
 {% tab day Overall %}
 {% include fsgp-lap class="mov" %}
@@ -76,7 +87,16 @@ Vehicles competing in the [Multi Occupant Vehicle Class](https://www.americansol
 <div style="margin:auto; text-align:center;"> <i> Scroll right to see all data on small screens </i>
 {% include fsgp-table-day day="day3" class="mov" %}
 {% endtab %}
+{% endtabs %}{% else %}
+{% tabs dayonly %}
+{% tab dayonly Overall %}
+{% include fsgp-lap class="mov" %}
+<br>
+<div style="margin:auto; text-align:center;"> <i> Scroll right to see all data on small screens </i>
+{% include fsgp-table class="mov" %}
+{% endtab %}
 {% endtabs %}
+{% endif %}
 
 -----
 
@@ -89,7 +109,7 @@ Variable Definitions:
 - __D__: Person  Mile Distance. This is the number of miles driven (2.5 miles per laps) times the average number of passengers in the vehicle. 
 - __E__: External Energy Usage. This is the vehicles battery capacity (assumed to start FSGP full) plus any external charging during the event. 
 - __C__: Completion Factor. This is the number of miles driven less penalty miles divided by the highest number of miles driven by any team. 
-- __T__: Target Speed Derating. Multi Occupant Vehicles must average at least 30mph for the event, in which case this factor will be 1.0. Otherwise they have their score derated based on the following formula: \$$ T = (0.6)^{(30-[Average Speed])^{0.4}} $$
+- __T__: Target Speed Derating. Multi Occupant Vehicles must average at least <b>30 mph</b> for the event, in which case this factor will be 1.0. Otherwise they have their score derated based on the following formula: \$$ T = (0.6)^{(30-[Average Speed])^{0.4}} $$
 
 -----
 

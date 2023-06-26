@@ -16,7 +16,7 @@ Vehicles competing in the [Single Occupant Vehicle Class](https://www.americanso
 {% include fsgp-final-results class="sov" %}
 
 -----
-
+{% if site.fsgp-days-tabs %}
 {% tabs day %}
 {% tab day Overall %}
 {% include fsgp-lap class="sov" %}
@@ -45,7 +45,16 @@ Vehicles competing in the [Single Occupant Vehicle Class](https://www.americanso
 <div style="margin:auto; text-align:center;"> <i> Scroll right to see all data on small screens </i>
 {% include fsgp-table-day day="day3" class="sov" %}
 {% endtab %}
+{% endtabs %}{% else %}
+{% tabs dayonly %}
+{% tab dayonly Overall %}
+{% include fsgp-lap class="sov" %}
+<br>
+<div style="margin:auto; text-align:center;"> <i> Scroll right to see all data on small screens </i>
+{% include fsgp-table class="sov" %}
+{% endtab %}
 {% endtabs %}
+{% endif %}
 
 {% assign url = site.baseurl | prepend: site.url %}
 <link rel="stylesheet" href="{{ url }}/assets/css/tabs.css">
