@@ -37,5 +37,7 @@ jobs:
                 git push
     asc-site-deploy:
         needs: [final-update]
+        permissions:
+            contents: write
         uses: ./.github/workflows/asc-site.yml
         secrets: inherit
