@@ -1,7 +1,7 @@
 {% comment %}
 FSGP Lap Chart Generator
 {% endcomment %}{% assign class = include.class %}
-{% assign colors = "#ffffff,#ffffff,#003399,#ffcc00,#FE4EDA,#ce1126,#767522,#FED8B1,#000000,#F0D3F7,#FFFF00,#000000,#a9a9a9,#911eb4,#ffe119" | split: "," %}
+{% assign colors = "#ffffff,#ffffff,#003399,#ffcc00,#FE4EDA,#905d5d,#767522,#FED8B1,#000000,#F0D3F7,#FFFF00,#000000,#a9a9a9,#911eb4,#ffe119" | split: "," %}
 {%if class != "sov" and class != "mov" %} <i>Error generating Chart</i>
 {% else %}
 {% assign most_laps = 0 %}

@@ -7,7 +7,7 @@
    --color-1: #003399;
    --color-2: #ffcc00;
    --color-3: #FE4EDA;
-   --color-4: #ce1126;
+   --color-4: #905d5d;
    --color-5: #767522;
    --color-6: #FED8B1;
    --color-7: #000000;
@@ -41,7 +41,7 @@
   background-color: #FE4EDA;
 }
 #legend-example-2 .legend > li:nth-of-type(4)::before {
-  background-color: #ce1126;
+  background-color: #905d5d;
 }
 #legend-example-2 .legend > li:nth-of-type(5)::before {
   background-color: #767522;
