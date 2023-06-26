@@ -1,0 +1,27 @@
+{% comment %}
+*
+*   Required Parameters
+*
+*    › array  (array of data to get row from)
+*    › col    (column to search in)
+*    › key    (key to search for)
+*
+*   Example: {% include get-row array=site.data.teams col='teams' key="Illinois" %}
+*
+*
+*
+*
+{% endcomment %}
+{% assign input_data = include.array %}
+{% assign search_title = include.col %}
+{% assign search_key = include.key %}
+{% if input_data == NULL or search_title == NULL or search_key == NULL %}
+BAD INPUT
+{% else %}
+{% for row in input_data %}
+  {% if row[search_title] == search_key %}
+    {{ row }}
+	{% break %}
+  {% endif %}
+{% endfor %}
+{% endif %}

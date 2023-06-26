@@ -1,0 +1,51 @@
+
+#stacked-example-3-final {
+  height: 600px;
+  max-width: 1000px;
+  margin: 0 auto;
+  --heading-size: 2.5rem;
+  --color-1: rgba(255, 200, 0, 0.75);
+  --color-2: rgba(255, 150, 0, 0.75);
+  --color-3: rgba(255,  75, 0, 0.9);
+  --color-4: rgba(255,   0, 0, 0.9);
+}
+#stacked-example-3-final caption {
+  font-weight: bold;
+}
+ 
+
+
+
+
+#stacked-example-3 {
+  height: 300px;
+  max-width: 1000px;
+  margin: 0 auto;
+  --heading-size: 2.5rem;
+  --color-1: rgba(255, 200, 0, 0.75);
+  --color-2: rgba(255, 150, 0, 0.75);
+  --color-3: rgba(255,  75, 0, 0.9);
+  --color-4: rgba(255,   0, 0, 0.9);
+}
+#stacked-example-3 caption {
+  font-weight: bold;
+}
+ 
+.asc-stage th, tr {border: 1px solid;}
+.asc-stage td {
+  border-right: solid 1px #aaaaaaa; 
+  border-left: solid 1px #aaaaaa;
+}
+
+.score-table th, tr {border: 1px solid #000000;}
+.score-table td {
+  border-right: solid 1px #080808; 
+  border-left: solid 1px #080808;
+  border-collapse: none !important;
+}
+
+.tg th, tr {border: 1px solid;}
+.tg td {
+  border-right: solid 1px #8a8a8a; 
+  border-left: solid 1px #8a8a8a;
+}

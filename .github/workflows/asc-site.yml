@@ -1,0 +1,45 @@
+name: ASC Deploy Shared Workflow
+
+on: ['workflow_call']
+
+jobs: 
+    build-site:
+        name: Build Site
+        concurrency: build-for-asc-site
+        permissions:
+            contents: write
+        steps:
+          - name: Checkout Source Repo
+            uses: actions/checkout@v2
+            with: 
+                ref: 'main'
+          - name: Build
+            uses:  jeffreytse/jekyll-deploy-action@v0.3.1
+            with:
+              provider: 'github'
+              token: ${{ secrets.GITHUB_TOKEN }}
+              branch: 'asc-site'
+              jekyll_cfg: "_config_deploy.yml"
+    
+    deploy-to-site:
+        name: Deploy to ASC Site
+        concurrency: deploy-to-asc-site
+        needs: [build-site]
+        environment: 
+          name: asc-site
+          url: "americansolarchallenge.org/2023/results"
+        steps:
+          - name: Checkout ASC Site Branch
+            uses: actions/checkout@v2
+            with:
+                ref: 'asc-site'
+                path: '_build_'
+                
+          - name: Deploy to ASC Site
+            uses: SamKirkland/FTP-Deploy-Action@4.3.0
+            with:
+                local-dir: "./_build_/"
+                server-dir: "public_html/2023/results/"
+                server: ftp.americansolarchallenge.org
+                username: ${{ secrets.FTP_USER_2023 }}
+                password: ${{ secrets.FTP_PW_2023 }}

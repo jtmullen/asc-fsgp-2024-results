@@ -1,0 +1,74 @@
+{% comment %}
+FSGP Lap Chart Generator
+{% endcomment %}{% assign day = include.day %}
+{% if day != "day1" and day != "day2" and day != "day3" %} <i>Error generating Chart</i>
+{% else %}
+<canvas id="score-chart-{{day}}" width="1000px" height="250px" style="max-height:500px"></canvas>
+<script>
+var {{day}}_canvas = document.getElementById("score-chart-{{day}}");
+{% assign colors = "#FFB000,#FE6100,#DC267F,#785EF0,#800000,#648FFF,#fabed4" | split: "," %}
+
+Chart.defaults.font.family = "Lato";
+Chart.defaults.font.size = 22;
+Chart.defaults.color = "black";
+{% assign lowest_e = 1000.0 %}
+{% assign highest_d = 1.0 %}
+{% for team in site.data.fsgp.[day].mov-score %}
+{% if team.team != "modified" %}
+{% assign person = team.person | times: 1.0 %}
+{% assign ext-e = team.total-ext | times: 1.0 %}
+{% if ext-e < lowest_e %}
+	{% assign lowest_e = ext-e %}
+{% endif %}
+{% if person > highest_d %}
+	{% assign highest_d = person %}
+{% endif %}{% endif %}{% endfor %}
+{% assign sorted_teams = site.data.fsgp.[day].mov-score | sort: "number" %}
+var {{day}}_data = {
+  labels: ["Person Miles [D]", "Completion Factor [C]", "Speed Derating [T]", "External Energy [1/E]"],
+  datasets: [
+  {% for team in sorted_teams %}
+  {% if team.team != "modified" %}
+    {
+      label: "#{{team.number}} {{team.team}}",
+      backgroundColor: "{{colors[forloop.index0]}}44",
+      borderColor: "{{colors[forloop.index0]}}",
+      borderWidth: 1,
+      data: [{{team.person | times: 100.0 | divided_by: highest_d}}, {{team.completion | plus: 0}}, {{team.derate | times: 100}}, {{lowest_e | divided_by: team.total-ext | times: 100}} ]
+    },
+  {% endif %}{% endfor %}
+ ]
+};
+
+var chartOptions = {
+  plugins: {
+    legend: {
+      align: "start"
+    }
+  },
+  scales: {
+    r: {
+      pointLabels: {
+        font: {
+          size: 20
+        },
+        padding: 15
+      },
+      ticks: {
+        display: false,
+      },
+      suggestedMin: 0,
+      suggestedMax: 100,
+      z: 1
+    }
+  }
+};
+
+var {{day}}radarChart = new Chart({{day}}_canvas, {
+  type: "radar",
+  data: {{day}}_data,
+  options: chartOptions
+});
+
+</script>
+{% endif %}

@@ -1,0 +1,29 @@
+- title: "Home"
+  url: "/"
+  side: left
+
+- title: "Scrutineering"
+  url: "/scrutineering.html"
+  side: left
+
+- title: "Single Occupant Class"
+  url: "/fsgp_sov.html"
+  side: left
+
+- title: "Multi Occupant Class"
+  url: "/fsgp_mov.html"
+  side: left
+
+- title: "Updates"
+  url: "/updates.html"
+  side: right
+
+- title: "Sponsors"
+  url: "/../../sponsorship/fsgp-2023-sponsors/"
+  side: right
+
+- title: "ASC Website"
+  url: "/../.."
+  side: right
+
+

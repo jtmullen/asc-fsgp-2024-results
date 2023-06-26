@@ -1,0 +1,68 @@
+name: FSGP 2023 Update
+description: "Creates the Markdown File for an Update"
+inputs:
+  board:
+    description: "Board that got updated"
+    required: true
+  time:
+    description: "Time of Update Publish"
+    required: true
+  score: 
+    description: "MOV Scores Updated?"
+    required: false
+    default: "false"
+
+runs: 
+  using: "composite"
+  steps: 
+    - name: "Validate Inputs & Generate Content"
+      id: content
+      shell: bash
+      run: |
+        POST_TITLE=""
+        POST_URL=""
+        POST_HEADLINE=""
+        if [[ "${{ inputs.board }}" == "scrutineering" ]]; then
+          POST_TITLE="Scrutineering Status Updated"
+          POST_URL="scrutineering.html"
+          POST_HEADLINE="The scrutineering status board has been updated with additional team progress."
+        elif [[ "${{ inputs.board }}" == "sov" ]]; then
+          POST_TITLE="Single Occupant Class Lap Counts Updated"
+          POST_URL="fsgp_sov.html"
+          POST_HEADLINE="Single Occupant Class Results Have Been Updated with New Lap Counts."
+        elif [[ "${{ inputs.board }}" == "mov" ]]; then
+          POST_TITLE="Multi Occupant Class Lap Counts Updated"
+          POST_URL="fsgp_mov.html"
+          if [[ ${{ inputs.score }} != "false" ]]; then
+            POST_HEADLINE="Multi Occupant Class Results Have Been Updated with New Lap Counts and Scores."
+          else
+            POST_HEADLINE="Multi Occupant Class Results Have Been Updated with New Lap Counts."
+          fi
+        elif [[ "${{ inputs.board }}" == "final" ]]; then
+          POST_TITLE="Final Results Published"
+          POST_URL=""
+          POST_HEADLINE="Final Results from the Electrek Formula Sun Grand Prix 2023 are available!"
+        else
+          echo "::error::Invalid Board"
+          exit 1          
+        fi
+        echo "title=$POST_TITLE" >> $GITHUB_OUTPUT
+        echo "url=$POST_URL" >> $GITHUB_OUTPUT
+        echo "headline=$POST_HEADLINE" >> $GITHUB_OUTPUT
+    - name: "Generate File"
+      shell: bash
+      run: |
+        cd $GITHUB_WORKSPACE
+        cd _updates
+        file_name="${{ inputs.board }}-${GITHUB_RUN_ID}.md"
+        touch $file_name
+        echo "---" >> $file_name
+        echo "date: ${{ inputs.time }}" >> $file_name
+        echo "title: ${{ steps.content.outputs.title }}" >> $file_name
+        echo "link_url: ${{ steps.content.outputs.url }}" >> $file_name
+        echo "subheadline: ${{ steps.content.outputs.headline }}" >> $file_name
+        echo "---" >> $file_name
+        echo "" >> $file_name
+        echo "::notice::$file_name created"
+        
+      
