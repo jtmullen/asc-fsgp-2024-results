@@ -5,6 +5,7 @@ on: ['workflow_call']
 jobs: 
     build-site:
         name: Build Site
+        runs-on: ubuntu-latest
         concurrency: build-for-asc-site
         permissions:
             contents: write
@@ -24,6 +25,7 @@ jobs:
     deploy-to-site:
         name: Deploy to ASC Site
         concurrency: deploy-to-asc-site
+        runs-on: ubuntu-latest
         needs: [build-site]
         environment: 
           name: asc-site
