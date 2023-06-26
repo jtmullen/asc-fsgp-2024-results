@@ -4,7 +4,6 @@ layout: page-fullwidth
 description: '3 Days of Highly Efficient Driving Competing for the Highest Score'
 nav-menu: true
 header: no
-permalink: "fsgp_mov"
 ---
 
 
@@ -106,10 +105,10 @@ At FSGP, Multi Occupant Vehicles are scored based on the number of laps they com
 
 Variable Definitions: 
 - __S__: Score
-- __D__: Person  Mile Distance. This is the number of miles driven (2.5 miles per laps) times the average number of passengers in the vehicle. 
-- __E__: External Energy Usage. This is the vehicles battery capacity (assumed to start FSGP full) plus any external charging during the event. 
-- __C__: Completion Factor. This is the number of miles driven less penalty miles divided by the highest number of miles driven by any team. 
-- __T__: Target Speed Derating. Multi Occupant Vehicles must average at least <b>30 mph</b> for the event, in which case this factor will be 1.0. Otherwise they have their score derated based on the following formula: \$$ T = (0.6)^{(30-[Average Speed])^{0.4}} $$
+- __D__: Person  Mile Distance - the number of miles driven (2.5 miles per lap) times the average number of passengers in the vehicle. 
+- __E__: External Energy Usage - the vehicles battery capacity (assumed to start FSGP full) plus any external charging during the event. 
+- __C__: Completion Factor - the number of miles driven less penalty miles divided by the highest number of miles driven by any team. 
+- __T__: Target Speed Derating - vehicles must average at least <b>30 mph</b> for the event, in which case this factor will be 1.0. Otherwise they have their score derated based on the following formula: \$$ T = (0.6)^{(30-[Average Speed])^{0.4}} $$
 
 -----
 
