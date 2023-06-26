@@ -8,5 +8,7 @@ on:
 
 jobs: 
     asc-site-deploy:
+        permissions:
+            contents: write
         uses: ./.github/workflows/asc-site.yml
         secrets: inherit
