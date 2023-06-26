@@ -62,21 +62,7 @@ jobs:
                 git add *
                 git commit -m"[BOT] Results Update ${GITHUB_RUN_ID}"
                 git push
-    github-pages-deploy:
-        concurrency: website-update
-        runs-on: ubuntu-latest
+    asc-site-deploy:
         needs: [results-update]
-        permissions:
-            contents: write
-        steps:
-          - name: Checkout Source Repo
-            uses: actions/checkout@v2
-            with: 
-                ref: 'dev'
-          - name: Build
-            uses:  jeffreytse/jekyll-deploy-action@v0.3.1
-            with:
-              provider: 'github'
-              token: ${{ secrets.GITHUB_TOKEN }}
-              branch: 'gh-pages'
-              jekyll_cfg: "_config_deploy.yml,_config_gh_pages.yml"
+        uses: ./.github/workflows/asc-site.yml
+        secrets: inherit
