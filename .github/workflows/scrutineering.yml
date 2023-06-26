@@ -18,8 +18,6 @@ jobs:
                 echo "Publish Update: ${{ github.event.client_payload.update }}"
                 echo "Data: ${{ github.event.client_payload.data }}"
             - uses: actions/checkout@v3
-              with: 
-                ref: 'dev'
               name: Checkout Repo
             - name: Generate New CSV File
               run: |
