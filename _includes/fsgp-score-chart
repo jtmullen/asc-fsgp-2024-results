@@ -7,7 +7,7 @@ FSGP Lap Chart Generator
 </script>
 <script>
 var marksCanvas = document.getElementById("score-chart-full");
-{% assign colors = "#003399,#ffcc00,#DC267F,#785EF0,#800000,#648FFF,#fabed4" | split: "," %}
+{% assign colors = "#FFB000,#003399,#ffcc00,#785EF0,#800000,#648FFF,#fabed4" | split: "," %}
 
 Chart.defaults.font.family = "Lato";
 Chart.defaults.font.size = 22;
