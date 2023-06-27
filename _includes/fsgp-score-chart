@@ -53,7 +53,10 @@ var chartOptions = {
         font: {
           size: 20
         },
-        padding: 15
+        padding: 10,
+        callback: function(pointLabel, index, labels) {
+                return window.innerWidth > 649 ? pointLabel : pointLabel.split(" ")[pointLabel.split(" ").length - 1];
+            } 
       },
       ticks: {
         display: false,
