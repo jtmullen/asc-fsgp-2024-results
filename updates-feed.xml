@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="https://jtmullen.github.io/fsgp-2023-results/assets/xslt/rss.xslt" ?>
+<?xml-stylesheet type="text/css" href="https://jtmullen.github.io/fsgp-2023-results/assets/css/rss.css" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Electrek Formula Sun Grand Prix 2023 | Results</title>
+		<description>View Results from the Elecktrek Formula Sun Grand Prix 2023. June 27 - July 2 at Heartland Motorsports Park in Topeka, KS. </description>
+		<link>https://jtmullen.github.io/fsgp-2023-results/</link>
+		<atom:link href="https://jtmullen.github.io/fsgp-2023-results/updates-feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>Subscribe to the Updates Feed</title>
+				<link>https://jtmullen.github.io/fsgp-2023-results/updates.html}</link>
+				<pubDate>Mon, 12 Jun 2023 21:15:00 -0500</pubDate>
+				<description>Get Notified when Results are updated! Subscribe to the RSS Feed.</description>
+				<guid isPermaLink="true">https://jtmullen.github.io/fsgp-2023-results/updates.html</guid>
+			</item>
+		
+	</channel>
+</rss>
