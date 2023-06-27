@@ -2,18 +2,10 @@
 layout: landing
 title: Electrek FSGP 2023 Results
 description: "<b>June 27 - July 2. Heartland Motorsports Park. Topeka, KS</b>"
+social_description: "Results from the Electrek #FSGP2023. June 27 - July 2. Heartland Motorsports Park. Topeka, KS"
+social_image: https://www.americansolarchallenge.org/2023/results/assets/images/banner.jpg
 ---
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:site" content="@ASC_SolarRacing">
-<meta name="twitter:title" content="Electrek Formula Sun Grand Prix 2023 Results">
-<meta name="twitter:description" content="Results from the Electrek #FSGP2023. June 27 - July 2. Heartland Motorsports Park. Topeka, KS">
-<meta name="twitter:image" content="https://www.americansolarchallenge.org/2023/results/assets/images/banner.jpg">
 
-<meta property="og:url"                content="https://www.americansolarchallenge.org/2023/results/" />
-<meta property="og:type"               content="article" />
-<meta property="og:title"              content="Electrek Formula Sun Grand Prix 2023 Results" />
-<meta property="og:description"        content="Results from the Electrek #FSGP2023. June 27 - July 2. Heartland Motorsports Park. Topeka, KS" />
-<meta property="og:image"              content="https://www.americansolarchallenge.org/2023/results/assets/images/banner.jpg" /><!-- Main -->
 <div id="main">
 
 <!-- One -->
