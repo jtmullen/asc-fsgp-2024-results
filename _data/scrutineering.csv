@@ -2,13 +2,13 @@ team,number,order,1,2,3,4,5,6,7,8,9,10,11
 title,,,Driver Registration,Driver Operations,Lights & Vision,Body & Sizing,Electrical,Battery Protection,Mechanical,Dynamics,Array Testing,Safety,Impound & MOV
 Florida,5,,Y,Y,Y,Y,,,G,,,G,
 Dalhousie,7,,,,,,,,,,,G,
-Northwestern,11,,,,,,Y,,,,,,
-Illinois State,17,,G,G,,,Y,Y,,,G,G,G
-Principia,32,,G,,,,G,,,,G,G,G
-Poly Montreal,55,,G,G,Y,G,R,,G,,G,G,
+Northwestern,11,,,,,,Y,,R,,,,
+Illinois State,17,,G,G,,G,Y,Y,,,G,G,G
+Principia,32,,G,,,,G,,G,,G,G,G
+Poly Montreal,55,,G,G,Y,G,G,,G,,G,G,
 Virginia,87,,,,,,Y,,B,,,G,
 Wisconsin,608,,G,,Y,,Y,,,,,,
 Ohio State,614,,G,,,,,,,,,,
-W. Michigan,786,,,,,Y,Y,,R,,G,G,
+W. Michigan,786,,,,Y,Y,Y,,R,,G,G,G
 App State,828,,G,,Y,G,,,G,,,G,
-modified,27 Jun 2023 - 04:06PM Central Daylight Time,,,,,,,,,,,,
+modified,27 Jun 2023 - 05:06PM Central Daylight Time,,,,,,,,,,,,
