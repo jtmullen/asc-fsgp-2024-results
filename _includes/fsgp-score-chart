@@ -62,7 +62,14 @@ var chartOptions = {
       suggestedMax: 100,
       z: 1
     }
-  }
+  },
+  scale: {
+        pointLabels: {
+            callback: function(pointLabel, index, labels) {
+                return window.innerWidth > 700 ? pointLabel : pointLabel.split(" ")[-1];
+            } 
+        }
+    }
 };
 
 var radarChart = new Chart(marksCanvas, {
