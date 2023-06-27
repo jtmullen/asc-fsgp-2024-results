@@ -55,7 +55,7 @@ var chartOptions = {
         },
         padding: 15,
         callback: function(pointLabel, index, labels) {
-                return window.innerWidth > 700 ? pointLabel : pointLabel.split(" ")[pointLabel.split(" ").length - 1];
+                return window.innerWidth > 649 ? pointLabel : pointLabel.split(" ")[pointLabel.split(" ").length - 1];
             } 
       },
       ticks: {
