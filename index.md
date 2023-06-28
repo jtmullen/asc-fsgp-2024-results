@@ -14,7 +14,7 @@ social_image: https://www.americansolarchallenge.org/2023/results/assets/images/
 <section id="two" class="spotlights">
 	<section>
 		<a href="scrutineering.html" class="image">
-			<img src="{% link assets/images/montreal-pull.jpg %}" alt="" data-position="center center" />
+			<img src="{% link assets/images/FloridaEgress.jpg %}" alt="" data-position="center center" />
 		</a>
 		<div class="content">
 			<div class="inner">

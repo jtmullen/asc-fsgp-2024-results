@@ -6,7 +6,7 @@ nav-menu: true
 header: no
 social_title: Scrutineering Status
 social_description: Electrek Formula Sun Grand Prix 2023
-social_image: https://americansolarchallenge.org/2023/results/assets/images/montreal-pull.jpg
+social_image: https://americansolarchallenge.org/2023/results/assets/images/FloridaEgress.jpg
 ---
 
 Before they can get on the track, teams and their solar cars undergo several days of scrutiny from the event's technical staff. All teams will go through the same 11 stations prior to being cleared for the track.
