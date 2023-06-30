@@ -1,6 +1,6 @@
 team,number,penalty,fastest,total,1,2,3
-labels,graph,,,,Day 1,Day 2,Day 3
-labels,table,,,,Day 1,Day 2,Day 3
+labels,,graph,,,Day 1,Day 2,Day 3
+labels,,table,,,Day 1,Day 2,Day 3
 Florida,5,3,4:24.000,22,25,,
 Principia,32,0,3:59.000,23,23,,
 Dalhousie,7,0,5:22.000,17,17,,
@@ -10,4 +10,4 @@ Illinois State,17,0,4:19.000,11,11,,
 Ohio State,614,2,5:26.000,9,11,,
 Wisconsin,608,1,7:03.000,0,1,,
 Northwestern,11,0,-,0,,,
-modified,30 Jun 2023 - 12:08PM Central Daylight Time,,,,,,
+modified,,30 Jun 2023 - 12:08PM Central Daylight Time,,,,,
