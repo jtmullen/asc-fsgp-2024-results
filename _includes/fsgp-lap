@@ -5,7 +5,7 @@ FSGP Lap Chart Generator
 {%if class != "sov" and class != "mov" %} <i>Error generating Chart</i>
 {% else %}
 {% assign most_laps = 0 %}
-{% for team in site.data.fsgp.[class] %}
+{% for team in site.data.fsgp.[class] | sort: "number" %}
 	{% if team.team != "labels" and team.team != "modified" and team.team != "completed" %}
 		{% assign lapCount = 0 %}
 		{% for item in team offset:5 %}
@@ -50,7 +50,7 @@ FSGP Lap Chart Generator
 <table id="line-chart-sov" class="charts-css line multiple hide-data show-heading show-labels show-primary-axis show-data-axes show-{{axis}}-secondary-axes">
   <caption style="color:black;"> {{ caption }} </caption>
   <thead><tr>
-  {% for team in site.data.fsgp.[class] %}
+  {% for team in site.data.fsgp.[class] | sort: "number" %}
 	{% if team.team == "labels" and team.number == "graph" %}
 		{% for item in team offset:5 %}
 			{% assign titles = titles | push: item[1] %}
