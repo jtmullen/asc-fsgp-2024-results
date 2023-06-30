@@ -47,5 +47,5 @@ FSGP Heat Table Generator
 {% endfor %}
 </tbody>
 </table>
-<div style="margin:auto; text-align:center;"><i>Last Updated: {{modified}}</i><br><b>Darkers Cells Indicate Teams Completing More Laps</b></div>
+<div style="margin:auto; text-align:center;"><i>Last Updated: {{modified}}</i><br><b>Darker Cells Indicate Teams Completing More Laps</b></div>
 {% endif %}
