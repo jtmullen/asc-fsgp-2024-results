@@ -25,6 +25,7 @@ FSGP Heat Table Generator
 {% assign sorted_teams = site.data.fsgp.[class] | sort: "total" %}
 {% for team in sorted_teams reversed %}
 	{% if team.team != "labels" and team.team != "modified" and team.team != "completed" %}
+	{% if team.total != "0" or team.penalty != "0" %}
 		<tr style="background-color:#fafafa;"><td style="font-weight:bold;white-space: nowrap;">#{{team.number}} - {{team.team}} </td>
 		{% assign totalLaps = 0 %}
 		{% assign totalTime = 0 %}
@@ -41,11 +42,34 @@ FSGP Heat Table Generator
 		{% assign totalLaps = totalLaps | minus:team.penalty %}
 		<td>{{team.fastest}}</td>
 		</tr>
+	{% endif %}
 	{% elsif team.team == "modified" %}
 		{% assign modified = team.number %}
 	{% endif %}
 {% endfor %}
+{% for team in sorted_teams reversed %}
+	{% if team.team != "labels" and team.team != "modified" and team.team != "completed" %}
+	{% if team.total == "0" and team.penalty == "0" %}
+		<tr style="background-color:#fafafa;"><td style="font-weight:bold;white-space: nowrap;">#{{team.number}} - {{team.team}}* </td>
+		{% assign totalLaps = 0 %}
+		{% assign totalTime = 0 %}
+		<td style="border-right-width: 3px;border-left-width:3px;"><b>{{team.total}}</b></td>
+		{% for item in team offset:5 %}
+			{% assign currentLaps = item[1] | plus:0 %}
+			{% if currentLaps > 0 %}
+				{% assign totalTime = totalTime | plus:4 %}
+			{% endif %}
+			{% assign totalLaps = totalLaps | plus:item[1] %}
+			<td style="background-color:rgba(183, 144, 1, calc({{currentLaps}}/100))">{{currentLaps}}</td> 
+		{% endfor %}
+		<td>{{team.penalty}}</td>
+		{% assign totalLaps = totalLaps | minus:team.penalty %}
+		<td>{{team.fastest}}</td>
+		</tr>
+	{% endif %}
+	{% endif %}
+{% endfor %}
 </tbody>
 </table>
-<div style="margin:auto; text-align:center;"><i>Last Updated: {{modified}}</i><br><b>Darker Cells Indicate Teams Completing More Laps</b></div>
+<div style="margin:auto; text-align:center;"><i>Last Updated: {{modified}}</i><br><i>* Not Yet Completed Scrutineering</i><br><b>Darker Cells Indicate Teams Completing More Laps</b></div>
 {% endif %}
