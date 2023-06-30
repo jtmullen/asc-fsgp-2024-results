@@ -44,7 +44,7 @@ FSGP Heat Table Generator
 		</tr>
 	{% endif %}
 	{% elsif team.team == "modified" %}
-		{% assign modified = team.number %}
+		{% assign modified = team.penalty %}
 	{% endif %}
 {% endfor %}
 {% for team in sorted_teams reversed %}
