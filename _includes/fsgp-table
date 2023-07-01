@@ -50,7 +50,7 @@ FSGP Heat Table Generator
 {% for team in sorted_teams reversed %}
 	{% if team.team != "labels" and team.team != "modified" and team.team != "completed" %}
 	{% if team.total == "0" and team.penalty == "0" %}
-		<tr style="background-color:#fafafa;"><td style="font-weight:bold;white-space: nowrap;">#{{team.number}} - {{team.team}}* </td>
+		<tr style="background-color:#fafafa;"><td style="font-weight:bold;white-space: nowrap;">#{{team.number}} - {{team.team}}</td>
 		{% assign totalLaps = 0 %}
 		{% assign totalTime = 0 %}
 		<td style="border-right-width: 3px;border-left-width:3px;"><b>{{team.total}}</b></td>
@@ -71,5 +71,5 @@ FSGP Heat Table Generator
 {% endfor %}
 </tbody>
 </table>
-<div style="margin:auto; text-align:center;"><i>Last Updated: {{modified}}</i><br><i>* Not Yet Completed Scrutineering</i><br><b>Darker Cells Indicate Teams Completing More Laps</b></div>
+<div style="margin:auto; text-align:center;"><i>Last Updated: {{modified}}</i><br><b>Darker Cells Indicate Teams Completing More Laps</b></div>
 {% endif %}

@@ -72,27 +72,33 @@ FSGP Lap Chart Generator
 	{% assign lastIndex = forloop.index0 %}
 	<tr>
       <th scope="row" style="color:black;"> {{item}} </th>
+	  {% assign show = false %}
+	  {% for team in sorted_teams %}
+	  {% if team.team != "modified" and team.team != "labels" %}
+	    {% for item in team offset:5 %}
+			{% if forloop.index0 == lastIndex %}
+			  {% if item[1] %}
+				{% assign show = true %}
+			  {% endif %}
+			{% endif %}
+		{% endfor %}
+		{% endif %} {% endfor %}
 	  {% for team in sorted_teams %}
 	  {% if team.team != "modified" %}
-		{% assign ends = "" | split: ',' %}
 	    {% if team.team != "labels" %}
 			{% assign lowEnd = 0 %}
 			{% assign highEnd = 0 %}
-			{% assign show = true %}
 			{% for item in team offset:5 %}
 				{% if forloop.index0 < lastIndex %}
 					{% assign lowEnd = lowEnd | plus:item[1] %}
 				{% endif %}
 				{% if forloop.index0 < colindex %}
-					{% unless item[1] %}
-						{% assign show = false %}
-					{% endunless %}
 					{% assign highEnd = highEnd | plus:item[1] %}
 				{% endif %}
 			{% endfor %}
 			{% assign lowEnd = lowEnd | append:"" %}
 			{% assign highEnd = highEnd | append:"" %}
-			{% if show %}
+			{% if show and highEnd != "0"%}
 			<td style="--start: calc( {{lowEnd}} / {{full}}); --size: calc({{highEnd}} / {{full}}); --color:{{colors[forloop.index0]}};"><span class="data"> {{highEnd}} </span></td>
 			{% endif %}
 		{% endif %}
