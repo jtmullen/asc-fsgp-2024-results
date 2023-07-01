@@ -46,7 +46,7 @@ social_image: https://www.americansolarchallenge.org/2023/results/assets/images/
 	</section>
 	<section>
 		<a href="fsgp_mov.html" class="image">
-			<img src="{% link assets/images/app_state_track.jpg %}" alt="" data-position="25% 25%" />
+			<img src="{% link assets/images/MOV_FrontStraight.jpg %}" alt="" data-position="25% 25%" />
 		</a>
 		<div class="content">
 			<div class="inner">

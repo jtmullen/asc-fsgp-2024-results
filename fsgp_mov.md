@@ -6,7 +6,7 @@ nav-menu: true
 header: no
 social_title: Multi Occupant Class Results
 social_description: Electrek Formula Sun Grand Prix 2023
-social_image: https://americansolarchallenge.org/2023/results/assets/images/app_state_track.jpg
+social_image: https://americansolarchallenge.org/2023/results/assets/images/MOV_FrontStraight.jpg
 ---
 
 
