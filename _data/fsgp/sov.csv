@@ -1,13 +1,13 @@
 team,number,penalty,fastest,total,1,2,3
 labels,,graph,,,Day 1,Day 2,Day 3
 labels,,table,,,Day 1,Day 2,Day 3
-Florida,5,10,3:34,220,93,94,43
-Illinois State,17,0,3:47,112,46,43,23
-Western Michigan,786,0,6:21,93,40,32,21
-Wisconsin,608,5,4:48,54,1,39,19
+Florida,5,10,3:34,232,93,94,55
+Illinois State,17,0,3:34,127,46,43,38
+Western Michigan,786,0,6:21,100,40,32,28
+Wisconsin,608,5,4:48,62,1,39,27
+Ohio State,614,6,5:26,71,33,18,26
+Dalhousie,7,0,4:26,111,52,33,26
 Principia,32,7,3:18,177,95,71,18
-Ohio State,614,6,5:26,62,33,18,17
-Dalhousie,7,0,4:26,102,52,33,17
-Virginia,87,2,5:24,30,25,7,
-Northwestern,11,3,8:35,0,,3,
-modified,,2 Jul 2023 - 12:04PM Central Daylight Time,,,,,
+Virginia,87,4,5:24,30,25,7,2
+Northwestern,11,5,5:57,0,,3,2
+modified,,2 Jul 2023 - 01:04PM Central Daylight Time,,,,,
