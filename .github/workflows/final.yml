@@ -15,7 +15,6 @@ jobs:
             - name: Log Info
               run: |
                 echo "Time: ${{ github.event.client_payload.time }}"
-                echo "Data: ${{ github.event.client_payload.data }}"
             - uses: actions/checkout@v3
               name: Checkout Repo
             - name: Generate New CSV File
