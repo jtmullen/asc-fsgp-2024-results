@@ -17,6 +17,24 @@ The Electrek Formula Sun Grand Prix 2023 is 3 days of racing on the 2.5 mile roa
 Vehicles competing in the [Multi Occupant Vehicle Class](https://www.americansolarchallenge.org/the-competition/vehicle-classes/) at FSGP are scored based on a formula that includes the number of miles (laps) driven, the number of passengers in the vehicle during those laps, amount of external wall charging, and average speed. The full formula is detailed at the [bottom of this page](#mov-scoring-formula). 
 
 {% include fsgp-final-results class="mov" %}
+
+## Staff Awards
+
+**Abe Poot Teamwork Award**: Appalachian State University<br>
+**Dr. James Hill Sportsmanship Award**: Principia College<br>
+**Spirit of the Event**: Polytechnique Montréal<br>
+**Aesthetics**: University of Florida<br>
+**Perserverance**: Northwestern University<br>
+**Most Improved**: University of Florida<br>
+**Rookie of the Year**: University of Wisconsin-Madison<br>
+**Electrical Design**: Polytechnique Montréal<br>
+**Safety**: Illinois State University<br>
+**Best New Team Scrutineering**: Dalhousie University
+
+## Drag Racing Results
+
+Teams who completed scrutineering early had the opportunity to take runs on the Heartland Motorsports Park 1/4 mile dragstrip. [Download the Results](https://www.americansolarchallenge.org/ASC/wp-content/uploads/2023/07/2023-Solar-Car-Drag-Race.pdf).
+
 -----
 ## MOV Score
 {% if site.fsgp-days-tabs %}

@@ -17,6 +17,23 @@ Vehicles competing in the [Single Occupant Vehicle Class](https://www.americanso
 
 {% include fsgp-final-results class="sov" %}
 
+## Staff Awards
+
+**Abe Poot Teamwork Award**: Appalachian State University<br>
+**Dr. James Hill Sportsmanship Award**: Principia College<br>
+**Spirit of the Event**: Polytechnique Montréal<br>
+**Aesthetics**: University of Florida<br>
+**Perserverance**: Northwestern University<br>
+**Most Improved**: University of Florida<br>
+**Rookie of the Year**: University of Wisconsin-Madison<br>
+**Electrical Design**: Polytechnique Montréal<br>
+**Safety**: Illinois State University<br>
+**Best New Team Scrutineering**: Dalhousie University
+
+## Drag Racing Results
+
+Teams who completed scrutineering early had the opportunity to take runs on the Heartland Motorsports Park 1/4 mile dragstrip. [Download the Results](https://www.americansolarchallenge.org/ASC/wp-content/uploads/2023/07/2023-Solar-Car-Drag-Race.pdf).
+
 -----
 {% if site.fsgp-days-tabs %}
 {% tabs day %}
