@@ -27,7 +27,7 @@ jobs:
         needs: [build-site]
         environment: 
           name: asc-site
-          url: "americansolarchallenge.org/2023/results"
+          url: "americansolarchallenge.org/2024/results"
         steps:
           - name: Checkout ASC Site Branch
             uses: actions/checkout@v2
@@ -39,7 +39,7 @@ jobs:
             uses: SamKirkland/FTP-Deploy-Action@4.3.0
             with:
                 local-dir: "./_build_/"
-                server-dir: "public_html/2023/results/"
+                server-dir: "public_html/2024/results/"
                 server: ftp.americansolarchallenge.org
                 username: ${{ secrets.FTP_USER_2023 }}
                 password: ${{ secrets.FTP_PW_2023 }}
