@@ -4,7 +4,6 @@ title: Electrek American Solar Challenge 2024
 description: "In Partnership with the National Park Service:&nbsp;<b>See America By National Historic Trail</b>"
 social_description: "Results from the Electrek #FSGP2023. June 27 - July 2. Heartland Motorsports Park. Topeka, KS"
 social_image: https://www.americansolarchallenge.org/2023/results/assets/images/banner.jpg
->>>>>>> main
 ---
 
 <div id="main">

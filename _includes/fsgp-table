@@ -12,9 +12,6 @@ FSGP Heat Table Generator
   {%- for team in site.data.fsgp.[class] -%}
 	{%- if team.team == "labels" and team.number == "table" -%}
 		{%- for item in team offset:5 -%}
-  {%- for team in site.data.fsgp.[class] -%}
-	{%- if team.team == "labels" and team.penalty == "table" -%}
-		{%- for item in team offset:5 -%}
 			<th> {{item[1]}} </th>
 		{%- endfor -%}
 	{%- endif -%}
