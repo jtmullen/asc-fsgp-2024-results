@@ -2,15 +2,15 @@
 	<footer id="footer">
 		<div class="inner">
 			<ul class="icons">
-				{% for key_value in site.socials %}
-					{% if key_value[1] %}
+				{%- for key_value in site.socials -%}
+					{%- if key_value[1] -%}
 						<li>
 							<a href="{{ key_value[1] }}" class="icon alt fa-{{ key_value[0] | downcase }}" target="_blank" rel="noopener noreferrer" aria-label="{{ key_value[0] }}">
 								<span class="label">{{ key_value[0] }}</span>
 							</a>
 						</li>
-					{% endif %}
-				{% endfor %}
+					{%- endif -%}
+				{%- endfor -%}
 			</ul>
 			<ul class="copyright">
 				<li>&copy; {{ site.copyright.year }} {{ site.copyright.org }}</li>

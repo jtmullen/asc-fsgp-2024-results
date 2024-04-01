@@ -1,6 +1,6 @@
-{% comment %}
+{%- comment -%}
 FSGP MOV Table Generator
-{% endcomment %}
+{%- endcomment -%}
 <link rel="stylesheet" href="{{site.baseurl}}/assets/css/fsgp-style.css">
 <table class="score-table" style="margin:auto; border: 1px solid 0x000000;">
 <thead>
@@ -24,9 +24,9 @@ FSGP MOV Table Generator
   </tr>
 </thead>
 <tbody>
-{% assign sorted_teams = site.data.fsgp.mov-score | sort: "score" %}
-{% for team in sorted_teams reversed %}
-{% if team.team != "modified" %}
+{%- assign sorted_teams = site.data.fsgp.mov-score | sort: "score" -%}
+{%- for team in sorted_teams reversed -%}
+{%- if team.team != "modified" -%}
 	<tr>
 		<td style="border-right-width: 3px;white-space: nowrap;"><b>#{{team.number}} - {{team.team}}</b></td>
 		<td style="border-right-width: 3px;"><b>{{team.score}}</b></td>
@@ -40,10 +40,10 @@ FSGP MOV Table Generator
 		<td>{{team.capacity}}</td>
 		<td style="border-right-width: 3px;">{{team.external}}</td>		
 	</tr>
-{% else %}
-{% assign modified = team.number %}
-{% endif %}
-{% endfor %}
+{%- else -%}
+{%- assign modified = team.number -%}
+{%- endif -%}
+{%- endfor -%}
 </tbody>
 </table>
 <b>Last Updated: <i>{{modified}}</i></b>

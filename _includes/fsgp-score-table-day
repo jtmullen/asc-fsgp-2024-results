@@ -1,8 +1,8 @@
-{% comment %}
+{%- comment -%}
 FSGP MOV Table Generator
-{% endcomment %}{% assign day = include.day %}
-{% if day != "day1" and day != "day2" and day != "day3" %} <i>Error generating Chart</i>
-{% else %}
+{%- endcomment -%}{%- assign day = include.day -%}
+{%- if day != "day1" and day != "day2" and day != "day3" -%} <i>Error generating Chart</i>
+{%- else -%}
 <link rel="stylesheet" href="{{site.baseurl}}/assets/css/fsgp-style.css">
 <table class="score-table" style="margin:auto; border: 1px solid 0x000000;">
 <thead>
@@ -13,9 +13,9 @@ FSGP MOV Table Generator
   </tr>
   <tr>
   <th style="border-right-width: 3px;border-bottom-width: 3px;"> Team </th>
-  {% if day == "day1" %}<th style="border-right-width: 3px;border-bottom-width: 3px;"> Day 1 Score [S] </th>
-  {% elsif day == "day2" %}<th style="border-right-width: 3px;border-bottom-width: 3px;"> Day 2 Score [S] </th>
-  {% else %}<th style="border-right-width: 3px;border-bottom-width: 3px;"> Day 3 Score [S] </th>{% endif %}
+  {%- if day == "day1" -%}<th style="border-right-width: 3px;border-bottom-width: 3px;"> Day 1 Score [S] </th>
+  {%- elsif day == "day2" -%}<th style="border-right-width: 3px;border-bottom-width: 3px;"> Day 2 Score [S] </th>
+  {%- else -%}<th style="border-right-width: 3px;border-bottom-width: 3px;"> Day 3 Score [S] </th>{%- endif -%}
   <th style="border-bottom-width: 3px;"> Completion Factor [C] </th>
   <th style="border-bottom-width: 3px;"> Speed Derating [T]</th>
   <th style="border-right-width: 3px;border-bottom-width: 3px;"> Total External Energy [E] (kWh) </th>
@@ -28,9 +28,9 @@ FSGP MOV Table Generator
   </tr>
 </thead>
 <tbody>
-{% assign sorted_teams = site.data.fsgp.[day].mov-score | sort: "score" %}
-{% for team in sorted_teams reversed %}
-{% if team.team != "modified" %}
+{%- assign sorted_teams = site.data.fsgp.[day].mov-score | sort: "score" -%}
+{%- for team in sorted_teams reversed -%}
+{%- if team.team != "modified" -%}
 	<tr>
 		<td style="border-right-width: 3px;white-space: nowrap;"><b>#{{team.number}} - {{team.team}}</b></td>
 		<td style="border-right-width: 3px;"><b>{{team.score}}</b></td>
@@ -44,11 +44,11 @@ FSGP MOV Table Generator
 		<td>{{team.capacity}}</td>
 		<td style="border-right-width: 3px;">{{team.external}}</td>		
 	</tr>
-{% else %}
-{% assign modified = team.number %}
-{% endif %}
-{% endfor %}
+{%- else -%}
+{%- assign modified = team.number -%}
+{%- endif -%}
+{%- endfor -%}
 </tbody>
 </table>
 <b>Last Updated: <i>{{modified}}</i></b>
-{% endif %}
+{%- endif -%}
