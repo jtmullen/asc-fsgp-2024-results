@@ -1,7 +1,7 @@
 ---
 layout: landing
-title: Electrek FSGP 2023 Results
-description: "<b>June 27 - July 3. Heartland Motorsports Park. Topeka, KS</b>"
+title: Electrek American Solar Challenge 2024 
+description: "<b>In Partnership with the National Park Service: <i>See America By National Historic Trail</i></b>"
 ---
 
 <!-- Main -->
