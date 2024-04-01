@@ -1,17 +1,14 @@
 team,number,order,1,2,3,4,5,6,7,8,9,10,11
 title,,,Driver Registration,Driver Operations,Lights & Vision,Body & Sizing,Electrical,Battery Protection,Mechanical,Dynamics,Array Testing,Safety,Impound & MOV
-Florida,5,,,,,,,,,,,,
-Berkeley,6,1,,,,,,,,,,,
-Dalhousie,7,,,,,,,,,,,,
-Northwestern,11,,,,,,,,,,,,
-Illinois State,17,,,,,,,,,,,,
-Kennesaw State,21,,,,,,,,,,,,
-Principia,32,,,,,,,Y,,,G,,
-Poly Montreal,55,,,,,,,,,,,,
-Virginia,87,,,,,,,,,,,,
-Virginia Tech,540,,,,,,,,,,,,
-Wisconsin,608,,,,,,,,,,,,
-Ohio State,614,,,,,,,,,,,,
-W. Michigan,786,,,,,,,,,,,,
-App State,828,,,,,,,,,,,,
-modified,24 Jun 2023 - 07:51PM Central Daylight Time,,,,,,,,,,,,
+Florida,5,2,G,G,G,G,G,G,G,G,G,G,G
+Dalhousie,7,3,G,G,G,B,G,G,B,G,G,G,G
+Northwestern,11,11,G,G,G,B,G,G,B,G,G,G,G
+Illinois State,17,6,G,G,G,G,G,G,G,G,G,G,G
+Principia,32,5,G,G,G,B,G,G,G,G,G,G,G
+Poly Montréal,55,1,G,G,G,G,G,G,G,G,G,G,G
+Virginia,87,8,G,G,G,G,G,G,G,G,G,G,G
+Wisconsin,608,10,G,G,B,B,G,G,G,G,G,G,G
+Ohio State,614,9,G,G,G,B,G,G,G,G,G,G,G
+W. Michigan,786,4,G,G,G,B,G,G,B,G,G,G,G
+App State,828,7,G,G,G,G,G,G,G,G,G,G,G
+modified,30 Jun 2023 - 05:56PM Central Daylight Time,,,,,,,,,,,,

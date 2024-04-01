@@ -10,4 +10,17 @@
 	<link rel="stylesheet" href="{{ "assets/css/main.css" | relative_url }}" />
 	<!--[if lte IE 9]><link rel="stylesheet" href="{{ "assets/css/ie9.css" | relative_url }}" /><![endif]-->
 	<!--[if lte IE 8]><link rel="stylesheet" href="{{ "assets/css/ie8.css" | relative_url }}" /><![endif]-->
+
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@ASC_SolarRacing">
+	<meta name="twitter:title" content="{{ page.title }}">
+	<meta name="twitter:description" content="{{ page.social_description }}">
+	<meta name="twitter:image" content="{{ page.social_image }}">
+
+	<meta property="og:url"                content="{{ site.url }}{{ site.baseurl }}{{ page.url }}" />
+	<meta property="og:type"               content="article" />
+	<meta property="og:title"              content="{{ page.title }}" />
+	<meta property="og:description"        content="{{ page.social_description }}" />
+	<meta property="og:image"              content="{{ page.social_image }}" /><!-- Main -->
+
 </head>

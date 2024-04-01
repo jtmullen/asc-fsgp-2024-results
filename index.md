@@ -2,9 +2,11 @@
 layout: landing
 title: Electrek American Solar Challenge 2024 
 description: "In Partnership with the National Park Service:&nbsp;<b>See America By National Historic Trail</b>"
+social_description: "Results from the Electrek #FSGP2023. June 27 - July 2. Heartland Motorsports Park. Topeka, KS"
+social_image: https://www.americansolarchallenge.org/2023/results/assets/images/banner.jpg
+>>>>>>> main
 ---
 
-<!-- Main -->
 <div id="main">
 
 <!-- One -->
@@ -13,7 +15,7 @@ description: "In Partnership with the National Park Service:&nbsp;<b>See America
 <section id="two" class="spotlights">
 	<section>
 		<a href="scrutineering.html" class="image">
-			<img src="{% link assets/images/montreal-pull.jpg %}" alt="" data-position="center center" />
+			<img src="{% link assets/images/FloridaEgress.jpg %}" alt="" data-position="center center" />
 		</a>
 		<div class="content">
 			<div class="inner">
@@ -45,7 +47,7 @@ description: "In Partnership with the National Park Service:&nbsp;<b>See America
 	</section>
 	<section>
 		<a href="fsgp_mov.html" class="image">
-			<img src="{% link assets/images/app_state_track.jpg %}" alt="" data-position="25% 25%" />
+			<img src="{% link assets/images/MOV_FrontStraight.jpg %}" alt="" data-position="25% 25%" />
 		</a>
 		<div class="content">
 			<div class="inner">

@@ -1,17 +1,13 @@
 team,number,penalty,fastest,total,1,2,3
-labels,graph,,,,Day 1,Day 2,Day 3
-labels,table,,,,Day 1,Day 2,Day 3
-Kentucky,3,0,1:11,37,37,,
-MIT,4,0,2:22,51,51,,
-Florida,5,0,3:33,0,0,,
-Berkeley,6,0,4:44,43,43,,
-Illinois State,17,0,5:55,4,4,,
-Illinois,22,0,3:56,37,37,,
-British Columbia,26,0,4:43,0,0,,
-Principia,32,0,3:20,50,50,,
-Georgia Tech,49,0,4:20,43,43,,
-Virginia,87,0,4:53,0,0,,
-ETS,101,0,3:40,0,0,,
-Kansas,785,0,11:33,0,0,,
-Western Michigan,786,0,4:02,27,27,,
-modified,25 Jun 2023 - 07:29PM Central Daylight Time,,,,,,
+labels,,graph,,,Day 1,Day 2,Day 3
+labels,,table,,,Day 1,Day 2,Day 3
+Florida,5,13,3:34,283,93,94,109
+Principia,32,13,3:26,217,95,71,64
+Illinois State,17,0,3:34,168,46,43,79
+Dalhousie,7,0,4:26,135,52,33,50
+Western Michigan,786,0,5:21,127,40,32,55
+Ohio State,614,6,5:26,103,33,18,58
+Wisconsin,608,5,4:48,92,1,39,57
+Virginia,87,9,5:24,32,25,7,9
+Northwestern,11,8,5:44,7,,3,12
+modified,,2 Jul 2023 - 10:09PM Central Daylight Time,,,,,
