@@ -9,7 +9,35 @@ social_image: https://www.americansolarchallenge.org/2023/results/assets/images/
 <div id="main">
 
 <!-- One -->
-
+<section id="one" class="tiles">
+  <article>
+    <span class="image">
+      <img src="{% link assets/images/MOV_FrontStraight.jpg %}" alt="alt" />
+    </span>
+    <header class="major">
+      <h3><a href="{{ tile.url  | relative_url }}" class="link">Title</a></h3>
+      <p>test</p>
+    </header>
+  </article>
+    <article>
+    <span class="image">
+      <img src="{% link assets/images/MOV_FrontStraight.jpg %}" alt="alt" />
+    </span>
+    <header class="major">
+      <h3><a href="{{ tile.url  | relative_url }}" class="link">Title</a></h3>
+      <p>test</p>
+    </header>
+  </article>
+    <article>
+    <span class="image">
+      <img src="{% link assets/images/MOV_FrontStraight.jpg %}" alt="alt" />
+    </span>
+    <header class="major">
+      <h3><a href="{{ tile.url  | relative_url }}" class="link">Title</a></h3>
+      <p>test</p>
+    </header>
+  </article>
+</section>
 <!-- Two -->
 <section id="two" class="spotlights">
 	<section>
