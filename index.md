@@ -1,7 +1,7 @@
 ---
 layout: landing
 title: Electrek American Solar Challenge 2024 
-description: "<b>In Partnership with the National Park Service: <i>See America By National Historic Trail</i></b>"
+description: "In Partnership with the National Park Service:&nbsp;<b>See America By National Historic Trail</b>"
 ---
 
 <!-- Main -->
