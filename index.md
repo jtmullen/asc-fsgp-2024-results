@@ -4,9 +4,11 @@ title: Electrek American Solar Challenge 2024
 description: "In Partnership with the National Park Service:&nbsp;<b>See America By National Historic Trail</b>"
 social_description: "Results from the Electrek #FSGP2023. June 27 - July 2. Heartland Motorsports Park. Topeka, KS"
 social_image: https://www.americansolarchallenge.org/2023/results/assets/images/banner.jpg
+currently: ASC
 ---
 
 <div id="main">
+
 
 <!-- One -->
 <section id="one" class="tiles">
@@ -15,8 +17,8 @@ social_image: https://www.americansolarchallenge.org/2023/results/assets/images/
       <img src="{% link assets/images/MOV_FrontStraight.jpg %}" alt="alt" />
     </span>
     <header class="major">
-      <h3><a href="{{ tile.url  | relative_url }}" class="link">Title</a></h3>
-      <p>test</p>
+      <h3><a href="{{ tile.url  | relative_url }}" class="link">Scrutineering</a></h3>
+      <p>Vehicle Inspections; <i>July 13-15</i></p>
     </header>
   </article>
     <article>
@@ -24,8 +26,8 @@ social_image: https://www.americansolarchallenge.org/2023/results/assets/images/
       <img src="{% link assets/images/MOV_FrontStraight.jpg %}" alt="alt" />
     </span>
     <header class="major">
-      <h3><a href="{{ tile.url  | relative_url }}" class="link">Title</a></h3>
-      <p>test</p>
+      <h3><a href="{{ tile.url  | relative_url }}" class="link">Formula Sun Grand Prix</a></h3>
+      <p>Track Race and ASC Qualifier; <i>July 16-18</i></p>
     </header>
   </article>
     <article>
@@ -33,61 +35,49 @@ social_image: https://www.americansolarchallenge.org/2023/results/assets/images/
       <img src="{% link assets/images/MOV_FrontStraight.jpg %}" alt="alt" />
     </span>
     <header class="major">
-      <h3><a href="{{ tile.url  | relative_url }}" class="link">Title</a></h3>
-      <p>test</p>
+      <h3><a href="{{ tile.url  | relative_url }}" class="link">Electrek American Solar Challenge</a></h3>
+      <p>1550+ mile Road Challenge Following 7 National Historic Trails; <i>July 20-27</i></p>
     </header>
   </article>
 </section>
 <!-- Two -->
-<section id="two" class="spotlights">
-	<section>
-		<a href="scrutineering.html" class="image">
-			<img src="{% link assets/images/FloridaEgress.jpg %}" alt="" data-position="center center" />
-		</a>
-		<div class="content">
-			<div class="inner">
-				<header class="major">
-					<h3><a href="scrutineering.html">Scrutineering</a></h3>
-				</header>
-				<p>3 Days of Technical Inspections and Dynamic Tests</p>
-				<ul class="actions">
-					<li><a href="scrutineering.html" class="button">View Status</a></li>
-				</ul>
-			</div>
-		</div>
-	</section>
-	<section>
-		<a href="fsgp_sov.html" class="image">
-			<img src="{% link assets/images/prin-fl-front-straight.jpg %}" alt="" data-position="top center" />
-		</a>
-		<div class="content">
-			<div class="inner">
-				<header class="major">
-					<h3><a href="fsgp_sov.html">#FSGP2023 Single Occupant Vehicle Class</a></h3>
-				</header>
-				<p>3 Days on the Track Competing to Complete the Most Laps</p>
-				<ul class="actions">
-					<li><a href="fsgp_sov.html" class="button">See Results</a></li>
-				</ul>
-			</div>
-		</div>
-	</section>
-	<section>
-		<a href="fsgp_mov.html" class="image">
-			<img src="{% link assets/images/MOV_FrontStraight.jpg %}" alt="" data-position="25% 25%" />
-		</a>
-		<div class="content">
-			<div class="inner">
-				<header class="major">
-					<h3><a href="fsgp_mov.html">#FSGP2023 Multi Occupant Vehicle Class</a></h3>
-				</header>
-				<p>3 Days of Efficient Driving Competing for the Highest Score</p>
-				<ul class="actions">
-					<li><a href="fsgp_mov.html" class="button">See Results</a></li>
-				</ul>
-			</div>
-		</div>
-	</section>
+<section id="two" class="tiles">
+  <article>
+    <span class="image">
+      <img src="{% link assets/images/MOV_FrontStraight.jpg %}" alt="alt" />
+    </span>
+    <header class="major">
+      <h3><a href="{{ tile.url  | relative_url }}" class="link">FSGP Track</a></h3>
+      <p>National Corvette Museum; <i>Bowling Green, KY</i></p>
+    </header>
+  </article>
+    <article>
+    <span class="image">
+      <img src="{% link assets/images/MOV_FrontStraight.jpg %}" alt="alt" />
+    </span>
+    <header class="major">
+      <h3><a href="{{ tile.url  | relative_url }}" class="link">See America by National Historic Trail</a></h3>
+      <p>Nashville, TN to Casper, WY</p>
+    </header>
+  </article>
+    <article>
+    <span class="image">
+      <img src="{% link assets/images/MOV_FrontStraight.jpg %}" alt="alt" />
+    </span>
+    <header class="major">
+      <h3><a href="{{ tile.url  | relative_url }}" class="link">Subscribe to Updates</a></h3>
+      <p>...</i></p>
+    </header>
+  </article>
+    <article>
+    <span class="image">
+      <img src="{% link assets/images/MOV_FrontStraight.jpg %}" alt="alt" />
+    </span>
+    <header class="major">
+      <h3><a href="{{ tile.url  | relative_url }}" class="link">Something Goes Here</a></h3>
+      <p>Nashville, TN to Casper, WY</p>
+    </header>
+  </article>
 </section>
 
 <!-- Three -->

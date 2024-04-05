@@ -6,9 +6,13 @@
   url: "/scrutineering.html"
   side: left
 
-- title: "Single Occupant Class"
-  url: "/fsgp_sov.html"
+- title: "FSGP"
   side: left
+  dropdown: 
+  - title: "Live Updates"
+    url: "/fsgp/live"
+  - title: "Official Results"
+    url: "/fsgp/results"
 
 - title: "Multi Occupant Class"
   url: "/fsgp_mov.html"
