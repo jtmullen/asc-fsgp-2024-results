@@ -3,20 +3,45 @@
   side: left
 
 - title: "Scrutineering"
-  url: "/scrutineering.html"
+  url: "/scrutineering"
   side: left
+  dropdown: 
+  - title: "Team Status"
+    url: "/scrutineering"
+  - title: "Altair Challenge"
+    url: "/fsgp/live"
 
 - title: "FSGP"
   side: left
+  url: "/fsgp"
   dropdown: 
+  - title: "Track"
+    url: "/fsgp/track"
   - title: "Live Updates"
     url: "/fsgp/live"
   - title: "Official Results"
     url: "/fsgp/results"
-
-- title: "Multi Occupant Class"
-  url: "/fsgp_mov.html"
+    
+- title: "ASC"
   side: left
+  url: "/asc"
+  dropdown: 
+  - title: "Route"
+    url: "/asc/route"
+  - title: "Live Timing Board"
+    url: "/asc/timing"
+  - title: "Official Results"
+    url: "/asc/results"
+    
+- title: "Teams"
+  side: left
+  url: "/teams"
+  dropdown: 
+  - title: "Meet the Teams"
+    url: "/teams"
+  - title: "Info for Teams"
+    url: "https://www.americansolarchallenge.org/the-competition/2024-american-solar-challenge/"
+
 
 - title: "Updates"
   url: "/updates.html"
