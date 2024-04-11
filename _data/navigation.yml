@@ -1,4 +1,4 @@
-- title: "Home"
+- title: "Electrek ASC & FSGP 2024 Home"
   url: "/"
   side: left
 
@@ -15,23 +15,23 @@
   side: left
   url: "/fsgp"
   dropdown: 
-  - title: "Track"
-    url: "/fsgp/track"
   - title: "Live Updates"
     url: "/fsgp/live"
   - title: "Official Results"
     url: "/fsgp/results"
+  - title: "Track"
+    url: "/fsgp/track"
     
 - title: "ASC"
   side: left
   url: "/asc"
-  dropdown: 
-  - title: "Route"
-    url: "/asc/route"
+  dropdown:
   - title: "Live Timing Board"
     url: "/asc/timing"
   - title: "Official Results"
     url: "/asc/results"
+  - title: "Route"
+    url: "/asc/route"
     
 - title: "Teams"
   side: left
@@ -48,11 +48,11 @@
   side: right
 
 - title: "Sponsors"
-  url: "/../../sponsorship/fsgp-2023-sponsors/"
+  url: "/../sponsorship/fsgp-2024-sponsors/"
   side: right
 
 - title: "ASC Website"
-  url: "/../.."
+  url: "/.."
   side: right
 
 
