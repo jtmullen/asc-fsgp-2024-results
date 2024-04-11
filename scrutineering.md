@@ -1,15 +1,15 @@
 ---
 layout: page-fullwidth
 title: Scrutineering
-description: "4 days of Tech Inspections and Dynamic Tests"
+description: "3 days of Tech Inspections and Dynamic Tests"
 nav-menu: true
 header: no
 social_title: Scrutineering Status
-social_description: Electrek Formula Sun Grand Prix 2023
+social_description: Electrek Formula Sun Grand Prix 2024
 social_image: https://americansolarchallenge.org/2023/results/assets/images/FloridaEgress.jpg
 ---
 
-Before they can get on the track, teams and their solar cars undergo several days of scrutiny from the event's technical staff. All teams will go through the same 11 stations prior to being cleared for the track.
+Before they can get on the track, teams and their solar cars undergo several days of scrutiny from the event's technical staff. All teams will go through the same 11 stations prior to being cleared for the track. An additional station is required for teams competing in ASC. 
 <table style="font-size:15px">
 <tbody>
   <tr>
@@ -54,7 +54,11 @@ Before they can get on the track, teams and their solar cars undergo several day
   </tr>
   <tr>
     <td><b>Impound &amp; MOV</b></td>
-    <td>All vehicles must demonstrate how their battery system is impounded outside of race hours. Multi-Occupant Vehicles are additionally outfitted with metering equipment for external charging. <br><i><a href="https://www.americansolarchallenge.org/the-competition/vehicle-classes/">Learn More About the Vehicle Classes</a></i></td>
+    <td>All vehicles must demonstrate how their battery system is impounded outside of race hours. Multi-Occupant Vehicles are additionally outfitted with metering equipment for external charging. <i><a href="https://www.americansolarchallenge.org/the-competition/vehicle-classes/">Learn More About the Vehicle Classes</a></i></td>
+  </tr>
+  <tr>
+    <td><b>ASC Support Vehicles</b></td>
+    <td>Team participating in ASC have their on-road support vehicles checked for required lights, signage, and safety equipment.</td>
   </tr>
 </tbody>
 </table>
