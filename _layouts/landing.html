@@ -20,11 +20,13 @@
 			<div class="content">
 				{{ page.description }}
 			</div>
+			{%- if page.current != "" -%}
 			<div>
 			<ul class="actions">
-			<li><a href="https://www.americansolarchallenge.org/" class="button next">Latest Updates from Scrutineering</a></li>
+			<li><a href="{{ page.current_link }}" class="button next">{{ page.current }}</a></li>
 			</ul>
 			</div>
+			{%- endif -%}
         </div>
     </section>
     {{ content }}

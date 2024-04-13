@@ -12,18 +12,11 @@
 <!-- Menu -->
 <nav id="menu">
 	<ul class="links">
-        {%- for page in site.pages -%}
-		    {%- if page.layout == "home" -%}
-		        <li><a href="{{ "" | absolute_url }}/">{{ page.title }}</a></li>
-	    	{%- endif -%}
-		{%- endfor -%}
-		{%- for page in site.html_pages reversed -%}
-		    {%- if page.layout != "home" and page.nav-menu == true -%}
-		        <li><a href="{{ page.url | absolute_url }}">{{ page.title }}</a></li>
-		    {%- endif -%}
-		{%- endfor -%}
+		 <li><a href="./scrutineering">Scrutineering</a></li>
+		 <li><a href="./fsgp">Electrek FSGP</a></li>
+		 <li><a href="./asc">Electrek ASC</a></li>
 		 <li><a href="https://www.americansolarchallenge.org/">Main ASC & FSGP Website</a></li>
-		 <li><a href="https://www.americansolarchallenge.org/sponsorship/fsgp-2023-sponsors/">Sponsors</a></li>
+		 <li><a href="https://www.americansolarchallenge.org/sponsorship/asc-fsgp-2024-sponsors/">Sponsors</a></li>
 		 <li><a href="./updates.html">Updates</a></li>
 	</ul>
 </nav>

@@ -4,7 +4,8 @@ title: Electrek American Solar Challenge 2024
 description: "In Partnership with the National Park Service:&nbsp;<b>See America By National Historic Trail</b>"
 social_description: "Results from the Electrek #FSGP2023. June 27 - July 2. Heartland Motorsports Park. Topeka, KS"
 social_image: https://www.americansolarchallenge.org/2023/results/assets/images/banner.jpg
-currently: ASC
+current: ""
+current_link: "/scrutineering.html"
 ---
 
 <div id="main">
@@ -39,15 +40,12 @@ currently: ASC
       <p>1550+ mile Road Challenge Following 7 National Historic Trails; <i>July 20-27</i></p>
     </header>
   </article>
-</section>
-<!-- Two -->
-<section id="two" class="tiles">
   <article>
     <span class="image">
       <img src="{% link assets/images/MOV_FrontStraight.jpg %}" alt="alt" />
     </span>
     <header class="major">
-      <h3><a href="{{ tile.url  | relative_url }}" class="link">FSGP Track</a></h3>
+      <h3><a href="{{ tile.url  | relative_url }}" class="link">The Track</a></h3>
       <p>National Corvette Museum; <i>Bowling Green, KY</i></p>
     </header>
   </article>
@@ -57,7 +55,7 @@ currently: ASC
     </span>
     <header class="major">
       <h3><a href="{{ tile.url  | relative_url }}" class="link">See America by National Historic Trail</a></h3>
-      <p>Nashville, TN to Casper, WY</p>
+      <p>ASC Route from Nashville, TN to Casper, WY</p>
     </header>
   </article>
     <article>
@@ -69,30 +67,21 @@ currently: ASC
       <p>...</i></p>
     </header>
   </article>
-    <article>
-    <span class="image">
-      <img src="{% link assets/images/MOV_FrontStraight.jpg %}" alt="alt" />
-    </span>
-    <header class="major">
-      <h3><a href="{{ tile.url  | relative_url }}" class="link">Something Goes Here</a></h3>
-      <p>Nashville, TN to Casper, WY</p>
-    </header>
-  </article>
 </section>
 
 <!-- Three -->
+<!--
 <section id="three">
 	<div class="inner">
 		<header class="major">
 			<h2>Looking for More?</h2>
 		</header>
-		<p>Find full info about the 2023 event and Solar Car Racing in the United States on our full website</p>
+		<p>Find full info about the 2024 event and Solar Car Racing in the United States on our full website</p>
 		<ul class="actions">
 			<li><a href="https://www.americansolarchallenge.org/" class="button next">Full ASC/FSGP Website</a></li>
 		</ul>
 	</div>
-</section>
-
+</section>-->
 <section id="four" class="spotlights">
 	<section>
 		<a href="https://electrek.co/" class="image">
