@@ -1,14 +1,5 @@
 team,number,order,1,2,3,4,5,6,7,8,9,10,11,12
 title,,,Driver Registration,Driver Operations,Lights & Vision,Body & Sizing,Electrical,Battery Protection,Mechanical,Dynamics,Array Testing,Safety,Impound & MOV,ASC Support
-Florida,5,2,G,G,G,G,G,G,G,G,G,G,G,N
-Dalhousie,7,3,G,G,G,B,G,G,B,G,G,G,G,N
-Northwestern,11,11,G,G,G,B,G,G,B,G,G,G,G,N
-Illinois State,17,6,G,G,G,G,G,G,G,G,G,G,G,N
-Principia,32,5,G,G,G,B,G,G,G,G,G,G,G,N
-Poly Montréal,55,1,G,G,G,G,G,G,G,G,G,G,G,N
-Virginia,87,8,G,G,G,G,G,G,G,G,G,G,G,N
-Wisconsin,608,10,G,G,B,B,G,G,G,G,G,G,G,N
-Ohio State,614,9,G,G,G,B,G,G,G,G,G,G,G,N
-W. Michigan,786,4,G,G,G,B,G,G,B,G,G,G,G,N
-App State,828,7,G,G,G,G,G,G,G,G,G,G,G,N
+Team Name,1,2,G,G,Y,G,G,R,G,,B,G,G,N
+Another One,2,1,G,G,Y,G,G,R,G,B,B,G,G,
 modified,10 Apr 2024 - 09:56PM Central Daylight Time,,,,,,,,,,,,,
