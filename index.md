@@ -15,7 +15,7 @@ current_link: "/scrutineering.html"
 <section id="one" class="tiles">
   <article>
     <span class="image">
-      <img src="{% link assets/images/MOV_FrontStraight.jpg %}" alt="alt" />
+      <img src="{% link assets/images/isu_scrutineering.jpg %}" alt="alt" />
     </span>
     <header class="major">
       <h3><a href="{{ tile.url  | relative_url }}" class="link">Scrutineering</a></h3>

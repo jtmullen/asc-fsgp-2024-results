@@ -6,7 +6,7 @@ nav-menu: true
 header: no
 social_title: Scrutineering Status
 social_description: Electrek Formula Sun Grand Prix 2024
-social_image: https://americansolarchallenge.org/2023/results/assets/images/FloridaEgress.jpg
+social_image: "{% link assets/images/isu_scrutineering.jpg %}"
 stations: 12
 ---
 
