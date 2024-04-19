@@ -10,7 +10,7 @@ group :jekyll_plugins do
   gem 'jekyll-gist'
   gem 'jekyll-paginate'
   gem "jekyll-asciidoc"
-  gem "jekyll-tabs"
+  gem "jekyll-tabs", '1.2.1'
 end
 
 gem 'asciidoctor', '~> 1.5.4'
