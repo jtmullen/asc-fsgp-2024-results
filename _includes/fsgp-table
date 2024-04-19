@@ -10,7 +10,7 @@ FSGP Heat Table Generator
   <th> Team </th>
   <th style="border-right-width: 3px;border-left-width:3px;"> Total </th>
   {%- for team in site.data.fsgp.[class] -%}
-	{%- if team.team == "labels" and team.number == "table" -%}
+	{%- if team.team == "labels" and team.penalty == "table" -%}
 		{%- for item in team offset:5 -%}
 			<th> {{item[1]}} </th>
 		{%- endfor -%}
