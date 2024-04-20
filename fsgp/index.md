@@ -38,19 +38,19 @@ Vehicles competing in the [Multi Occupant Vehicle Class](https://www.americansol
 
 <div style="margin:auto; text-align:center;"> <i> Scroll right to see all data on small screens </i>
 {% include fsgp-score-table %}
+</div>
 
-<br>
 -----
-<br>
+
 ## MOV Laps
 {% include fsgp-lap class="mov" %}
 <br>
 <div style="margin:auto; text-align:center;"> <i> Scroll right to see all data on small screens </i>
 {% include fsgp-table class="mov" %}
-
+</div>
 
 -----
-<br>
+
 # MOV Scoring Formula
 
 At FSGP, Multi Occupant Vehicles are scored based on the number of laps they complete, the number of passengers carried, the amount of external energy used, and their average speed. The scoring formula is as follows: \$$ S = \frac{D}{E} \times C \times T $$
