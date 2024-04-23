@@ -19,7 +19,7 @@ Running lap counts from the track will be updated roughly every hour. MOV Scores
 {% tabs class %}
 {% tab class SOV Class%}
 
-{% include fsgp-lap-chart-js %}
+{% include fsgp-lap-chart-js class="sov" %}
 <br>
 <div style="margin:auto; text-align:center;"> <i> Scroll right to see all data on small screens </i>
 {% include fsgp-table class="sov" %}

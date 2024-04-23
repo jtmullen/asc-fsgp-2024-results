@@ -1,34 +1,33 @@
 {%- comment -%}
 FSGP Lap Chart JS
 {%- endcomment -%}
+{%- assign class = include.class -%}
+{%if class != "sov" and class != "mov" -%} <i>Error generating Chart</i>
+{%- else -%}
+{%- assign teams = site.data.fsgp.[class] -%}
+{%- assign sorted_teams = teams | sort: "number" -%}
 <div>
-  <canvas id="myChart"></canvas>
+  <canvas id="fsgp-lap-[class]"></canvas>
 </div>
-
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
 <script>
-  const ctx = document.getElementById('myChart');
+  const ctx = document.getElementById('fsgp-lap-[class]');
 
-	const DATA_COUNT = 7;
-	const NUMBER_CFG = {count: DATA_COUNT, min: 0, max: 10};
-
-	const labels = ["A", "B", "C", "D", "E", "F", "G"];
+	const labels = ["Start", "Day 1", "Day 2", "Day 3"];
 	const data = {
 	  labels: labels,
 	  datasets: [
+	  {%- for team in sorted_teams -%}
+	  {%- if team.team != "modified" -%}
+	  {%- if team.team != "labels" -%}
 		{
-		  label: 'Dataset 1',
-		  data: [1,2,3,4,5,6,7],
-		  borderColor: '#FF0000',
-		  backgroundColor: '#FF0000',
+		  label: '#{{team.number}} - {{team.team}}',
+		  data: [0,{%- if team.1 != ““ -%}{{team.1}}{%- endif -%},{%- if team.2 != ““ -%}{{team.1 | plus: team.2}}{%- endif -%},{%- if team.3 != ““ -%}{{team.1 | plus: team.2 | plus: team.3}}{%- endif -%}],
 		},
-		{
-		  label: 'Dataset 2',
-		  data: [2,3,4,5,1,2,3],
-		  borderColor: '#0000FF',
-		  backgroundColor: '#0000FF',
-		}
+	  {%- endif -%}
+	  {%- endif -%}
+	  {%- endfor -%}
 	  ]
 	};
 
@@ -39,17 +38,18 @@ FSGP Lap Chart JS
 		responsive: true,
 		plugins: {
 		  legend: {
-			position: 'top',
+			position: 'bottom',
 		  },
 		  title: {
 			display: true,
-			text: 'Chart.js Line Chart'
+			text: 'Lap Counts: {{class | upcase }} class'
+		  },
+		  colors: {
+			enabled: true
 		  }
 		}
 	  },
   });
 </script>
-
- 
-
+{%- endif -%}
  
