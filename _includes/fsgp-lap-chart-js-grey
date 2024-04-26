@@ -4,8 +4,6 @@ FSGP Lap Chart JS
 {%- assign class = include.class -%}
 {%if class != "sov" and class != "mov" -%} <i>Error generating Chart</i>
 {%- else -%}
-{%- assign colors = "#4aabed,#ff6384,#ff9f40,#ffcd56,#4bc0c0,#9966ff,#c9cbcf" | split: "," -%}
-{%- assign fillcolors = "#99cff4,#feb0c0,#fece9e,#fee5a9,#a4dede,#cbb1fe,#e3e4e6" | split: "," -%}
 {%- assign teams = site.data.fsgp.[class] -%}
 {%- assign sorted_teams = teams | sort: "number" -%}
 <div>
@@ -19,14 +17,14 @@ FSGP Lap Chart JS
 	function handleHover(evt, item, legend) {
 	  console.log("Hover");
 	  legend.chart.data.datasets.forEach((line, index, lines) => {
-		lines[index].borderColor = index === item.datasetIndex  || lines[index].borderColor === 9 ? line.borderColor : line.borderColor + '26';
+		lines[index].borderColor = index === item.datasetIndex  || lines[index].borderColor === 9 ? "#2B60DE" : "#999DA030";
 	  });
 	  legend.chart.update();
 	}
 
 	function handleLeave(evt, item, legend) {
 	  legend.chart.data.datasets.forEach((line, index, lines) => {
-		lines[index].borderColor = line.borderColor.length === 9 ? line.borderColor.slice(0, -2) : line.borderColor;
+		lines[index].borderColor = "#999DA0A0";
 	  });
 	  legend.chart.update();
 	}
@@ -44,8 +42,11 @@ FSGP Lap Chart JS
 		{
 		  label: '#{{team.number}} - {{team.team}}',
 		  data: [0,{%- if team.1 != ““ -%}{{team.1}}{%- endif -%},{%- if team.2 != ““ -%}{{team.1 | plus: team.2}}{%- endif -%},{%- if team.3 != ““ -%}{{team.1 | plus: team.2 | plus: team.3}}{%- endif -%}],
-		  backgroundColor: "{{fillcolors[count]}}",
-		  borderColor:  "{{colors[count]}}",
+		  backgroundColor: "#999DA0",
+		  borderColor:  "#999DA0A0",
+		  hoverBorderColor: "#2B60DE",
+		  hoverBackgroundColor: "#2B60DE",
+		  fill: false,
 		},
 	  {%- assign count = count | plus:1 -%}
 	  {%- endif -%}
@@ -59,6 +60,9 @@ FSGP Lap Chart JS
     data: data,
     options: {
 		responsive: true,
+	    hover: {
+		  mode: 'dataset'
+		},
 		plugins: {
 		  legend: {
 			position: 'bottom',

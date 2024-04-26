@@ -19,7 +19,7 @@ Running lap counts from the track will be updated roughly every hour. MOV Scores
 {% tabs class %}
 {% tab class SOV Class%}
 
-{% include fsgp-lap-chart-js class="sov" %}
+{% include fsgp-lap-chart-js-grey class="sov" %}
 <br>
 <div style="margin:auto; text-align:center;"> <i> Scroll right to see all data on small screens </i>
 {% include fsgp-table class="sov" %}
@@ -43,7 +43,7 @@ Vehicles competing in the [Multi Occupant Vehicle Class](https://www.americansol
 -----
 
 ## MOV Laps
-{% include fsgp-lap class="mov" %}
+{% include fsgp-lap-chart-js class="mov" %}
 <br>
 <div style="margin:auto; text-align:center;"> <i> Scroll right to see all data on small screens </i>
 {% include fsgp-table class="mov" %}
