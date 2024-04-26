@@ -14,7 +14,7 @@ FSGP Lap Chart JS
 <script>
   
 
-	function handleHover(evt, item, legend) {
+	function handleHover{{class}}(evt, item, legend) {
 	  console.log("Hover");
 	  legend.chart.data.datasets.forEach((line, index, lines) => {
 		lines[index].borderColor = index === item.datasetIndex  || lines[index].borderColor === 9 ? "#2B60DE" : "#999DA030";
@@ -22,18 +22,18 @@ FSGP Lap Chart JS
 	  legend.chart.update();
 	}
 
-	function handleLeave(evt, item, legend) {
+	function handleLeave{{class}}(evt, item, legend) {
 	  legend.chart.data.datasets.forEach((line, index, lines) => {
 		lines[index].borderColor = "#999DA0A0";
 	  });
 	  legend.chart.update();
 	}
 
-	const ctx = document.getElementById('fsgp-lap-{{class}}');
+	const ctx{{class}} = document.getElementById('fsgp-lap-{{class}}');
 	
-	const labels = ["Start", "Day 1", "Day 2", "Day 3"];
-	const data = {
-	  labels: labels,
+	const labels{{class}} = ["Start", "Day 1", "Day 2", "Day 3"];
+	const data{{class}} = {
+	  labels: labels{{class}},
 	  datasets: [
 	  {%- assign count = 0 -%}
 	  {%- for team in sorted_teams -%}
@@ -55,9 +55,9 @@ FSGP Lap Chart JS
 	  ]
 	};
 
-  new Chart(ctx, {
+  new Chart(ctx{{class}}, {
     type: 'line',
-    data: data,
+    data: data{{class}},
     options: {
 		responsive: true,
 	    hover: {
@@ -75,8 +75,8 @@ FSGP Lap Chart JS
 			enabled: true
 		  },
 		  legend: {
-			onHover: handleHover,
-			onLeave: handleLeave
+			onHover: handleHover{{class}},
+			onLeave: handleLeave{{class}}
 		  }	
 		}
 	  },

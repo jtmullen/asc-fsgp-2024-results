@@ -31,7 +31,7 @@ FSGP Lap Chart JS
 	  legend.chart.update();
 	}
 
-	const ctx = document.getElementById('fsgp-lap-{{class}}');
+	const ctx{{class}} = document.getElementById('fsgp-lap-{{class}}');
 	
 	const labels = ["Start", "Day 1", "Day 2", "Day 3"];
 	const data = {
@@ -54,7 +54,7 @@ FSGP Lap Chart JS
 	  ]
 	};
 
-  new Chart(ctx, {
+  new Chart(ctx{{class}}, {
     type: 'line',
     data: data,
     options: {
