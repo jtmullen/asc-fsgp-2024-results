@@ -14,12 +14,10 @@ FSGP Lap Chart JS
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
 <script>
-  
 
 	function handleHover(evt, item, legend) {
-	  console.log("Hover");
 	  legend.chart.data.datasets.forEach((line, index, lines) => {
-		lines[index].borderColor = index === item.datasetIndex  || lines[index].borderColor === 9 ? line.borderColor : line.borderColor + '26';
+		lines[index].borderColor = index === item.datasetIndex  || lines[index].borderColor === 9 ? line.borderColor : line.borderColor + '36';
 	  });
 	  legend.chart.update();
 	}
@@ -29,6 +27,11 @@ FSGP Lap Chart JS
 		lines[index].borderColor = line.borderColor.length === 9 ? line.borderColor.slice(0, -2) : line.borderColor;
 	  });
 	  legend.chart.update();
+	}
+	
+	function handleClick(evt, item, legend) {
+		handleLeave(evt, item, legend);
+		handleHover(evt, item, legend);
 	}
 
 	const ctx{{class}} = document.getElementById('fsgp-lap-{{class}}');
@@ -60,9 +63,6 @@ FSGP Lap Chart JS
     options: {
 		responsive: true,
 		plugins: {
-		  legend: {
-			position: 'bottom',
-		  },
 		  title: {
 			display: true,
 			text: 'Lap Counts: {{class | upcase }} class'
@@ -71,8 +71,10 @@ FSGP Lap Chart JS
 			enabled: true
 		  },
 		  legend: {
-			onHover: handleHover,
-			onLeave: handleLeave
+		  	onHover: handleHover,
+			onLeave: handleLeave,
+			position: 'bottom',
+			onClick: handleClick,
 		  }	
 		}
 	  },

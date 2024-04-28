@@ -15,7 +15,6 @@ FSGP Lap Chart JS
   
 
 	function handleHover{{class}}(evt, item, legend) {
-	  console.log("Hover");
 	  legend.chart.data.datasets.forEach((line, index, lines) => {
 		lines[index].borderColor = index === item.datasetIndex  || lines[index].borderColor === 9 ? "#2B60DE" : "#999DA030";
 	  });
@@ -28,6 +27,13 @@ FSGP Lap Chart JS
 	  });
 	  legend.chart.update();
 	}
+
+
+	function handleClick{{class}}(evt, item, legend) {
+		handleLeave{{class}}(evt, item, legend);
+		handleHover{{class}}(evt, item, legend);
+	}
+
 
 	const ctx{{class}} = document.getElementById('fsgp-lap-{{class}}');
 	
@@ -59,14 +65,12 @@ FSGP Lap Chart JS
     type: 'line',
     data: data{{class}},
     options: {
+		maintainAspectRatio: false,
 		responsive: true,
 	    hover: {
 		  mode: 'dataset'
 		},
 		plugins: {
-		  legend: {
-			position: 'bottom',
-		  },
 		  title: {
 			display: true,
 			text: 'Lap Counts: {{class | upcase }} class'
@@ -76,7 +80,16 @@ FSGP Lap Chart JS
 		  },
 		  legend: {
 			onHover: handleHover{{class}},
-			onLeave: handleLeave{{class}}
+			onLeave: handleLeave{{class}},
+			position: 'bottom',
+			onClick: handleClick{{class}},
+			labels: {
+				boxWidth: 0,
+				padding: 20,
+				font: {
+					size: 14,
+				},
+			}
 		  }	
 		}
 	  },
