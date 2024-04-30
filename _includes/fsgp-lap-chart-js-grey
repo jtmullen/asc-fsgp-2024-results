@@ -103,7 +103,7 @@ FSGP Lap Chart JS
 			position: 'bottom',
 			onClick: handleClick{{class}},
 			labels: {
-				boxWidth: 0,
+				boxWidth: 2,
 				padding: 14,
 				font: {
 					size: 12,
