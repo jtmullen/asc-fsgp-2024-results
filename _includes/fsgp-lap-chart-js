@@ -8,7 +8,20 @@ FSGP Lap Chart JS
 {%- assign fillcolors = "#99cff4,#feb0c0,#fece9e,#fee5a9,#a4dede,#cbb1fe,#e3e4e6" | split: "," -%}
 {%- assign teams = site.data.fsgp.[class] -%}
 {%- assign sorted_teams = teams | sort: "number" -%}
-<div>
+<style>
+.chart-container-color {
+    position: relative;
+    margin: auto;
+    height: 45vh;
+    width: 100%;
+}
+@media only screen and (max-width: 768px) {
+    .chart-container-color {
+        height: 60vh;
+    }
+}
+</style>
+<div class="chart-container-color">
   <canvas id="fsgp-lap-{{class}}"></canvas>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -61,6 +74,7 @@ FSGP Lap Chart JS
     type: 'line',
     data: data,
     options: {
+		maintainAspectRatio: false,
 		responsive: true,
 		plugins: {
 		  title: {
@@ -75,7 +89,13 @@ FSGP Lap Chart JS
 			onLeave: handleLeave,
 			position: 'bottom',
 			onClick: handleClick,
-		  }	
+		  },
+		},
+		onClick: (event, elements, chart) => {
+			chart.data.datasets.forEach((line, index, lines) => {
+				lines[index].borderColor = line.borderColor.length === 9 ? line.borderColor.slice(0, -2) : line.borderColor;
+			});
+			chart.update();
 		}
 	  },
   });

@@ -6,7 +6,20 @@ FSGP Lap Chart JS
 {%- else -%}
 {%- assign teams = site.data.fsgp.[class] -%}
 {%- assign sorted_teams = teams | sort: "number" -%}
-<div>
+<style>
+.chart-container {
+    position: relative;
+    margin: auto;
+    height: 50vh;
+    width: 100%;
+}
+@media only screen and (max-width: 768px) {
+    .chart-container {
+        height: 110vh;
+    }
+}
+</style>
+<div class="chart-container">
   <canvas id="fsgp-lap-{{class}}"></canvas>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -70,6 +83,12 @@ FSGP Lap Chart JS
 	    hover: {
 		  mode: 'dataset'
 		},
+		onClick: (event, elements, chart) => {
+			chart.data.datasets.forEach((line, index, lines) => {
+				lines[index].borderColor = "#999DA0A0";
+			});
+			chart.update();
+		},
 		plugins: {
 		  title: {
 			display: true,
@@ -85,9 +104,9 @@ FSGP Lap Chart JS
 			onClick: handleClick{{class}},
 			labels: {
 				boxWidth: 0,
-				padding: 20,
+				padding: 14,
 				font: {
-					size: 14,
+					size: 12,
 				},
 			}
 		  }	
