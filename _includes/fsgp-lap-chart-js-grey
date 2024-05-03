@@ -31,6 +31,7 @@ FSGP Lap Chart JS
 	  legend.chart.data.datasets.forEach((line, index, lines) => {
 		lines[index].borderColor = index === item.datasetIndex  || lines[index].borderColor === 9 ? "#2B60DE" : "#999DA030";
 	  });
+	  item.fontColor = "#FFF";
 	  legend.chart.update();
 	}
 
@@ -38,6 +39,7 @@ FSGP Lap Chart JS
 	  legend.chart.data.datasets.forEach((line, index, lines) => {
 		lines[index].borderColor = "#999DA0A0";
 	  });
+	  item.fontColor = "#666";
 	  legend.chart.update();
 	}
 
