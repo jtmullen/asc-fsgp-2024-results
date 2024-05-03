@@ -1,0 +1,55 @@
+{%- comment -%}
+FSGP Lap Chart JS
+{%- endcomment -%}
+<div class="chart-container-score">
+  <canvas id="fsgp-score"></canvas>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script>
+
+	const ctx_score = document.getElementById('fsgp-score');
+	
+	const labels_score = ["Person Miles", "Completion Factor", "Speed Derating", "External Energy"];
+	const data_score = {
+	  labels: labels_score,
+	  datasets: [
+	  {
+		data: [95, 100, 100, 50],
+		backgroundColor: [
+			"#EE4B2B7F","#FFAC1C7F","#FFEA007F","#00FFFF7F" 
+		]
+	  }
+	  ]
+	};
+
+  new Chart(ctx_score, {
+    type: 'polarArea',
+    data: data_score,
+    options: {
+		maintainAspectRatio: false,
+		responsive: true,
+		scales: {
+		  r: {
+			pointLabels: {
+			  display: true,
+			  centerPointLabels: true,
+			  font: {
+				size: 18
+			  }
+			}
+		  }
+		},
+		plugins: {
+		  legend: {
+			display: false,
+		  },
+		  title: {
+			display: true,
+			text: 'Chart.js Polar Area Chart With Centered Point Labels'
+		  }
+		}
+	  },
+  });
+</script>
+ 

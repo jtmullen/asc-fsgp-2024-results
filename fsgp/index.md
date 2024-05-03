@@ -36,6 +36,8 @@ Vehicles competing in the [Multi Occupant Vehicle Class](https://www.americansol
 -----
 ## MOV Score
 
+{% include fsgp-score-chart-js %}
+
 <div style="margin:auto; text-align:center;"> <i> Scroll right to see all data on small screens </i>
 {% include fsgp-score-table %}
 </div>
