@@ -92,9 +92,9 @@ current_link: "/scrutineering.html"
 				<header class="major">
 					<h3><a href="https://www.americansolarchallenge.org/sponsorship/fsgp-2023-sponsors/">Sponsors</a></h3>
 				</header>
-				<p>The Electrek Formula Sun Grand Prix 2023 would not be possible without the support of our sponsors</p>
+				<p>The Electrek American Solar Challenge 2024 would not be possible without the support of our sponsors</p>
 				<ul class="actions">
-					<li><a href="https://www.americansolarchallenge.org/sponsorship/fsgp-2023-sponsors/" class="button">View Sponsors</a></li>
+					<li><a href="https://www.americansolarchallenge.org/sponsorship/asc-fsgp-2024-sponsors/" class="button">View Sponsors</a></li>
 				</ul>
 			</div>
 		</div>
