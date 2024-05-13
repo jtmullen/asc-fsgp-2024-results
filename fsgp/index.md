@@ -6,6 +6,7 @@ header: no
 social_title: Electrek Formula Sun Grand Prix 2024 Results
 social_description: Results from the track in Bowling Green, KY
 social_image: "{% link assets/images/florida_fsgp_front.jpg %}"
+breadcrumb: true
 ---
 
 

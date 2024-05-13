@@ -1,8 +1,26 @@
 {%- comment -%}
 FSGP Lap Chart JS
 {%- endcomment -%}
-<div class="chart-container-score">
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+  <div class="large-6 columns">
+      <img src="http://placehold.it/470x264/6b6351/e1dcd7&amp;text=Width+470+Pixel">
+  </div>
+  <div class="large-6 columns">
+      <div class="chart-container-score">
   <canvas id="fsgp-score"></canvas>
+</div>
+  </div>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
