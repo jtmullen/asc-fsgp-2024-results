@@ -94,7 +94,7 @@ FSGP Lap Chart JS
 		plugins: {
 		  title: {
 			display: true,
-			text: 'Lap Counts: {{class | upcase }} class'
+			text: 'Lap Counts: {{class | upcase }} class (click on a team in the legend to highlight their line)'
 		  },
 		  colors: {
 			enabled: true
