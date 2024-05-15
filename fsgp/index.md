@@ -31,7 +31,7 @@ Running lap counts from the track will be updated roughly every hour. MOV Scores
 {% tab class MOV Class%}
 
 
-Vehicles competing in the [Multi Occupant Vehicle Class](https://www.americansolarchallenge.org/the-competition/vehicle-classes/) at FSGP are scored based on a formula that includes the number of miles (laps) driven, the number of passengers in the vehicle during those laps, amount of external wall charging, and average speed. The full formula is detailed at the [bottom of this page](#mov-scoring-formula). 
+Vehicles competing in the [Multi Occupant Vehicle Class](https://www.americansolarchallenge.org/the-competition/vehicle-classes/) at FSGP are scored based on a formula that includes the number of miles (laps) driven, the number of passengers in the vehicle during those laps, amount of external charging (non-solar charging), and average speed. The full formula is detailed at the [bottom of this page](#mov-scoring-formula). 
 
 
 -----
@@ -56,7 +56,7 @@ Vehicles competing in the [Multi Occupant Vehicle Class](https://www.americansol
 
 # MOV Scoring Formula
 
-At FSGP, Multi Occupant Vehicles are scored based on the number of laps they complete, the number of passengers carried, the amount of external energy used, and their average speed. The scoring formula is as follows: \$$ S = \frac{D}{E} \times C \times T $$
+At FSGP, Multi Occupant Vehicles are scored based on the number of laps they complete, the number of passengers carried, the amount of external energy used, and their average speed. The scoring formula is as follows: \$$ S = \frac{1}{E} \times D \times C \times T $$
 
 Variable Definitions: 
 - __S__: Score

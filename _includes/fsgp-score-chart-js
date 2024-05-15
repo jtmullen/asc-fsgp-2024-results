@@ -46,7 +46,7 @@ FSGP Lap Chart JS
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
 <script>
-	const labels_score = ["Person Miles", "Completion Factor", "Speed Derating", "External Energy"];
+	const labels_score = ["Person Miles [D]", "Completion Factor [C]", "Speed Derating [T]", "External Energy [1/E]"];
 {%- for team in sorted_teams -%}
 {%- if team.team != "modified" -%}
 {%- if team.team != "labels" -%}
