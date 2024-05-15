@@ -1,0 +1,11 @@
+team,number,penalty,trailer,time,speed,checkpoint,1,2,3,4,5,6,7,8,9,10,11,12,13,14
+data,name,,,,,,Independence to Topeka,Topeka Loop,Topeka to Grand Island,Grand Island Loop,Grand Island to Gering,Gering to Casper,Casper Loop,Casper to Lander,Lander Loop,Lander to Montpelier,Montpelier Loop,Montpelier to Pocatello,Pocatello Loop,Pocatello to Twin Falls
+data,type,,,,,,base,loop,base,loop,base,base,loop,base,loop,base,Loop,base,loop,base
+data,miles,,,,,,98.3,43.3,265.2,21,311.2,198.3,20.8,156.4,33.4,225.7,46.2,86.6,33.2,129.1
+MIT,4,28,Yes,55:10:45,35.7,✅ | ✅ | ✅ | ✅,98.3,0,265.2,6,311.2,198.3,7,156.4,2,225.7,2,86.6,2,129.1
+Principia,32,81,Yes,55:23:19,35.2,✅ | ✅ | ✅ | ✅,98.3,0,265.2,6,311.2,198.3,7,156.4,1,225.7,3,86.6,1,129.1
+Kentucky,3,28,Yes,56:28:30,30.2,✅ | ✅ | ✅ | ✅,98.3,0,265.2,5,311.2,198.3,3,156.4,1,225.7,0,86.6,1,129.1
+Berkeley,6,17,Yes,53:14:10,28.4,✅ | ✅ | ✅ | ✅,98.3,0,265.2,2,311.2,198.3,0,156.4,0,225.7,0,86.6,0,129.1
+ETS,101,44,No,56:57:53,28.1,✅ | ✅ | ✅ | ✅,98.3,0,265.2,4,311.2,198.3,1,145.5,0,225.7,0,86.6,1,129.1
+Illinois,22,3,No,61:40:00,24.3,❌ | ✅ | ❌ | ✅,98.3,0,265.2,4,311.2,198.3,0,36.1,0,225.7,0,86.6,2,129.1
+data,modified,19 July 2022 – 8:45pm US Central,,,,,,,,,,,,,,,,,,

@@ -1,0 +1,29 @@
+- name: YouTube
+  url: https://www.youtube.com/@AmericanSolarChallenge
+  class: icon-youtube
+  title: "American Solar Challenge on Youtube"
+
+- name: Twitter
+  url: https://twitter.com/ASC_SolarRacing
+  class: icon-twitter
+  title: "American Solar Challenge on Twitter"
+
+- name: Facebook
+  url: https://www.facebook.com/AmericanSolarChallenge
+  class: icon-facebook
+  title: "American Solar Challenge on Facebook"
+
+- name: Flickr
+  url: https://www.flickr.com/photos/americansolarchallenge/
+  class: icon-flickr-with-circle
+  title: "American Solar Challenge on Flickr"
+  
+- name: LinkedIn
+  url: https://www.linkedin.com/company/innovators-educational-foundation
+  class: icon-linkedin
+  title: "Innovators Educational Foundation on LinkedIn"
+
+- name: Instagram
+  url: https://www.instagram.com/americansolarchallenge/
+  class: icon-instagram
+  title: "American Solar Challenge on Instagram"

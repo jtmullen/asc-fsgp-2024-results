@@ -1,0 +1,13 @@
+team,number,order,1,2,3,4,5,6,7,8,9,10,11,12
+title,,,Driver Registration,Driver Operations,Lights & Vision,Body & Sizing,Electrical,Battery Protection,Mechanical,Dynamics,Array Testing,Safety,Impound & MOV,ASC Support
+Team Name,1,2,G,G,G,G,G,G,G,G,G,G,G,N
+Another One,2,1,G,G,G,G,G,G,G,G,G,G,B,
+Fake Team,3,,G,,R,Y,,R,G,,G,G,B,N
+College Team,4,,R,B,R,Y,,R,G,,G,G,B,N
+University Team,5,,Y,Y,R,Y,,R,B,,G,G,G,N
+State Team,6,3,G,G,G,G,G,G,G,G,G,G,G,G
+Solar Team,7,,B,G,G,Y,Y,G,R,,G,G,,
+Car Team,8,,,G,G,G,Y,R,R,,,G,,
+Raycing Team,9,,,G,B,G,Y,Y,R,,,G,,
+School Team,10,,,G,,B ,G,Y,R,,,G,,
+modified,10 Apr 2024 - 09:56PM Central Daylight Time,,,,,,,,,,,,,
