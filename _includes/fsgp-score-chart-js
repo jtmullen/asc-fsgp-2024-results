@@ -1,7 +1,19 @@
 {%- comment -%}
 FSGP Lap Chart JS
 {%- endcomment -%}
-
+{%- assign teams = site.data.fsgp.mov-score -%}
+{%- assign sorted_teams = teams | sort: "number" -%}
+{%- assign team_count = 0 -%}
+{%- for team in sorted_teams -%}
+{%- if team.team != "modified" -%}
+{%- if team.team != "labels" -%}
+{%- assign team_count = team_count | plus: 1 -%}
+{%- endif -%}
+{%- endif -%}
+{%- endfor -%}
+{%- if team_count == 0 -%}
+<i><b>Results Not Yet Available</b></i>
+{%- else -%}
 
 
 
@@ -70,4 +82,4 @@ FSGP Lap Chart JS
 	  },
   });
 </script>
- 
+{%- endif -%}
