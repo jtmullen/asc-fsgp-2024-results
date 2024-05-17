@@ -45,6 +45,7 @@ _Note: Live Streams will be available daily from 7:30am to 5:30pm local time (US
 {% endtab %}
 {% endtabs %}
 
+{% assign url = site.baseurl | prepend: site.url %}
 <link rel="stylesheet" href="{{ url }}/assets/css/tabs.css">
 <script src="{{ url }}/assets/js/tabs.js"></script>
 <script> jekyllTabs.init({
