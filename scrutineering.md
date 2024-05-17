@@ -8,6 +8,7 @@ social_title: Scrutineering Status
 social_description: Electrek Formula Sun Grand Prix 2024
 social_image: "{% link assets/images/isu_scrutineering.jpg %}"
 stations: 12
+breadcrumb: true
 ---
 
 Before they can get on the track, teams and their solar cars undergo several days of scrutiny from the event's technical staff. All teams will go through the same 11 stations prior to being cleared for the track. An additional station is required for teams competing in ASC. 
@@ -59,7 +60,7 @@ Before they can get on the track, teams and their solar cars undergo several day
   </tr>
   <tr>
     <td><b>ASC Support Vehicles</b></td>
-    <td>Team participating in ASC have their on-road support vehicles checked for required lights, signage, and safety equipment.</td>
+    <td>Team participating in ASC have their on-road support vehicles checked for required warning lights, signage, and safety equipment.</td>
   </tr>
 </tbody>
 </table>
