@@ -28,11 +28,24 @@ _Note: Electronic Lap Counts are unofficial and may not be fully correct. Offici
 
 __Electronic Timing Info Coming Soon__
 
-<h2> Live Stream North</h2>
+
+<h2>Live Streams</h2>
+{% tabs view %}
+{% tab view North View%}
 <div class="stream-contain">
 <iframe style="height: 100%; top: 0px; width: 100%; left: 0px; opacity: 1; visibility: visible;" src="https://console.rhombussystems.com/share/live/KYwr7VG7Rxmzyx9sXN2s9Q" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 </div>
-<h2> Live Stream South</h2>
+
+{% endtab %}
+{% tab view South View%}
 <div class="stream-contain">
 <iframe style="height: 100%; top: 0px; width: 100%; left: 0px; opacity: 1; visibility: visible;" src="https://console.rhombussystems.com/share/live/qfulbFnXRlW5nXeV8QArFw" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 </div>
+{% endtab %}
+{% endtabs %}
+
+<link rel="stylesheet" href="{{ url }}/assets/css/tabs.css">
+<script src="{{ url }}/assets/js/tabs.js"></script>
+<script> jekyllTabs.init({
+});
+</script>
