@@ -33,13 +33,23 @@ current_link: "/scrutineering.html"
   </article>
     <article>
     <span class="image">
-      <img src="{% link assets/images/MOV_FrontStraight.jpg %}" alt="alt" />
+      <img src="{% link assets/images/app_state_wagon.jpg %}" alt="alt" />
     </span>
     <header class="major">
-      <h3><a href="{{ tile.url  | relative_url }}" class="link">Electrek American Solar Challenge</a></h3>
+      <h3><a href="asc/" class="link">Electrek American Solar Challenge</a></h3>
       <p>1550+ mile Road Challenge Following 7 National Historic Trails; <i>July 20-27</i></p>
     </header>
   </article>
+  <article>
+    <span class="image">
+      <img src="{% link assets/images/MOV_FrontStraight.jpg %}" alt="alt" />
+    </span>
+    <header class="major">
+      <h3><a href="{{ tile.url  | relative_url }}" class="link">See America by National Historic Trail</a></h3>
+      <p>ASC Route from Nashville, TN to Casper, WY</p>
+    </header>
+  </article>
+  <!-- Removed
   <article>
     <span class="image">
       <img src="{% link assets/images/MOV_FrontStraight.jpg %}" alt="alt" />
@@ -54,19 +64,10 @@ current_link: "/scrutineering.html"
       <img src="{% link assets/images/MOV_FrontStraight.jpg %}" alt="alt" />
     </span>
     <header class="major">
-      <h3><a href="{{ tile.url  | relative_url }}" class="link">See America by National Historic Trail</a></h3>
-      <p>ASC Route from Nashville, TN to Casper, WY</p>
-    </header>
-  </article>
-    <article>
-    <span class="image">
-      <img src="{% link assets/images/MOV_FrontStraight.jpg %}" alt="alt" />
-    </span>
-    <header class="major">
       <h3><a href="{{ tile.url  | relative_url }}" class="link">Subscribe to Updates</a></h3>
       <p>...</i></p>
     </header>
-  </article>
+  </article>   END Removed -->
 </section>
 
 <!-- Three -->
