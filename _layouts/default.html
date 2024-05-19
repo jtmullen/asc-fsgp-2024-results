@@ -2,9 +2,9 @@
 layout: compress
 ---
 <!doctype html>
-<meta http-equiv="Content-Security-Policy" content="self">
 <html class="no-js" lang="{%- if site.language == nil -%}en{%- else -%}{{ site.language }}{%- endif -%}">
 <head>
+	<meta http-equiv="Content-Security-Policy" content="self">
 	{%- include _head.html -%}
 </head>
 <body id="top-of-page" class="{{ layout.format }}">
