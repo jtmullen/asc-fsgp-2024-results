@@ -2,7 +2,7 @@
 title: Official Electrek ASC Results
 layout: page-fullwidth
 social_title: Electrek American Solar Challenge 2024 Results
-social_description: 'Official Results from the Road as the solar cars "See America By National Historic Trail"'
+social_description: 'Official Results from the Road as the solar cars See America By National Historic Trail'
 social_image: "{% link assets/images/ets_scottsbluff.jpg %}"
 nav-menu: true
 header: no
@@ -18,309 +18,163 @@ The 2024 Event is once again a distance-based competition. The primary goal is t
 
 
 ### Single Occupant Vehicle (SOV) Class
-The single occupant class is scored solely on miles driven. The team that completes the most miles will win the event. Stage winners are also determined by miles driven on that stage. In the event of a tie, elapsed time is the tie-breaker. 
+The single occupant class is scored solely on miles driven. The team that completes the most miles, while completing the base route, will win the event. Stage winners are also determined by miles driven on that stage. Teams who do not finish the base route will be ranked below all teams who do. In the event of a tie, elapsed time is the tie-breaker. 
 
 ### Multi-Occupant Vehicle (MOV) Class
-Multi-Occupant vehicles are scored on a variety of factors including person-miles driven, their practicality score, amount of external energy used, and whether they maintain the 35mph target speed. For the overall event winner all of these factors are used. For individual stage winners only person-miles and target speed are considered. 
+Multi-Occupant vehicles are scored on a variety of factors including person-miles driven, their practicality score, amount of external energy used, and whether they maintain the 35mph target average speed. MOV teams must also complete the base route, any team that does not will be ranked below all teams who do. The scoring formula is as follows: \$$ S = \frac{1}{E} \times D \times C \times T \times P$$
 
+Variable Definitions: 
+- __S__: MOV Score
+- __D__: Person-Mile Distance - the number of miles driven (2.5 miles per lap) times the average number of passengers in the vehicle. 
+- __E__: External Energy Usage - the vehicles battery capacity (assumed to start FSGP full) plus any external charging during the event. 
+- __C__: Completion Factor - the number of miles driven less penalty miles divided by the highest number of miles driven by any team. 
+- __P__: Practicality Score - during display day a panel of judges will evalute the practical features of each vehicle and award a score from 0-100.
+- __T__: Target Speed Derating - vehicles must average at least <b>35 mph</b> for the event, in which case this factor will be 1.0. Otherwise they have their score derated based on the following formula: \$$ T = (0.6)^{(35-[Average Speed])^{0.4}} $$
+
+_Note: For individual stage winners the pracitcality and external energy factors are not considered, only the "D x C x T" factors_
 
 # Results
 
-_XYZ will be updated at each checkpoint. Penalties, MOV Charging Information, and MOV scores will be updated at the end of each stage._
+_Distance Completed, Times, Average Speeds, and Passenger Information will be updated at each checkpoint. Penalties, MOV Charging Information, and MOV Scores will be updated at the end of each stage._
 
 
 
 {% tabs stage %}
 {% tab stage Stage 1%}
-1
+__July 20th & 21st:__ Nashville, TN to Edwardsville, IL via Paducah, KY
+- Route Segments:
+  - Nashville to Paducah: <i>xxx miles</i>
+  - Paducah to Edwardsville: <i>xxx miles</i>
+- Optional Loops:
+  - Paducah Loop: <i>xx miles</i>
+  - Edwardsville Loop: <i>xx miles</i>
+
+## SOV Distance Completed
+
+{% include asc-stage-chart stage="stage1" class="sov" %}
+<br>&nbsp;<br>
+{% include asc-stage-table stage="stage1" class="sov" %}
+
+## MOV Scores
+
+_For stage ranking MOV teams are scored solely on Distance, Completion Factor, and Target Speed. Other factors are not considered_
+{% include asc-score-chart-js stage="stage1" %}
+{% include asc-score-table stage="stage1" %}
+
+### MOV Distance Completed
+
+{% include asc-stage-chart stage="stage1" class="mov" %}
+<br>&nbsp;<br>
+{% include asc-stage-table stage="stage1" class="mov" %}
+
 {% endtab %}
 {% tab stage Stage 2%}
-2
+__July 22nd & 23rd:__ Edwardsville, IL to St. Joseph, MO via Jefferson City, MO and Independence, MO
+- Route Segments:
+  - Edwardsville to Jefferson City: <i>xxx miles</i>
+  - Jefferson City to Independence: <i>xxx miles</i>
+  - Independence to St. Joseph: <i>xxx miles</i>
+- Optional Loops:
+  - Jefferson City Loop: <i>xx miles</i>
+  - St. Joseph Loop: <i>xx miles</i>
+  - _There is no loop at the Indpendence Checkpoint_
+
+## SOV Distance Completed
+
+{% include asc-stage-chart stage="stage2" class="sov" %}
+<br>&nbsp;<br>
+{% include asc-stage-table stage="stage2" class="sov" %}
+
+## MOV Scores
+
+_For stage ranking MOV teams are scored solely on Distance, Completion Factor, and Target Speed. Other factors are not considered_
+{% include asc-score-chart-js stage="stage2" %}
+{% include asc-score-table stage="stage2" %}
+
+### MOV Distance Completed
+
+{% include asc-stage-chart stage="stage2" class="mov" %}
+<br>&nbsp;<br>
+{% include asc-stage-table stage="stage2" class="mov" %}
+
+
 {% endtab %}
 {% tab stage Stage 3%}
-3
+__July 24th-26th:__ St. Joseph, MO to Gering, NE via Beatrice, NE and Kearney, NE
+- Route Segments:
+  - St. Joseph to Beatrice: <i>xxx miles</i>
+  - Beatrice to Kearney: <i>xxx miles</i>
+  - Kearney to Gering: <i>xxx miles</i>
+- Optional Loops:
+  - Beatrice Loop: <i>xx miles</i>
+  - Kearney Loop: <i>xx miles</i>
+  - Gering Loop: <i>xx miles</i>
+
+## SOV Distance Completed
+
+{% include asc-stage-chart stage="stage3" class="sov" %}
+<br>&nbsp;<br>
+{% include asc-stage-table stage="stage3" class="sov" %}
+
+## MOV Scores
+
+_For stage ranking MOV teams are scored solely on Distance, Completion Factor, and Target Speed. Other factors are not considered_
+{% include asc-score-chart-js stage="stage3" %}
+{% include asc-score-table stage="stage3" %}
+
+### MOV Distance Completed
+
+{% include asc-stage-chart stage="stage3" class="mov" %}
+<br>&nbsp;<br>
+{% include asc-stage-table stage="stage3" class="mov" %}
+
 {% endtab %}
 {% tab stage Stage 4%}
-4
+__July 27th:__ Gering, NE to Casper, WY
+- Route Segments:
+  - Gering to Casper: <i>xxx miles</i>
+
+## SOV Distance Completed
+
+{% include asc-stage-chart stage="stage4" class="sov" %}
+<br>&nbsp;<br>
+{% include asc-stage-table stage="stage4" class="sov" %}
+
+## MOV Scores
+
+_For stage ranking MOV teams are scored solely on Distance, Completion Factor, and Target Speed. Other factors are not considered_
+{% include asc-score-chart-js stage="stage4" %}
+{% include asc-score-table stage="stage4" %}
+
+### MOV Distance Completed
+
+{% include asc-stage-chart stage="stage4" class="mov" %}
+<br>&nbsp;<br>
+{% include asc-stage-table stage="stage4" class="mov" %}
+
 {% endtab %}
 {% tab stage Overall%}
-5
+
+## SOV Class
+{% include asc-final-chart stage="overall" class="sov" %}
+<br>&nbsp;
+<br>&nbsp;
+{% include asc-stage-table stage="overall" class="sov" %}
+
+## MOV Scores
+{% include asc-score-chart-final-js %}
+{% include asc-final-score %}
+
+## MOV Miles
+{% include asc-final-chart stage="overall" class="mov" %}
+<br>&nbsp;
+<br>&nbsp;
+{% include asc-stage-table stage="overall" class="mov" %}
 {% endtab %}
 {% endtabs %}
 
 
 
-
-
-
-
-
-
------
-
-<ul class="actions">
-<span style="font-size:18px;padding-right:10px"><b>Jump to Results:</b></span>
-<a href="#stage-1" class="button special" style="margin:5px">Stage 1</a>
-<a href="#stage-2" class="button special" style="margin:5px">Stage 2</a>
-<a href="#stage-3" class="button special" style="margin:5px">Stage 3</a>
-<a href="#stage-4" class="button special" style="margin:5px">Stage 4</a>
-<a href="#overall" class="button special" style="margin:5px">Overall</a>
-</ul>
-
------
-
-<h2 id="overall">Overall</h2>
-
-<h4>SOV Class</h4>
-
-<b>1st Place:</b>  #4 MIT<br>
-<b>2nd Place:</b> #32 Principia<br>
-<b>3rd Place:</b>  #3 Kentucky<br>
-&nbsp;<br>
-
-{% include asc-final-chart stage="overall" class="sov" %}
-<br>&nbsp;
-<br>&nbsp;
-
-{% include asc-stage-table stage="overall" class="sov" %}
-<br>&nbsp;
-<br>&nbsp;<br>
-
-<h4>MOV Class Scores</h4>
-
-<br>
-<b>1st Place:</b> #35 Minnesota<br>
-<b>2nd Place:</b> #828 App State<br>
-<b>3rd Place:</b> #55 Poly Montreal<br>
-&nbsp;<br>
-
-{% include asc-final-score %}
-
-<a href="https://www.americansolarchallenge.org/ASC/wp-content/uploads/2022/07/ASC-2022-MOV-Practicality-Results.zip" class="button special" style="margin:5px">Download Full Practicality Scoring</a>
-
-<h4>MOV Distance Completed</h4>
-
-{% include asc-final-chart stage="overall" class="mov" %}
-<br>&nbsp;
-<br>&nbsp;
-
-{% include asc-stage-table stage="overall" class="mov" %}
-
-<h4>Inspector Awards</h4>
-
-Each year the ASC staff gives out awards to recognize other achievements by teams during the competition. Here are this years inspector awards: <br>
-- <b>Safety:</b> Illinois<br>
-- <b>Battery Pack:</b> MIT<br>
-- <b>Electrical Design:</b> Appalachian State<br>
-- <b>Perserverance:</b> Illinois<br>
-- <b>MOV Efficiency:</b> Polytechnique Montréal<br>
-- <b>Spirit of the Event:</b> Kentucky<br>
-- <b>Sportsmanship:</b> MIT<br>
-- <b>Aestetics:</b> Polytechnique Montréal<br>
-- <b>Abe Poot Teamwork:</b> Minnesota<br>
-- <b>Best Overnight Car Repair:</b> ETS<br>
-- <b>Most Environmentally Friendly Solar Car:</b> Berkeley<br>
-
-
-<hr>
-
-<h2 id="stage-1">Stage 1</h2>
-
-<b>July 9th & 10th: Independence, MO to Grand Island, NE via Topeka, KS</b>
-&nbsp;<br>
-Base Route Segments:<br>
-- Independence to Topeka: <i>98.3 miles</i><br>
-- Topeka to Grand Island: <i>265.2 miles</i><br>
-&nbsp;<br>
-Optional Loops:<br>
-- Topeka Loop: <i>43.3 miles</i><br>
-- Grand Island Loop: <i>21.0 miles</i><br>
-
-
-<h4>SOV Distance Completed</h4>
-
-<b>1st Place:</b> #32 Principia<br>
-<b>2nd Place:</b>  #4 MIT<br>
-<b>3rd Place:</b>  #3 Kentucky<br>
-&nbsp;<br>
-
-
-{% include asc-stage-chart stage="stage1" class="sov" %}
-<br>&nbsp;
-<br>&nbsp;
-
-{% include asc-stage-table stage="stage1" class="sov" %}
-<br>&nbsp;
-<br>&nbsp;<br>
-
-<h4>MOV Scores</h4>
-
-<i>For stage ranking MOV teams are scored solely on Distance, Completion Factor, and Target Speed. Other factors are not considered</i>
-<br>
-<b>1st Place:</b> #35 Minnesota<br>
-<b>2nd Place:</b> #828 App State<br>
-<b>3rd Place:</b> #55 Poly Montreal<br>
-&nbsp;<br>
-
-{% include asc-score-table stage="stage1" %}
-
-<h4>MOV Distance Completed</h4>
-
-{% include asc-stage-chart stage="stage1" class="mov" %}
-<br>&nbsp;
-<br>&nbsp;
-
-{% include asc-stage-table stage="stage1" class="mov" %}
-
-
-<hr>
-
-<h2 id="stage-2">Stage 2</h2>
-
-<b>July 11th - 13th: Grand Island, NE to Lander, WY via Gering, NE and Casper, WY</b>
-&nbsp;<br>
-Base Route Segments:<br>
-- Grand Island to Gering: <i>311.2 miles</i><br>
-- Gering to Lander: <i>198.3 miles</i><br>
-- Casper to Lander: <i>156.4 miles</i><br>
-&nbsp;<br>
-Optional Loops:<br>
-- Casper Loop: <i>20.8 miles</i><br>
-- Lander Loop: <i>33.4 miles</i><br>
-
-<br>&nbsp;<br>
-
-
-<h4>SOV Distance Completed</h4>
-
-<b>1st Place:</b>  #4 MIT<br>
-<b>2nd Place:</b> #32 Principia<br>
-<b>3rd Place:</b>  #3 Kentucky<br>
-&nbsp;<br>
-
-{% include asc-stage-chart stage="stage2" class="sov" %}
-<br>&nbsp;
-<br>&nbsp;
-
-{% include asc-stage-table stage="stage2" class="sov" %}
-<br>&nbsp;
-<br>&nbsp;<br>
-
-<h4>MOV Scores</h4>
-
-<i>For stage ranking MOV teams are scored solely on Distance, Completion Factor, and Target Speed. Other factors are not considered</i><br>&nbsp;<br>
-<br>
-<b>1st Place:</b> #35 Minnesota<br>
-<b>2nd Place:</b> #55 Poly Montreal<br>
-<b>3rd Place:</b> #828 App State<br>
-&nbsp;<br>
-
-{% include asc-score-table stage="stage2" %}
-
-<h4>MOV Distance Completed</h4>
-
-{% include asc-stage-chart stage="stage2" class="mov" %}
-<br>&nbsp;
-<br>&nbsp;
-
-{% include asc-stage-table stage="stage2" class="mov" %}
-
-
-<hr>
-
-<h2 id="stage-3">Stage 3</h2>
-
-<b>July 14th - 15th: Lander, WY to Pocatello, ID via Montpelier, ID</b>
-&nbsp;<br>
-Base Route Segments:<br>
-- Lander to Montpelier: <i>225.7 miles</i><br>
-- Montpelier to Pocatello: <i>86.6 miles</i><br>
-&nbsp;<br>
-Optional Loops:<br>
-- Montpelier Loop: <i>46.2 miles</i><br>
-- Pocatello Loop: <i>33.2 miles</i><br>
-
-<br>&nbsp;<br>
-
-<h4>SOV Distance Completed</h4>
-
-<b>1st Place:</b>  #4 MIT<br>
-<b>2nd Place:</b> #32 Principia<br>
-<b>3rd Place:</b> #22 Illinois<br>
-&nbsp;<br>
-
-{% include asc-stage-chart stage="stage3" class="sov" %}
-<br>&nbsp;
-<br>&nbsp;
-
-{% include asc-stage-table stage="stage3" class="sov" %}
-<br>&nbsp;
-<br>&nbsp;<br>
-
-<h4>MOV Scores</h4>
-
-<i>For stage ranking MOV teams are scored solely on Distance, Completion Factor, and Target Speed. Other factors are not considered</i><br>&nbsp;<br>
-<br>
-<b>1st Place:</b> #828 App State<br>
-<b>2nd Place:</b> #55 Poly Montreal<br>
-<b>3rd Place:</b> #35 Minnesota<br>
-&nbsp;<br>
-
-{% include asc-score-table stage="stage3" %}
-
-<h4>MOV Distance Completed</h4>
-
-{% include asc-stage-chart stage="stage3" class="mov" %}
-<br>&nbsp;
-<br>&nbsp;
-
-{% include asc-stage-table stage="stage3" class="mov" %}
-
-
-<hr>
-
-<h2 id="stage-4">Stage 4</h2>
-
-<b>July 16th: Pocatello, ID to Twin Falls, ID</b>
-&nbsp;<br>
-Base Route Segments:<br>
-- Pocatello to Twin Falls: <i>129.1 miles</i><br>
-
-<br>&nbsp;<br>
-
-<h4>SOV Distance Completed</h4>
-
-<b>1st Place:</b>  #22 Illinois<br>
-<b>2nd Place:</b> #101 ETS<br>
-<b>3rd Place:</b>   #6 Berkeley<br>
-&nbsp;<br>
-
-{% include asc-stage-chart stage="stage4" class="sov" %}
-<br>&nbsp;
-<br>&nbsp;
-
-{% include asc-stage-table stage="stage4" class="sov" %}
-<br>&nbsp;
-<br>&nbsp;<br>
-
-<h4>MOV Scores</h4>
-
-<i>For stage ranking MOV teams are scored solely on Distance, Completion Factor, and Target Speed. Other factors are not considered</i><br>&nbsp;<br>
-<br>
-<b>1st Place:</b> #55 Poly Montreal<br>
-<b>2nd Place:</b> #828 App State<br>
-<b>3rd Place:</b> #35 Minnesota<br>
-&nbsp;<br>
-
-{% include asc-score-table stage="stage4" %}
-
-<h4>MOV Distance Completed</h4>
-
-{% include asc-stage-chart stage="stage4" class="mov" %}
-<br>&nbsp;
-<br>&nbsp;
-
-{% include asc-stage-table stage="stage4" class="mov" %}
 
 {% assign url = site.baseurl | prepend: site.url %}
 <link rel="stylesheet" href="{{ url }}/assets/css/tabs.css">
@@ -328,3 +182,9 @@ Base Route Segments:<br>
 <script> jekyllTabs.init({
 });
 </script>
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+
+
