@@ -4,8 +4,8 @@ layout: page-fullwidth
 nav-menu: true
 header: no
 social_title: Altair Challenge at FSGP 2024
-social_description: "An Engineering Challenge with $10,000 up for grabs!"
-social_image: "https://www.americansolarchallenge.org/ASC/wp-content/uploads/2024/04/53014335222_f96e3faeee_k-1024x576.jpg"
+social_description: "An Engineering Challenge with $10,000 up for grabs! Sponsored by Altair"
+social_image: "{% link assets/images/altair.jpg %}"
 header: 
   image_fullwidth: "assets/images/altair.jpg"
 ---

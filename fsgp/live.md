@@ -30,6 +30,9 @@ __Electronic Timing Info Coming Soon__
 
 
 <h2>Live Streams</h2>
+
+Courtesy of the National Corvette Museum two livestreams are available from the track. Addional livestreams from around the museum are availble on their [website](https://www.corvettemuseum.org/live-stream/)
+
 _Note: Live Streams will be available daily from 7:30am to 5:30pm local time (US-Central)_
 {% tabs view %}
 {% tab view North View%}
@@ -51,4 +54,3 @@ _Note: Live Streams will be available daily from 7:30am to 5:30pm local time (US
 <script> jekyllTabs.init({
 });
 </script>
-_Additional Live Streams from around the National Corvette Museum are availble on their [website](https://www.corvettemuseum.org/live-stream/)_
