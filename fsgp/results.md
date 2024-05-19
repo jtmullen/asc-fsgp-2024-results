@@ -61,7 +61,7 @@ Variable Definitions:
 - __D__: Person  Mile Distance - the number of miles driven (2.5 miles per lap) times the average number of passengers in the vehicle. 
 - __E__: External Energy Usage - the vehicles battery capacity (assumed to start FSGP full) plus any external charging during the event. 
 - __C__: Completion Factor - the number of miles driven less penalty miles divided by the highest number of miles driven by any team. 
-- __T__: Target Speed Derating - vehicles must average at least <b>30 mph</b> for the event, in which case this factor will be 1.0. Otherwise they have their score derated based on the following formula: \$$ T = (0.6)^{(30-[Average Speed])^{0.4}} $$
+- __T__: Target Speed Derating - vehicles must average at least <b>35 mph</b> for the event, in which case this factor will be 1.0. Otherwise they have their score derated based on the following formula: \$$ T = (0.6)^{(35-[Average Speed])^{0.4}} $$
 
 
 
