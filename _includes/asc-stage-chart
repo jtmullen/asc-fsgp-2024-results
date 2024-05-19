@@ -98,7 +98,7 @@ ASC Stage Chart Generator
 			{% else %}
 				{% assign loopCount = item[1] | plus:0 %}
 				{% if loopCount > 0 %} 
-					{% assign tooltip = {{name[forloop.index0]}} | append:" <br> " | append:{{miles[forloop.index0]}} | append:" miles" %}
+					{% assign tooltip = {{name[forloop.index0]}} | append:" <br> " | append:{{miles[forloop.index0]}} | append:" miles (x" | append:{{loopCount}} | append:")" %}
 					{% assign loopMiles = miles[forloop.index0] %}
 					{% for i in (1..loopCount) %}
 						<td style="--size: calc({{loopMiles}} / {{full}});--color: rgba(50,136,99,1);border:1px solid white"><span class="data"> {{loopMiles}} mi. </span><span class="tooltip"> {{tooltip}} </span></td>
@@ -111,3 +111,4 @@ ASC Stage Chart Generator
 	{% endfor %}
   </tbody>
   </table>
+</div>

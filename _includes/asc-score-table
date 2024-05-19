@@ -3,6 +3,7 @@ FSGP MOV Table Generator
 {% endcomment %}
 {% assign stage = include.stage %}
 <link rel="stylesheet" href="{{site.baseurl}}/assets/css/asc-style.css">
+<div style="margin:auto; text-align:center;"> <i> Scroll right to see all data on small screens </i>
 <table class="score-table" style="margin:auto; border: 1px solid 0x000000;">
 <thead>
   <tr>
@@ -31,7 +32,7 @@ FSGP MOV Table Generator
 	<tr>
 		<td style="border-right-width: 3px;white-space: nowrap;"><b>#{{team.number}} - {{team.team}}</b></td>
 		<td style="border-right-width: 3px;"><b>{{team.score}}</b></td>
-		<td>{{team.completion}}</td>
+		<td>{{team.completion}}%</td>
 		<td>{{team.derate}}</td>
 		<td style="border-right-width: 3px;">{{team.total-ext}}</td>
 		<td>{{team.trailer}}</td>

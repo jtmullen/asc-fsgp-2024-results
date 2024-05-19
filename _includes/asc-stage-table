@@ -24,6 +24,7 @@ ASC Stage Chart Generator
 		{% endif %}
 	{% endif %}
 {% endfor %}
+<div style="margin:auto; text-align:center;"> <i> Scroll right to see all data on small screens </i>
 <table class="asc-stage" style="margin:auto; border: 1px solid;">
 <thead>
 	<tr>
