@@ -38,7 +38,6 @@ _Note: For individual stage winners the pracitcality and external energy factors
 _Distance Completed, Times, Average Speeds, and Passenger Information will be updated at each checkpoint. Penalties, MOV Charging Information, and MOV Scores will be updated at the end of each stage._
 
 
-
 {% tabs stage %}
 {% tab stage Stage 1%}
 __July 20th & 21st:__ Nashville, TN to Edwardsville, IL via Paducah, KY
@@ -48,25 +47,6 @@ __July 20th & 21st:__ Nashville, TN to Edwardsville, IL via Paducah, KY
 - Optional Loops:
   - Paducah Loop: <i>xx miles</i>
   - Edwardsville Loop: <i>xx miles</i>
-
-## SOV Distance Completed
-
-{% include asc-stage-chart stage="stage1" class="sov" %}
-<br>&nbsp;<br>
-{% include asc-stage-table stage="stage1" class="sov" %}
-
-## MOV Scores
-
-_For stage ranking MOV teams are scored solely on Distance, Completion Factor, and Target Speed. Other factors are not considered_
-{% include asc-score-chart-js stage="stage1" %}
-{% include asc-score-table stage="stage1" %}
-
-### MOV Distance Completed
-
-{% include asc-stage-chart stage="stage1" class="mov" %}
-<br>&nbsp;<br>
-{% include asc-stage-table stage="stage1" class="mov" %}
-
 {% endtab %}
 {% tab stage Stage 2%}
 __July 22nd & 23rd:__ Edwardsville, IL to St. Joseph, MO via Jefferson City, MO and Independence, MO
@@ -78,26 +58,6 @@ __July 22nd & 23rd:__ Edwardsville, IL to St. Joseph, MO via Jefferson City, MO 
   - Jefferson City Loop: <i>xx miles</i>
   - St. Joseph Loop: <i>xx miles</i>
   - _There is no loop at the Indpendence Checkpoint_
-
-## SOV Distance Completed
-
-{% include asc-stage-chart stage="stage2" class="sov" %}
-<br>&nbsp;<br>
-{% include asc-stage-table stage="stage2" class="sov" %}
-
-## MOV Scores
-
-_For stage ranking MOV teams are scored solely on Distance, Completion Factor, and Target Speed. Other factors are not considered_
-{% include asc-score-chart-js stage="stage2" %}
-{% include asc-score-table stage="stage2" %}
-
-### MOV Distance Completed
-
-{% include asc-stage-chart stage="stage2" class="mov" %}
-<br>&nbsp;<br>
-{% include asc-stage-table stage="stage2" class="mov" %}
-
-
 {% endtab %}
 {% tab stage Stage 3%}
 __July 24th-26th:__ St. Joseph, MO to Gering, NE via Beatrice, NE and Kearney, NE
@@ -109,63 +69,97 @@ __July 24th-26th:__ St. Joseph, MO to Gering, NE via Beatrice, NE and Kearney, N
   - Beatrice Loop: <i>xx miles</i>
   - Kearney Loop: <i>xx miles</i>
   - Gering Loop: <i>xx miles</i>
-
-## SOV Distance Completed
-
-{% include asc-stage-chart stage="stage3" class="sov" %}
-<br>&nbsp;<br>
-{% include asc-stage-table stage="stage3" class="sov" %}
-
-## MOV Scores
-
-_For stage ranking MOV teams are scored solely on Distance, Completion Factor, and Target Speed. Other factors are not considered_
-{% include asc-score-chart-js stage="stage3" %}
-{% include asc-score-table stage="stage3" %}
-
-### MOV Distance Completed
-
-{% include asc-stage-chart stage="stage3" class="mov" %}
-<br>&nbsp;<br>
-{% include asc-stage-table stage="stage3" class="mov" %}
-
 {% endtab %}
 {% tab stage Stage 4%}
 __July 27th:__ Gering, NE to Casper, WY
 - Route Segments:
   - Gering to Casper: <i>xxx miles</i>
-
-## SOV Distance Completed
-
+{% endtab %}
+{% tab stage Overall%}
+{% endtab %}
+{% endtabs %}
+## SOV Results
+{% tabs stagesov %}
+{% tab stagesov Stage 1%}
+{% include asc-stage-chart stage="stage1" class="sov" %}
+<br>&nbsp;<br>
+{% include asc-stage-table stage="stage1" class="sov" %}
+{% endtab %}
+{% tab stagesov Stage 2%}
+{% include asc-stage-chart stage="stage2" class="sov" %}
+<br>&nbsp;<br>
+{% include asc-stage-table stage="stage2" class="sov" %}
+{% endtab %}
+{% tab stagesov Stage 3%}
+{% include asc-stage-chart stage="stage3" class="sov" %}
+<br>&nbsp;<br>
+{% include asc-stage-table stage="stage3" class="sov" %}
+{% endtab %}
+{% tab stagesov Stage 4%}
 {% include asc-stage-chart stage="stage4" class="sov" %}
 <br>&nbsp;<br>
 {% include asc-stage-table stage="stage4" class="sov" %}
-
-## MOV Scores
-
-_For stage ranking MOV teams are scored solely on Distance, Completion Factor, and Target Speed. Other factors are not considered_
-{% include asc-score-chart-js stage="stage4" %}
-{% include asc-score-table stage="stage4" %}
-
-### MOV Distance Completed
-
-{% include asc-stage-chart stage="stage4" class="mov" %}
-<br>&nbsp;<br>
-{% include asc-stage-table stage="stage4" class="mov" %}
-
 {% endtab %}
-{% tab stage Overall%}
-
-## SOV Class
+{% tab stagesov Overall%}
 {% include asc-final-chart stage="overall" class="sov" %}
 <br>&nbsp;
 <br>&nbsp;
 {% include asc-stage-table stage="overall" class="sov" %}
-
+{% endtab %}
+{% endtabs %}
+-----
 ## MOV Scores
+{% tabs stagescore %}
+{% tab stagescore Stage 1%}
+_For stage ranking MOV teams are scored solely on Distance, Completion Factor, and Target Speed. Other factors are not considered_
+{% include asc-score-chart-js stage="stage1" %}
+{% include asc-score-table stage="stage1" %}
+{% endtab %}
+{% tab stagescore Stage 2%}
+## MOV Scores
+_For stage ranking MOV teams are scored solely on Distance, Completion Factor, and Target Speed. Other factors are not considered_
+{% include asc-score-chart-js stage="stage2" %}
+{% include asc-score-table stage="stage2" %}
+{% endtab %}
+{% tab stagescore Stage 3%}
+_For stage ranking MOV teams are scored solely on Distance, Completion Factor, and Target Speed. Other factors are not considered_
+{% include asc-score-chart-js stage="stage3" %}
+{% include asc-score-table stage="stage3" %}
+{% endtab %}
+{% tab stagescore Stage 4%}
+_For stage ranking MOV teams are scored solely on Distance, Completion Factor, and Target Speed. Other factors are not considered_
+{% include asc-score-chart-js stage="stage4" %}
+{% include asc-score-table stage="stage4" %}
+{% endtab %}
+{% tab stagescore Overall%}
 {% include asc-score-chart-final-js %}
 {% include asc-final-score %}
-
-## MOV Miles
+{% endtab %}
+{% endtabs %}
+-----
+### MOV Distance Completed
+{% tabs stagemov %}
+{% tab stagemov Stage 1%}
+{% include asc-stage-chart stage="stage1" class="mov" %}
+<br>&nbsp;<br>
+{% include asc-stage-table stage="stage1" class="mov" %}
+{% endtab %}
+{% tab stagemov Stage 2%}
+{% include asc-stage-chart stage="stage2" class="mov" %}
+<br>&nbsp;<br>
+{% include asc-stage-table stage="stage2" class="mov" %}
+{% endtab %}
+{% tab stagemov Stage 3%}
+{% include asc-stage-chart stage="stage3" class="mov" %}
+<br>&nbsp;<br>
+{% include asc-stage-table stage="stage3" class="mov" %}
+{% endtab %}
+{% tab stagemov Stage 4%}
+{% include asc-stage-chart stage="stage4" class="mov" %}
+<br>&nbsp;<br>
+{% include asc-stage-table stage="stage4" class="mov" %}
+{% endtab %}
+{% tab stagemov Overall%}
 {% include asc-final-chart stage="overall" class="mov" %}
 <br>&nbsp;
 <br>&nbsp;
@@ -173,13 +167,11 @@ _For stage ranking MOV teams are scored solely on Distance, Completion Factor, a
 {% endtab %}
 {% endtabs %}
 
-
-
-
 {% assign url = site.baseurl | prepend: site.url %}
 <link rel="stylesheet" href="{{ url }}/assets/css/tabs.css">
 <script src="{{ url }}/assets/js/tabs.js"></script>
 <script> jekyllTabs.init({
+    syncTabsWithSameLabels: true,
 });
 </script>
 <script type="text/javascript" async
