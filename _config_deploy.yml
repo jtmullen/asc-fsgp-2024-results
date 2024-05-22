@@ -6,6 +6,7 @@ short_title: Electrek ASC 2024
 description: See results here
 baseurl: "/2024/results" # the subpath of your site, e.g. /blog
 url: 'https://www.americansolarchallenge.org' # the base hostname & protocol for your site
+imagepath: "/assets/images"
 author:
 copyright:
   year: 2024
