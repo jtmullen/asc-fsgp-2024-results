@@ -81,3 +81,4 @@ ASC Stage Chart Generator
 <div style="margin:auto;text-align:center">✅ indicates checkpoint made - ❌ indicates checkpoint missed<br>
 <b>Last Updated at: <i>{{modified}}</i></b>
 </div>
+</div>
