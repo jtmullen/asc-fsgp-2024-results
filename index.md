@@ -19,7 +19,7 @@ current_link: "/scrutineering.html"
     </span>
     <header class="major">
       <h3><a href="scrutineering.html" class="link">Scrutineering</a></h3>
-      <p>Vehicle Inspections; <i>July 13-15</i></p>
+      <p>Vehicle Inspections: <i>July 13-15</i></p>
     </header>
   </article>
     <article>
@@ -28,7 +28,7 @@ current_link: "/scrutineering.html"
     </span>
     <header class="major">
       <h3><a href="fsgp/" class="link">Formula Sun Grand Prix</a></h3>
-      <p>Track Race and ASC Qualifier; <i>July 16-18</i></p>
+      <p>Track Race and ASC Qualifier: <i>July 16-18</i></p>
     </header>
   </article>
     <article>
@@ -37,7 +37,7 @@ current_link: "/scrutineering.html"
     </span>
     <header class="major">
       <h3><a href="asc/" class="link">Electrek American Solar Challenge</a></h3>
-      <p>1550+ mile Road Challenge Following 7 National Historic Trails; <i>July 20-27</i></p>
+      <p>1550+ mile Road Challenge Following 7 National Historic Trails: <i>July 20-27</i></p>
     </header>
   </article>
   <article>
