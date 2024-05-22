@@ -18,7 +18,7 @@ breadcrumb: true
 </ul>
 
 
-The Electrek Formula Sun Grand Prix is 3 days for solar car racing on the track. After clearing [scrutineering](./scrutineering), teams will take the track at National Corvette Museum Motorsports Park for 24 hours of racing. Single Occupant Class Vehicles will compete to complete the most total miles/laps. Multi-Occupant Vehicles will compete to complete laps while using the least energy per passenger. 
+The Electrek Formula Sun Grand Prix is a multi-day track event for solar cars. After clearing [scrutineering](./scrutineering), teams will take to the track at National Corvette Museum Motorsports Park for 24 hours of racing, split over three days. Single-Occupant vehicles will compete to complete the most total miles/laps. Multi-Occupant vehicles will compete to complete laps while using the least energy per passenger. 
 
 ## Schedule
 
@@ -35,18 +35,18 @@ The Electrek Formula Sun Grand Prix is 3 days for solar car racing on the track.
   - Solar Cars on the track: 9am-5pm
   - Awards Ceremony: ~6pm
 
-_All Times Local to Bowling Green, KY (US-Central)_  
+_All times are local to Bowling Green, KY (US-Central)._  
 
 ## Attend FSGP
 
-The Electrek Formula Sun Grand Prix 2024 is **open to the public and free to attend!** More details will be made available about opening times, generally the track will be open to the public anytime solar cars are on the track. The public will be welcome to watch from any viewing area or spend time in the paddock areas. Visitors may need to sign a waiver to enter. 
+The Electrek Formula Sun Grand Prix 2024 is **open to the public and free to attend!** More details will be made available about opening times—generally the track will be open to the public anytime solar cars are on the track. The public will be welcome to watch from any viewing area or spend time in the paddock. Visitors may need to sign a waiver to enter. 
 
 ## Electrek American Solar Challenge Qualification
 
-Teams wanting to continue onto the road at the American Solar Challenge must qualify through their partiticapation in the Formula Sun Grand Prix. To qualify a team must either: 
+Teams wanting to continue onto the road for the American Solar Challenge must qualify through their partiticapation in the Formula Sun Grand Prix. To qualify, a team must either: 
 - Complete 205 miles (66 laps) in one day on the track
 - Complete 308 miles (98 laps) in two consecutive days on the track
 
 Additionally, each driver must complete 53 miles (17 laps) to be allowed to drive on the road. 
 
-_At the sole discretion of the staff provisional qualification may be extended to teams who do not fully meet these requirements_
+_At the sole discretion of the staff, provisional qualification may be extended to teams who do not fully meet these requirements._

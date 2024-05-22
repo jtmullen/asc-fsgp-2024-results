@@ -9,8 +9,7 @@ social_image: "{% link assets/images/florida_fsgp_front.jpg %}"
 breadcrumb: true
 ---
 
-
-The Electrek Formula Sun Grand Prix 2024 is 3 days of racing on the 3.15 mile full course at the [National Corvette Museum Motorsports Park](https://www.motorsportspark.org/) in Bowling Green, Kentucky. Solar Cars drive for 8 hours per day and have additonal solar charging time available in the morning and evening. FSGP is open to the public and free to attend! 
+The Electrek Forumla Sun Grand Prix is a 3-day track event. For 8 hours each day, solar cars will drive on the 3.15 mile course at the [National Corvette Museum Motorsports Park](https://www.motorsportspark.org/) in Bowling Green, Kentucky. FSGP is open to the public and free to attend! 
 
 -----
 _Running lap counts from the track will be updated periodically throughout the day. MOV Scores will be calculated at the end of each race day._
@@ -20,7 +19,7 @@ _Running lap counts from the track will be updated periodically throughout the d
 
 {% include fsgp-lap-chart-js-grey class="sov" %}
 <br>
-<div style="margin:auto; text-align:center;"> <i> Scroll right to see all data on small screens </i>
+<div style="margin:auto; text-align:center;"> <i> Scroll right to see all data on small screens. </i>
 {% include fsgp-table class="sov" %}
 
 
@@ -29,7 +28,7 @@ _Running lap counts from the track will be updated periodically throughout the d
 {% tab class MOV Class%}
 
 
-Vehicles competing in the [Multi Occupant Vehicle Class](https://www.americansolarchallenge.org/the-competition/vehicle-classes/) at FSGP are scored based on a formula that includes the number of miles (laps) driven, the number of passengers in the vehicle during those laps, amount of external charging (non-solar charging), and average speed. The full formula is detailed at the [bottom of this page](#mov-scoring-formula). 
+Vehicles competing in the [Multi Occupant Vehicle Class](https://www.americansolarchallenge.org/the-competition/vehicle-classes/) at FSGP are scored based on a formula that includes: the number of miles (laps) driven, the number of passengers in the vehicle during those laps, amount of external charging (non-solar charging), and average speed. The full formula is detailed at the [bottom of this page](#mov-scoring-formula). 
 
 
 -----
@@ -37,7 +36,7 @@ Vehicles competing in the [Multi Occupant Vehicle Class](https://www.americansol
 
 {% include fsgp-score-chart-js %}
 
-<div style="margin:auto; text-align:center;"> <i> Scroll right to see all data on small screens </i>
+<div style="margin:auto; text-align:center;"> <i> Scroll right to see all data on small screens. </i>
 {% include fsgp-score-table %}
 </div>
 
@@ -46,7 +45,7 @@ Vehicles competing in the [Multi Occupant Vehicle Class](https://www.americansol
 ## MOV Laps
 {% include fsgp-lap-chart-js class="mov" %}
 <br>
-<div style="margin:auto; text-align:center;"> <i> Scroll right to see all data on small screens </i>
+<div style="margin:auto; text-align:center;"> <i> Scroll right to see all data on small screens. </i>
 {% include fsgp-table class="mov" %}
 </div>
 
@@ -54,14 +53,14 @@ Vehicles competing in the [Multi Occupant Vehicle Class](https://www.americansol
 
 # MOV Scoring Formula
 
-At FSGP, Multi Occupant Vehicles are scored based on the number of laps they complete, the number of passengers carried, the amount of external energy used, and their average speed. The scoring formula is as follows: \$$ S = \frac{1}{E} \times D \times C \times T $$
+At FSGP, Multi-Occupant vehicles are scored based on the number of laps they complete, the number of passengers carried, the amount of external energy used, and their average speed. The scoring formula is as follows: \$$ S = \frac{1}{E} \times D \times C \times T $$
 
 Variable Definitions: 
 - __S__: Score
-- __D__: Person  Mile Distance - the number of miles driven (2.5 miles per lap) times the average number of passengers in the vehicle. 
-- __E__: External Energy Usage - the vehicles battery capacity (assumed to start FSGP full) plus any external charging during the event. 
-- __C__: Completion Factor - the number of miles driven less penalty miles divided by the highest number of miles driven by any team. 
-- __T__: Target Speed Derating - vehicles must average at least <b>35 mph</b> for the event, in which case this factor will be 1.0. Otherwise they have their score derated based on the following formula: \$$ T = (0.6)^{(35-[Average Speed])^{0.4}} $$
+- __D__: Person Mile Distance - the number of miles driven (3.15 miles per lap) times the average number of passengers in the vehicle 
+- __E__: External Energy Usage - the vehicles battery capacity (assumed to start FSGP full) plus any external charging during the event in kWh
+- __C__: Completion Factor - the number of miles driven less penalty miles divided by the highest number of miles driven by any team 
+- __T__: Target Speed Derating - 1.0 if the vehicle averages at least <b>30 mph</b> for the duration of the event. If average speed is less than 30 mph, the team will have their score derated based on the following formula: \$$ T = (0.6)^{(35-[Average Speed])^{0.4}} $$
 
 
 
