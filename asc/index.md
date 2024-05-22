@@ -7,12 +7,14 @@ social_image: "{% link assets/images/app_state_wagon.jpg %}"
 nav-menu: true
 header: no
 breadcrumb: true
+header:
+  image_fullwidth: "assets/images/app_state_wagon.jpg"
 ---
 
 The Electrek American Solar Challenge 2024 is an 8 day 1550+ mile competition split into 4 stages. Solar cars will depart from Nashville, TN and make their way to Casper, WY following 7 [National Historic Trails](https://www.nps.gov/subjects/nationaltrailssystem/national-historic-trails.htm) as they _See America By National Historic Trail!_ Single-Occupant Vehicles will compete to the complete the most miles by driving optional loops at the checkpoint and stage stops. Multi-Occupant Vehicles will compete for the highest score by maximizing their practicality score and person-miles travelled while minimizing the amount of grid-charging needed. Learn more about the [vehicle classes](https://www.americansolarchallenge.org/the-competition/vehicle-classes/).
 
 <ul class="actions">
-<a href="./" class="button special" style="margin:5px">Live Tracking</a>
+<a href="./live" class="button special" style="margin:5px">Live Tracking</a>
 <a href="./timing" class="button special" style="margin:5px">Live Timing Board</a>
 <a href="./results" class="button special" style="margin:5px">Official Results</a>
 <a href="./route" class="button special" style="margin:5px">Route Information</a>
@@ -42,3 +44,7 @@ The Electrek American Solar Challenge 2024 is an 8 day 1550+ mile competition sp
 _For full time details see the [route](./route) page_
 
 ## See the Solar Cars
+
+The solar cars may be coming through your neighborhood! The best way to see the solar cars up close is near a checkpoint or stage stop. At these locations teams will be held for a mandatory hold time of 45 minutes before being released to continue on the route or drive optional loops for extra miles. If you are planning a visit to a checkpoint please note that the first solar cars will not arrive right when the checkpoint opens. If there are poor weather or traffic conditions they may not arrive in the first hour(s) in some cases. You will see more solar cars in the latter half of the open time. You can watch the live tacker during the event to estimate arrival times to checkpoints and stage stops. 
+
+If you are not located near a stop location but are along the route you can still see the solar cars on the open road! The [route page](./route) includes information on the exact roads the solar cars will travel and provides rough estimates for arrival times for cities along the route. Watch the live track during the event to see when exactly the solar cars will arive. 
