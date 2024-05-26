@@ -35,7 +35,7 @@ FSGP MOV Table Generator
 		<td>{{team.completion}}%</td>
 		<td>{{team.derate}}</td>
 		<td style="border-right-width: 3px;">{{team.total-ext}}</td>
-		<td>{{team.trailer}}</td>
+		<td>{{team.base}}</td>
 		<td>{{team.miles}}</td>
 		<td>{{team.person}}</td>
 		<td>{{team.penalty}}</td>
