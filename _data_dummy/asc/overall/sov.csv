@@ -1,11 +1,23 @@
-team,number,penalty,trailer,time,speed,checkpoint,1,2,3,4,5,6,7,8,9,10,11,12,13,14
-data,name,,,,,,Independence to Topeka,Topeka Loop,Topeka to Grand Island,Grand Island Loop,Grand Island to Gering,Gering to Casper,Casper Loop,Casper to Lander,Lander Loop,Lander to Montpelier,Montpelier Loop,Montpelier to Pocatello,Pocatello Loop,Pocatello to Twin Falls
-data,type,,,,,,base,loop,base,loop,base,base,loop,base,loop,base,Loop,base,loop,base
-data,miles,,,,,,98.3,43.3,265.2,21,311.2,198.3,20.8,156.4,33.4,225.7,46.2,86.6,33.2,129.1
-MIT,4,28,Yes,55:10:45,35.7,✅ | ✅ | ✅ | ✅,98.3,0,265.2,6,311.2,198.3,7,156.4,2,225.7,2,86.6,2,129.1
-Principia,32,81,Yes,55:23:19,35.2,✅ | ✅ | ✅ | ✅,98.3,0,265.2,6,311.2,198.3,7,156.4,1,225.7,3,86.6,1,129.1
-Kentucky,3,28,Yes,56:28:30,30.2,✅ | ✅ | ✅ | ✅,98.3,0,265.2,5,311.2,198.3,3,156.4,1,225.7,0,86.6,1,129.1
-Berkeley,6,17,Yes,53:14:10,28.4,✅ | ✅ | ✅ | ✅,98.3,0,265.2,2,311.2,198.3,0,156.4,0,225.7,0,86.6,0,129.1
-ETS,101,44,No,56:57:53,28.1,✅ | ✅ | ✅ | ✅,98.3,0,265.2,4,311.2,198.3,1,145.5,0,225.7,0,86.6,1,129.1
-Illinois,22,3,No,61:40:00,24.3,❌ | ✅ | ❌ | ✅,98.3,0,265.2,4,311.2,198.3,0,36.1,0,225.7,0,86.6,2,129.1
-data,modified,19 July 2022 – 8:45pm US Central,,,,,,,,,,,,,,,,,,
+team,number,penalty,base,time,speed,checkpoint,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16
+data,name,,,,,,Nashville to Paducah,Paducah Loop,Paducah to Edwardsville,Edwardsville Loop,Edwardsville to Jefferson City,Jefferson City Loop,Jefferson City to Independence,Independence to St. Joseph,St. Joseph Loop,St. Joseph to Beatrice,Beatrice Loop,Beatrice to Kearney,Kearney Loop,Kearney to Gering,Gering Loop,Gering to Casper
+data,type,,,,,,base,loop,base,loop,base,loop,base,base,loop,base,Loop,base,loop,base,loop,base
+data,miles,,,,,,156,49,217,29,164,28,156,73,33,138,25,178,22,273,26,198
+State Uni,525,18,Yes,,34.9,✅ | ✅ | ✅ | ✅ | ✅,156,1,217,6,164,3,156,73,6,138,2,178,4,273,4,198
+Soapbox Derby,523,19,Yes,,31.4,✅ | ✅ | ✅ | ✅ | ✅,156,1,217,5,164,3,156,73,5,138,1,178,5,273,5,198
+Cat Team,524,65,Yes,,36.5,✅ | ✅ | ✅ | ✅ | ✅,156,1,217,6,164,3,156,73,5,138,1,178,5,273,4,198
+Pinewood Derby,522,19,Yes,,27.6,✅ | ✅ | ✅ | ❌ | ✅,156,1,217,5,164,2,156,73,4,138,0,178,6,273,4,198
+Matchbox Car,521,55,Yes,,29.6,✅ | ✅ | ✅ | ✅ | ✅,156,0,217,5,164,1,156,73,3,138,2,178,6,273,3,198
+Dutch Team,520,23,Yes,,28,❌ | ✅ | ❌ | ✅ | ✅,156,0,217,4,164,0,156,73,1,138,2,178,5,273,3,198
+Team Name,518,71,Yes,,27.9,✅ | ✅ | ✅ | ❌ | ✅,156,0,217,3,164,2,156,73,2,138,0,178,5,273,2,198
+Raycing Team,512,25,Yes,,28.4,❌ | ✅ | ✅ | ✅ | ✅,156,0,217,1,164,0,156,73,1,138,0,178,3,273,2,198
+Car Team,515,68,Yes,,28.3,❌ | ✅ | ✅ | ✅ | ✅,156,0,217,2,164,0,156,73,2,138,0,178,2,273,2,198
+Casper State,501,50,Yes,,28.2,❌ | ✅ | ❌ | ✅ | ✅,156,0,217,1,164,0,156,73,1,138,0,178,2,273,2,198
+College Team,514,37,Yes,,27.7,✅ | ✅ | ✅ | ✅ | ✅,156,0,217,1,164,0,156,73,1,138,0,178,2,273,0,198
+University Team,516,41,No,,29,✅ | ✅ | ✅ | ✅ | ✅,156,0,217,2,164,0,156,50,2,138,0,178,4,273,2,198
+Foreign Team,519,43,No,,28.2,✅ | ✅ | ✅ | ✅ | ✅,156,0,217,3,164,2,156,73,1,138,1,178,4,134,0,198
+Solar Team,513,52,No,,27.6,✅ | ✅ | ✅ | ❌ | ❌,156,0,217,1,164,0,156,73,1,138,0,178,0,250,0,198
+Scotts Bluff,502,24,No,,27.1,❌ | ✅ | ❌ | ❌ | ❌,156,0,217,0,164,0,156,73,0,10,0,0,0,273,2,198
+School Team,517,54,No,,28.7,✅ | ❌ | ❌ | ❌ | ✅,156,0,217,2,164,0,73,0,0,138,0,178,2,53,0,198
+Paducah State,504,70,No,,26.1,❌ | ✅ | ❌ | ❌ | ❌,156,0,217,0,164,0,100,0,0,138,0,20,0,273,1,198
+Music City,503,58,No,,27.2,❌ | ✅ | ❌ | ❌ | ❌,156,0,217,0,164,0,156,73,0,138,0,178,0,50,0,0
+data,modified,19 July 2022 – 8:45pm US Central,,,,,,,,,,,,,,,,,,,,
