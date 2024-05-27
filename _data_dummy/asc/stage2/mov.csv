@@ -1,9 +1,11 @@
-team,number,penalty,trailer,time,speed,checkpoint,1,2,3,4,5
-data,name,,,,,,Grand Island to Gering,Gering to Casper,Casper Loop,Casper to Lander,Lander Loop
-data,type,,,,,,base,base,loop,base,loop
-data,miles,,,,,,311.2,198.3,20.8,156.4,33.4
-Minnesota,35,1,Yes,18:07:29,40.43,✅ | ✅,311.2,198.3,0,156.4,2
-App State,828,1,Yes,24:46:33,26.88,❌ | ✅,311.2,198.3,0,156.4,0
-Poly Montreal,55,10,Yes,19:02:08,34.98,✅ | ✅,311.2,198.3,0,156.4,0
-Iowa State,9,-,No,--,-,❌ | ❌,0,0,0,0,0
+team,number,penalty,base,time,speed,checkpoint,1,2,3,4,5
+data,name,,,,,,Edwardsville to Jefferson City,Jefferson City Loop,Jefferson City to Independence,Independence to St. Joseph,St. Joseph Loop
+data,type,,,,,,base,loop,base,base,loop
+data,miles,,,,,,164,28,156,73,33
+Solar Team,555,3,Yes,19:02:08,34.98,✅ | ✅,164,2,156,73,5
+French Team,550,1,Yes,18:07:29,40.43,✅ | ✅,164,3,156,73,4
+Fake Team,552,10,Yes,19:02:08,34.98,✅ | ✅,164,3,156,73,3
+State University,554,15,Yes,19:02:08,34.98,✅ | ✅,164,1,156,73,2
+Mountain Team,551,1,Yes,24:46:33,26.88,✅ | ❌,164,1,156,73,1
+College Team,553,0,No,--,-,❌ | ❌,0,0,0,0,0
 data,modified,19 July 2022 – 8:45pm US Central,,,,,,,,,

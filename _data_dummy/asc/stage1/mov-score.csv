@@ -1,6 +1,8 @@
-team,number,trailer,miles,person,penalty,speed,capacity,external,completion,derate,total-ext,score
-Minnesota,35,Yes,510.5,1021,4,38.14,20.12,13.28,99.22,1,33.4,1013
-App State,828,Yes,426.5,853,10,29.29,22.14,19.43,81.59,0.0054,41.57,3.7
-Poly Montreal,55,No,310.3,620.6,6,35.53,9.16,0,59.61,1,9.16,369.9
-Iowa State,9,No,22,44,4,3.72,15.649,15.649,3.53,0,31.298,0
+team,number,base,miles,person,penalty,speed,capacity,external,completion,derate,total-ext,score
+French Team,550,Yes,587,1174,4,38.14,20.12,13.28,99.32,1.00,33.40,"1,166.00"
+Solar Team,555,Yes,489,978,2,35.53,9.16,0.00,82.96,1.00,9.16,811.39
+State University,554,Yes,460,920,7,35.53,12.56,17.20,77.17,1.00,29.76,709.98
+Mountain Team,551,Yes,587,1174,10,29.29,22.14,19.43,98.30,0.36,41.57,413.85
+Fake Team,552,No,331,662,6,35.53,13.80,7.20,55.37,1.00,21.00,366.52
+College Team,553,No,62,186,4,3.72,26.70,0.00,9.88,0.13,26.70,2.43
 modified,19 July 2022 – 8:45pm US Central,,,,,,,,,,,

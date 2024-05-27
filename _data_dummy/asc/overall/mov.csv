@@ -1,9 +1,11 @@
-team,number,penalty,trailer,time,speed,checkpoint,1,2,3,4,5,6,7,8,9,10,11,12,13,14
-data,name,,,,,,Independence to Topeka,Topeka Loop,Topeka to Grand Island,Grand Island Loop,Grand Island to Gering,Gering to Casper,Casper Loop,Casper to Lander,Lander Loop,Lander to Montpelier,Montpelier Loop,Montpelier to Pocatello,Pocatello Loop,Pocatello to Twin Falls
-data,type,,,,,,base,loop,base,loop,base,base,loop,base,loop,base,Loop,base,loop,base
-data,miles,,,,,,98.3,43.3,265.2,21,311.2,198.3,20.8,156.4,33.4,225.7,46.2,86.6,33.2,129.1
-Minnesota,35,19,Yes,44:12:34,38.86,✅ | ✅ | ✅ | ✅,98.3,0,265.2,7,311.2,198.3,0,156.4,2,225.7,0,86.6,1,129.1
-App State,828,18,Yes,51:37:29,30.35,✅ | ❌ | ✅ | ✅,98.3,0,265.2,3,311.2,198.3,0,156.4,0,225.7,0,86.6,1,129.1
-Poly Montreal,55,18,No,39:24:25,35.97,✅ | ✅ | ✅ | ✅,45.1,0,265.2,0,311.2,198.3,0,156.4,0,225.7,0,86.6,0,129.1
-Iowa State,9,4,No,5:55:00,3.72,❌ | ❌ | ❌ | ❌,22,0,0,0,0,0,0,0,0,0,0,0,0,0
-data,modified,19 July 2022 – 8:45pm US Central,,,,,,,,,,,,,,,,,,
+team,number,penalty,base,time,speed,checkpoint,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16
+data,name,,,,,,Nashville to Paducah,Paducah Loop,Paducah to Edwardsville,Edwardsville Loop,Edwardsville to Jefferson City,Jefferson City Loop,Jefferson City to Independence,Independence to St. Joseph,St. Joseph Loop,St. Joseph to Beatrice,Beatrice Loop,Beatrice to Kearney,Kearney Loop,Kearney to Gering,Gering Loop,Gering to Casper
+data,type,,,,,,base,loop,base,loop,base,loop,base,base,loop,base,Loop,base,loop,base,loop,base
+data,miles,,,,,,156,49,217,29,164,28,156,73,33,138,25,178,22,273,26,198
+French Team,550,10,Yes,8:44:00,35.53,✅ | ✅ | ✅ | ✅ | ✅,156,2,217,4,164,3,156,73,4,138,0,178,4,273,5,198
+Solar Team,555,21,Yes,8:44:00,35.53,❌ | ✅ | ✅ | ✅ | ✅,156,0,217,4,164,2,156,73,5,138,2,178,4,273,5,198
+Mountain Team,551,23,Yes,8:44:00,35.53,✅ | ✅ | ❌ | ✅ | ✅,156,2,217,4,164,1,156,73,1,138,1,178,5,273,4,198
+State University,554,35,Yes,8:44:00,35.53,✅ | ✅ | ✅ | ❌ | ✅,156,0,217,3,164,1,156,73,2,138,0,178,3,273,2,198
+Fake Team,552,22,No,8:44:00,35.53,✅ | ✅ | ✅ | ✅ | ✅,156,1,126,0,164,3,156,73,3,138,1,178,4,273,2,198
+College Team,553,4,No,8:44:00,35.53,❌ | ❌ | ❌ | ❌ | ❌,62,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+data,modified,19 July 2022 – 8:45pm US Central,,,,,,,,,,,,,,,,,,,,
