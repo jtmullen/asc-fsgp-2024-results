@@ -60,7 +60,7 @@ FSGP Lap Chart JS
 	  {
 		data: [{{ team.person | times: 100 | divided_by: max_personmi }}, {{team.completion}}, {{team.derate | times: 100}}, {{min_external | times: 100 | divided_by: team.total-ext}}, {{team.practical}} ],
 		backgroundColor: [
-			"#EE4B2B7F","#FFAC1C7F","#FFEA007F" 
+			"#EE4B2B7F","#FFAC1C7F","#FFEA007F", "#36a2eb7F", "#4bc0c07F" 
 		]
 	  }
 	  ]
