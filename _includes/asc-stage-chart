@@ -2,6 +2,7 @@
 ASC Stage Chart Generator
 {% endcomment %}{% assign class = include.class %}{% assign stage = include.stage %}
 {% assign most_miles = 0 %}
+{% assign num_teams = 0 %}
 {% assign name = "" | split: ',' %}
 {% assign type = "" | split: ',' %}
 {% assign miles = "" | split: ',' %}
@@ -35,6 +36,7 @@ ASC Stage Chart Generator
 		{% if this_miles > most_miles %}
 			{% assign most_miles = this_miles %}
 		{% endif %}
+		{% assign num_teams = num_teams | plus: 1 %}
 	{% endif %}
 {% endfor %}
 {% assign full = 200 %}
@@ -84,6 +86,19 @@ ASC Stage Chart Generator
 {% else %}
 	{% assign caption = "Multi Occupant Class <i>(Tap bars for details)</i>" %}
 {% endif %}
+{% if num_teams > 6 %}
+<style>
+#asc-stage-{{stage}}-{{class}} {
+	display: block;
+}
+@media only screen and (max-width: 768px) {
+    #asc-stage-{{stage}}-{{class}} {
+        display: none;
+    }
+}
+</style>
+{% endif %}
+<div id="asc-stage-{{stage}}-{{class}}">
 <link rel='stylesheet' href='{{site.baseurl}}/assets/css/charts.min.css'><link rel="stylesheet" href="{{site.baseurl}}/assets/css/asc-style.css"><div id="legend-example-2"><table id="stacked-example-3" class="charts-css column hide-data show-heading show-labels show-primary-axis show-{{axis}}-secondary-axes data-spacing-10 multiple stacked">
   <caption> {{caption}} </caption>
   <thead><tr></tr></thead><tbody>
@@ -111,4 +126,4 @@ ASC Stage Chart Generator
 	{% endfor %}
   </tbody>
   </table>
-</div>
+</div></div>
