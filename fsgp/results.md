@@ -28,7 +28,15 @@ _Running lap counts from the track will be updated periodically throughout the d
 {% tab class MOV Class%}
 
 
-Vehicles competing in the [Multi Occupant Vehicle Class](https://www.americansolarchallenge.org/the-competition/vehicle-classes/) at FSGP are scored based on a formula that includes: the number of miles (laps) driven, the number of passengers in the vehicle during those laps, amount of external charging (non-solar charging), and average speed. The full formula is detailed at the [bottom of this page](#mov-scoring-formula). 
+Vehicles competing in the [Multi Occupant Vehicle Class](https://www.americansolarchallenge.org/the-competition/vehicle-classes/) at FSGP are scored based on a formula that includes: the number of miles (laps) driven, the number of passengers in the vehicle during those laps, amount of external charging (non-solar charging), and average speed. The full formula is as follows: \$$ S = \frac{1}{E} \times D \times C \times T $$
+Variable Definitions: 
+- __S__: Score
+- __D__: Person Mile Distance - the number of miles driven (3.15 miles per lap) times the average number of passengers in the vehicle 
+- __E__: External Energy Usage - the vehicles battery capacity (assumed to start FSGP full) plus any external charging during the event in kWh
+- __C__: Completion Factor - the number of miles driven less penalty miles divided by the highest number of miles driven by any team 
+- __T__: Target Speed Derating - 1.0 if the vehicle averages at least <b>30 mph</b> for the duration of the event. If average speed is less than 30 mph, the team will have their score derated based on the following formula: \$$ T = (0.6)^{(30-[Average Speed])^{0.4}} $$
+
+
 
 
 -----
@@ -50,20 +58,6 @@ Vehicles competing in the [Multi Occupant Vehicle Class](https://www.americansol
 </div>
 
 -----
-
-# MOV Scoring Formula
-
-At FSGP, Multi-Occupant vehicles are scored based on the number of laps they complete, the number of passengers carried, the amount of external energy used, and their average speed. The scoring formula is as follows: \$$ S = \frac{1}{E} \times D \times C \times T $$
-
-Variable Definitions: 
-- __S__: Score
-- __D__: Person Mile Distance - the number of miles driven (3.15 miles per lap) times the average number of passengers in the vehicle 
-- __E__: External Energy Usage - the vehicles battery capacity (assumed to start FSGP full) plus any external charging during the event in kWh
-- __C__: Completion Factor - the number of miles driven less penalty miles divided by the highest number of miles driven by any team 
-- __T__: Target Speed Derating - 1.0 if the vehicle averages at least <b>30 mph</b> for the duration of the event. If average speed is less than 30 mph, the team will have their score derated based on the following formula: \$$ T = (0.6)^{(35-[Average Speed])^{0.4}} $$
-
-
-
 {% endtab %}
 {% endtabs %}
 
