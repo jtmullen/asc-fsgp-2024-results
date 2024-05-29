@@ -38,7 +38,11 @@ socials:
 
 
 collections:
-- updates
+  updates:
+  teams: 
+    output: true
+    sort_by: number
+    permalink: /teams/:name
 
 # build settings
 markdown: kramdown
