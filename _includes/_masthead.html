@@ -1,4 +1,4 @@
-{%- if page.header == NULL and page.header.image_fullwidth == NULL and page.header.pattern == NULL and page.header.background-color == NULL and page.header.title == NULL -%}
+{%- if page.header == NULL and page.header.image_fullwidth == NULL and page.header.pattern == NULL and page.header.background-color == NULL and page.header.title == NULL and page.collection != "teams"-%}
 
 <div id="masthead-no-image-header">
 	<div class="row">
@@ -10,7 +10,7 @@
 	</div><!-- /.row -->
 </div><!-- /#masthead -->
 
-{%- if page.breadcrumb == true -%}
+{%- if page.breadcrumb == true or layout.breadcrumb == true-%}
 {%- include _breadcrumb.html -%}
 {%- endif -%}
 
@@ -28,7 +28,7 @@
 	</div><!-- /.row -->
 </div><!-- /#masthead -->
 
-{%- if page.breadcrumb == true -%}
+{%- if page.breadcrumb == true or layout.breadcrumb == true -%}
 {%- include _breadcrumb.html -%}
 {%- endif -%}
 
@@ -58,7 +58,7 @@
 	</div><!-- /.row -->
 </div><!-- /#masthead -->
 
-{%- if page.breadcrumb == true -%}
+{%- if page.breadcrumb == true or layout.breadcrumb == true -%}
 {%- include _breadcrumb.html -%}
 {%- endif -%}
 
@@ -86,7 +86,7 @@
 	</div><!-- /.row -->
 </div><!-- /#masthead -->
 
-{%- if page.breadcrumb == true -%}
+{%- if page.breadcrumb == true or layout.breadcrumb == true -%}
 {%- include _breadcrumb.html -%}
 {%- endif -%}
 
@@ -104,17 +104,17 @@
 
 
 
-{%- elsif page.header.background-color -%}
+{%- elsif page.header.background-color or page.collection == "teams" -%}
 
-<div id="masthead-with-background-color" style="background: {{ page.header.background-color }};">
+<div id="masthead-with-background-color" style="background: {% if page.collection == 'teams' %}#e4e4e4{% else %}{{ page.header.background-color }}{% endif %};">
 	<div class="row">
 		<figure class="small-12 columns">
-			<img src="{{ site.url }}{{ site.baseurl }}{{ site.imagepath }}//{{ page.header.image }}" alt="{{ site.title }}">
+			<img src="{{ site.url }}{{ site.baseurl }}{{ site.imagepath }}/{% if page.collection == 'teams' %}team_photos/{{page.number}}.jpg{% else %}{{ page.header.image }}{% endif %}" alt="{{ site.title }}">
 		</figure><!-- /.small-12.columns -->
 	</div><!-- /.row -->
 </div><!-- /#masthead -->
 
-{%- if page.breadcrumb == true -%}
+{%- if page.breadcrumb == true or layout.breadcrumb == true -%}
 {%- include _breadcrumb.html -%}
 {%- endif -%}
 
@@ -134,7 +134,7 @@
 
 {%- elsif page.header == false -%}
 
-{%- if page.breadcrumb == true -%}
+{%- if page.breadcrumb == true or layout.breadcrumb == true -%}
 {%- include _breadcrumb.html -%}
 {%- endif -%}
 

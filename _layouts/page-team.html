@@ -1,0 +1,27 @@
+---
+layout: page-fullwidth
+breadcrumb: true
+social_description: Meet the competitors at the Electrek American Solar Challenge 2024
+---
+<b>Class:</b> {{page.class}}&nbsp;&nbsp;|&nbsp;&nbsp;<b>Competing in:</b> <i><a href="../../fsgp">FSGP</a>{% if page.asc %} & <a href="../../asc">ASC</a>{% endif %}</i>&nbsp;&nbsp;|&nbsp;&nbsp;
+<b>Last Competed:</b> {{page.last}}<br><br>
+{{content}}
+<ul class="inline-list social-icons">
+{%- for social_item in page.social -%}
+  <li><a href="{{ social_item.url }}" target="_blank" class="{{ social_item.class }}"></a></li>
+{%- endfor -%}
+</ul>
+<hr>
+<h2> {{page.car.name}} Specifications </h2>
+<i>Specifications are provided by the team</i><br><br>
+<table>
+<tr><td style="text-align:right; font-weight:bold">Size</td><td>{{page.car.weight}}kg&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; {{page.car.size.length}}m x {{page.car.size.width}}m x {{page.car.size.height}}m</td></tr>
+<tr><td style="text-align:right; font-weight:bold">Solar Array</td><td>{{page.car.solar.power}}W {{page.car.solar.manu}} {{page.car.solar.chemistry}}</td></tr>
+<tr><td style="text-align:right; font-weight:bold">Battery</td><td>{{page.car.battery.capacity}}kWh {{page.car.battery.manu}} {{page.car.battery.chemistry}} ({{page.car.battery.weight}}kg)</td></tr>
+<tr><td style="text-align:right; font-weight:bold">Motor</td><td>{{page.car.motor.num}}x {{page.car.motor.power}}kW {{page.car.motor.manu}} {{page.car.motor.type}}</td></tr>
+<tr><td style="text-align:right; font-weight:bold">Wheels</td><td>{{page.car.wheels.num}}x {{page.car.wheels.manu}} {{page.car.wheels.material}}</td></tr>
+<tr><td style="text-align:right; font-weight:bold">Tires</td><td>{{page.car.tire.size}} {{page.car.tire.manu}}</td></tr>
+<tr><td style="text-align:right; font-weight:bold">Chassis</td><td>{{page.car.chassis.material}} {{page.car.chassis.type}}</td></tr>
+{% if page.class == "MOV" %}<tr><td style="text-align:right; font-weight:bold">MOV</td><td>{{page.car.passengers}} passengers {% if page.car.cargo %}&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;{{page.car.cargo}}L Cargo Capacity{% endif %}</td></tr>{% endif %}
+</table>
+

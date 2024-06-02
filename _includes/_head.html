@@ -14,7 +14,7 @@
 {%- capture description -%}{%- if page.meta_description -%}{{ page.meta_description }}{%- elsif page.teaser -%}{{ page.teaser }}{%- elsif page.excerpt -%}{{ page.excerpt }}{%- elsif site.description -%}{{ site.description }}{%- endif -%}{%- endcapture -%}
 {%- assign description = description | strip_html | escape | strip -%}
 
-{%- capture title -%}{%- if page.meta_title -%}{{ page.meta_title}} | {{ site.title | strip_html | strip }}{%- elsif page.title -%}{{ page.title }} | {{ site.short_title | strip_html | strip }}{%- else -%}{{ site.title | strip_html | strip }}{%- endif -%}{%- endcapture -%}
+{%- capture title -%}{% if page.collection == "teams" %}{% include team-page-name %}{%- elsif page.meta_title -%}{{ page.meta_title}} | {{ site.title | strip_html | strip }}{%- elsif page.title -%}{{ page.title }} | {{ site.short_title | strip_html | strip }}{%- else -%}{{ site.title | strip_html | strip }}{%- endif -%}{%- endcapture -%}
 
 {%- assign title = title | strip_html | escape | strip_newlines -%}
 
@@ -53,10 +53,11 @@
 	{%- if page.noindex == true or layout.noindex == true -%}<meta name="robots" content="noindex">{%- endif -%}
 	<link rel="canonical" href="{{ url }}{{ page.url }}">
 
-
+	{%- capture social_title -%}{% if page.collection == "teams" %}{% include team-page-name %}{%- else -%}{{ page.social_title }}{%- endif -%}{%- endcapture -%}
+	{%- capture social_desc -%}{% if page.collection == "teams" %}{{layout.social_description}}{%- else -%}{{ page.social_description }}{%- endif -%}{%- endcapture -%}
 	<!-- Facebook Open Graph -->
-	<meta property="og:title" content="{{ page.social_title }}">
-	<meta property="og:description" content="{{ page.social_description }}">
+	<meta property="og:title" content="{{ social_title }}">
+	<meta property="og:description" content="{{ social_desc }}">
 	<meta property="og:url" content="{{ url }}{{ page.url }}">
 	<meta property="og:locale" content="{%- if site.og_locale == nil -%}en_EN{%- else -%}{{ site.og_locale }}{%- endif -%}">
 	<meta property="og:type" content="website">
@@ -68,8 +69,8 @@
 	<!-- Twitter -->
 	<meta name="twitter:card" content="summary">
 	<meta name="twitter:site" content="@ASC_SolarRacing">
-	<meta name="twitter:title" content="{{ page.social_title }}">
-	<meta name="twitter:description" content="{{ page.social_description }}">
+	<meta name="twitter:title" content="{{ social_title }}">
+	<meta name="twitter:description" content="{{ social_desc }}">
 	{%- if page.social_image -%}<meta name="twitter:image" content="{{ page.social_image }}">{%- endif -%}
 
 	<link type="text/plain" rel="author" href="{{ url}}/humans.txt">
