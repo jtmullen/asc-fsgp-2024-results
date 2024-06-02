@@ -33,29 +33,58 @@
 }
 
 .info-head{
-  padding-top: 5%;
+  padding-top: 0%;
   padding-right: 5%;
   display: flex;
   justify-content: space-between;
 }
+
+table {
+	border: none;
+}
+table td {
+	background:white;
+}
+
+.car-specs{
+	padding-right:20%
+}
+
+.headline-specs{ 
+	display:flex;
+	justify-content:space-between;
+}
+
+.car-specs > * {
+	font-weight: bold;
+}
+.headline-specs > * {
+	font-weight: bold;
+}
+
 </style>
 <div>
 {% for team in site.teams limit:100 %}
-<a href="{{ site.url }}{{ site.baseurl }}/teams/{{team.number}}">
-<div class="row team-info">
+<div class="row team-info" style="cursor: pointer;" onclick="window.location='{{ site.url }}{{ site.baseurl }}/teams/{{team.number}}';">
   <div class="large-6 columns">
   <img class="team-photo" src="{{ site.url }}{{ site.baseurl }}{{ site.imagepath }}/team_photos/{{team.number}}.jpg" alt="{{team.name}} Team Photo">
   </div>
   <div class="large-6 columns">
   <div class="info-head">
-  <h2 style="margin:1em 0 0 0">#{{team.number}} - {{team.car.name}}</h2><p style="font-size: 36pt">🇺🇸</p>
+  <h2 style="margin:1em 0 0 0">#{{team.number}} - {{team.car.name}}</h2><p style="font-size: 32pt; padding-top:5%;font-weight:bold">{% if {{team.class}} == "MOV" %}<img src="https://www.americansolarchallenge.org/ASC/wp-content/uploads/2022/06/multi-person-icon.png" title="MOV Class" style="width:auto; height 80%;padding-bottom:10%;">{% else %}<img src="https://www.americansolarchallenge.org/ASC/wp-content/uploads/2022/06/person-icon.png" title="SOV Class" style="width:auto; height 80%;padding-bottom:10%;">{% endif %}&nbsp;{% if {{team.country}} == "USA" %}🇺🇸{% elsif {{team.country}} == CAN %}🇨🇦{% endif %}</p>
   </div>
-  <h3 style="margin: -1em 0 0 0">{{team.name}}</h3>
+  <h4 style="margin: -1em 0 0 0">{{team.name}}</h4>
   <p class="university">{{team.school}}</p>
-    <img src="https://www.americansolarchallenge.org/ASC/wp-content/uploads/2022/06/multi-person-icon.png" title="MOV Class">
+  
+  <div class="car-specs">
+  <div class="headline-specs">
+  <span>{{team.car.weight}}kg</span><span> | </span><span>{{team.car.size.length}}m x {{team.car.size.width}}m x {{team.car.size.height}}m</span><span> | </span><span>{% if {{team.class}} == "MOV" %}{{team.car.passengers}} passengers{% else %}{{team.car.wheels.num}} wheels{% endif %}</span></div><hr style="margin:2%">
+  <span>{{team.car.solar.power}}W {{team.car.solar.manu}} {{team.car.solar.chemistry}} array</span><hr style="margin:2%">
+  <span>{{team.car.battery.capacity}}kWh {{team.car.battery.chemistry}} ({{team.car.battery.weight}}kg) battery</span><hr style="margin:2%">
+  <a href="{{ site.url }}{{ site.baseurl }}/teams/{{team.number}}">↪ See Full Specs </a><span style="float:right">{% for social_item in team.social %}&nbsp;&nbsp;&nbsp;&nbsp;<a href="{{ social_item.url }}" target="_blank" class="{{ social_item.class }}" style="text-decoration: inherit; color: inherit; cursor: auto;"></a>{% endfor %}</span>
+  </div>
   </div>
 </div>
-</a>
 <hr>
 {% endfor %}
 </div>
