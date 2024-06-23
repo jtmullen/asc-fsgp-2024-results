@@ -45,7 +45,7 @@ current_link: "/scrutineering.html"
       <img src="{% link assets/images/MOV_FrontStraight.jpg %}" alt="alt" />
     </span>
     <header class="major">
-      <h3><a href="{{ tile.url  | relative_url }}" class="link">See America by National Historic Trail</a></h3>
+      <h3><a href="asc/route" class="link">See America by National Historic Trail</a></h3>
       <p>ASC Route from Nashville, TN to Casper, WY</p>
     </header>
   </article>
