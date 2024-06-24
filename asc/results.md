@@ -42,40 +42,46 @@ _Distance Completed, Times, Average Speeds, and Passenger Information will be up
 {% tab stage Stage 1%}
 __July 20th & 21st:__ Nashville, TN to Edwardsville, IL via Paducah, KY
 - Route Segments:
-  - Nashville to Paducah: <i>xxx miles</i>
-  - Paducah to Edwardsville: <i>xxx miles</i>
+  - Nashville to Paducah: <i>159.7 miles</i>
+  - Paducah to Edwardsville: <i>217.1 miles</i>
 - Optional Loops:
-  - Paducah Loop: <i>xx miles</i>
-  - Edwardsville Loop: <i>xx miles</i>
+  - Paducah Loop: <i>48.8 miles</i>
+  - Edwardsville Loop: <i>29.2 miles</i>
 {% endtab %}
 {% tab stage Stage 2%}
 __July 22nd & 23rd:__ Edwardsville, IL to St. Joseph, MO via Jefferson City, MO and Independence, MO
 - Route Segments:
-  - Edwardsville to Jefferson City: <i>xxx miles</i>
-  - Jefferson City to Independence: <i>xxx miles</i>
-  - Independence to St. Joseph: <i>xxx miles</i>
+  - Edwardsville to Jefferson City: <i>164.2 miles</i>
+  - Jefferson City to Independence: <i>156.6 miles</i>
+  - Independence to St. Joseph: <i>74.0 miles</i>
 - Optional Loops:
-  - Jefferson City Loop: <i>xx miles</i>
-  - St. Joseph Loop: <i>xx miles</i>
+  - Jefferson City Loop: <i>28.2 miles</i>
+  - St. Joseph Loop: <i>32.8 miles</i>
   - _There is no loop at the Indpendence Checkpoint_
 {% endtab %}
 {% tab stage Stage 3%}
 __July 24th-26th:__ St. Joseph, MO to Gering, NE via Beatrice, NE and Kearney, NE
 - Route Segments:
-  - St. Joseph to Beatrice: <i>xxx miles</i>
-  - Beatrice to Kearney: <i>xxx miles</i>
-  - Kearney to Gering: <i>xxx miles</i>
+  - St. Joseph to Beatrice: <i>138.2 miles</i>
+  - Beatrice to Kearney: <i>178.4 miles</i>
+  - Kearney to Gering: <i>273.6 miles</i>
 - Optional Loops:
-  - Beatrice Loop: <i>xx miles</i>
-  - Kearney Loop: <i>xx miles</i>
-  - Gering Loop: <i>xx miles</i>
+  - Beatrice Loop: <i>25.4 miles</i>
+  - Kearney Loop: <i>22.0 miles</i>
+  - Gering Loop: <i>25.95 miles</i>
 {% endtab %}
 {% tab stage Stage 4%}
 __July 27th:__ Gering, NE to Casper, WY
 - Route Segments:
-  - Gering to Casper: <i>xxx miles</i>
+  - Gering to Casper: <i>198.3 miles</i>
 {% endtab %}
 {% tab stage Overall%}
+
+__July 20th-27th:__ Nashville, TN to Casper, WY
+- 1560.0 Total Base Route Miles
+- 7 Optional Loops
+    - 213.35 unique loop miles (teams may complete loops multiple times)
+
 {% endtab %}
 {% endtabs %}
 ## SOV Results
@@ -107,7 +113,7 @@ __July 27th:__ Gering, NE to Casper, WY
 {% include asc-stage-table stage="overall" class="sov" %}
 {% endtab %}
 {% endtabs %}
------
+<br>
 ## MOV Scores
 {% tabs stagescore %}
 {% tab stagescore Stage 1%}
@@ -136,7 +142,7 @@ _For stage ranking MOV teams are scored solely on Distance, Completion Factor, a
 {% include asc-final-score %}
 {% endtab %}
 {% endtabs %}
------
+<br>
 ### MOV Distance Completed
 {% tabs stagemov %}
 {% tab stagemov Stage 1%}

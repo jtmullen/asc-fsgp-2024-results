@@ -57,11 +57,9 @@ Variable Definitions:
 {% include fsgp-table class="mov" %}
 </div>
 
------
 {% endtab %}
 {% endtabs %}
 
------
 
 {% assign url = site.baseurl | prepend: site.url %}
 <link rel="stylesheet" href="{{ url }}/assets/css/tabs.css">

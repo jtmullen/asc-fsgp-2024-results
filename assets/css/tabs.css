@@ -18,7 +18,7 @@
     text-align: center;
     padding: 9px 20px;
     color: #999;
-    border-bottom: 2px solid transparent;
+    border-bottom: 4px solid transparent;
     border-bottom-color: transparent;
     font-size: 18px;
     text-transform: uppercase;
@@ -29,6 +29,7 @@
 .tab > .active > a {
     color:#222;
     border-color: #1e87f0;
+    background-color: #eeeeee
 }
 
 .tab > li > a {
@@ -38,6 +39,11 @@
 
 .tab-content {
     padding: 0;
+    outline-style: solid;
+	outline-color: #eeeeee;
+	border-radius: 0px 10px 10px 10px;
+	 outline-offset: 20px;
+    outline-width: 4px;
 }
 
 .tab-content > li {
