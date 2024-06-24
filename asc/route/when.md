@@ -1,5 +1,5 @@
 ---
-title: When to See Solar Cars
+title: See Solar Cars along the Route
 layout: page-fullwidth
 social_title: See the Solar Cars
 social_description: "When and where to see the solar cars on the road during the Electrek American Solar Challenge 2024"
@@ -11,10 +11,8 @@ header:
   image_fullwidth: "assets/images/ETS_road.jpg"
 ---
 
+{% include alert info="The following are estimated guess windows in which _most_ solar cars will likely pass through a given location.   Actual times may differ based on weather and traffic conditions as well as individual stategy decisions made by competing teams. During the event the [live tracker](./../live) can be used to see the actual location of the solar cars on the road." %}
 
-
-
-## When to see the solar cars along the route
 
 {% tabs state %}
 {% tab state TN%}
@@ -41,6 +39,8 @@ Expect to see most solar cars between _9:45am and 11:00am_ on July 20th.
 
 {% endtab %}
 {% tab state KY%}
+
+Solar Cars will be on the road in Kentucky on Saturday July 20th, a few cars may be in Kentucky into the early hours of Sunday July 21st. Solar cars will enter Kentucky from the south on the way from Nashville, stop in Paducah, and finally head west across the Cairo Ohio River Bridge. 
 
 ### Keysburg
 
@@ -88,17 +88,27 @@ Expect to see solar cars on the road in the Paducah area from around _12:45pm to
 {% endtab %}
 {% tab state IL%}
 
+test
+
 {% endtab %}
 {% tab state MO%}
+
+test
 
 {% endtab %}
 {% tab state KS%}
 
+test
+
 {% endtab %}
 {% tab state NE%}
 
+test
+
 {% endtab %}
 {% tab state WY%}
+
+test
 
 {% endtab %}
 {% endtabs %}

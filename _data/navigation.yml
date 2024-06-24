@@ -33,7 +33,7 @@
   - title: "Route"
     url: "/asc/route"
   - title: "See The Cars"
-    url: "/asc/when"
+    url: "/asc/route/when"
     
 - title: "Teams"
   side: left
