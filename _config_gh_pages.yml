@@ -1,4 +1,6 @@
-short_title: "[DEV]Electrek FSGP 2023"
+subtitle: "GH Staging"
 email: jonathan_mullen@americansolarchallenge.org
-baseurl: "/fsgp-2023-results" # the subpath of your site, e.g. /blog
+baseurl: "/asc-fsgp-2024-results" # the subpath of your site, e.g. /blog
 url: 'https://jtmullen.github.io' # the base hostname & protocol for your site
+data_dir: _data_dummy
+

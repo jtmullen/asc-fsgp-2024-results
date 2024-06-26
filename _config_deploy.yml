@@ -1,14 +1,15 @@
 # site settings
-title: Results
-subtitle: Electrek Formula Sun Grand Prix 2023
+title: Electrek American Solar Challenge 2024
+subtitle: 
 email: ascwebmaster@americansolarchallenge.org
-short_title: Electrek FSGP 2023
+short_title: Electrek ASC 2024
 description: See results here
-baseurl: "/2023/results" # the subpath of your site, e.g. /blog
+baseurl: "/2024/results" # the subpath of your site, e.g. /blog
 url: 'https://www.americansolarchallenge.org' # the base hostname & protocol for your site
+imagepath: "/assets/images"
 author:
 copyright:
-  year: 2023
+  year: 2024
   org: Innovators Educational Foundation
 disclaimer: FSGP is not associated with Formula 1 Racing
 # homepage tiles
@@ -27,7 +28,7 @@ socials:
   GitHub:
   GitLab:
   Google-Plus:
-  Instagram:
+  Instagram: https://www.instagram.com/americansolarchallenge/
   LinkedIn: "https://www.linkedin.com/company/innovators-educational-foundation"
   Twitter: "https://twitter.com/ASC_SolarRacing"
   Facebook: "https://www.facebook.com/AmericanSolarChallenge"
@@ -37,10 +38,22 @@ socials:
 
 
 collections:
-- updates
+  updates:
+  teams: 
+    output: true
+    sort_by: number
+    permalink: /teams/:name
 
 # build settings
 markdown: kramdown
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "teams" # a collection in your site, in plural form
+    values:
+      layout: "page-team"
 
 sass:
   style: compressed
@@ -56,4 +69,3 @@ plugins:
     - jekyll-gist
     - jekyll-paginate
     - jekyll-tabs
-    
