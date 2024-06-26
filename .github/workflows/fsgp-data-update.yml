@@ -20,7 +20,7 @@ jobs:
                 echo "SOV Data: ${{ github.event.client_payload.sov_data }}"
                 echo "MOV Data: ${{ github.event.client_payload.mov_data }}"
                 echo "Score Data: ${{ github.event.client_payload.score_data }}"
-            - uses: actions/checkout@v3
+            - uses: actions/checkout@v4
               name: Checkout Repo
             - name: Generate New SOV CSV File
               if: ${{ github.event.client_payload.sov }}
