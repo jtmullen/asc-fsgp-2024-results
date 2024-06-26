@@ -36,23 +36,23 @@ jobs:
           if-no-files-found: error
           
     
-    deploy-to-site:
-        name: Deploy to ASC Site
-        concurrency: deploy-to-asc-site
-        needs: [build-site]
-        environment: ASC Website
-        steps:
-          - name: Download artifact
-            uses: actions/download-artifact@v4
-            with:
-                name: "ASC-Site"
-                path: '_build_'
-                
-          - name: Deploy to ASC Site
-            uses: SamKirkland/FTP-Deploy-Action@v4.3.5
-            with:
-                local-dir: "./_build_/"
-                server-dir: "public_html/2024/"
-                server: ftp.americansolarchallenge.org
-                username: ${{ secrets.FTP_USER_2023 }}
-                password: ${{ secrets.FTP_PW_2023 }}
+  deploy-to-site:
+      name: Deploy to ASC Site
+      concurrency: deploy-to-asc-site
+      needs: [build-site]
+      environment: ASC Website
+      steps:
+        - name: Download artifact
+          uses: actions/download-artifact@v4
+          with:
+              name: "ASC-Site"
+              path: '_build_'
+              
+        - name: Deploy to ASC Site
+          uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+          with:
+              local-dir: "./_build_/"
+              server-dir: "public_html/2024/"
+              server: ftp.americansolarchallenge.org
+              username: ${{ secrets.FTP_USER_2023 }}
+              password: ${{ secrets.FTP_PW_2023 }}
