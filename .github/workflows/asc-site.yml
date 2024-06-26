@@ -1,7 +1,7 @@
 name: ASC Deploy Shared Workflow
 
-on: ['workflow_call']
-on: 
+on:
+  workflow_call:
   push: 
     branches: 
       - main
