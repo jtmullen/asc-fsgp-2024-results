@@ -1,4 +1,4 @@
-name: Update Results Status
+name: Update Scrutineering Status
 
 on: 
   repository_dispatch:
