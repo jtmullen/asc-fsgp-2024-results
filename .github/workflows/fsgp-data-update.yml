@@ -15,7 +15,6 @@ jobs:
             - name: Log Info
               run: |
                 echo "Time: ${{ github.event.client_payload.time }}"
-                echo "Publish Update: ${{ github.event.client_payload.update }}"
                 echo "SOV: ${{ github.event.client_payload.sov }}; MOV: ${{ github.event.client_payload.mov }}; Score: ${{ github.event.client_payload.score }}"
                 echo "SOV Data: ${{ github.event.client_payload.sov_data }}"
                 echo "MOV Data: ${{ github.event.client_payload.mov_data }}"
