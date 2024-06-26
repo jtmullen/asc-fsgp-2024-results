@@ -38,6 +38,7 @@ jobs:
     
   deploy-to-site:
       name: Deploy to ASC Site
+      runs-on: ubuntu-latest
       concurrency: deploy-to-asc-site
       needs: [build-site]
       environment: ASC Website
