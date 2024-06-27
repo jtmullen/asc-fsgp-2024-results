@@ -38,7 +38,6 @@ socials:
 
 
 collections:
-  updates:
   teams: 
     output: true
     sort_by: number
