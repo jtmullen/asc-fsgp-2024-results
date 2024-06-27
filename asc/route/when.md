@@ -32,9 +32,7 @@ Solar cars will likely pass through Joelton on US-41 fairly bunched together as 
 
 ### Springfield
 
-The solar cars will be more spread out as they get into Springfield. They will enter Springfield from the south on US-431, follow Memorial Blvd (US-41/431) through town, and leave via TN-161. 
-
-Expect to see most solar cars between _9:45am and 11:00am_ on July 20th.
+The solar cars will be more spread out as they get into Springfield. They will enter Springfield from the south on US-431, follow Memorial Blvd (US-41/431) through town, and leave via TN-161. Expect to see most solar cars between _9:45am and 11:00am_ on July 20th.
 
 
 {% endtab %}
@@ -60,7 +58,7 @@ Solar cars will pass through Pembroke on US-41. Expect to most solar cars betwee
 
 ### Hopkinsville
 
-Solar cars will pass right through downton Hopkinsville, entering on US-41, then following 9th and 7th through town, and finally leaving on US-68 West. At this point the solar cars will likely have spread out more, although some teams may be travelling in bunches. 
+Solar cars will pass right through downtown Hopkinsville, entering on US-41, then following 9th and 7th through town, and finally leaving on US-68 West. At this point the solar cars will likely have spread out more, although some teams may be traveling in bunches. 
 
 Expect to see most solar cars between _11:00am and 2:00pm_ on July 20th.
 
@@ -74,16 +72,15 @@ Solar cars will pass through Aurora on US-68. Expect to see most solar cars betw
 
 ### Draffenville
 
-Solar cars will pass through Draffenville on US-68. Solar cars will be fairly spread out by this point as this is one of the last cities before the next checkpoint. Expect to see most solar cars between _12:15pm and 3:15pm_.
+Solar cars will pass through Draffenville on US-68. Solar cars will be fairly spread out by this point as this is one of the last cities before the next checkpoint. Expect to see most solar cars between _12:30pm and 3:30pm_.
 
 ## Paducah
 
-Paducah is the first checkpoint on the Electrek ASC 2024. Solar cars will stop in downtown Paducah at the Farmers Market Lot. Solar cars will stop for a minimum of 45 minutes, teams who arrive with enough time will be able to gain additional miles by driving the optional Paducah loop. No teams will be allowed to leave Paducah and continue on the route until XXXX. 
-Most if not all teams should be present in the checkpoint from ____ to ____
+Paducah is the first checkpoint on the Electrek ASC 2024. Solar cars will stop in downtown Paducah at the Farmers Market Lot. Solar cars will stop for a minimum of 45 minutes, teams who arrive with enough time will be able to gain additional miles by driving the optional Paducah loop. No teams will be allowed to leave Paducah and continue on the route until 4:00pm. 
 
-The first team will likely not arrive to the checkpoint until after 1pm if there are good weather conditions. 
+The first team will likely not arrive to the checkpoint until after 1pm. If there are poor weather conditions it will be later. Most teams should be present in the checkpoint between 3pm and 4pm
 
-Expect to see solar cars on the road in the Paducah area from around _12:45pm to 5:00pm_ on July 20th. Some teams will be arriving from Nashville, others will be driving the optional loop, and after _____ teams will be continuing on towards the next stage stop in Edwardsville, IL. 
+Expect to see solar cars on the road in the Paducah area from around _12:45pm to 5:00pm_ on July 20th. Some teams will be arriving from Nashville, others will be driving the optional loop, and after 4pm teams will be continuing on towards the next stage stop in Edwardsville, IL. 
 
 {% endtab %}
 {% tab state IL%}
