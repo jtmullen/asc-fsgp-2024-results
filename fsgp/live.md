@@ -23,7 +23,7 @@ breadcrumb: true
 </style>
 Updates on the latest track lap counts are available via the electronic timing system. Two livestreams from the track are provided by the [National Corvette Museum Motorsports Park](../track). To keep up with the latest from Bowling Green, also follow us on [Instagram](site.socials.Instagram) and [Facebook](site.socials.Facebook)!
 
-<h2> Live Stream North</h2>
+<h2> Live Lap Totals </h2>
 _Note: Electronic lap counts are unofficial and may not be fully correct. Official lap counts will be publised on the [results page](../results) periodically._
 
 __Electronic Timing Info Coming Soon__
