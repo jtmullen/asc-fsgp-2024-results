@@ -42,7 +42,7 @@ current_link: "/scrutineering.html"
   </article>
   <article>
     <span class="image">
-      <img src="{% link assets/images/MOV_FrontStraight.jpg %}" alt="alt" />
+      <img src="{% link assets/images/solar_wagon.jpg %}" alt="alt" />
     </span>
     <header class="major">
       <h3><a href="asc/route" class="link">See America by National Historic Trail</a></h3>
@@ -91,7 +91,7 @@ current_link: "/scrutineering.html"
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3><a href="https://www.americansolarchallenge.org/sponsorship/fsgp-2023-sponsors/">Sponsors</a></h3>
+					<h3><a href="https://www.americansolarchallenge.org/sponsorship/asc-fsgp-2024-sponsors/">Sponsors</a></h3>
 				</header>
 				<p>The Electrek American Solar Challenge 2024 would not be possible without the support of our sponsors</p>
 				<ul class="actions">
