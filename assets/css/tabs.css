@@ -5,6 +5,7 @@
     padding: 0;
     list-style: none;
     position: relative;
+    width: calc(100% - 40px);
 }
 
 .tab > * {
@@ -44,6 +45,7 @@
 	border-radius: 0px 10px 10px 10px;
 	 outline-offset: 20px;
     outline-width: 4px;
+	width: calc(100% - 40px);
 }
 
 .tab-content > li {
