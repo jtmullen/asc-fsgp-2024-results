@@ -5,7 +5,7 @@ FSGP Heat Table Generator
 {%- else -%}
 {%- assign fullColorLapCount = 75 -%}
 <link rel="stylesheet" href="{{site.baseurl}}/assets/css/fsgp-style.css">
-<table class="tg" style="margin:auto; border: 1px solid;">
+<table class="tg" style="margin:auto; border: 1px solid;display: block; margin: auto;">
 <thead>
   <tr>
   <th> Team </th>
