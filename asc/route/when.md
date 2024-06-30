@@ -194,6 +194,92 @@ Teams will make a short loop into Cape Girardeau on M0-74, through town, and the
 
 -----
 
+Teams will spend nearly all of Stage 2 in Missouri on July 22nd/23rd. Starting from the St. Louis area they will head west to Jefferson City, then Indpendence where they turn north to St. Joseph. 
+
+### St. Charles
+
+Teams will be starting to spread out as they get into St. Charles about 40 miles into Stage 2. Solar cars pass through St. Charles following a series of roads along the bank of the Missouri River. Expect to see most solar cars on the road in St. Charles on July 22nd from _10am to 11:45pm_
+
+### Defiance
+
+Solar cars will likely be fairly spread out by the time they get to Defiance on MO-94. Expect to see most solar cars from _10:45am to 12:45pm_.
+
+### Washington
+
+Solar cars will cross the Missouri River into Washington on MO-47 and then turn on MO-100 west out of Washinton. Expect to see most solar cars from _11:15am to 1:30pm_.
+
+### Hermann
+
+Solar cars will cross back to the north side of the Missouri River in Hermann - entering from the east on MO-100 then crossing the river on MO-19. Expect to see most solar cars from _11:45am to 2:15pm_.
+
+### Portland
+
+Solar cars will be pretty spread out at this point as they pass through Portland on MO-94, not far before the first checkpoint. Expect to see most solar cars between _12:15pm and 3pm_.
+
+## Jefferson City
+
+Jefferson City is the first checkpoint on Stage 2. The solar cars will stop at the State Capitol. The first solar car will likely arrive after _1pm_. Solar cars will be held for a minimum of 45 minutes. If they arrive with enough time, they will have the option to complete the Jefferson City Loop. Solar cars will not be permitted to continue to Independence until after _3:45pm_. 
+
+Expect to see most teams in the checkpoint during the last hour, from _3pm to 4pm_. Solar cars will be on the road in the Jefferson City are from around _1pm to 4:30pm_. 
+
+-----
+
+### Taos and Wardsville
+
+These cities are on the Jefferson City Loop. Not all teams will attempt the Jefferson City loop, but many likely will. Expect to see solar cars on the loop from around _2pm to 4pm_. 
+
+-----
+
+### Boonville
+
+Solar cars will pass right through Boonville - on MO-87 and US-40. Not far after the Jefferson City checkpoint, solar cars will be relatively close to together. Expect to see most solar cars between _5pm and 6pm_ on July 22nd. Some teams may choose to end their day in the Boonville area, in which case they will be on the road at _9am_ on the 23rd. 
+
+### Arrow Rock
+
+Solar cars will pass by Historic Arrow Rock on MO-41. Expect to see most solar cars between _5:30pm and 6pm_ on July 22nd and _9am and 10am_ on July 23rd. Some teams will likely end their day in this area. 
+
+### Marshall
+
+Solar cars will pass through Marshall on MO-240 before turning on US-65. The leading solar cars may just make it into Marshall at the end of the day, around _6pm_ on July 22nd. They may end their day in the area. Most solar cars will pass through Marshall between _9am and 10:30am_ on July 23rd. 
+
+### Waverly
+
+Solar cars will be more spread out as they pass through Waverly on US-24. Expect to see most solar cars on the road in Waverly from _9:30am to 10:45am_ on July 23rd. 
+
+### Lexington
+
+Solar cars will pass by the outskirts of Lexington on US-24. Expect to see most solar cars between _9:45am and 11:00am_. 
+
+## Independence
+
+Independence is the second checkpoint on Stage 2. Solar cars will stop at the Uptown Farmers Market. At this stop there is no optional loop, solar cars will be held for 45 minutes and then continue on the route to St. Joseph. 
+
+The first car will likely arrive after _10:15am_. There will likely be at least one solar car in the checkpoint from _10:15am to 2:15pm_. 
+
+Most solar cars will be on the road in the Independence area between _10am and 2:45pm_.
+
+-----
+
+### Kansas City
+
+Solar cars will pass through Kansas City - entering on Independence Ave from the east and then taking MO-9 across the river and out of the city. They will be fairly spread out by this point. Expect to see solar cars on the road in Kansas City from _11:15am to 3pm_. 
+
+### Parkville 
+
+Solar cars will pass through downtown Parkville following the curve of MO-9. Solar cars will be fairly spread out, but most will likely pass through between _11:30am and 3:30pm_. 
+
+### Weston
+
+Solar cars will pass on the outskirts of Weston on MO-45. Solar cars will be fairly spread out, but most will likely pass through between _12pm and 4:15pm_. 
+
+## Saint Joseph
+
+Saint Joseph is the Stage Stop between Stages 2/3. Solar cars will stop at the Pony Express National Museum. The first solar car will likely arrive after _12:45pm_ and most if not all should be there by about _5pm_. Teams who arrive with enough time will have the option to attempt the Saint Joseph loop, which will take them through more of Saint Joseph. 
+
+Expect to see solar cars on the road in Saint Joseph from _12:30pm to 6pm_ on July 23rd. 
+
+Stage 3 wil start from Saint Joseph on July 24th. The first solar car will leave at 9am and then a car will be released every minute. Solar cars will again be on the roads in St. Joseph from _9am to 9:30am_ on the 24th. 
+
 
 {% endtab %}
 {% tab state KS%}
