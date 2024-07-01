@@ -190,7 +190,7 @@ Teams will briefly enter Missouri on Stage 1 in Cape Girardeau on July 20th/21st
 
 ### Cape Girardeau
 
-Teams will make a short loop into Cape Girardeau on M0-74, through town, and then back to Illinois on MO-74. The first solar cars may just make it to the Cape Girardea area on July 20th around _6pm_ and will likely end their day in the area. Expect to see most solar cars between _9am and 10:15am_ on July 21st. 
+Teams will make a short loop into Cape Girardeau on M0-74, through town, and then back to Illinois on MO-74. The first solar cars may just make it to the Cape Girardeau area on July 20th around _6pm_ and will likely end their day in the area. Expect to see most solar cars between _9am and 10:15am_ on July 21st. 
 
 -----
 
@@ -284,12 +284,38 @@ Stage 3 wil start from Saint Joseph on July 24th. The first solar car will leave
 {% endtab %}
 {% tab state KS%}
 
-test
+Solar cars will be in Kansas for the first ~100 miles of Stage 3 on July 24th. They will cross the Missouri River into Kansas from St. Joseph on US-36 and follow that to US-77 where they will head north to Nebraska. 
+
+### Elwood
+
+Elwood is the first city solar cars will pass through in Kansas. It is just shortly after the start of the stage so solar cars will be fairly close together. Expect to see most solar cars between _9am and 9:30am_. 
+
+### Hiawatha
+
+Solar cars will pass the outskirts of Hiawatha on US-36. They will still be fairly close together, expect to see most solar cars between _9:30am and 10:15am_.
+
+### Marysville
+
+Solar cars will start to be more spread out once they get to Marysville. The solar cars will enter Marysville on US-36 west and then turn north on US-77. Expect to see most solar car between _10:45am and 1:00pm_. 
 
 {% endtab %}
 {% tab state NE%}
 
-test
+Solar cars will be on the roads of Nebraska for all but the first ~100 miles of Stage 3 on July 24th-26th as well as part of Stage 4 on July 27th. They will stop at checkpoints in Beatrice and Kearney with the stage stop in Gering. 
+
+### Wymore & Blue Springs
+
+Solar cars will pass through Wymore and Blue Springs on US-77 on July 24th. The solar cars will be fairly spread out, expect to see most cars between _11:30am and 2:15pm_. 
+
+## Beatrice
+
+Beatrice is the first checkpoint on Stage 3. Solar cars will stop at the Homestead National Historical Park Heritage Center. The first solar car will likely arrive after _11:45am_ on July 24th, most solar cars should arrive by _3pm_. Upon arrival solar cars will be held for 45 minutes. They will not be allowed to continue on the route to Kearney until _3:30pm_. Those that arrive early enough will have the option to complete the Beatrice Loop. 
+
+Expect to see solar cars on the roads in Beatrice from _11:30am to 4pm_. 
+
+-----
+
+
 
 {% endtab %}
 {% tab state WY%}
