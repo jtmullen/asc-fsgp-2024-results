@@ -11,7 +11,9 @@ header:
   image_fullwidth: "assets/images/ETS_road.jpg"
 ---
 
-{% include alert info="The following are estimated guess windows in which _most_ solar cars will likely pass through a given location.   Actual times may differ based on weather and traffic conditions as well as individual stategy decisions made by competing teams. During the event the [live tracker](./../live) can be used to see the actual location of the solar cars on the road." %}
+See the [route](../.) page for the exact roads as well as details on the checkpoints and stage stops. The best place to see the cars up close will be one of these stops. If you are not located near one, or want to see them on the road, see below for information on when you may be able to see them near you!
+
+{% include alert info="The following are __estimated__ guess windows in which _most_ solar cars will likely pass through a given location.   Actual times may differ based on weather and traffic conditions as well as individual stategy decisions made by competing teams. During the event the [live tracker](./../live) can be used to see the actual location of the solar cars on the road." %}
 
 
 {% tabs state %}
@@ -315,12 +317,105 @@ Expect to see solar cars on the roads in Beatrice from _11:30am to 4pm_.
 
 -----
 
+### Fairbury
+
+Solar cars will be fairly close together as the pass through Fairbury on US-136 as it is shortly after the Beatrice checkpoint. Expect to see most solar cars between _4pm and 5pm_. 
+
+### Deshler
+
+Solar cars will turn in Deshler off of US-136 onto NE-5. They will be starting to get more spread out, expect to see most solar cars between _4:30pm and 6:00pm_ on the 24th. Some teams may start to end their day in this area, in which case you will see them on the road at _9am_ on the 25th. 
+
+### Davenport
+
+Solar cars will pass through Davenport on NE-4. Expect to see most solars between _5:00pm and 6:00pm_ on July 24th and _9am and 10am_ on July 25th. Some teams will likely end their day in this area. 
+
+### Fairfield
+
+The route passes through Fairfield on NE-74. The leading solar cars will likely make it to Fairfield on July 24th between _5:30pm and 6:00pm_ and may end their day in the area. The remaining will pass through between _9am and 10:30am_ on July 25th. 
+
+### Hastings
+
+Solar cars will just pass through the south side of Hastings - entering on US-281 from the south and then turning onto US-34 to the west. If the conditions are good the leading solar cars might just make it to Hastings by _6pm_ on the 24th. Expect most solar cars on the 25th between _9am and 11:30am_. 
+
+### Minden
+
+Solar cars will turn in Minden from US-234 onto NE-10 north. Expect to see most solar cars on July 25th between _9:30am and 12:30pm_. 
+
+## Kearney
+
+Kearney is the second checkpoint on Stage 3. Solar cars will stop at the Kearney Archway Monument. The first solar car will likely arrive after _10:15am_ with more solar cars arriving throughout the day. Most should arrive by _1:30pm_. Solar cars will not be allowed to continue on the route to Gering until _2:15pm_. Those teams arriving early enough will have the opportunity to attempt the Kearney loop for additional miles. 
+
+Expect to see solar cars on the road in Kearney from _10am to 3pm_ on July 25th.
+
+-----
+
+### Lexington
+
+Solar cars will pass through Lexington on US-30, they will be fairly close together after departing the Kearney checkpoint. Expect to see most solar cars between _3:00pm and 4:00pm_.
+
+
+### Gothenburg
+
+Solar cars will pass through Gothenburg on US-30. Expect to see most solar cars between _3:30pm and 5:15pm_. 
+
+### North Platte
+
+Solar cars will pass through North Platte on US-30. Expect to solar cars between _4:15pm and 6:00pm_ on July 25th. Some teams may end their day near North Platte, in which case they will be on the roads starting at _9am_ on July 26th. 
+
+### Ogallala
+_Note: Timezone changes from Central to Mountain between North Platte and Ogallala, all times listed here all local. However, the event will operate on central time until Gering._
+
+The leading solar cars will likely get to Ogallala on US-30 starting about _4:15pm to 5pm_ on July 25th. Many solar cars will likely end their day near or before Ogallala. The remaining cars will be on the roads in Ogallala between _8am and 10:30am_ on July 26th. 
+
+### Bridgeport
+
+Solar cars will make a zig-zag across the North Platte River and through Bridgeport to stay on US-26. Solar cars will be quite spread out by the time they get to Bridgeport, this is the longest stretch of the event between stops. Expect to see solar cars on the road between _9:15am and 2:00pm_.
+
+### Melbeta
+
+Solar cars will pass by Melbeta on US-26 on their way to Gering and on the Gering loop. Expect to see solar cars on the road from _9:45am until 5pm_. 
+
+## Gering
+
+Gering is the stage stop between Stages 3/4. Solar cars will stop at Scotts Bluff National Monument Visitor Center. The first solar car will likely arrive at _10:15am_ or Later on July 26th. Most solar cars should arrive by _3:30pm_. Solar car that arrive early enough will have the opportunity to attempt the Gering loop after the 45 minute hold time. 
+
+Solar cars will be on the roads of Gering from about _10am to 5pm_ on July 26th. 
+
+The final stage will also start from Gering on July 27th. Solar cars will depart starting at _8am_. 
+
+-----
+
+### Mitchell
+
+Solar cars will pass through Mitchell on US-26. They will be fairly close together as this is shortly after the stage start. Expect to see most solar cars between _8:15am and 8:45am_ on July 27th.
 
 
 {% endtab %}
 {% tab state WY%}
 
-test
+Solar cars will be on the roads in Wyoming on Saturday July 27th. Coming from Gering, NE they will head to the Finish Line in Casper!
+
+-----
+
+### Torrington
+
+Solar cars will pass through Torrington on US-26, they will still be fairly close together. Expect to see most solar cars between _8:30am and 9:30am_.
+
+### Guernsey
+
+Solar cars will pass through Guernsey on US-26. The field will start to spread out a bit by this point in the stage, expect to see most solar cars between _9:15am and 10:45am_.
+
+### Douglas
+
+Solar cars will pass right through Douglas and will be more spread out by this point. Expect to see the cars on the roads in Douglas between _10:30am and 1:00pm_
+
+### Glenrock
+
+Solar cars will pass through Glenrock where they will turn on US-87 west towards Casper. They will be fairly spread out, expect to see most solar cars between _11:15am and 2:30pm_.
+
+## Casper
+
+Casper is the Finish Line of the Electrek American Solar Challenge 2024! Once the solar cars arrive to the National Historic Trails Interpretive Center they will be on display for the remainder of the afternoon. The first solar car will likely arrive to the finish around _noon_, with most cars arriving by _3pm_. 
 
 {% endtab %}
 {% endtabs %}
@@ -329,5 +424,6 @@ test
 <link rel="stylesheet" href="{{ url }}/assets/css/tabs.css">
 <script src="{{ url }}/assets/js/tabs.js"></script>
 <script> jekyllTabs.init({
+    activateTabFromUrl: true,
 });
 </script>
