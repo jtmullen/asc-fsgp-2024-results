@@ -1,45 +1,60 @@
 name: ASC Deploy Shared Workflow
 
-on: ['workflow_call']
+on:
+  workflow_call:
+  push: 
+    branches: 
+      - main
 
 jobs: 
-    build-site:
-        name: Build Site
-        concurrency: build-for-asc-site
-        permissions:
-            contents: write
-        steps:
-          - name: Checkout Source Repo
-            uses: actions/checkout@v3
-            with: 
-                ref: 'main'
-          - name: Build
-            uses:  jeffreytse/jekyll-deploy-action@v0.3.1
-            with:
-              provider: 'github'
-              token: ${{ secrets.GITHUB_TOKEN }}
-              branch: 'asc-site'
-              jekyll_cfg: "_config_deploy.yml"
+  build-site:
+    runs-on: ubuntu-latest
+    permissions: 
+        contents: write
+    steps:
+      - name: Checkout Source Repo
+        uses: actions/checkout@v4
+        
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1.173.0
+        with:
+          ruby-version: '3.1' # Not needed with a .ruby-version file
+          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
+          cache-version: 1 # Increment this number if you need to re-download cached gems
+        
+      - name: Build with Jekyll
+        # Outputs to the './_site' directory by default
+        run: bundle exec jekyll build --config _config_deploy.yml
+        env:
+          JEKYLL_ENV: production
+      - name: Upload artifact
+        # Automatically uploads an artifact from the './_site' directory by default
+        uses: actions/upload-artifact@v4
+        with: 
+          name: "ASC-Site"
+          path: _site/*
+          if-no-files-found: error
+          
     
-    deploy-to-site:
-        name: Deploy to ASC Site
-        concurrency: deploy-to-asc-site
-        needs: [build-site]
-        environment: 
-          name: asc-site
-          url: "americansolarchallenge.org/2024/results"
-        steps:
-          - name: Checkout ASC Site Branch
-            uses: actions/checkout@v3
-            with:
-                ref: 'asc-site'
-                path: '_build_'
-                
-          - name: Deploy to ASC Site
-            uses: SamKirkland/FTP-Deploy-Action@4.3.0
-            with:
-                local-dir: "./_build_/"
-                server-dir: "public_html/2024/results/"
-                server: ftp.americansolarchallenge.org
-                username: ${{ secrets.FTP_USER_2023 }}
-                password: ${{ secrets.FTP_PW_2023 }}
+  deploy-to-site:
+      name: Deploy to ASC Site
+      runs-on: ubuntu-latest
+      concurrency: deploy-to-asc-site
+      needs: [build-site]
+      environment: ASC Website
+      steps:
+        - name: Download artifact
+          uses: actions/download-artifact@v4
+          with:
+              name: "ASC-Site"
+              path: '_build_'
+              
+        - name: Deploy to ASC Site
+          uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+          with:
+              local-dir: "./_build_/"
+              server-dir: "public_html/2024/"
+              server: ftp.americansolarchallenge.org
+              username: ${{ secrets.FTP_USER_2023 }}
+              password: ${{ secrets.FTP_PW_2023 }}
+
