@@ -76,7 +76,7 @@ table td {
 {% for team in site.teams limit:100 %}
 <div class="row team-info" style="cursor: pointer;" onclick="window.location='{{ site.url }}{{ site.baseurl }}/teams/{{team.number}}';">
   <div class="large-6 columns">
-  <img class="team-photo" src="{{ site.url }}{{ site.baseurl }}{{ site.imagepath }}/team_photos/{{team.number}}.jpg" alt="{{team.name}} Team Photo">
+  <img class="team-photo" src="{{ site.url }}{{ site.baseurl }}{{ site.imagepath }}/team_photos_thumb/{{team.number}}.jpg" alt="{{team.name}} Team Photo">
   </div>
   <div class="large-6 columns specs-column">
   <div class="info-head">
