@@ -6,11 +6,11 @@
 -->
 <html>
 
-{% include head.html %}
+{%- include head.html -%}
 
 <body>
 
-    {% include header.html %}
+    {%- include header.html -%}
 
     <!-- Banner -->
     <section id="banner" class="major">
@@ -19,7 +19,7 @@
                 <h1>{{ page.landing-title }}</h1>
             </header>
             <div class="content">
-                <p style="text-transform: uppercase;">{{ page.currently }}</p>
+                <p style="text-transform: uppercase;">Hello</p>
                 <ul class="actions">
                     <li><a href="https://americansolarchallenge.org/2022/results/asc.html" class="button">View Results</a></li>
                 </ul>
@@ -31,7 +31,7 @@
     <div id="main">
 
         <!-- One -->
-        {% include tiles.html %}
+        {%- include tiles.html -%}
 
         <!-- Two -->
         <section id="two">
@@ -48,7 +48,7 @@
 
     </div>
 
-    {% include footer.html %}
+    {%- include footer.html -%}
 
 </body>
 

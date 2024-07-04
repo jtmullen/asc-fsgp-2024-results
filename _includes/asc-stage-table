@@ -1,0 +1,84 @@
+{% comment %}
+ASC Stage Chart Generator
+{% endcomment %}{% assign class = include.class %}{% assign stage = include.stage %}
+{% assign name = "" | split: ',' %}
+{% assign type = "" | split: ',' %}
+{% assign miles = "" | split: ',' %}
+{% assign modified = "" %}
+{% for team in site.data.asc.[stage].[class] %}
+	{% if team.team == "data" %}
+		{% if team.number == "name" %}
+			{% for item in team | offset:7 %}
+				{% assign name = name | push:item[1] %}
+			{% endfor %}
+		{% elsif team.number == "type" %}
+			{% for item in team | offset:7 %}
+				{% assign type = type | push:item[1] %}
+			{% endfor %}
+		{% elsif team.number == "miles" %}
+			{% for item in team | offset:7 %}
+				{% assign miles = miles | push:item[1] %}
+			{% endfor %}
+		{% elsif team.number == "modified" %}
+			{% assign modified = team.penalty %}
+		{% endif %}
+	{% endif %}
+{% endfor %}
+<div style="margin:auto; text-align:center;"> <i> Scroll right to see all data on small screens </i>
+<table class="asc-stage" style="margin:auto; border: 1px solid; display: block">
+<thead>
+	<tr>
+		<th>Team</th>
+		<th>Base Route Completed</th>
+		<th>Official Miles</th>
+		<th>Official Time</th>
+		<th>Checkpoint</th>
+		<th>Base Miles</th>
+		<th>Loop Miles</th>
+		<th>Penalty Miles</th>
+		<th>Avg. MPH</th>
+	</tr>
+</thead>
+<tbody>
+{% for team in site.data.asc.[stage].[class] %}
+	{% if team.team != "data" %}
+		{% assign baseMiles = 0 %}
+		{% assign loopMiles = 0 %}
+		{% for item in team offset:7 %}
+			{% if type[forloop.index0] == "base" %}
+				{% assign baseMiles = baseMiles | plus:item[1] %}
+			{% else %}
+				{% assign loopMiles =  item[1] | times:miles[forloop.index0] | plus:loopMiles %}
+			{% endif %}
+		{% endfor %}
+		{% assign totalMiles = baseMiles | plus:loopMiles %}
+		{% if team.time == "--" %}
+			{% assign speed = "--" %}
+		{% else %}
+			{% assign timeArr = team.time | split:":" %}
+			{% assign hours = timeArr[0] %}
+			{% assign hours = timeArr[1] | divided_by:60.0 |plus: hours %}
+			{% assign hours = timeArr[2] | divided_by:3600.0 |plus: hours %}
+			{% assign speed = totalMiles | divided_by:hours | round:1 %}
+		{% endif %}
+		
+		{% assign totalMiles = totalMiles | minus:team.penalty %}
+		<tr>
+		<td style="white-space: nowrap;"> <b>#{{team.number}} - {{team.team}} </b></td>
+		<td> {{team.base}} </td>
+		<td><b>{{totalMiles}}</b></td>
+		<td> {{team.time}} </td>
+		<td style="text-align:center; white-space: nowrap;"> {{team.checkpoint}} </td>
+		<td> {{baseMiles}} </td>
+		<td> {{loopMiles}} </td>
+		<td> {{team.penalty}} </td>
+		<td> {{team.speed}} mph </td>
+		</tr>
+	{% endif %}
+{% endfor %}
+</tbody>
+</table>
+<div style="margin:auto;text-align:center">✅ indicates checkpoint made - ❌ indicates checkpoint missed<br>
+<b>Last Updated at: <i>{{modified}}</i></b>
+</div>
+</div>

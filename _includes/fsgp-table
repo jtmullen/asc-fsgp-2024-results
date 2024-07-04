@@ -1,75 +1,76 @@
-{% comment %}
+{%- comment -%}
 FSGP Heat Table Generator
-{% endcomment %}{% assign class = include.class %}
-{%if class != "sov" and class != "mov" %} <i>Error generating Chart</i>
-{% else %}
+{%- endcomment -%}{%- assign class = include.class -%}
+{%if class != "sov" and class != "mov" -%} <i>Error generating Chart</i>
+{%- else -%}
+{%- assign fullColorLapCount = 75 -%}
 <link rel="stylesheet" href="{{site.baseurl}}/assets/css/fsgp-style.css">
-<table class="tg" style="margin:auto; border: 1px solid;">
+<table class="tg" style="margin:auto; border: 1px solid;display: block; margin: auto;">
 <thead>
   <tr>
   <th> Team </th>
   <th style="border-right-width: 3px;border-left-width:3px;"> Total </th>
-  {% for team in site.data.fsgp.[class] %}
-	{% if team.team == "labels" and team.penalty == "table" %}
-		{% for item in team offset:5 %}
+  {%- for team in site.data.fsgp.[class] -%}
+	{%- if team.team == "labels" and team.penalty == "table" -%}
+		{%- for item in team offset:5 -%}
 			<th> {{item[1]}} </th>
-		{% endfor %}
-	{% endif %}
-  {% endfor %}
+		{%- endfor -%}
+	{%- endif -%}
+  {%- endfor -%}
   <th> Penalty </th>
   <th> Fastest </th>
   </tr>
 </thead>
 <tbody>
-{% assign modified = "" %}
-{% assign sorted_teams = site.data.fsgp.[class] | sort: "total" %}
-{% for team in sorted_teams reversed %}
-	{% if team.team != "labels" and team.team != "modified" and team.team != "completed" %}
-	{% if team.total != "0" or team.penalty != "0" %}
-		<tr style="background-color:#fafafa;"><td style="font-weight:bold;white-space: nowrap;">#{{team.number}} - {{team.team}} </td>
-		{% assign totalLaps = 0 %}
-		{% assign totalTime = 0 %}
+{%- assign modified = "" -%}
+{%- assign sorted_teams = site.data.fsgp.[class] | sort: "total" -%}
+{%- for team in sorted_teams reversed -%}
+	{%- if team.team != "labels" and team.team != "modified" and team.team != "completed" -%}
+	{%- if team.total != "0" or team.penalty != "0" -%}
+		<tr style="background-color:#fafafa;"><td style="font-weight:bold;white-space: nowrap;">#{{team.number}} - {{team.team}} {{team.asc}}</td>
+		{%- assign totalLaps = 0 -%}
+		{%- assign totalTime = 0 -%}
 		<td style="border-right-width: 3px;border-left-width:3px;"><b>{{team.total}}</b></td>
-		{% for item in team offset:5 %}
-			{% assign currentLaps = item[1] | plus:0 %}
-			{% if currentLaps > 0 %}
-				{% assign totalTime = totalTime | plus:4 %}
-			{% endif %}
-			{% assign totalLaps = totalLaps | plus:item[1] %}
-			<td style="background-color:rgba(183, 144, 1, calc({{currentLaps}}/100))">{{currentLaps}}</td> 
-		{% endfor %}
+		{%- for item in team offset:5 -%}
+			{%- assign currentLaps = item[1] | plus:0 -%}
+			{%- if currentLaps > 0 -%}
+				{%- assign totalTime = totalTime | plus:4 -%}
+			{%- endif -%}
+			{%- assign totalLaps = totalLaps | plus:item[1] -%}
+			<td style="background-color:rgba(34, 139, 34, calc({{currentLaps}}/{{fullColorLapCount}}))">{{currentLaps}}</td> 
+		{%- endfor -%}
 		<td>{{team.penalty}}</td>
-		{% assign totalLaps = totalLaps | minus:team.penalty %}
+		{%- assign totalLaps = totalLaps | minus:team.penalty -%}
 		<td>{{team.fastest}}</td>
 		</tr>
-	{% endif %}
-	{% elsif team.team == "modified" %}
-		{% assign modified = team.penalty %}
-	{% endif %}
-{% endfor %}
-{% for team in sorted_teams reversed %}
-	{% if team.team != "labels" and team.team != "modified" and team.team != "completed" %}
-	{% if team.total == "0" and team.penalty == "0" %}
+	{%- endif -%}
+	{%- elsif team.team == "modified" -%}
+		{%- assign modified = team.penalty -%}
+	{%- endif -%}
+{%- endfor -%}
+{%- for team in sorted_teams reversed -%}
+	{%- if team.team != "labels" and team.team != "modified" and team.team != "completed" -%}
+	{%- if team.total == "0" and team.penalty == "0" -%}
 		<tr style="background-color:#fafafa;"><td style="font-weight:bold;white-space: nowrap;">#{{team.number}} - {{team.team}}</td>
-		{% assign totalLaps = 0 %}
-		{% assign totalTime = 0 %}
+		{%- assign totalLaps = 0 -%}
+		{%- assign totalTime = 0 -%}
 		<td style="border-right-width: 3px;border-left-width:3px;"><b>{{team.total}}</b></td>
-		{% for item in team offset:5 %}
-			{% assign currentLaps = item[1] | plus:0 %}
-			{% if currentLaps > 0 %}
-				{% assign totalTime = totalTime | plus:4 %}
-			{% endif %}
-			{% assign totalLaps = totalLaps | plus:item[1] %}
+		{%- for item in team offset:5 -%}
+			{%- assign currentLaps = item[1] | plus:0 -%}
+			{%- if currentLaps > 0 -%}
+				{%- assign totalTime = totalTime | plus:4 -%}
+			{%- endif -%}
+			{%- assign totalLaps = totalLaps | plus:item[1] -%}
 			<td style="background-color:rgba(183, 144, 1, calc({{currentLaps}}/100))">{{currentLaps}}</td> 
-		{% endfor %}
+		{%- endfor -%}
 		<td>{{team.penalty}}</td>
-		{% assign totalLaps = totalLaps | minus:team.penalty %}
+		{%- assign totalLaps = totalLaps | minus:team.penalty -%}
 		<td>{{team.fastest}}</td>
 		</tr>
-	{% endif %}
-	{% endif %}
-{% endfor %}
+	{%- endif -%}
+	{%- endif -%}
+{%- endfor -%}
 </tbody>
 </table>
-<div style="margin:auto; text-align:center;"><i>Last Updated: {{modified}}</i><br><b>Darker Cells Indicate Teams Completing More Laps</b></div>
-{% endif %}
+<div style="margin:auto; text-align:center;"><i>Last Updated: {{modified}}</i><br><b>Darker Cells Indicate Teams Completing More Laps<br>✅ indicates qualified for ASC</b></div>
+{%- endif -%}

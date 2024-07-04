@@ -18,7 +18,7 @@ current_link: "/scrutineering.html"
       <img src="{% link assets/images/isu_scrutineering.jpg %}" alt="alt" />
     </span>
     <header class="major">
-      <h3><a href="" class="link">Scrutineering</a></h3>
+      <h3><a href="scrutineering.html" class="link">Scrutineering</a></h3>
       <p>Vehicle Inspections: <i>July 13-15</i></p>
     </header>
   </article>
@@ -27,7 +27,7 @@ current_link: "/scrutineering.html"
       <img src="{% link assets/images/florida_fsgp_front.jpg %}" alt="alt" />
     </span>
     <header class="major">
-      <h3><a href="" class="link">Formula Sun Grand Prix</a></h3>
+      <h3><a href="fsgp/" class="link">Formula Sun Grand Prix</a></h3>
       <p>Track Race and ASC Qualifier: <i>July 16-18</i></p>
     </header>
   </article>
@@ -36,16 +36,16 @@ current_link: "/scrutineering.html"
       <img src="{% link assets/images/app_state_wagon.jpg %}" alt="alt" />
     </span>
     <header class="major">
-      <h3><a href="" class="link">Electrek American Solar Challenge</a></h3>
+      <h3><a href="asc/" class="link">Electrek American Solar Challenge</a></h3>
       <p>1550+ mile Road Challenge Following 7 National Historic Trails: <i>July 20-27</i></p>
     </header>
   </article>
   <article>
     <span class="image">
-      <img src="{% link assets/images/MOV_FrontStraight.jpg %}" alt="alt" />
+      <img src="{% link assets/images/solar_wagon.jpg %}" alt="alt" />
     </span>
     <header class="major">
-      <h3><a href="{{ tile.url  | relative_url }}" class="link">See America by National Historic Trail</a></h3>
+      <h3><a href="asc/route" class="link">See America by National Historic Trail</a></h3>
       <p>ASC Route from Nashville, TN to Casper, WY</p>
     </header>
   </article>
@@ -91,7 +91,7 @@ current_link: "/scrutineering.html"
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3><a href="https://www.americansolarchallenge.org/sponsorship/fsgp-2023-sponsors/">Sponsors</a></h3>
+					<h3><a href="https://www.americansolarchallenge.org/sponsorship/asc-fsgp-2024-sponsors/">Sponsors</a></h3>
 				</header>
 				<p>The Electrek American Solar Challenge 2024 would not be possible without the support of our sponsors</p>
 				<ul class="actions">

@@ -1,0 +1,11 @@
+team,number,penalty,base,time,speed,checkpoint,1,2,3,4,5,6
+data,name,,,,,,St. Joseph to Beatrice,Beatrice Loop,Beatrice to Kearney,Kearney Loop,Kearney to Gering,Gering Loop
+data,type,,,,,,base,Loop,base,loop,base,loop
+data,miles,,,,,,138,25,178,22,273,26
+Solar Team,555,7,Yes,8:31:28,36.64,✅ | ✅,138,2,178,4,273,5
+Mountain Team,551,10,Yes,9:07:55,37.83,✅ | ✅,138,1,178,5,273,4
+French Team,550,5,Yes,9:17:55,37.16,✅ | ✅,138,0,178,4,273,5
+Fake Team,552,2,Yes,8:31:28,36.64,✅ | ✅,138,1,178,4,273,2
+State University,554,6,Yes,8:31:28,36.64,❌ | ✅,138,0,178,3,273,2
+College Team,553,0,No,--,-,❌ | ❌,0,0,0,0,0,0
+data,modified,19 July 2022 – 8:45pm US Central,,,,,,,,,,

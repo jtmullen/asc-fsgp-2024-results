@@ -740,7 +740,7 @@ ol dd,
 .ulist .ulist,
 .ulist .olist,
 .olist .ulist {
-  margin-bottom: $paragraph-margin-bottom / 2;
+  margin-bottom: $paragraph-margin-bottom * 0.5;
 }
 
 ul.unstyled,
@@ -948,7 +948,7 @@ sup.footnoteref {
 #footnotes {
   padding-top: emCalc(12px);
   padding-bottom: emCalc(12px);
-  margin-bottom: $panel-margin-bottom / 2;
+  margin-bottom: $panel-margin-bottom * 0.5;
   hr {
     width: 20%;
     min-width: emCalc(100px);
@@ -974,7 +974,7 @@ sup.footnoteref {
 
   // footnotes in embedded documents
   #content & {
-    margin-top: -$panel-margin-bottom / 2;
+    margin-top: -$panel-margin-bottom * 0.5;
     margin-bottom: 0;
     padding: emCalc(12px) 0;
   }

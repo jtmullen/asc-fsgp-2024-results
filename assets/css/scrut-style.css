@@ -1,4 +1,4 @@
-#stacked-example-2 {
+#scrutineering-table {
   height: 700px;
   padding-right: 10px;
   padding-left: 10px;
@@ -18,12 +18,12 @@
 }
 
 @media (max-width: 479px) {
-    #stacked-example-2 {
+    #scrutineering-table {
         height: 750px;
 		padding-left: 30px;
     }
 }
 
-#stacked-example-2 caption {
+#scrutineering-table caption {
   font-weight: bold;
 }

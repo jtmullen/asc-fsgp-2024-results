@@ -1,0 +1,8 @@
+team,number,base,miles,person,penalty,speed,capacity,external,completion,derate,total-ext,score
+Solar Team,555,Yes,609,1218,1,40.43,9.16,0.00,99.02,1.00,0.00,"1,206.10"
+French Team,550,Yes,614,1195,3,34.98,20.12,10.50,99.51,0.90,10.50,"1,068.68"
+Mountain Team,551,Yes,576,1152,10,34.98,22.14,24.20,92.18,0.90,24.20,954.35
+State University,554,Yes,487,974,15,34.98,12.56,16.50,76.87,0.90,16.50,672.88
+Fake Team,552,Yes,454,908,1,26.88,13.80,6.80,73.78,0.31,6.80,205.73
+College Team,553,No,0,0,0,-,26.70,0.00,0.00,,0.00,0.00
+modified,16 July 2022 – 3:30pm US Mountain,,,,,,,,,,,

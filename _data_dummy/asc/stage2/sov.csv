@@ -1,0 +1,23 @@
+team,number,penalty,base,time,speed,checkpoint,1,2,3,4,5
+data,name,,,,,,Edwardsville to Jefferson City,Jefferson City Loop,Jefferson City to Independence,Independence to St. Joseph,St. Joseph Loop
+data,type,,,,,,base,loop,base,base,loop
+data,miles,,,,,,164,28,156,73,33
+State Uni,525,5,Yes,23:31:55,37.3,✅ | ✅,164,3,156,73,6
+Soapbox Derby,523,12,Yes,39:53:22,30.6,✅ | ✅,164,3,156,73,5
+Cat Team,524,16,Yes,33:02:58,36.7,✅ | ✅,164,3,156,73,5
+Pinewood Derby,522,6,Yes,22:17:40,29.9,✅ | ✅,164,2,156,73,4
+Matchbox Car,521,9,Yes,22:13:09,30.4,✅ | ✅,164,1,156,73,3
+Team Name,518,11,Yes,25:52:23,21.1,✅ | ✅,164,2,156,73,2
+Foreign Team,519,0,Yes,25:52:23,21.1,✅ | ✅,164,2,156,73,1
+Car Team,515,17,Yes,25:52:23,21.1,✅ | ✅,164,0,156,73,2
+Solar Team,513,3,Yes,25:52:23,21.1,✅ | ✅,164,0,156,73,1
+Raycing Team,512,4,Yes,25:52:23,21.1,✅ | ✅,164,0,156,73,1
+Dutch Team,520,13,Yes,25:52:23,21.1,✅ | ❌,164,0,156,73,1
+Casper State,501,14,Yes,25:52:23,21.1,✅ | ❌,164,0,156,73,1
+College Team,514,18,Yes,25:52:23,21.1,✅ | ✅,164,0,156,73,1
+Scotts Bluff,502,11,Yes,25:52:23,21.1,✅ | ❌,164,0,156,73,0
+Music City,503,21,Yes,25:52:23,21.1,✅ | ❌,164,0,156,73,0
+University Team,516,13,No,25:52:23,21.1,✅ | ✅,164,0,156,50,2
+Paducah State,504,14,No,25:52:23,21.1,✅ | ❌,164,0,100,0,0
+School Team,517,4,No,25:52:23,21.1,❌ | ❌,164,0,73,0,0
+data,modified,19 July 2022 – 8:45pm US Central,,,,,,,,,

@@ -1,0 +1,23 @@
+team,number,penalty,base,time,speed,checkpoint,1,2,3,4,5,6
+data,name,,,,,,St. Joseph to Beatrice,Beatrice Loop,Beatrice to Kearney,Kearney Loop,Kearney to Gering,Gering Loop
+data,type,,,,,,base,Loop,base,loop,base,loop
+data,miles,,,,,,138,25,178,22,273,26
+Soapbox Derby,523,1,Yes,16:00:22,23.7,✅ | ✅,138,1,178,5,273,5
+Matchbox Car,521,12,Yes,15:20:31,22.5,✅ | ✅,138,2,178,6,273,3
+State Uni,525,0,Yes,15:04:16,31.3,✅ | ✅,138,2,178,4,273,4
+Dutch Team,520,5,Yes,12:32:59,24.9,✅ | ✅,138,2,178,5,273,3
+Pinewood Derby,522,4,Yes,12:47:51,27,❌ | ✅,138,0,178,6,273,4
+Cat Team,524,34,Yes,15:00:51,32.2,✅ | ✅,138,1,178,5,273,4
+University Team,516,2,Yes,12:32:59,24.9,✅ | ✅,138,0,178,4,273,2
+Team Name,518,33,Yes,12:32:59,24.9,❌ | ✅,138,0,178,5,273,2
+Raycing Team,512,10,Yes,12:32:59,24.9,❌ | ✅,138,0,178,3,273,2
+Casper State,501,3,Yes,12:32:59,24.9,❌ | ✅,138,0,178,2,273,2
+Car Team,515,24,Yes,12:32:59,24.9,✅ | ✅,138,0,178,2,273,2
+College Team,514,12,Yes,12:32:59,24.9,✅ | ✅,138,0,178,2,273,0
+Foreign Team,519,33,No,12:32:59,24.9,✅ | ✅,138,1,178,4,134,0
+Solar Team,513,37,No,12:32:59,24.9,❌ | ❌,138,0,178,0,250,0
+Paducah State,504,26,No,12:32:59,24.9,❌ | ❌,138,0,20,0,273,1
+School Team,517,24,No,12:32:59,24.9,❌ | ✅,138,0,178,2,53,0
+Music City,503,31,No,12:32:59,24.9,❌ | ❌,138,0,178,0,50,0
+Scotts Bluff,502,8,No,12:32:59,24.9,❌ | ❌,10,0,0,0,273,2
+data,modified,19 July 2022 – 8:45pm US Central,,,,,,,,,,

@@ -1,0 +1,11 @@
+team,number,penalty,base,time,speed,checkpoint,1
+data,name,,,,,,Gering to Casper
+data,type,,,,,,base
+data,miles,,,,,,198
+French Team,550,0,Yes,3:06:49,41.46,n/a,198
+Mountain Team,551,2,Yes,2:59:24,43.18,n/a,198
+Fake Team,552,4,Yes,3:34:01,36.19,n/a,198
+State University,554,7,Yes,2:59:24,43.18,n/a,198
+Solar Team,555,9,Yes,2:59:24,43.18,n/a,198
+College Team,553,0,No,--,-,n/a,0
+data,modified,19 July 2022 – 8:45pm US Central,,,,,

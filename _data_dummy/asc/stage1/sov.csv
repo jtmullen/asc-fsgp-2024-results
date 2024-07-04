@@ -1,0 +1,23 @@
+team,number,penalty,base,time,speed,checkpoint,1,2,3,4
+data,name,,,,,,Nashville to Paducah,Paducah Loop,Paducah to Edwardsville,Edwardsville Loop
+data,type,,,,,,base,loop,base,loop
+data,miles,,,,,,156,49,217,29
+State Uni,525,11,Yes,14:00:29,34.9,✅,156,1,217,6
+Cat Team,524,13,Yes,13:25:26,36.5,✅,156,1,217,6
+Soapbox Derby,523,0,Yes,14:55:22,31.4,✅,156,1,217,5
+Pinewood Derby,522,2,Yes,16:12:45,27.6,✅,156,1,217,5
+Matchbox Car,521,27,Yes,15:07:29,29.6,✅,156,0,217,5
+Dutch Team,520,4,Yes,14:29:22,28,✅,156,0,217,4
+Foreign Team,519,7,Yes,14:29:22,28.2,✅,156,0,217,3
+Team Name,518,24,Yes,14:29:22,27.9,✅,156,0,217,3
+School Team,517,17,Yes,14:29:22,28.7,✅,156,0,217,2
+University Team,516,18,Yes,14:29:22,29,✅,156,0,217,2
+Car Team,515,25,Yes,14:29:22,28.3,❌,156,0,217,2
+College Team,514,2,Yes,14:29:22,27.7,✅,156,0,217,1
+Solar Team,513,3,Yes,14:29:22,27.6,✅,156,0,217,1
+Raycing Team,512,3,Yes,14:29:22,28.4,❌,156,0,217,1
+Casper State,501,24,Yes,14:29:22,28.2,❌,156,0,217,1
+Scotts Bluff,502,0,Yes,14:29:22,27.1,❌,156,0,217,0
+Music City,503,6,Yes,14:29:22,27.2,❌,156,0,217,0
+Paducah State,504,22,Yes,14:29:22,26.1,❌,156,0,217,0
+data,modified,19 July 2022 – 8:45pm US Central,,,,,,,,
