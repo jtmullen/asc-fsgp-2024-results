@@ -18,6 +18,7 @@ The Electrek American Solar Challenge 2024 is an 8 day 1550+ mile competition sp
 <a href="./timing" class="button special" style="margin:5px">Live Timing Board</a>
 <a href="./results" class="button special" style="margin:5px">Official Results</a>
 <a href="./route" class="button special" style="margin:5px">Route Information</a>
+<a href="./route/when" class="button special" style="margin:5px">See the Solar Cars Along the Route</a>
 </ul>
 
 
@@ -47,4 +48,4 @@ _For full time details see the [route](./route) page_
 
 The solar cars may be coming through your neighborhood! The best way to see the solar cars up close is near a checkpoint or stage stop. At these locations teams will be held for a mandatory hold time of 45 minutes before being released to continue on the route or drive optional loops for extra miles. If you are planning a visit to a checkpoint please note that the first solar cars will not arrive right when the checkpoint opens. If there are poor weather or traffic conditions they may not arrive in the first hour(s) in some cases. You will see more solar cars in the latter half of the open time. You can watch the live tacker during the event to estimate arrival times to checkpoints and stage stops. 
 
-If you are not located near a stop location but are along the route you can still see the solar cars on the open road! The [route page](./route) includes information on the exact roads the solar cars will travel and provides rough estimates for arrival times for cities along the route. Watch the live track during the event to see when exactly the solar cars will arive. 
+If you are not located near a stop location but are along the route you can still see the solar cars on the open road! The [route page](./route) includes information on the exact roads the solar cars will travel and the [See the Solar Cars](./route/when) page provides estimates on when solar cars will pass through various locations. Watch the live track during the event to see when exactly the solar cars will arive. 
