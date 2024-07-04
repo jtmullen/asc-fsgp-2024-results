@@ -71,18 +71,24 @@ current_link: "/scrutineering.html"
 </section>
 
 <!-- Three -->
-<!--
-<section id="three">
-	<div class="inner">
-		<header class="major">
-			<h2>Looking for More?</h2>
-		</header>
-		<p>Find full info about the 2024 event and Solar Car Racing in the United States on our full website</p>
-		<ul class="actions">
-			<li><a href="https://www.americansolarchallenge.org/" class="button next">Full ASC/FSGP Website</a></li>
-		</ul>
-	</div>
-</section>-->
+<section id="three" class="spotlights">
+<section>
+		<a href="./teams" class="image">
+			<img src="{% link assets/images/teams_2024.jpg %}" alt="" data-position="center center" />
+		</a>
+		<div class="content">
+			<div class="inner">
+				<header class="major">
+					<h3><a href="./teams">Competitors</a></h3>
+				</header>
+				<p>Over 30 teams from the US and Canada are registered to compete at the Electrek American Solar Challenge 2024</p>
+				<ul class="actions">
+					<li><a href="./teams" class="button">Meet the Teams</a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+</section>
 <section id="four" class="spotlights">
 	<section>
 		<a href="https://electrek.co/" class="image">
