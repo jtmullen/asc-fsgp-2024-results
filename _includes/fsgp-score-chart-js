@@ -11,13 +11,26 @@ FSGP Lap Chart JS
 {%- endif -%}
 {%- endif -%}
 {%- endfor -%}
-{% assign mod_result = team_count | modulo:2 %}
 {%- if team_count == 0 -%}
 <i><b>MOV Scores Not Yet Available</b></i>
 {%- else -%}
+{%- assign max_personmi = 0 -%}
+{%- for team in sorted_teams -%}
+{%- if team.team != "modified" -%}
+{%- if team.team != "labels" -%}
+	{%- assign team_personmi = team.person | plus: 0 -%}
+	{%- if team_personmi > max_personmi -%}
+		{%- assign max_personmi = team_personmi -%}
+	{%- endif -%}
+{%- endif -%}
+{%- endif -%}
+{%- endfor -%}
+{%- if max_personmi == 0 -%}
+<i><b>MOV Scores Not Yet Available</b></i>
+{%- else -%}
+{% assign mod_result = team_count | modulo:2 %}
 <h3 style="text-align: center;">Normalized MOV Score Component Charts</h3>
 <div class="row">
-{%- assign max_personmi = 0 -%}
 {%- assign min_external = 100000 -%}
 {%- for team in sorted_teams -%}
 {%- if team.team != "modified" -%}
@@ -31,11 +44,7 @@ FSGP Lap Chart JS
   <div class="large-6 columns">
   </div>
   {%- endif -%}
-  {%- assign team_personmi = team.person | plus: 0 -%}
   {%- assign team_external = team.total-ext | plus: 0 -%}
-  {%- if team_personmi > max_personmi -%}
-	{%- assign max_personmi = team_personmi -%}
-  {%- endif -%}
   {%- if team_external < min_external -%}
 	{%- assign min_external = team_external -%}
   {%- endif -%}
@@ -50,9 +59,9 @@ FSGP Lap Chart JS
 {%- for team in sorted_teams -%}
 {%- if team.team != "modified" -%}
 {%- if team.team != "labels" -%}
-		const ctx_score_{{team.number}} = document.getElementById('fsgp-score-{{team.number}}');
-
+	{%- assign team_ext = team.total-ext -%}
 	
+	const ctx_score_{{team.number}} = document.getElementById('fsgp-score-{{team.number}}');
 	const data_score_{{team.number}} = {
 	  labels: labels_score,
 	  datasets: [
@@ -112,4 +121,5 @@ FSGP Lap Chart JS
 {%- endfor -%}
 
 </script>
+{%- endif -%}
 {%- endif -%}
