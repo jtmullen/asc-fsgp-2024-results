@@ -16,7 +16,7 @@ Before they can get on the track, teams and their solar cars undergo several day
 <tbody>
   <tr>
     <td><b>Driver Registration</b></td>
-    <td>At this station teams register their drivers (and MOV passengers). They are checked for a valid license, allowable helmets, safe shoes, and weigh in for ballast.</td>
+    <td>At this station teams register their drivers (and MOV passengers). They are checked for a valid license, allowable helmets, and safe shoes then weigh in for ballast.</td>
   </tr>
   <tr>
     <td><b>Driver Operations</b></td>
@@ -44,11 +44,11 @@ Before they can get on the track, teams and their solar cars undergo several day
   </tr>
   <tr>
     <td><b>Dynamics</b></td>
-    <td>At dynamics cars and drivers must pass U-Turn, Figure-8, Slalom, and Braking Tests with the requisite performance</td>
+    <td>At dynamics cars and drivers must pass U-Turn, Figure-8, Slalom, and Braking Tests with the requisite performance.</td>
   </tr>
   <tr>
     <td><b>Array Testing</b></td>
-    <td>At this station the vehicles solar array is tested and verified</td>
+    <td>At this station the vehicles solar array is tested and verified.</td>
   </tr>
   <tr>
     <td><b>Safety</b></td>
@@ -56,7 +56,7 @@ Before they can get on the track, teams and their solar cars undergo several day
   </tr>
   <tr>
     <td><b>Impound &amp; MOV</b></td>
-    <td>All vehicles must demonstrate how their battery system is impounded outside of race hours. Multi-Occupant Vehicles are additionally outfitted with metering equipment for external charging. <i><a href="https://www.americansolarchallenge.org/the-competition/vehicle-classes/">Learn More About the Vehicle Classes</a></i></td>
+    <td>All vehicles must demonstrate how their battery system is impounded outside of race hours. Multi-Occupant Vehicles are additionally outfitted with metering equipment for external charging. <i><a href="https://www.americansolarchallenge.org/the-competition/vehicle-classes/">Learn More About the Vehicle Classes.</a></i></td>
   </tr>
   <tr>
     <td><b>ASC Support Vehicles</b></td>

@@ -14,11 +14,11 @@ The Electrek American Solar Challenge 2024 is an 8 day 1550+ mile competition sp
 
 ## Scoring 
 
-The 2024 Event is once again a distance-based competition. The primary goal is to compelete the 1553 mile base route, however teams will have numerous opportuntities to complete additional optional loop segments to gain addition miles (or person miles for Multi-Occupant Vehicles) which will help increase their ranking. See our [vehicle classes](https://www.americansolarchallenge.org/the-competition/vehicle-classes/) page for more info on the classes.
+The 2024 Event is once again a distance-based competition. The primary goal is to compelete the 1560 mile base route; however, teams will have numerous opportuntities to complete additional optional loop segments to gain addition miles (or person miles for Multi-Occupant Vehicles) which will help increase their ranking. See our [vehicle classes](https://www.americansolarchallenge.org/the-competition/vehicle-classes/) page for more info on the classes.
 
 
 ### Single Occupant Vehicle (SOV) Class
-The single occupant class is scored solely on miles driven. The team that completes the most miles, while completing the base route, will win the event. Stage winners are also determined by miles driven on that stage. Teams who do not finish the base route will be ranked below all teams who do. In the event of a tie, elapsed time is the tie-breaker. 
+The Single Occupant class is scored solely on miles driven. The team that completes the most miles, while completing the base route, will win the event. Stage winners are also determined by miles driven on that stage. Teams who do not finish the base route will be ranked below all teams who do. In the event of a tie, elapsed time is the tie-breaker. 
 
 ### Multi-Occupant Vehicle (MOV) Class
 Multi-Occupant vehicles are scored on a variety of factors including person-miles driven, their practicality score, amount of external energy used, and whether they maintain the 35mph target average speed. MOV teams must also complete the base route, any team that does not will be ranked below all teams who do. The scoring formula is as follows: \$$ S = \frac{1}{E} \times D \times C \times T \times P$$
@@ -31,7 +31,7 @@ Variable Definitions:
 - __P__: Practicality Score - during display day a panel of judges will evalute the practical features of each vehicle and award a score from 0-100.
 - __T__: Target Speed Derating - vehicles must average at least <b>35 mph</b> for the event, in which case this factor will be 1.0. Otherwise they have their score derated based on the following formula: \$$ T = (0.6)^{(35-[Average Speed])^{0.4}} $$
 
-_Note: For individual stage winners the pracitcality and external energy factors are not considered, only the "D x C x T" factors_
+_Note: For individual stage winners, the pracitcality and external energy factors are not considered, only the "D x C x T" factors_
 
 # Results
 
@@ -39,6 +39,14 @@ _Distance Completed, Times, Average Speeds, and Passenger Information will be up
 
 
 {% tabs stage %}
+{% tab stage Overall%}
+
+__July 20th-27th:__ Nashville, TN to Casper, WY
+- 1560.0 Total Base Route Miles
+- 7 Optional Loops
+    - 213.4 unique loop miles (teams may complete loops multiple times)
+
+{% endtab %}
 {% tab stage Stage 1%}
 __July 20th & 21st:__ Nashville, TN to Edwardsville, IL via Paducah, KY
 - Route Segments:
@@ -68,24 +76,22 @@ __July 24th-26th:__ St. Joseph, MO to Gering, NE via Beatrice, NE and Kearney, N
 - Optional Loops:
   - Beatrice Loop: <i>25.4 miles</i>
   - Kearney Loop: <i>22.0 miles</i>
-  - Gering Loop: <i>25.95 miles</i>
+  - Gering Loop: <i>26.0 miles</i>
 {% endtab %}
 {% tab stage Stage 4%}
 __July 27th:__ Gering, NE to Casper, WY
 - Route Segments:
   - Gering to Casper: <i>198.3 miles</i>
 {% endtab %}
-{% tab stage Overall%}
-
-__July 20th-27th:__ Nashville, TN to Casper, WY
-- 1560.0 Total Base Route Miles
-- 7 Optional Loops
-    - 213.35 unique loop miles (teams may complete loops multiple times)
-
-{% endtab %}
 {% endtabs %}
 ## SOV Results
 {% tabs stagesov %}
+{% tab stagesov Overall%}
+{% include asc-final-chart stage="overall" class="sov" %}
+<br>&nbsp;
+<br>&nbsp;
+{% include asc-stage-table stage="overall" class="sov" %}
+{% endtab %}
 {% tab stagesov Stage 1%}
 {% include asc-stage-chart stage="stage1" class="sov" %}
 <br>&nbsp;<br>
@@ -106,16 +112,14 @@ __July 20th-27th:__ Nashville, TN to Casper, WY
 <br>&nbsp;<br>
 {% include asc-stage-table stage="stage4" class="sov" %}
 {% endtab %}
-{% tab stagesov Overall%}
-{% include asc-final-chart stage="overall" class="sov" %}
-<br>&nbsp;
-<br>&nbsp;
-{% include asc-stage-table stage="overall" class="sov" %}
-{% endtab %}
 {% endtabs %}
 <br>
 ## MOV Scores
 {% tabs stagescore %}
+{% tab stagescore Overall%}
+{% include asc-score-chart-final-js %}
+{% include asc-final-score %}
+{% endtab %}
 {% tab stagescore Stage 1%}
 _For stage ranking MOV teams are scored solely on Distance, Completion Factor, and Target Speed. Other factors are not considered_
 {% include asc-score-chart-js stage="stage1" %}
@@ -137,14 +141,16 @@ _For stage ranking MOV teams are scored solely on Distance, Completion Factor, a
 {% include asc-score-chart-js stage="stage4" %}
 {% include asc-score-table stage="stage4" %}
 {% endtab %}
-{% tab stagescore Overall%}
-{% include asc-score-chart-final-js %}
-{% include asc-final-score %}
-{% endtab %}
 {% endtabs %}
 <br>
 ### MOV Distance Completed
 {% tabs stagemov %}
+{% tab stagemov Overall%}
+{% include asc-final-chart stage="overall" class="mov" %}
+<br>&nbsp;
+<br>&nbsp;
+{% include asc-stage-table stage="overall" class="mov" %}
+{% endtab %}
 {% tab stagemov Stage 1%}
 {% include asc-stage-chart stage="stage1" class="mov" %}
 <br>&nbsp;<br>
@@ -164,12 +170,6 @@ _For stage ranking MOV teams are scored solely on Distance, Completion Factor, a
 {% include asc-stage-chart stage="stage4" class="mov" %}
 <br>&nbsp;<br>
 {% include asc-stage-table stage="stage4" class="mov" %}
-{% endtab %}
-{% tab stagemov Overall%}
-{% include asc-final-chart stage="overall" class="mov" %}
-<br>&nbsp;
-<br>&nbsp;
-{% include asc-stage-table stage="overall" class="mov" %}
 {% endtab %}
 {% endtabs %}
 

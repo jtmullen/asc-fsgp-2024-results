@@ -66,6 +66,7 @@ Variable Definitions:
 <script src="{{ url }}/assets/js/tabs.js"></script>
 <script> jekyllTabs.init({
     activateTabFromUrl: true,
+    activateTabFromUrl: true,
 });
 </script>
 <script type="text/javascript" async

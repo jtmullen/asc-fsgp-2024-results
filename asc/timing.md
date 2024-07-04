@@ -14,4 +14,4 @@ __Coming Soon__
 
 
 
-*Note: The Live Timing Board is not official results and is for reference only. Every effort is made to ensure this page is up to date and correct, however official times are those specified by HQ on site and Official Results as published at the end of the stage*
+*Note: The Live Timing Board is not official and is for reference only. Every effort is made to ensure this page is up to date and correct; however, official times are those specified by HQ on site and Official Results as published at the end of the stage*
