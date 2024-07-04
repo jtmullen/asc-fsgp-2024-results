@@ -2,8 +2,8 @@
 FSGP MOV Table Generator
 {% endcomment %}
 <link rel="stylesheet" href="{{site.baseurl}}/assets/css/asc-style.css">
-<div style="margin:auto; text-align:center;"> <i> Scroll right to see all data on small screens </i>
-<table class="score-table" style="margin:auto; border: 1px solid 0x000000;">
+<div style="margin:auto; text-align:center;"> <i> Scroll right to see all data</i>
+<table class="score-table" style="margin:auto; border: 1px solid 0x000000; display: block; overflow: auto">
 <thead>
   <tr>
   <th style="border-right-width: 3px"> </th>
