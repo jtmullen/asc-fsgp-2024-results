@@ -42,14 +42,14 @@
   - title: "Meet the Teams"
     url: "/teams"
   - title: "Info for Teams"
-    url: "https://www.americansolarchallenge.org/the-competition/2024-american-solar-challenge/"
+    url: "/the-competition/2024-american-solar-challenge/"
 
 - title: "Sponsors"
-  url: "https://www.americansolarchallenge.org/sponsorship/asc-fsgp-2024-sponsors/"
+  url: "/sponsorship/asc-fsgp-2024-sponsors/"
   side: right
 
 - title: "ASC Website"
-  url: "https://www.americansolarchallenge.org/"
+  url: "/"
   side: right
 
 
