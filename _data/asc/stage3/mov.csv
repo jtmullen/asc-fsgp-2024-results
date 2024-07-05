@@ -1,9 +1,5 @@
 team,number,penalty,trailer,time,speed,checkpoint,1,2,3,4
-data,name,,,,,,Lander to Montpelier,Montpelier Loop,Montpelier to Pocatello,Pocatello Loop
-data,type,,,,,,base,Loop,base,loop
-data,miles,,,,,,225.7,46.2,86.6,33.2
-App State,828,5,Yes,9:17:55,37.16,✅,225.7,0,86.6,1
-Minnesota,35,10,Yes,9:07:55,37.83,✅,225.7,0,86.6,1
-Poly Montreal,55,2,Yes,8:31:28,36.64,✅,225.7,0,86.6,0
-Iowa State,9,-,No,--,-,❌,0,0,0,0
+data,name,,,,,,Independence to Topeka,Topeka Loop,Topeka to Grand Island,Grand Island Loop
+data,type,,,,,,base,loop,base,loop
+data,miles,,,,,,98.3,43,265.2,21
 data,modified,19 July 2022 – 8:45pm US Central,,,,,,,,

@@ -2,10 +2,4 @@ team,number,penalty,trailer,time,speed,checkpoint,1,2,3,4
 data,name,,,,,,Independence to Topeka,Topeka Loop,Topeka to Grand Island,Grand Island Loop
 data,type,,,,,,base,loop,base,loop
 data,miles,,,,,,98.3,43.3,265.2,21
-Principia,32,11,Yes,14:00:29,34.9,✅,98.3,0,265.2,6
-MIT,4,13,Yes,13:25:26,36.5,✅,98.3,0,265.2,6
-Kentucky,3,9,Yes,14:55:22,31.4,✅,98.3,0,265.2,5
-Illinois,22,2,Yes,16:12:45,27.6,❌,98.3,0,265.2,4
-ETS,101,27,Yes,15:07:29,29.6,✅,98.3,0,265.2,4
-Berkeley,6,4,Yes,14:29:22,28,✅,98.3,0,265.2,2
 data,modified,19 July 2022 – 8:45pm US Central,,,,,,,,

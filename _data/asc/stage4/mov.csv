@@ -1,9 +1,5 @@
-team,number,penalty,trailer,time,speed,checkpoint,1
-data,name,,,,,,Pocatello to Twin Falls
-data,type,,,,,,base
-data,miles,,,,,,129.1
-Poly Montreal,55,0,Yes,3:06:49,41.46,n/a,129.1
-App State,828,2,Yes,2:59:24,43.18,n/a,129.1
-Minnesota,35,4,Yes,3:34:01,36.19,n/a,129.1
-Iowa State,9,-,No,--,-,n/a,
-data,modified,19 July 2022 – 8:45pm US Central,,,,,
+team,number,penalty,trailer,time,speed,checkpoint,1,2,3,4
+data,name,,,,,,Independence to Topeka,Topeka Loop,Topeka to Grand Island,Grand Island Loop
+data,type,,,,,,base,loop,base,loop
+data,miles,,,,,,98.3,43,265.2,21
+data,modified,19 July 2022 – 8:45pm US Central,,,,,,,,
