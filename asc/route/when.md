@@ -1,6 +1,7 @@
 ---
 title: See Solar Cars Along the Route
 layout: page-fullwidth
+permalink: /asc/route/when
 social_title: See the Solar Cars
 social_description: "When and where to see the solar cars on the road during the Electrek American Solar Challenge 2024"
 social_image: "{% link assets/images/ETS_road.jpg %}"

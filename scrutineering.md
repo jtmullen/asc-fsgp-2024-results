@@ -1,6 +1,7 @@
 ---
 layout: page-fullwidth
 title: Scrutineering
+permalink: /scrutineering
 description: "3 days of Tech Inspections and Dynamic Tests"
 nav-menu: true
 header: no

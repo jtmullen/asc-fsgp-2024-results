@@ -1,6 +1,7 @@
 ---
 title: FSGP Live
 layout: page-fullwidth
+permalink: /fsgp/live
 nav-menu: true
 header: no
 social_title: Follow Electrek FSGP 2024 Live
