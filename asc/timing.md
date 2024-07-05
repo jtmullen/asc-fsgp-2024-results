@@ -2,7 +2,7 @@
 title: Timing Board
 layout: page-fullwidth
 nav-menu: true
-permalink: /asc/timing
+permalink: /asc/timing/
 header: no
 social_title: Electrek ASC 2024 Timing Board
 social_description: Up to Date Timing Information from ASC 2024

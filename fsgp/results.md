@@ -2,7 +2,7 @@
 title: Official Electrek FSGP Results
 layout: page-fullwidth
 nav-menu: true
-permalink: /fsgp/results
+permalink: /fsgp/results/
 header: no
 social_title: Electrek Formula Sun Grand Prix 2024 Results
 social_description: See the Official Results from Bowling Green, KY

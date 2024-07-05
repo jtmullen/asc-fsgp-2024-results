@@ -20,7 +20,7 @@ In Partnership with the National Parks Service, the Electrek American Solar Chal
 
 See the Google Map below for the specific roads the solar cars will take during the Electrek American Solar Challenge 2024!
 
-{% include alert info="The best place to see the most solar cars is at a stage stop of checkpoint listed below.<br>If you aren't near one of these locations or want to see the solar cars on the open road see our [guide on when to see the solar cars](./when)" %}
+{% include alert info="The best place to see the most solar cars is at a stage stop of checkpoint listed below.<br>If you aren't near one of these locations or want to see the solar cars on the open road see our [guide on when to see the solar cars](./when/)" %}
 
 <iframe src="https://www.google.com/maps/d/embed?mid=122CQ4tMmhNKMCbh8EDeXVXyqLYfSooQ&ehbc=2E312F" width="100%" height="480"></iframe>
 _Note: While it is our intention that this google map is the correct route, teams must always defer to the Official Route Book for the Official Route. In the case of last minute detours this map may not be updated during the event in the case of last minute detours_
@@ -28,7 +28,7 @@ _Note: While it is our intention that this google map is the correct route, team
 -----
 ## Checkpoint and Stage Stop Information
 
-{% include alert warning="<b>Note About Opening Times:</b> Stops are scheduled to open at the earliest possible arrival time based on speed limits. Solar cars generally do not travel at the speed limit and may be further delayed by traffic or weather conditions. At some stops the first team may arrive hours after the scheduled opening time. The later hours of the stop time will see more solar cars, please utilize the [live tracker](./../live) for the most up to date information on solar car locations." %}
+{% include alert warning="<b>Note About Opening Times:</b> Stops are scheduled to open at the earliest possible arrival time based on speed limits. Solar cars generally do not travel at the speed limit and may be further delayed by traffic or weather conditions. At some stops the first team may arrive hours after the scheduled opening time. The later hours of the stop time will see more solar cars, please utilize the [live tracker](./../live/) for the most up to date information on solar car locations." %}
 
 #### Nashville, TN
 [Adventure Science Center](https://www.adventuresci.org/); [800 Fort Negley Blvd, Nashville, TN 37203](https://maps.app.goo.gl/XCvLkesEs2CiTHfr7)

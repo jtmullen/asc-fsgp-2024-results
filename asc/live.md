@@ -1,7 +1,7 @@
 ---
 title: ASC Live Tracker
 layout: page-fullwidth
-permalink: /asc/live
+permalink: /asc/live/
 nav-menu: true
 header: no
 social_title: Follow Electrek ASC 2024 Live

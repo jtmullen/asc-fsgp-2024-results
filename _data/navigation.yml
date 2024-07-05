@@ -3,44 +3,44 @@
   side: left
 
 - title: "Scrutineering"
-  url: "/scrutineering"
+  url: "/scrutineering/"
   side: left
   dropdown: 
   - title: "Team Status"
-    url: "/scrutineering"
+    url: "/scrutineering/"
   - title: "Altair Challenge"
-    url: "/altair"
+    url: "/altair/"
 
 - title: "FSGP"
   side: left
   url: "/fsgp"
   dropdown: 
   - title: "Live Updates"
-    url: "/fsgp/live"
+    url: "/fsgp/live/"
   - title: "Official Results"
-    url: "/fsgp/results"
+    url: "/fsgp/results/"
   - title: "Track"
-    url: "/fsgp/track"
+    url: "/fsgp/track/"
     
 - title: "ASC"
   side: left
   url: "/asc"
   dropdown:
   - title: "Live Timing Board"
-    url: "/asc/timing"
+    url: "/asc/timing/"
   - title: "Official Results"
     url: "/asc/results"
   - title: "Route"
-    url: "/asc/route"
+    url: "/asc/route/"
   - title: "See The Cars"
-    url: "/asc/route/when"
+    url: "/asc/route/when/"
     
 - title: "Teams"
   side: left
-  url: "/teams"
+  url: "/teams/"
   dropdown: 
   - title: "Meet the Teams"
-    url: "/teams"
+    url: "/teams/"
   - title: "Info for Teams"
     url: "/the-competition/2024-american-solar-challenge/"
 

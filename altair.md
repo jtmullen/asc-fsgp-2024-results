@@ -1,7 +1,7 @@
 ---
 title: Altair Challenge
 layout: page-fullwidth
-permalink: /altair
+permalink: /altair/
 nav-menu: true
 header: no
 social_title: Altair Challenge at FSGP 2024

@@ -1,7 +1,7 @@
 ---
 title: Official Electrek ASC Results
 layout: page-fullwidth
-permalink: /asc/results
+permalink: /asc/results/
 social_title: Electrek American Solar Challenge 2024 Results
 social_description: 'Official Results from the Road as the solar cars See America By National Historic Trail'
 social_image: "{% link assets/images/ets_scottsbluff.jpg %}"

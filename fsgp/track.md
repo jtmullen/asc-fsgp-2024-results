@@ -2,7 +2,7 @@
 title: National Corvette Museum Motorsports Park
 layout: page-fullwidth
 nav-menu: true
-permalink: /fsgp/track
+permalink: /fsgp/track/
 header: no
 social_title: Electrek FSGP 2024 at NCM Motorsports Park
 social_description: The National Corvette Museum Motorsports Park will host solar cars in Bowling Green, KY
