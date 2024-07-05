@@ -127,7 +127,6 @@ _For stage ranking MOV teams are scored solely on Distance, Completion Factor, a
 {% include asc-score-table stage="stage1" %}
 {% endtab %}
 {% tab stagescore Stage 2%}
-## MOV Scores
 _For stage ranking MOV teams are scored solely on Distance, Completion Factor, and Target Speed. Other factors are not considered_
 {% include asc-score-chart-js stage="stage2" %}
 {% include asc-score-table stage="stage2" %}
