@@ -76,7 +76,7 @@ table td {
 {% for team in site.teams limit:100 %}
 <div class="row team-info" style="cursor: pointer;">
   <div class="large-6 columns">
-  <img class="team-photo" src="{{ site.url }}{{ site.baseurl }}{{ site.imagepath }}/team_photos_thumb/{{team.number}}.jpg" alt="{{team.name}} Team Photo" onclick="window.location='{{ site.url }}{{ site.baseurl }}/teams/{{team.number}}';">
+  <img class="team-photo" src="{{ site.url }}{{ site.baseurl }}{{ site.imagepath }}/team_photos_thumb/{{team.number}}.jpg" alt="{{team.name}} Team Photo" onclick="window.location='{{ site.url }}{{ site.baseurl }}/teams/{{team.number}}/';">
   </div>
   <div class="large-6 columns specs-column">
   <div class="info-head">
@@ -90,7 +90,7 @@ table td {
   <span>{{team.car.weight}}kg</span><span> | </span><span>{{team.car.size.length}}m x {{team.car.size.width}}m x {{team.car.size.height}}m</span><span> | </span><span>{% if {{team.class}} == "MOV" %}{{team.car.passengers}} passengers{% else %}{{team.car.wheels.num}} wheels{% endif %}</span></div><hr style="margin:2%">
   <span>{{team.car.solar.power}}W {{team.car.solar.manu}} {{team.car.solar.chemistry}} array</span><hr style="margin:2%">
   <span>{{team.car.battery.capacity}}kWh {{team.car.battery.chemistry}} ({{team.car.battery.weight}}kg) battery</span><hr style="margin:2%">
-  <a href="{{ site.url }}{{ site.baseurl }}/teams/{{team.number}}">↪ See Full Specs </a><span style="float:right">{% for social_item in team.social %}&nbsp;&nbsp;&nbsp;&nbsp;<a href="{{ social_item.url }}" target="_blank" class="{{ social_item.class }}" style="text-decoration: inherit; color: inherit; cursor: auto;"></a>{% endfor %}</span>
+  <a href="{{ site.url }}{{ site.baseurl }}/teams/{{team.number}}/">↪ See Full Specs </a><span style="float:right">{% for social_item in team.social %}&nbsp;&nbsp;&nbsp;&nbsp;<a href="{{ social_item.url }}" target="_blank" class="{{ social_item.class }}" style="text-decoration: inherit; color: inherit; cursor: auto;"></a>{% endfor %}</span>
   </div>
   </div>
 </div>

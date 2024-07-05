@@ -41,7 +41,7 @@ collections:
   teams: 
     output: true
     sort_by: number
-    permalink: /teams/:name
+    permalink: /teams/:name/
 
 # build settings
 markdown: kramdown
