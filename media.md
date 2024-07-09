@@ -14,9 +14,9 @@ Media coverage of the Electrek Formula Sun Grand Prix and Electrek American Sola
 
 No media registration or credentials are required - members of the media are welcome to attend anytime during the event when the public can. Some site hosts (such as the track in Bowling Green) may have their own check-in process for vistors to complete on site. 
 
-If are attending and there are any specific interviews you would like to conduct or special access you anticipate needing please get in touch with our media time ahead of time. 
+If you are attending and there are any specific interviews you would like to conduct or special access you anticipate needing, please get in touch with our media time ahead of time. 
 
-On-site please stop by our event HQ. A member of staff will be able to provide more information and connect you with our on-site media team who are available to support your coverage. The HQ will be located at the Timing and Scoring building at the track in Bowling Green. At all other locations look for the pop-up tent with an ASC logo, there should also be a sign labeling it as HQ. 
+On-site please stop by our event HQ. A member of staff will be able to provide more information and connect you with our on-site media team who are available to support your coverage. The HQ will be located at the Timing and Scoring building at the track in Bowling Green. At all other locations, look for the pop-up tent with an ASC logo, there should also be a sign labeling it as HQ. 
 
 
 ## Resources for Media
