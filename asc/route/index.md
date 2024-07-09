@@ -88,4 +88,4 @@ _Note: While it is our intention that this google map is the correct route, team
 #### Casper, WY
 [National Historic Trails Interpretive Center](http://nhtcf.org/); [1501 N Poplar St, Casper, WY 82601](https://maps.app.goo.gl/3uCh9vMXoCZbBL8s7)
 _Overflow Parking at the [Ford Wyoming Center](https://maps.app.goo.gl/74T8GJyFQwcjoGMG7)_
-- Finish Line and Solar Car Display: July 26th, 11:15am-4:00pm
+- Finish Line and Solar Car Display: July 27th, 11:15am-4:00pm
