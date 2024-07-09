@@ -15,6 +15,7 @@ breadcrumb: true
 <a href="./live/" class="button special" style="margin:5px">Live Results and Stream</a>
 <a href="./results/" class="button special" style="margin:5px">Official Results</a>
 <a href="./track/" class="button special" style="margin:5px">Track Info</a>
+<a href="https://www.americansolarchallenge.org/ASC/wp-content/uploads/2024/06/ASC-2024-Event-Program.pdf" class="button special" style="margin:5px">Download Event Program</a>
 </ul>
 
 

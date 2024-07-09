@@ -28,6 +28,8 @@ _Note: While it is our intention that this google map is the correct route, team
 -----
 ## Checkpoint and Stage Stop Information
 
+<a href="https://www.americansolarchallenge.org/ASC/wp-content/uploads/2024/03/FSGPASC-2024-Overview-Schedule-v2.pdf" class="button special" style="margin:5px">Route / Schedule Overview Flyer</a>
+
 {% include alert warning="<b>Note About Opening Times:</b> Stops are scheduled to open at the earliest possible arrival time based on speed limits. Solar cars generally do not travel at the speed limit and may be further delayed by traffic or weather conditions. At some stops the first team may arrive hours after the scheduled opening time. The later hours of the stop time will see more solar cars, please utilize the [live tracker](./../live/) for the most up to date information on solar car locations." %}
 
 #### Nashville, TN

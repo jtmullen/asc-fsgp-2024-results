@@ -19,6 +19,7 @@ The Electrek American Solar Challenge 2024 is an 8 day 1550+ mile competition sp
 <a href="./results/" class="button special" style="margin:5px">Official Results</a>
 <a href="./route/" class="button special" style="margin:5px">Route Information</a>
 <a href="./route/when/" class="button special" style="margin:5px">See the Solar Cars Along the Route</a>
+<a href="https://www.americansolarchallenge.org/ASC/wp-content/uploads/2024/06/ASC-2024-Event-Program.pdf" class="button special" style="margin:5px">Download Event Program</a>
 </ul>
 
 
