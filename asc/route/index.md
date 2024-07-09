@@ -82,7 +82,7 @@ _Note: While it is our intention that this google map is the correct route, team
 - Stage Stop: July 26th, 8:30am-5:00pm
      - All teams spend the night at the stage stop. Teams arriving earlier in the day will complete optional loops or hold at the stage stop. 
 - Evening Charging: July 26th, 5pm-8pm
-- Morning Charging: July 26th, 7am-8am
+- Morning Charging: July 27th, 7am-8am
 - Stage Start: July 27th: 8am
 
 #### Casper, WY
