@@ -19,7 +19,7 @@ breadcrumb: true
 </ul>
 
 
-The Electrek Formula Sun Grand Prix is a multi-day track event for solar cars. After clearing [scrutineering](./scrutineering/), teams will take to the track at National Corvette Museum Motorsports Park for 24 hours of racing, split over three days. Single-Occupant vehicles will compete to complete the most total miles/laps. Multi-Occupant vehicles will compete to complete laps while using the least energy per passenger. 
+The Electrek Formula Sun Grand Prix is a multi-day track event for solar cars. After clearing [scrutineering](./../scrutineering/), teams will take to the track at National Corvette Museum Motorsports Park for 24 hours of racing, split over three days. Single-Occupant vehicles will compete to complete the most total miles/laps. Multi-Occupant vehicles will compete to complete laps while using the least energy per passenger. 
 
 ## Schedule
 
