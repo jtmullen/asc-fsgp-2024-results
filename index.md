@@ -18,7 +18,7 @@ current_link: "/scrutineering.html"
       <img src="{% link assets/images/isu_scrutineering.jpg %}" alt="alt" />
     </span>
     <header class="major">
-      <h3><a href="scrutineering.html" class="link">Scrutineering</a></h3>
+      <h3><a href="scrutineering/" class="link">Scrutineering</a></h3>
       <p>Vehicle Inspections: <i>July 13-15</i></p>
     </header>
   </article>
@@ -49,25 +49,6 @@ current_link: "/scrutineering.html"
       <p>ASC Route from Nashville, TN to Casper, WY</p>
     </header>
   </article>
-  <!-- Removed
-  <article>
-    <span class="image">
-      <img src="{% link assets/images/MOV_FrontStraight.jpg %}" alt="alt" />
-    </span>
-    <header class="major">
-      <h3><a href="{{ tile.url  | relative_url }}" class="link">The Track</a></h3>
-      <p>National Corvette Museum; <i>Bowling Green, KY</i></p>
-    </header>
-  </article>
-    <article>
-    <span class="image">
-      <img src="{% link assets/images/MOV_FrontStraight.jpg %}" alt="alt" />
-    </span>
-    <header class="major">
-      <h3><a href="{{ tile.url  | relative_url }}" class="link">Subscribe to Updates</a></h3>
-      <p>...</i></p>
-    </header>
-  </article>   END Removed -->
 </section>
 
 <!-- Three -->
