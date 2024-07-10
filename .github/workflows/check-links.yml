@@ -15,7 +15,7 @@ jobs:
       with:
         website_url: 'https://www.americansolarchallenge.org/2024/'
         exclude_url_prefix: 'mailto:,https://www.linkedin.com,https://linkedin.com,https://www.twitter.com,http://www.twitter.com,https://www.x.com,http://www.x.com'
-        exclude_url_contained: 'twitter,maps/embed,nhtcf,'
+        exclude_url_contained: 'twitter,maps/embed,nhtcf'
         verbose: 'true'
         max_retry_time: 30
         max_retries: 5
