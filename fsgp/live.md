@@ -25,7 +25,7 @@ breadcrumb: true
 Updates on the latest track lap counts are available via the electronic timing system. Two livestreams from the track are provided by the [National Corvette Museum Motorsports Park](../track). To keep up with the latest from Bowling Green, also follow us on [Instagram](https://www.instagram.com/americansolarchallenge/) and [Facebook](https://www.facebook.com/AmericanSolarChallenge/)!
 
 <h2> Live Lap Totals </h2>
-_Note: Electronic lap counts are unofficial and may not be fully correct. Official lap counts will be publised on the [results page](./results) periodically._
+_Note: Electronic lap counts are unofficial and may not be fully correct. Official lap counts will be publised on the [results page](./../results) periodically._
 
 __Electronic Timing Info Coming Soon__
 
