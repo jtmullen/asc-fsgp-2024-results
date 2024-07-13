@@ -1,4 +1,4 @@
-name: Update Results Status
+name: Update ASC Results Status
 
 on: 
     repository_dispatch:

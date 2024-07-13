@@ -48,7 +48,7 @@ Scrutineering Status Generator
 		{%- assign ttgrey = "<b>Not Applicable</b>" | split: ',' -%}
 		{%- assign ttwhite = "<b>Unattempted:</b>" | split: ',' -%}
 		{%- for item in team offset:3 -%}
-			{%- if item[1] contains "RE" -%}
+			{%- if item[1] contains "RD" -%}
 				{%- assign reds = reds | plus:1 -%}
 				{%- assign ttred = ttred | push:tooltips[forloop.index0] -%}
 			{%- elsif item[1] contains "YE" -%}
