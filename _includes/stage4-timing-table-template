@@ -1,0 +1,20 @@
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col style="border-left: 2px solid">
+<col>
+</colgroup>
+<thead>
+  <tr>
+    <th rowspan="2">Team</th>
+    <th rowspan="2">Stage Start Time</th>
+	<th colspan="1" style="text-align: center; border-bottom: 0;">Casper Finish</th>
+	<th rowspan="2">Next Release Time</th>
+	<th rowspan="2">Last Known Status</th>
+  </tr>
+</thead>

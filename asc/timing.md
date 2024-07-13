@@ -10,7 +10,9 @@ social_image: "{% link assets/images/prin_drone.jpg %}"
 breadcrumb: true
 ---
 
-__Coming Soon__
+__The Live Timing Board will be updated during Event Hours__
+
+*Note: The Live Online Timing Board is not the official timing board. Teams should cross reference with HQ on-site. Every effort is made to keep this up to data and accurate, in the case of descrepencies the on-site HQ specified times are official.*
 
 <style>
 
@@ -44,39 +46,11 @@ td:last-child {
 }
 </style>
 <table id="liveTable" style="margin:auto; border: 2px solid;overflow:auto;">
-<colgroup>
-<col>
-<col>
-<col>
-<col>
-<col>
-<col>
-<col>
-<col style="border-left: 2px solid">
-<col style="font-style: italic">
-</colgroup>
-<thead>
-  <tr>
-    <th rowspan="2">Team</th>
-    <th rowspan="2">Stage Start Time</th>
-	<th colspan="3" style="text-align: center; border-bottom: 0;">Paducah Checkpoint</th>
-	<th colspan="2" style="text-align: center; border-bottom: 0;">Edwardsville Stage</th>
-	<th rowspan="2">Next Release Time</th>
-	<th rowspan="2">Last Known Status</th>
-  </tr>
-  <tr style="border-bottom: 1px solid">
-	<th rowspan="1" style="border-top: 0">Arrival</th>
-	<th rowspan="1" style="border-top: 0">Departure</th>
-	<th rowspan="1" style="border-top: 0">Loops</th>
-	<th rowspan="1" style="border-top: 0">Arrival</th>
-	<th rowspan="1" style="border-top: 0">Loops</th>
-  </tr>
-</thead>
-<tbody>
-<tr id="row0"><td id="row0cell0">#1 - Team Name</td><td id="row0cell1">9:01am</td><td id="row0cell2">2:12pm</td><td id="row0cell3"></td><td id="row0cell4"></td><td id="row0cell5"></td><td id="row0cell6"></td><td id="row0cell7">4:15pm</td><td id="row0cell8">Holding in Paducah</td></tr>
-</tbody>
+<th>Data Loading</th>
 </table>
-_The information on this page automatically updates, next updating in <b><span id="time"></span></b> seconds._
+<span id="livenote" style="display: none;">
+__The Timing Board is currently live!__ _Information on this page automatically updates, next updating in <b><span id="countdowntime">-</span></b> seconds._</span>
+<span id="notlivenote" style="display: none;">__The Timing Board is not current live, live updates will begin at: <span id="livestarttime">-</span>__. Please Refresh at that time.</span>
 
 
 <script>
@@ -128,10 +102,49 @@ function updateTable(timingData){
 	highlightChanges(changedIds);
 }
 
+var time_to_update = update_interval_seconds;
+function next_update_time(){
+	document.getElementById("countdowntime").innerHTML = time_to_update;
+	if(time_to_update == 1 && document.hidden == true){
+		console.log("Wait");
+		return;
+	}
+	if (time_to_update == 0){
+			getTimingDataUpdateTable()
+			time_to_update = update_interval_seconds;
+	}else{
+		time_to_update--;
+	}
+}
+
 function createTable(timingData){
 	liveTable = document.getElementById("liveTable");
+	switch(Number(timingData.stage)) {
+	  case 1:
+		liveTable.innerHTML = document.getElementById("stage1template").innerHTML;
+		break;
+	  case 2:
+		liveTable.innerHTML = document.getElementById("stage2template").innerHTML;
+		break;
+	  case 3: 
+		liveTable.innerHTML = document.getElementById("stage3template").innerHTML;
+		break;
+	  case 4:
+		liveTable.innerHTML = document.getElementById("stage4template").innerHTML;
+		break;
+	  default:
+		liveTable.innerHTML = "<th>Data Not Available</th>"
+		throw new Error("Unknown Stage")
+		break;
+	} 
+	
+	if(!timingData.live){
+		document.getElementById("livestarttime").innerHTML = timingData.livestart;
+		document.getElementById("notlivenote").style.display = "";
+		return;
+	};
 	timingData.results.forEach((result, rowIndex) => {
-		const newRow = liveTable.insertRow();
+		const newRow = liveTable.getElementsByTagName('tbody')[0].insertRow();
 		newRow.id = `row${rowIndex}`
 		const cells = result.split(',');
 		cells.forEach((cell, cellIndex) => {
@@ -140,6 +153,8 @@ function createTable(timingData){
 			newCell.id = `row${rowIndex}cell${cellIndex}`
 		});
 	});
+	document.getElementById("livenote").style.display = "";
+	setInterval(next_update_time, 1000);
 }
 
 function getTimingDataUpdateTable(){
@@ -155,29 +170,46 @@ fetch("../../assets/timing.json")
   .then(function(res) {createTable(res)})
   .catch(function(error){console.log(error)})
 
-var time_to_update = update_interval_seconds;
-function next_update_time(){
-	document.getElementById("time").innerHTML = time_to_update;
-	if(time_to_update == 1 && document.hidden == true){
-		console.log("Wait");
-		return;
-	}
-	if (time_to_update == 0){
-			getTimingDataUpdateTable()
-			time_to_update = update_interval_seconds;
-	}else{
-		time_to_update--;
-	}
-}
-setInterval(next_update_time, 1000);
-
-// document.getElementById("test").classList.remove("transition");
-// document.getElementById("test").classList.add("changed");
-// document.getElementById("test").classList.add("transition");
-// setTimeout(function (){
-// document.getElementById("test").classList.remove("changed");}, 1000);
-
 </script>
 
-*Note: The Live Timing Board is not official and is for reference only. Every effort is made to ensure this page is up to date and correct; however, official times are those specified by HQ on site and Official Results as published at the end of the stage*
 
+<div id="templateheaders" style="display:none">
+
+</div>
+
+## Completed Timing Boards
+{% tabs stage-timing %}
+{% tab stage-timing Stage 1 %}
+{% include asc-timing-board stage="1" %}
+{% endtab %}
+{% tab stage-timing Stage 2 %}
+{% include asc-timing-board stage="2" %}
+{% endtab %}
+{% tab stage-timing Stage 3 %}
+{% include asc-timing-board stage="3" %}
+{% endtab %}
+{% tab stage-timing Stage 4 %}
+{% include asc-timing-board stage="4" %}
+{% endtab %}
+{% endtabs %}
+
+<link rel="stylesheet" href="{{ url }}/assets/css/tabs.css">
+<script src="{{ url }}/assets/js/tabs.js"></script>
+<script> jekyllTabs.init({
+});</script>
+
+
+<div id="templateheaders" style="display:none">
+<div id="stage1template">
+{% include asc-timing-board stage="1" %}
+</div>
+<div id="stage2template">
+{% include asc-timing-board stage="2" %}
+</div>
+<div id="stage3template">
+{% include asc-timing-board stage="3" %}
+</div>
+<div id="stage4template">
+{% include asc-timing-board stage="4" %}
+</div>
+</div>
