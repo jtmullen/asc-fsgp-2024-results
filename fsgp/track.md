@@ -13,7 +13,7 @@ header:
 breadcrumb: true
 ---
 
-The Electrek Formula Sun Grand Prix 2024 will be held at the [National Corvette Museum Motorsports Park](https://www.motorsportspark.org/) in Bowling Green, KY. This will be the first time FSGP is held at this track. NCM Motorsports Park opened in 2014. It is located across the highway from the [National Corvette Museum](https://www.corvettemuseum.org/) and the General Motors factory that has produced every Corvette ever made.  The track is used by General Motors for production Corvette testing and is also the site of many public and private driving events.
+The Electrek Formula Sun Grand Prix 2024 will be held at the [National Corvette Museum Motorsports Park](https://www.motorsportspark.org/) in Bowling Green, KY. This will be the first time FSGP is held at this track. NCM Motorsports Park opened in 2014. It is located across the highway from the [National Corvette Museum](https://www.corvettemuseum.org/) and the General Motors factory that produces the Corvette.  The track is used by General Motors for Corvette testing and is also the site of many public and private driving events.
 
 NCM Motorsports Park can be [configured into many different circuits](https://www.motorsportspark.org/track-information/). The Electrek Formula Sun Grand Prix 2024 will utilize the full 3.15 mile road course. 
 <br>
