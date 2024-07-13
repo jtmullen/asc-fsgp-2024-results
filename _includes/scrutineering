@@ -48,19 +48,19 @@ Scrutineering Status Generator
 		{%- assign ttgrey = "<b>Not Applicable</b>" | split: ',' -%}
 		{%- assign ttwhite = "<b>Unattempted:</b>" | split: ',' -%}
 		{%- for item in team offset:3 -%}
-			{%- if item[1] contains "R" -%}
+			{%- if item[1] contains "RE" -%}
 				{%- assign reds = reds | plus:1 -%}
 				{%- assign ttred = ttred | push:tooltips[forloop.index0] -%}
-			{%- elsif item[1] contains "Y" -%}
+			{%- elsif item[1] contains "YE" -%}
 				{%- assign yellows = yellows | plus:1 -%}
 				{%- assign ttyellow = ttyellow | push:tooltips[forloop.index0] -%}
-			{%- elsif item[1] contains "B" -%}
+			{%- elsif item[1] contains "BU" -%}
 				{%- assign blues = blues | plus:1 -%}
 				{%- assign ttblue = ttblue | push:tooltips[forloop.index0] -%}
-			{%- elsif item[1] contains "G" -%}
+			{%- elsif item[1] contains "GN" -%}
 				{%- assign greens = greens | plus:1 -%}
 				{%- assign ttgreen = ttgreen | push:tooltips[forloop.index0] -%}
-			{%- elsif item[1] contains "N" -%}
+			{%- elsif item[1] contains "GY" -%}
 				{%- assign greys = greys | plus:1 -%}
 				{%- assign ttgrey = ttgrey | push:tooltips[forloop.index0] -%}
 			{%- else -%}
