@@ -40,7 +40,11 @@ ASC Stage Chart Generator
 	</tr>
 </thead>
 <tbody>
-{% for team in site.data.asc.[stage].[class] %}
+{% assign completeGroups = site.data.asc.[stage].[class] | group_by: "base" %}
+{% for group in completeGroups %}
+{% if {{group.name}} == "Yes" %}
+{% assign teamsSorted = group.items | sort: "total" | reverse %}
+{% for team in teamsSorted %}
 	{% if team.team != "data" %}
 		{% assign baseMiles = 0 %}
 		{% assign loopMiles = 0 %}
@@ -75,6 +79,90 @@ ASC Stage Chart Generator
 		<td> {{team.speed}} mph </td>
 		</tr>
 	{% endif %}
+{% endfor %}
+{% endif %}
+{% endfor %}
+{% for group in completeGroups %}
+{% if {{group.name}} contains "-" %}
+{% assign teamsSorted = group.items | sort: "total" | reverse %}
+{% for team in teamsSorted %}
+	{% if team.team != "data" %}
+		{% assign baseMiles = 0 %}
+		{% assign loopMiles = 0 %}
+		{% for item in team offset:7 %}
+			{% if type[forloop.index0] == "base" %}
+				{% assign baseMiles = baseMiles | plus:item[1] %}
+			{% else %}
+				{% assign loopMiles =  item[1] | times:miles[forloop.index0] | plus:loopMiles %}
+			{% endif %}
+		{% endfor %}
+		{% assign totalMiles = baseMiles | plus:loopMiles %}
+		{% if team.time == "--" %}
+			{% assign speed = "--" %}
+		{% else %}
+			{% assign timeArr = team.time | split:":" %}
+			{% assign hours = timeArr[0] %}
+			{% assign hours = timeArr[1] | divided_by:60.0 |plus: hours %}
+			{% assign hours = timeArr[2] | divided_by:3600.0 |plus: hours %}
+			{% assign speed = totalMiles | divided_by:hours | round:1 %}
+		{% endif %}
+		
+		{% assign totalMiles = totalMiles | minus:team.penalty %}
+		<tr>
+		<td style="white-space: nowrap;"> <b>#{{team.number}} - {{team.team}} </b></td>
+		<td> {{team.base}} </td>
+		<td><b>{{totalMiles}}</b></td>
+		<td> {{team.time}} </td>
+		<td style="text-align:center; white-space: nowrap;"> {{team.checkpoint}} </td>
+		<td> {{baseMiles}} </td>
+		<td> {{loopMiles}} </td>
+		<td> {{team.penalty}} </td>
+		<td> {{team.speed}} mph </td>
+		</tr>
+	{% endif %}
+{% endfor %}
+{% endif %}
+{% endfor %}
+{% for group in completeGroups %}
+{% if {{group.name}} == "No" %}
+{% assign teamsSorted = group.items | sort: "total" | reverse %}
+{% for team in teamsSorted %}
+	{% if team.team != "data" %}
+		{% assign baseMiles = 0 %}
+		{% assign loopMiles = 0 %}
+		{% for item in team offset:7 %}
+			{% if type[forloop.index0] == "base" %}
+				{% assign baseMiles = baseMiles | plus:item[1] %}
+			{% else %}
+				{% assign loopMiles =  item[1] | times:miles[forloop.index0] | plus:loopMiles %}
+			{% endif %}
+		{% endfor %}
+		{% assign totalMiles = baseMiles | plus:loopMiles %}
+		{% if team.time == "--" %}
+			{% assign speed = "--" %}
+		{% else %}
+			{% assign timeArr = team.time | split:":" %}
+			{% assign hours = timeArr[0] %}
+			{% assign hours = timeArr[1] | divided_by:60.0 |plus: hours %}
+			{% assign hours = timeArr[2] | divided_by:3600.0 |plus: hours %}
+			{% assign speed = totalMiles | divided_by:hours | round:1 %}
+		{% endif %}
+		
+		{% assign totalMiles = totalMiles | minus:team.penalty %}
+		<tr>
+		<td style="white-space: nowrap;"> <b>#{{team.number}} - {{team.team}} </b></td>
+		<td> {{team.base}} </td>
+		<td><b>{{totalMiles}}</b></td>
+		<td> {{team.time}} </td>
+		<td style="text-align:center; white-space: nowrap;"> {{team.checkpoint}} </td>
+		<td> {{baseMiles}} </td>
+		<td> {{loopMiles}} </td>
+		<td> {{team.penalty}} </td>
+		<td> {{team.speed}} mph </td>
+		</tr>
+	{% endif %}
+{% endfor %}
+{% endif %}
 {% endfor %}
 </tbody>
 </table>

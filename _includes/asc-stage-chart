@@ -9,15 +9,15 @@ ASC Stage Chart Generator
 {% for team in site.data.asc.[stage].[class] %}
 	{% if team.team == "data" %}
 		{% if team.number == "name" %}
-			{% for item in team | offset:6 %}
+			{% for item in team | offset:7 %}
 				{% assign name = name | push:item[1] %}
 			{% endfor %}
 		{% elsif team.number == "type" %}
-			{% for item in team | offset:6 %}
+			{% for item in team | offset:7 %}
 				{% assign type = type | push:item[1] %}
 			{% endfor %}
 		{% elsif team.number == "miles" %}
-			{% for item in team | offset:6 %}
+			{% for item in team | offset:7 %}
 				{% assign miles = miles | push:item[1] %}
 			{% endfor %}
 		{% endif %}
@@ -26,7 +26,7 @@ ASC Stage Chart Generator
 {% for team in site.data.asc.[stage].[class] %}
 	{% if team.team != "data" %}
 		{% assign this_miles = 0 %}
-		{% for item in team | offset:6 %}
+		{% for item in team | offset:7 %}
 			{% if type[forloop.index0] == "base" %}
 				{% assign this_miles = this_miles | plus:item[1] %}
 			{% else %}
@@ -102,11 +102,18 @@ ASC Stage Chart Generator
 <link rel='stylesheet' href='{{site.baseurl}}/assets/css/charts.min.css'><link rel="stylesheet" href="{{site.baseurl}}/assets/css/asc-style.css"><div id="legend-example-2"><table id="stacked-example-3" class="charts-css column hide-data show-heading show-labels show-primary-axis show-{{axis}}-secondary-axes data-spacing-10 multiple stacked">
   <caption> {{caption}} </caption>
   <thead><tr></tr></thead><tbody>
-  {% for team in site.data.asc.[stage].[class] %}
+  
+  
+{% assign completeGroups = site.data.asc.[stage].[class] | group_by: "base" %}
+{% for group in completeGroups %}
+{% if {{group.name}} == "Yes" %}
+{% assign teamsSorted = group.items | sort: "total" | reverse %}
+{% for team in teamsSorted %}
 	{% if team.team != "data" %}
+		{% if team.team != "data" %}
 		<tr>
 			<th scope="row"> #{{team.number}} </th>
-			{% for item in team | offset:6 %}
+			{% for item in team | offset:7 %}
 			{% if type[forloop.index0] == "base" %}
 				{% assign tooltip = "#" | append: {{team.number}} | append: " - " | append: {{team.team}} | append:" <br> " | append:{{name[forloop.index0]}} | append:" <br> " | append:{{item[1]}} | append: " of " | append:{{miles[forloop.index0]}} | append:" miles" %}
 				<td style="--size: calc({{item[1]}} / {{full}});--color: rgba(29,112,235,1);border:1px solid white"><span class="data"> {{item[1]}} mi. </span><span class="tooltip"> {{tooltip}} </span></td>
@@ -123,7 +130,68 @@ ASC Stage Chart Generator
 			{% endfor %}
 		</tr>
 	{% endif %}
-	{% endfor %}
+	{% endif %}
+{% endfor %}
+{% endif %}
+{% endfor %}
+{% for group in completeGroups %}
+{% if {{group.name}} contains "-" %}
+{% assign teamsSorted = group.items | sort: "total" | reverse %}
+{% for team in teamsSorted %}
+	{% if team.team != "data" %}
+		{% if team.team != "data" %}
+		<tr>
+			<th scope="row"> #{{team.number}} </th>
+			{% for item in team | offset:7 %}
+			{% if type[forloop.index0] == "base" %}
+				{% assign tooltip = "#" | append: {{team.number}} | append: " - " | append: {{team.team}} | append:" <br> " | append:{{name[forloop.index0]}} | append:" <br> " | append:{{item[1]}} | append: " of " | append:{{miles[forloop.index0]}} | append:" miles" %}
+				<td style="--size: calc({{item[1]}} / {{full}});--color: rgba(29,112,235,1);border:1px solid white"><span class="data"> {{item[1]}} mi. </span><span class="tooltip"> {{tooltip}} </span></td>
+			{% else %}
+				{% assign loopCount = item[1] | plus:0 %}
+				{% if loopCount > 0 %} 
+					{% assign tooltip = {{name[forloop.index0]}} | append:" <br> " | append:{{miles[forloop.index0]}} | append:" miles (x" | append:{{loopCount}} | append:")" %}
+					{% assign loopMiles = miles[forloop.index0] %}
+					{% for i in (1..loopCount) %}
+						<td style="--size: calc({{loopMiles}} / {{full}});--color: rgba(34, 139, 34,1);border:1px solid white"><span class="data"> {{loopMiles}} mi. </span><span class="tooltip"> {{tooltip}} </span></td>
+					{% endfor %}
+				{% endif %}
+			{% endif %}
+			{% endfor %}
+		</tr>
+	{% endif %}
+	{% endif %}
+{% endfor %}
+{% endif %}
+{% endfor %}
+{% for group in completeGroups %}
+{% if {{group.name}} == "No" %}
+{% assign teamsSorted = group.items | sort: "total" | reverse %}
+{% for team in teamsSorted %}
+	{% if team.team != "data" %}
+		{% if team.team != "data" %}
+		<tr>
+			<th scope="row"> #{{team.number}} </th>
+			{% for item in team | offset:7 %}
+			{% if type[forloop.index0] == "base" %}
+				{% assign tooltip = "#" | append: {{team.number}} | append: " - " | append: {{team.team}} | append:" <br> " | append:{{name[forloop.index0]}} | append:" <br> " | append:{{item[1]}} | append: " of " | append:{{miles[forloop.index0]}} | append:" miles" %}
+				<td style="--size: calc({{item[1]}} / {{full}});--color: rgba(29,112,235,1);border:1px solid white"><span class="data"> {{item[1]}} mi. </span><span class="tooltip"> {{tooltip}} </span></td>
+			{% else %}
+				{% assign loopCount = item[1] | plus:0 %}
+				{% if loopCount > 0 %} 
+					{% assign tooltip = {{name[forloop.index0]}} | append:" <br> " | append:{{miles[forloop.index0]}} | append:" miles (x" | append:{{loopCount}} | append:")" %}
+					{% assign loopMiles = miles[forloop.index0] %}
+					{% for i in (1..loopCount) %}
+						<td style="--size: calc({{loopMiles}} / {{full}});--color: rgba(34, 139, 34,1);border:1px solid white"><span class="data"> {{loopMiles}} mi. </span><span class="tooltip"> {{tooltip}} </span></td>
+					{% endfor %}
+				{% endif %}
+			{% endif %}
+			{% endfor %}
+		</tr>
+	{% endif %}
+	{% endif %}
+{% endfor %}
+{% endif %}
+{% endfor %}
   </tbody>
   </table>
 </div></div>
