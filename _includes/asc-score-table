@@ -27,23 +27,78 @@ FSGP MOV Table Generator
   </tr>
 </thead>
 <tbody>
+{% assign completeGroups = site.data.asc.[stage].[class] | group_by: "base" %}
+{% for group in completeGroups %}
+{% if {{group.name}} == "Yes" %}
+{% assign teamsSorted = group.items | sort: "total" | reverse %}
+{% for team in teamsSorted %}
+	{% if team.team != "modified" %}
+		<tr>
+			<td style="border-right-width: 3px;white-space: nowrap;"><b>#{{team.number}} - {{team.team}}</b></td>
+			<td style="border-right-width: 3px;"><b>{{team.score}}</b></td>
+			<td>{{team.completion}}%</td>
+			<td>{{team.derate}}</td>
+			<td style="border-right-width: 3px;">{{team.total-ext}}</td>
+			<td>{{team.base}}</td>
+			<td>{{team.miles}}</td>
+			<td>{{team.person}}</td>
+			<td>{{team.penalty}}</td>
+			<td>{{team.speed}}</td>
+			<td>{{team.capacity}}</td>
+			<td style="border-right-width: 3px;">{{team.external}}</td>				
+		</tr>
+	{% endif %}
+{% endfor %}
+{% endif %}
+{% endfor %}
+{% for group in completeGroups %}
+{% if {{group.name}} contains "-" %}
+{% assign teamsSorted = group.items | sort: "total" | reverse %}
+{% for team in teamsSorted %}
+	{% if team.team != "modified" %}
+		<tr>
+			<td style="border-right-width: 3px;white-space: nowrap;"><b>#{{team.number}} - {{team.team}}</b></td>
+			<td style="border-right-width: 3px;"><b>{{team.score}}</b></td>
+			<td>{{team.completion}}%</td>
+			<td>{{team.derate}}</td>
+			<td style="border-right-width: 3px;">{{team.total-ext}}</td>
+			<td>{{team.base}}</td>
+			<td>{{team.miles}}</td>
+			<td>{{team.person}}</td>
+			<td>{{team.penalty}}</td>
+			<td>{{team.speed}}</td>
+			<td>{{team.capacity}}</td>
+			<td style="border-right-width: 3px;">{{team.external}}</td>				
+		</tr>
+	{% endif %}
+{% endfor %}
+{% endif %}
+{% endfor %}
+{% for group in completeGroups %}
+{% if {{group.name}} == "No" %}
+{% assign teamsSorted = group.items | sort: "total" | reverse %}
+{% for team in teamsSorted %}
+	{% if team.team != "modified" %}
+		<tr>
+			<td style="border-right-width: 3px;white-space: nowrap;"><b>#{{team.number}} - {{team.team}}</b></td>
+			<td style="border-right-width: 3px;"><b>{{team.score}}</b></td>
+			<td>{{team.completion}}%</td>
+			<td>{{team.derate}}</td>
+			<td style="border-right-width: 3px;">{{team.total-ext}}</td>
+			<td>{{team.base}}</td>
+			<td>{{team.miles}}</td>
+			<td>{{team.person}}</td>
+			<td>{{team.penalty}}</td>
+			<td>{{team.speed}}</td>
+			<td>{{team.capacity}}</td>
+			<td style="border-right-width: 3px;">{{team.external}}</td>				
+		</tr>
+	{% endif %}
+{% endfor %}
+{% endif %}
+{% endfor %}
 {% for team in site.data.asc.[stage].mov-score %}
-{% if team.team != "modified" %}
-	<tr>
-		<td style="border-right-width: 3px;white-space: nowrap;"><b>#{{team.number}} - {{team.team}}</b></td>
-		<td style="border-right-width: 3px;"><b>{{team.score}}</b></td>
-		<td>{{team.completion}}%</td>
-		<td>{{team.derate}}</td>
-		<td style="border-right-width: 3px;">{{team.total-ext}}</td>
-		<td>{{team.base}}</td>
-		<td>{{team.miles}}</td>
-		<td>{{team.person}}</td>
-		<td>{{team.penalty}}</td>
-		<td>{{team.speed}}</td>
-		<td>{{team.capacity}}</td>
-		<td style="border-right-width: 3px;">{{team.external}}</td>				
-	</tr>
-{% else %}
+{% if team.team == "modified" %}
 {% assign modified = team.number %}
 {% endif %}
 {% endfor %}
