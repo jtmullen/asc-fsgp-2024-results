@@ -16,6 +16,10 @@ Before they can get on the track, teams and their solar cars undergo several day
 <table style="font-size:15px">
 <tbody>
   <tr>
+    <td><b>Safety</b></td>
+    <td>The Safety Check verifies that teams have the required safety equipment for solar car racing including fire extinguishers, first aid kits, and more. </td>
+  </tr>
+  <tr>
     <td><b>Driver Registration</b></td>
     <td>At this station teams register their drivers (and MOV passengers). They are checked for a valid license, allowable helmets, and safe shoes then weigh in for ballast.</td>
   </tr>
@@ -45,15 +49,11 @@ Before they can get on the track, teams and their solar cars undergo several day
   </tr>
   <tr>
     <td><b>Dynamics</b></td>
-    <td>At dynamics cars and drivers must pass U-Turn, Figure-8, Slalom, and Braking Tests with the requisite performance.</td>
+    <td>At dynamics cars and drivers must pass U-Turn, Figure-8, Slalom, and Braking Tests with the requisite performance. <b>Teams must achieve at least yellow status in all of the above stations before attempting dynamics</b></td>
   </tr>
   <tr>
     <td><b>Array Testing</b></td>
     <td>At this station the vehicles solar array is tested and verified.</td>
-  </tr>
-  <tr>
-    <td><b>Safety</b></td>
-    <td>The Safety Check verifies that teams have the required safety equipment for solar car racing including fire extinguishers, first aid kits, and more. </td>
   </tr>
   <tr>
     <td><b>Impound &amp; MOV</b></td>
