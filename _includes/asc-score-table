@@ -27,7 +27,7 @@ FSGP MOV Table Generator
   </tr>
 </thead>
 <tbody>
-{% assign completeGroups = site.data.asc.[stage].[class] | group_by: "base" %}
+{% assign completeGroups = site.data.asc.[stage].mov-score | group_by: "base" %}
 {% for group in completeGroups %}
 {% if {{group.name}} == "Yes" %}
 {% assign teamsSorted = group.items | sort: "total" | reverse %}
