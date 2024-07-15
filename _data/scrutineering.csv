@@ -1,35 +1,35 @@
 team,number,order,1,2,3,4,5,6,7,8,9,10,11,12
 title,,,Driver Registration,Driver Operations,Lights & Vision,Body & Sizing,Electrical,Battery Protection,Mechanical,Dynamics,Array,Safety,ASC Support,Impound/MOV
-Purdue,1,,GN,,,,,,,,,GN,,
-Michigan,2,,GN,,YE,,GN,,,,GN,GN,,
-MIT,4,,GN,,YE,,,,,,,GN,,
-Florida,5,,GN,YE,,,,,,,,GN,,GN
-CalSol,6,,GN,,,,,,,,GN,GN,GY,
-Dalhousie,7,,GN,,,,GN,GN,GN,,,GN,GY,GN
-UT Austin,8,,,,,,,,,,,GN,GY,
-Iowa State,9,,BU,BU,YE,,YE,YE,GN,,,GN,,
-Texas A&M,12,,GN,YE,,BU,,,RD,,GN,GN,,
+Purdue,1,,GN,GN,YE,YE,YE,,GN,,GN,GN,,
+Michigan,2,6,GN,GN,GN,GN,GN,GN,GN,GN,GN,GN,GN,GN
+MIT,4,,GN,GN,YE,GN,GN,GN,GN,,GN,GN,,
+Florida,5,4,GN,GN,GN,GN,GN,GN,GN,GN,GN,GN,,GN
+CalSol,6,,GN,GN,YE,GN,YE,BU,GN,,GN,GN,GY,GN
+Dalhousie,7,2,GN,GN,GN,BU,GN,GN,GN,GN,GN,GN,GY,GN
+UT Austin,8,,GN,,,,,YE,,,,GN,GY,GN
+Iowa State,9,,BU,BU,GN,BU,GN,GN,GN,GN,GN,GN,,GN
+Texas A&M,12,,GN,GN,GN,BU,GN,YE,GN,GN,GN,GN,,
 Michigan State,13,,,,,,,,,,,,GY,
-Stanford,16,,GN,,,,,,,,,,,
-Illinois State,17,,GN,GN,YE,GN,GN,GN,YE,,GN,GN,,
-Virginia Tech,21,,GN,GN,,YE,,,RD,,,GN,GY,
-Illinois   ,22,,GN,,YE,,,,,,,GN,,
-Waterloo,24,,,,,,,,,,,GN,,
-British Columbia,26,,GN,,,,,,,,GN,GN,,GN
-Principia,32,,,,YE,,YE,GN,,,GN,GN,GY,GN
-Minnesota,35,,GN,YE,YE,YE,YE,YE,RD,,,GN,,
-Georgia Tech,49,,,,,,,,,,,,,
-Poly Montréal,55,,GN,GN,,GN,,,GN,,GN,GN,,
-Florida Poly,79,,,,,,,,,,,GN,GY,
-Virginia  ,87,,GN,,,GN,YE,GN,RD,,,GN,GY,
-ETS,92,,GN,YE,YE,GN,GN,GN,GN,,GN,GN,,GN
-Western Ontario,96,,,,,,,,,,,,GY,
+Stanford,16,,GN,GN,,GN,YE,,RD,,GN,GN,,GN
+Illinois State,17,5,GN,GN,GN,GN,GN,GN,GN,GN,GN,GN,,GN
+Virginia Tech,21,,GN,GN,,GN,YE,YE,YE,,GN,GN,GY,
+Illinois   ,22,,GN,GN,YE,BU,YE,YE,GN,,GN,GN,,
+Waterloo,24,,GN,GN,YE,BU,GN,GN,RD,,GN,GN,,GN
+British Columbia,26,,GN,GN,YE,GN,GN,GN,YE,,GN,GN,,GN
+Principia,32,,GN,GN,GN,GN,GN,GN,GN,GN,GN,GN,GY,GN
+Minnesota,35,,GN,GN,YE,GN,GN,YE,YE,GN,,GN,,
+Georgia Tech,49,,YE,,,RD,YE,GN,RD,,GN,GN,,
+Poly Montréal,55,7,GN,GN,GN,GN,GN,GN,GN,GN,GN,GN,GN,GN
+Florida Poly,79,,GN,GN,YE,GN,GN,YE,GN,,GN,GN,GY,GN
+Virginia  ,87,,GN,,YE,GN,GN,GN,YE,,GN,GN,GY,
+ETS,92,1,GN,GN,GN,GN,GN,GN,GN,GN,GN,GN,GN,GN
+Western Ontario,96,,GN,,,,RD,,,,,GN,GY,
 McMaster,116,,,,,,,,,,,,,
-Montana State,406,,,,,,,,,,,,GY,
-Kennesaw State,505,,,,,,,,,,,,GY,
-UW Madison,608,,GN,GN,,YE,YE,,,,,,,
-Ohio State,614,,GN,GN,,YE,YE,GN,GN,,GN,GN,,GN
+Montana State,406,,YE,,,YE,,,YE,,,GN,GY,
+Kennesaw State,505,,GN,,,RD,RD,,RD,,,GN,GY,
+UW Madison,608,,GN,GN,YE,GN,YE,GN,YE,,GN,GN,,GN
+Ohio State,614,,GN,GN,YE,GN,YE,GN,GN,,GN,GN,,GN
 Pacific,777,,,,,,,,,,,,,
-Western Michigan,786,,GN,,YE,,,,,,GN,GN,,
-App State,828,,GN,GN,GN,GN,GN,GN,YE,,GN,GN,,
-modified,14 Jul 2024 - 09:56AM Central Daylight Time,,,,,,,,,,,,
+Western Michigan,786,,GN,GN,YE,GN,YE,,GN,,GN,GN,,GN
+App State,828,3,GN,GN,GN,GN,GN,GN,GN,GN,GN,GN,GN,GN
+modified,15 Jul 2024 - 04:26PM Central Daylight Time,,,,,,,,,,,,

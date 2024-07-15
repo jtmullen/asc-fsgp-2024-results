@@ -1,2 +1,9 @@
-team,number,trailer,miles,person,penalty,speed,capacity,external,completion,derate,total-ext,score
-modified,19 July 2022 – 8:45pm US Central,,,,,,,,,,,
+team,number,base,miles,person,penalty,speed,capacity,external,completion,derate,total-ext,score
+MIT,4,-,0.0,0.0,0,-,,0.000,,0,0.000,0
+Iowa State,9,-,0.0,0.0,0,-,,0.000,,0,0.000,0
+Minnesota,35,-,0.0,0.0,0,-,,0.000,,0,0.000,0
+Georgia Tech,49,-,0.0,0.0,0,-,,0.000,,0,0.000,0
+Poly Montreal,55,-,0.0,0.0,0,-,,0.000,,0,0.000,0
+McMaster,116,-,0.0,0.0,0,-,,0.000,,0,0.000,0
+App State,828,-,0.0,0.0,0,-,,0.000,,0,0.000,0
+modified,15 Jul 2024 - 03:52PM Central Daylight Time,,,,,,,,,,
