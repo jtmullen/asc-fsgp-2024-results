@@ -20,7 +20,7 @@ Principia,32,,GN,GN,YE,GN,GN,GN,,,GN,GN,GY,GN
 Minnesota,35,,GN,GN,YE,GN,YE,YE,YE,GN,,GN,,
 Georgia Tech,49,,,,,,YE,GN,,,,GN,,
 Poly Montréal,55,,GN,GN,YE,GN,YE,YE,GN,GN,GN,GN,GN,
-Florida Poly,79,,GN,GN,YE,GN,,,,,,GN,GY,
+Florida Poly,79,,GN,GN,YE,GN,,,GN,,GN,GN,GY,GN
 Virginia  ,87,,GN,,YE,GN,GN,GN,RD,,,GN,GY,
 ETS,92,1,GN,GN,GN,GN,GN,GN,GN,GN,GN,GN,GN,GN
 Western Ontario,96,,GN,,,,RD,,,,,GN,GY,
@@ -31,5 +31,5 @@ UW Madison,608,,GN,GN,,YE,YE,YE,YE,,,GN,,GN
 Ohio State,614,,GN,GN,YE,GN,YE,GN,GN,,GN,GN,,GN
 Pacific,777,,,,,,,,,,,,,
 Western Michigan,786,,GN,,YE,YE,YE,,,,GN,GN,,GN
-App State,828,,GN,GN,GN,GN,GN,GN,GN,GN,GN,GN,GN,
-modified,15 Jul 2024 - 09:11AM Central Daylight Time,,,,,,,,,,,,
+App State,828,3,GN,GN,GN,GN,GN,GN,GN,GN,GN,GN,GN,GN
+modified,15 Jul 2024 - 09:26AM Central Daylight Time,,,,,,,,,,,,
