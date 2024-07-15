@@ -4,7 +4,7 @@ Purdue,1,,GN,YE,YE,,,,,,,GN,,
 Michigan,2,,GN,,YE,GN,GN,GN,,,GN,GN,GN,GN
 MIT,4,,GN,GN,YE,GN,GN,GN,,,,GN,,
 Florida,5,,GN,YE,YE,BU,YE,GN,,,,GN,,GN
-CalSol,6,,GN,GN,,GN,YE,,RD,,GN,GN,GY,
+CalSol,6,,GN,GN,YE,GN,YE,,RD,,GN,GN,GY,
 Dalhousie,7,2,GN,GN,GN,BU,GN,GN,GN,GN,GN,GN,GY,GN
 UT Austin,8,,,,,,,YE,,,,GN,GY,GN
 Iowa State,9,,BU,BU,YE,BU,GN,GN,GN,GN,,GN,,
@@ -13,23 +13,23 @@ Michigan State,13,,,,,,,,,,,,GY,
 Stanford,16,,GN,YE,,GN,,,,,,,,GN
 Illinois State,17,,GN,GN,YE,GN,GN,GN,YE,,GN,GN,,
 Virginia Tech,21,,GN,GN,,GN,,,RD,,,GN,GY,
-Illinois   ,22,,GN,YE,YE,BU,YE,YE,GN,,,GN,,
+Illinois   ,22,,GN,GN,YE,BU,YE,YE,GN,,,GN,,
 Waterloo,24,,GN,,,,,,,,,GN,,GN
 British Columbia,26,,GN,GN,,GN,GN,,,,GN,GN,,GN
 Principia,32,,GN,GN,YE,GN,GN,GN,,,GN,GN,GY,GN
 Minnesota,35,,GN,YE,YE,GN,YE,YE,YE,GN,,GN,,
-Georgia Tech,49,,,,,,YE,GN,,,,,,
+Georgia Tech,49,,,,,,YE,GN,,,,GN,,
 Poly Montréal,55,,GN,GN,YE,GN,YE,YE,GN,,GN,GN,GN,
-Florida Poly,79,,GN,GN,YE,,,,,,,GN,GY,
-Virginia  ,87,,GN,,,GN,GN,GN,RD,,,GN,GY,
-ETS,92,1,GN,GN,GN,GN,GN,GN,GN,GN,GN,GN,,GN
-Western Ontario,96,,GN,,,,RD,,,,,,GY,
+Florida Poly,79,,GN,GN,YE,GN,,,,,,GN,GY,
+Virginia  ,87,,GN,,YE,GN,GN,GN,RD,,,GN,GY,
+ETS,92,1,GN,GN,GN,GN,GN,GN,GN,GN,GN,GN,GN,GN
+Western Ontario,96,,GN,,,,RD,,,,,GN,GY,
 McMaster,116,,,,,,,,,,,,,
 Montana State,406,,YE,,,,,,,,,GN,GY,
 Kennesaw State,505,,GN,,,,,,,,,,GY,
-UW Madison,608,,GN,GN,,YE,YE,YE,,,,,,GN
+UW Madison,608,,GN,GN,,YE,YE,YE,,,,GN,,GN
 Ohio State,614,,GN,GN,YE,GN,YE,GN,GN,,GN,GN,,GN
 Pacific,777,,,,,,,,,,,,,
 Western Michigan,786,,GN,,YE,YE,,,,,GN,GN,,GN
 App State,828,,GN,GN,GN,GN,GN,GN,YE,GN,GN,GN,GN,
-modified,14 Jul 2024 - 06:56PM Central Daylight Time,,,,,,,,,,,,
+modified,14 Jul 2024 - 07:11PM Central Daylight Time,,,,,,,,,,,,
