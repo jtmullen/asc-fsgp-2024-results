@@ -1,7 +1,7 @@
 team,number,order,1,2,3,4,5,6,7,8,9,10,11,12
 title,,,Driver Registration,Driver Operations,Lights & Vision,Body & Sizing,Electrical,Battery Protection,Mechanical,Dynamics,Array,Safety,ASC Support,Impound/MOV
 Purdue,1,,GN,GN,YE,,YE,,GN,,GN,GN,,
-Michigan,2,,GN,GN,YE,GN,GN,GN,YE,,GN,GN,GN,GN
+Michigan,2,,GN,GN,YE,GN,GN,GN,GN,,GN,GN,GN,GN
 MIT,4,,GN,GN,YE,GN,GN,GN,GN,,GN,GN,,
 Florida,5,,GN,YE,YE,BU,YE,GN,GN,GN,,GN,,GN
 CalSol,6,,GN,GN,YE,GN,YE,BU,RD,,GN,GN,GY,GN
@@ -20,7 +20,7 @@ Principia,32,,GN,GN,YE,GN,GN,GN,GN,GN,GN,GN,GY,GN
 Minnesota,35,,GN,GN,YE,GN,YE,YE,YE,GN,,GN,,
 Georgia Tech,49,,YE,,,,YE,GN,RD,,GN,GN,,
 Poly Montréal,55,,GN,GN,YE,GN,YE,YE,GN,GN,GN,GN,GN,
-Florida Poly,79,,GN,GN,YE,GN,,,GN,,GN,GN,GY,GN
+Florida Poly,79,,GN,GN,YE,GN,GN,,GN,,GN,GN,GY,GN
 Virginia  ,87,,GN,,YE,GN,GN,GN,RD,,GN,GN,GY,
 ETS,92,1,GN,GN,GN,GN,GN,GN,GN,GN,GN,GN,GN,GN
 Western Ontario,96,,GN,,,,RD,,,,,GN,GY,
@@ -32,4 +32,4 @@ Ohio State,614,,GN,GN,YE,GN,YE,GN,GN,,GN,GN,,GN
 Pacific,777,,,,,,,,,,,,,
 Western Michigan,786,,GN,GN,YE,YE,YE,,RD,,GN,GN,,GN
 App State,828,3,GN,GN,GN,GN,GN,GN,GN,GN,GN,GN,GN,GN
-modified,15 Jul 2024 - 12:56PM Central Daylight Time,,,,,,,,,,,,
+modified,15 Jul 2024 - 01:11PM Central Daylight Time,,,,,,,,,,,,
