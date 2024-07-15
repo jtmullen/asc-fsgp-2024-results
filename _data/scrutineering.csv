@@ -3,7 +3,7 @@ title,,,Driver Registration,Driver Operations,Lights & Vision,Body & Sizing,Elec
 Purdue,1,,GN,GN,YE,YE,YE,,GN,,GN,GN,,
 Michigan,2,,GN,GN,GN,GN,GN,GN,GN,,GN,GN,GN,GN
 MIT,4,,GN,GN,YE,GN,GN,GN,GN,,GN,GN,,
-Florida,5,,GN,YE,YE,BU,GN,GN,GN,GN,,GN,,GN
+Florida,5,,GN,YE,GN,BU,GN,GN,GN,GN,,GN,,GN
 CalSol,6,,GN,GN,YE,GN,YE,BU,RD,,GN,GN,GY,GN
 Dalhousie,7,2,GN,GN,GN,BU,GN,GN,GN,GN,GN,GN,GY,GN
 UT Austin,8,,,,,,,YE,,,,GN,GY,GN
@@ -14,13 +14,13 @@ Stanford,16,,GN,GN,,GN,YE,,RD,,GN,,,GN
 Illinois State,17,,GN,GN,GN,GN,GN,GN,YE,GN,GN,GN,,GN
 Virginia Tech,21,,GN,GN,,GN,,,RD,,GN,GN,GY,
 Illinois   ,22,,GN,GN,YE,BU,YE,YE,GN,,GN,GN,,
-Waterloo,24,,GN,,,,YE,GN,RD,,GN,GN,,GN
+Waterloo,24,,GN,,,,GN,GN,RD,,GN,GN,,GN
 British Columbia,26,,GN,GN,YE,GN,GN,GN,YE,,GN,GN,,GN
 Principia,32,,GN,GN,YE,GN,GN,GN,GN,GN,GN,GN,GY,GN
 Minnesota,35,,GN,GN,YE,GN,YE,YE,YE,GN,,GN,,
 Georgia Tech,49,,YE,,,RD,YE,GN,RD,,GN,GN,,
-Poly Montréal,55,,GN,GN,GN,GN,GN,YE,GN,GN,GN,GN,GN,
-Florida Poly,79,,GN,GN,YE,GN,GN,,GN,,GN,GN,GY,GN
+Poly Montréal,55,,GN,GN,GN,GN,GN,GN,GN,GN,GN,GN,GN,
+Florida Poly,79,,GN,GN,YE,GN,GN,YE,GN,,GN,GN,GY,GN
 Virginia  ,87,,GN,,YE,GN,GN,GN,RD,,GN,GN,GY,
 ETS,92,1,GN,GN,GN,GN,GN,GN,GN,GN,GN,GN,GN,GN
 Western Ontario,96,,GN,,,,RD,,,,,GN,GY,
@@ -32,4 +32,4 @@ Ohio State,614,,GN,GN,YE,GN,YE,GN,GN,,GN,GN,,GN
 Pacific,777,,,,,,,,,,,,,
 Western Michigan,786,,GN,GN,YE,GN,YE,,RD,,GN,GN,,GN
 App State,828,3,GN,GN,GN,GN,GN,GN,GN,GN,GN,GN,GN,GN
-modified,15 Jul 2024 - 01:56PM Central Daylight Time,,,,,,,,,,,,
+modified,15 Jul 2024 - 02:11PM Central Daylight Time,,,,,,,,,,,,
