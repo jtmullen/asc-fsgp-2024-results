@@ -1,13 +1,13 @@
 team,number,penalty,fastest,total,1,2,3
 labels,,graph,,,Day 1,Day 2,Day 3
 labels,,table,,,Day 1,Day 2,Day 3
-Principia ✅,32,0,5:38,77,69,8,0:06:22
-Texas A&M,12,12,5:14,8,12,8,0:06:28
-ETS ✅,92,0,5:04,83,76,7,0:06:29
-Berkeley,6,0,-,7,,7,0:05:44
-Florida Poly,79,2,6:18,11,7,6,0:07:18
-Ohio State,614,10,8:31,5,10,5,0:06:58
-Illinois State,17,0,5:14,47,44,3,0:06:10
+Principia ✅,32,0,5:38,77,69,8,
+Texas A&M,12,12,5:14,8,12,8,
+ETS ✅,92,0,5:04,83,76,7,
+Berkeley,6,0,5:44,7,,7,
+Florida Poly,79,2,6:18,11,7,6,
+Ohio State,614,10,6:58,5,10,5,
+Illinois State,17,0,5:14,47,44,3,
 British Columbia,26,4,6:05,42,46,0,
 Florida,5,1,5:14,26,27,0,
 Dalhousie,7,2,6:07,21,23,0,
@@ -25,4 +25,4 @@ Montana State,406,0,-,0,,,
 Kennesaw State,505,0,-,0,,,
 UOP,777,0,-,0,,,
 Western Michigan,786,0,-,0,,,
-modified,,17 Jul 2024 - 10:09AM Central Daylight Time,,,,,
+modified,,17 Jul 2024 - 10:26AM Central Daylight Time,,,,,
