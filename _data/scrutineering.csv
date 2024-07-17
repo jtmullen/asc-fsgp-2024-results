@@ -1,7 +1,7 @@
 team,number,order,1,2,3,4,5,6,7,8,9,10,11,12
 title,,,Driver Registration,Driver Operations,Lights & Vision,Body & Sizing,Electrical,Battery Protection,Mechanical,Dynamics,Array,Safety,ASC Support,Impound/MOV
 Purdue,1,13,GN,GN,BU,GN,GN,GN,GN,GN,GN,GN,,GN
-Michigan,2,6,GN,GN,GN,GN,GN,GN,GN,GN,GN,GN,GN,GN
+Michigan,2,6,GN,GN,GN,GN,GN,GN,GN,GN,GN,GN,,
 MIT,4,,GN,GN,YE,GN,GN,GN,GN,,GN,GN,,
 Florida,5,4,GN,GN,GN,GN,GN,GN,GN,GN,GN,GN,,GN
 CalSol,6,,GN,GN,GN,GN,YE,BU,GN,,GN,GN,GY,GN
@@ -10,15 +10,15 @@ UT Austin,8,,GN,,,,,YE,,,GN,GN,GY,GN
 Iowa State,9,9,BU,BU,GN,BU,GN,GN,GN,GN,GN,GN,,GN
 Texas A&M,12,10,GN,GN,GN,BU,GN,GN,GN,GN,GN,GN,,GN
 Michigan State,13,,,,,,,,,,,,GY,
-Stanford,16,,GN,GN,YE,GN,YE,,RD,,GN,GN,,GN
+Stanford,16,,GN,GN,YE,GN,YE,,YE,,GN,GN,,GN
 Illinois State,17,5,GN,GN,GN,GN,GN,GN,GN,GN,GN,GN,,GN
 Virginia Tech,21,,GN,GN,GN,GN,GN,GN,GN,,GN,GN,GY,GN
-Illinois   ,22,,GN,GN,YE,BU,GN,YE,GN,GN,GN,GN,,GN
+Illinois   ,22,,GN,GN,YE,BU,GN,YE,GN,GN,GN,GN,GN,GN
 Waterloo,24,,GN,GN,YE,BU,GN,GN,BU,,GN,GN,,GN
 British Columbia,26,11,GN,GN,GN,GN,GN,GN,BU,GN,GN,GN,,GN
 Principia,32,8,GN,GN,GN,GN,GN,GN,GN,GN,GN,GN,GY,GN
 Minnesota,35,12,GN,GN,GN,GN,GN,GN,GN,GN,GN,GN,,GN
-Georgia Tech,49,,GN,,,RD,YE,GN,RD,,GN,GN,,
+Georgia Tech,49,,GN,,,RD,YE,GN,YE,,GN,GN,,
 Poly Montréal,55,7,GN,GN,GN,GN,GN,GN,GN,GN,GN,GN,GN,GN
 Florida Poly,79,,GN,GN,GN,GN,GN,GN,GN,GN,GN,GN,GY,GN
 Virginia  ,87,,GN,GN,GN,GN,GN,GN,YE,GN,GN,GN,GY,GN
@@ -29,7 +29,7 @@ Montana State,406,,GN,GN,YE,YE,,GN,YE,,GN,GN,GY,
 Kennesaw State,505,,GN,,,RD,RD,,RD,,,GN,GY,
 UW Madison,608,14,GN,GN,GN,GN,GN,GN,GN,,GN,GN,,GN
 Ohio State,614,,GN,GN,GN,GN,GN,GN,GN,GN,GN,GN,,GN
-Pacific,777,,GN,,,,,YE,,,,,,
+Pacific,777,,GN,,,,,YE,RD,,,,,
 Western Michigan,786,,GN,GN,YE,GN,YE,YE,GN,,GN,GN,,GN
 App State,828,3,GN,GN,GN,GN,GN,GN,GN,GN,GN,GN,GN,GN
-modified,16 Jul 2024 - 08:56PM Central Daylight Time,,,,,,,,,,,,
+modified,17 Jul 2024 - 06:42AM Central Daylight Time,,,,,,,,,,,,
