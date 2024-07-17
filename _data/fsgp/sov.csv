@@ -1,8 +1,8 @@
 team,number,penalty,fastest,total,1,2,3
 labels,,graph,,,Day 1,Day 2,Day 3
 labels,,table,,,Day 1,Day 2,Day 3
-ETS,92,0,5:04,76,76,,
-Principia,32,0,5:38,69,69,,
+ETS ✅,92,0,5:04,76,76,,
+Principia ✅,32,0,5:38,69,69,,
 Illinois State,17,0,5:14,44,44,,
 British Columbia,26,4,6:05,42,46,,
 Florida,5,1,5:14,26,27,,
@@ -25,4 +25,4 @@ Montana State,406,0,-,0,,,
 Kennesaw State,505,0,-,0,,,
 UOP,777,0,-,0,,,
 Western Michigan,786,0,-,0,,,
-modified,,16 Jul 2024 - 09:06PM Central Daylight Time,,,,,
+modified,,16 Jul 2024 - 09:51PM Central Daylight Time,,,,,
