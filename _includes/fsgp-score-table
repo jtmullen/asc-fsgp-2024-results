@@ -46,4 +46,4 @@ FSGP MOV Table Generator
 {%- endfor -%}
 </tbody>
 </table>
-<b>Last Updated: <i>{{modified}}</i></b>
+<b>Last Updated: <i>{{modified}}</i></b><br>*Indicates not cleared for the track
