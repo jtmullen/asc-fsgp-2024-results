@@ -46,7 +46,9 @@ FSGP Lap Chart JS
   {%- endif -%}
   {%- assign team_external = team.total-ext | plus: 0 -%}
   {%- if team_external < min_external -%}
-	{%- assign min_external = team_external -%}
+	{%- if team_external > 0 -%}
+		{%- assign min_external = team_external -%}
+	{%- endif -%}
   {%- endif -%}
 {%- endif -%}
 {%- endif -%}
