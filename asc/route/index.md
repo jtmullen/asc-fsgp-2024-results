@@ -34,8 +34,8 @@ _Note: While it is our intention that this google map is the correct route, team
 
 #### Nashville, TN
 [Adventure Science Center](https://www.adventuresci.org/); [800 Fort Negley Blvd, Nashville, TN 37203](https://maps.app.goo.gl/XCvLkesEs2CiTHfr7)
-- Display Day: July 19th, 12pm-5pm
-- MOV Practicality Judging: July 19th, Hours TBA
+- Bridgestone Display Day: July 19th, 12pm-5pm
+- MOV Practicality Judging: July 19th, Starts 1pm
 - Start Line: July 20th, 9am
 
 #### Paducah, KY

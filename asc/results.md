@@ -36,7 +36,7 @@ _Note: For individual stage winners, the pracitcality and external energy factor
 
 # Results
 
-_Distance Completed, Times, Average Speeds, and Passenger Information will be updated at each checkpoint. Penalties, MOV Charging Information, and MOV Scores will be updated at the end of each stage._
+_Distance Completed, Times, Average Speeds, and Passenger Information will be updated occasionally. Penalties, MOV Charging Information, and MOV Scores will be updated at the end of each stage._
 
 
 {% tabs stage %}
