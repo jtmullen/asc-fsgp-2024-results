@@ -20,6 +20,9 @@ jobs:
                 echo "SOV Data: ${{ github.event.client_payload.sov_data }}"
                 echo "MOV Data: ${{ github.event.client_payload.mov_data }}"
                 echo "Score Data: ${{ github.event.client_payload.score_data }}"
+                echo "SOV Overall Data: ${{ github.event.client_payload.sov_data_overall }}"
+                echo "MOV Overall Data: ${{ github.event.client_payload.mov_data_overall }}"
+                echo "Score Overall Data: ${{ github.event.client_payload.score_data_overall }}"
             - uses: actions/checkout@v4
               name: Checkout Repo
             - name: Generate New SOV CSV File
@@ -28,18 +31,24 @@ jobs:
                 cd $GITHUB_WORKSPACE
                 cd _data/asc/stage${{ github.event.client_payload.stage }}
                 echo -n $'${{ github.event.client_payload.sov_data }}' > sov.csv
+                cd _data/asc/overall
+                echo -n $'${{ github.event.client_payload.sov_data_overall }}' > sov.csv
             - name: Generate New MOV CSV File
               if: ${{ github.event.client_payload.mov }}
               run: |
                 cd $GITHUB_WORKSPACE
                 cd _data/asc/stage${{ github.event.client_payload.stage }}
                 echo -n $'${{ github.event.client_payload.mov_data }}' > mov.csv
+                cd _data/asc/overall
+                echo -n $'${{ github.event.client_payload.mov_data_overall }}' > mov.csv
             - name: Generate New Score CSV File
               if: ${{ github.event.client_payload.score }}
               run: |
                 cd $GITHUB_WORKSPACE
                 cd _data/asc/stage${{ github.event.client_payload.stage }}
                 echo -n $'${{ github.event.client_payload.score_data }}' > mov-score.csv
+                cd _data/asc/overall
+                echo -n $'${{ github.event.client_payload.score_data_overall }}' > mov-score.csv
             - name: Push to Git
               run: |
                 git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
