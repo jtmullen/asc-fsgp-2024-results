@@ -1,5 +1,19 @@
-team,number,penalty,trailer,time,speed,checkpoint,1,2,3,4,5,6,7,8,9,10,11,12,13,14
-data,name,,,,,,Independence to Topeka,Topeka Loop,Topeka to Grand Island,Grand Island Loop,Grand Island to Gering,Gering to Casper,Casper Loop,Casper to Lander,Lander Loop,Lander to Montpelier,Montpelier Loop,Montpelier to Pocatello,Pocatello Loop,Pocatello to Twin Falls
-data,type,,,,,,base,loop,base,loop,base,base,loop,base,loop,base,Loop,base,loop,base
-data,miles,,,,,,98.3,43.3,265.2,21,311.2,198.3,20.8,156.4,33.4,225.7,46.2,86.6,33.2,129.1
-data,modified,19 July 2022 – 8:45pm US Central,,,,,,,,,,,,,,,,,,
+team,number,penalty,base,time,speed,checkpoint,total,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16
+data,name,,,,,,,Nashville to Paducah,Paducah Loop,Paducah to Edwardsville,Edwardsville Loop,Edwardsville to Jefferson City,Jefferson City Loop,Jefferson City to Independence,Independence to St. Joseph,St. Joseph Loop,St. Joseph to Beatrice,Beatrice Loop,Beatrice to Kearney,Kearney Loop,Kearney to Gering,Gering Loop,Gering to Casper
+data,type,,,,,,,base,loop,base,loop,base,loop,base,base,loop,base,loop,base,loop,base,loop,base
+data,miles,,,,,,,159.7,48.8,217.1,29.2,164.2,28.2,156.6,74,32.8,138.2,25.4,178.4,22,273.6,26,198.3
+Purdue,1,0,-,-,-, |  |  | ,0,,0,,0,,0,,,0,,0,,0,,0,
+Michigan,2,0,-,-,-, |  |  | ,0,,0,,0,,0,,,0,,0,,0,,0,
+Florida,5,0,-,-,-, |  |  | ,0,,0,,0,,0,,,0,,0,,0,,0,
+Texas A&M,12,0,-,-,-, |  |  | ,0,,0,,0,,0,,,0,,0,,0,,0,
+Stanford,16,0,-,-,-, |  |  | ,0,,0,,0,,0,,,0,,0,,0,,0,
+Illinois State,17,0,-,-,-, |  |  | ,0,,0,,0,,0,,,0,,0,,0,,0,
+Illinois,22,0,-,-,-, |  |  | ,0,,0,,0,,0,,,0,,0,,0,,0,
+Waterloo,24,0,-,-,-, |  |  | ,0,,0,,0,,0,,,0,,0,,0,,0,
+British Columbia,26,0,-,-,-, |  |  | ,0,,0,,0,,0,,,0,,0,,0,,0,
+ETS,92,0,-,-,-, |  |  | ,0,,0,,0,,0,,,0,,0,,0,,0,
+Wisconsin,608,0,-,-,-, |  |  | ,0,,0,,0,,0,,,0,,0,,0,,0,
+Ohio State,614,0,-,-,-, |  |  | ,0,,0,,0,,0,,,0,,0,,0,,0,
+UOP,777,0,-,-,-, |  |  | ,0,,0,,0,,0,,,0,,0,,0,,0,
+Western Michigan,786,0,-,-,-, |  |  | ,0,,0,,0,,0,,,0,,0,,0,,0,
+data,modified,,18 Jul 2024 - 01:12PM Central Daylight Time,,,,,
