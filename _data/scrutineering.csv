@@ -2,7 +2,7 @@ team,number,order,1,2,3,4,5,6,7,8,9,10,11,12
 title,,,Driver Registration,Driver Operations,Lights & Vision,Body & Sizing,Electrical,Battery Protection,Mechanical,Dynamics,Array,Safety,ASC Support,Impound/MOV
 Purdue,1,13,GN,GN,BU,GN,GN,GN,GN,GN,GN,GN,,GN
 Michigan,2,6,GN,GN,GN,GN,GN,GN,GN,GN,GN,GN,GN,GN
-MIT,4,,GN,GN,YE,GN,GN,GN,GN,BU,GN,GN,,
+MIT,4,,GN,GN,GN,GN,GN,GN,GN,BU,GN,GN,,
 Florida,5,4,GN,GN,GN,GN,GN,GN,GN,GN,GN,GN,,GN
 CalSol,6,19,GN,GN,GN,GN,GN,GN,GN,GN,GN,GN,GY,GN
 Dalhousie,7,2,GN,GN,GN,BU,GN,GN,GN,GN,GN,GN,GY,GN
@@ -32,4 +32,4 @@ Ohio State,614,15,GN,GN,GN,GN,GN,GN,GN,GN,GN,GN,,GN
 Pacific,777,,GN,,,,,YE,RD,,,,,
 Western Michigan,786,,GN,GN,YE,GN,YE,YE,GN,BU,GN,GN,,GN
 App State,828,3,GN,GN,GN,GN,GN,GN,GN,GN,GN,GN,GN,GN
-modified,17 Jul 2024 - 07:11PM Central Daylight Time,,,,,,,,,,,,
+modified,17 Jul 2024 - 07:26PM Central Daylight Time,,,,,,,,,,,,
