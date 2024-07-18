@@ -1,5 +1,19 @@
-team,number,penalty,trailer,time,speed,checkpoint,1,2,3,4
-data,name,,,,,,Independence to Topeka,Topeka Loop,Topeka to Grand Island,Grand Island Loop
-data,type,,,,,,base,loop,base,loop
-data,miles,,,,,,98.3,43.3,265.2,21
-data,modified,19 July 2022 – 8:45pm US Central,,,,,,,,
+team,number,penalty,base,time,speed,checkpoint,total,1,2,3,4,5,6
+data,name,,,,,,,St. Joseph to Beatrice,Beatrice Loop,Beatrice to Kearney,Kearney Loop,Kearney to Gering,Gering Loop
+data,type,,,,,,,base,loop,base,loop,base,loop
+data,miles,,,,,,,138.2,25.4,178.4,22,273.6,26
+Purdue,1,0,-,-,-,,0,,0,,0,,0
+Michigan,2,0,-,-,-,,0,,0,,0,,0
+Florida,5,0,-,-,-,,0,,0,,0,,0
+Texas A&M,12,0,-,-,-,,0,,0,,0,,0
+Stanford,16,0,-,-,-,,0,,0,,0,,0
+Illinois State,17,0,-,-,-,,0,,0,,0,,0
+Illinois,22,0,-,-,-,,0,,0,,0,,0
+Waterloo,24,0,-,-,-,,0,,0,,0,,0
+British Columbia,26,0,-,-,-,,0,,0,,0,,0
+ETS,92,0,-,-,-,,0,,0,,0,,0
+Wisconsin,608,0,-,-,-,,0,,0,,0,,0
+Ohio State,614,0,-,-,-,,0,,0,,0,,0
+UOP,777,0,-,-,-,,0,,0,,0,,0
+Western Michigan,786,0,-,-,-,,0,,0,,0,,0
+data,modified,,18 Jul 2024 - 12:55PM Central Daylight Time,,,,,
