@@ -1,12 +1,12 @@
 team,number,penalty,fastest,total,1,2,3
 labels,,graph,,,Day 1,Day 2,Day 3
 labels,,table,,,Day 1,Day 2,Day 3
-Poly Montreal ✅,55,1,5:05,104,39,66,
-App State ✅,828,1,5:25,133,73,61,
-Minnesota ✅,35,1,4:54,100,45,56,
-Iowa State,9,8,5:17,44,11,41,
-MIT*,4,0,-,0,,,
+App State ✅,828,1,5:25,152,73,61,19
+Minnesota ✅,35,1,4:54,119,45,56,19
+Poly Montreal ✅,55,1,5:05,119,39,66,15
+Iowa State,9,8,4:54,65,11,41,21
+MIT,4,0,6:36,10,,,10
 Georgia Tech*,49,0,-,0,,,
 Western Ontario*,96,0,-,0,,,
 McMaster*,116,0,-,0,,,
-modified,,17 Jul 2024 - 09:28PM Central Daylight Time,,,,,
+modified,,18 Jul 2024 - 11:10AM Central Daylight Time,,,,,
