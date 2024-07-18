@@ -35,6 +35,8 @@ FSGP Lap Chart JS
 {%- for team in sorted_teams -%}
 {%- if team.team != "modified" -%}
 {%- if team.team != "labels" -%}
+{%- if team.team contains "*" -%}
+{%- else -%}
   <div class="large-6 columns" style="padding-top: 20px;">
       <div class="chart-container-score-{{team.number}}">
         <canvas id="fsgp-score-{{team.number}}"></canvas>
@@ -46,8 +48,11 @@ FSGP Lap Chart JS
   {%- endif -%}
   {%- assign team_external = team.total-ext | plus: 0 -%}
   {%- if team_external < min_external -%}
-	{%- assign min_external = team_external -%}
+	{%- if team_external > 0 -%}
+		{%- assign min_external = team_external -%}
+	{%- endif -%}
   {%- endif -%}
+{%- endif -%}
 {%- endif -%}
 {%- endif -%}
 {%- endfor -%}
@@ -59,6 +64,8 @@ FSGP Lap Chart JS
 {%- for team in sorted_teams -%}
 {%- if team.team != "modified" -%}
 {%- if team.team != "labels" -%}
+{%- if team.team contains "*" -%}
+{%- else -%}
 	{%- assign team_ext = team.total-ext -%}
 	
 	const ctx_score_{{team.number}} = document.getElementById('fsgp-score-{{team.number}}');
@@ -116,6 +123,7 @@ FSGP Lap Chart JS
 		}
 	  },
   });
+{%- endif -%}
 {%- endif -%}
 {%- endif -%}
 {%- endfor -%}

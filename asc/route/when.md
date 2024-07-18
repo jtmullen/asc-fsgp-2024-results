@@ -17,7 +17,7 @@ See the [route](../.) page for the exact roads as well as details on the checkpo
 The American Solar Challenge on-road hours runs from 9am to 6pm daily. Solar cars will be on the road between these hours. There is a small grace period at the end of the day (-15/+30 minutes) for teams to find a good stopping point, their starting time the next day is adjusted accordingly.
 
 
-{% include alert info="The following are __estimated__ guess windows in which _most_ solar cars will likely pass through a given location.   Actual times may differ based on weather and traffic conditions as well as individual stategy decisions made by competing teams. During the event, the [live tracker](./../live/) can be used to see the actual location of the solar cars on the road. this page will not be updated during the event. " %}
+{% include alert info="The following are __estimated__ guess windows in which _most_ solar cars will likely pass through a given location.   Actual times may differ based on weather and traffic conditions as well as individual stategy decisions made by competing teams. During the event, the [live tracker](./../../live/) can be used to see the actual location of the solar cars on the road. this page will not be updated during the event. " %}
 
 
 {% tabs state %}

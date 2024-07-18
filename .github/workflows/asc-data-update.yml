@@ -1,8 +1,8 @@
-name: Update FSGP Results Status
+name: Update ASC Results Status
 
 on: 
     repository_dispatch:
-        types: [fsgp_results]
+        types: [asc_results]
         
 
 jobs:
@@ -15,30 +15,43 @@ jobs:
             - name: Log Info
               run: |
                 echo "Time: ${{ github.event.client_payload.time }}"
+                echo "Stage: ${{ github.event.client_payload.stage }}"
                 echo "SOV: ${{ github.event.client_payload.sov }}; MOV: ${{ github.event.client_payload.mov }}; Score: ${{ github.event.client_payload.score }}"
                 echo "SOV Data: ${{ github.event.client_payload.sov_data }}"
                 echo "MOV Data: ${{ github.event.client_payload.mov_data }}"
                 echo "Score Data: ${{ github.event.client_payload.score_data }}"
+                echo "SOV Overall Data: ${{ github.event.client_payload.sov_data_overall }}"
+                echo "MOV Overall Data: ${{ github.event.client_payload.mov_data_overall }}"
+                echo "Score Overall Data: ${{ github.event.client_payload.score_data_overall }}"
             - uses: actions/checkout@v4
               name: Checkout Repo
             - name: Generate New SOV CSV File
               if: ${{ github.event.client_payload.sov }}
               run: |
                 cd $GITHUB_WORKSPACE
-                cd _data/fsgp
+                cd _data/asc/stage${{ github.event.client_payload.stage }}
                 echo -n $'${{ github.event.client_payload.sov_data }}' > sov.csv
+                cd $GITHUB_WORKSPACE
+                cd _data/asc/overall
+                echo -n $'${{ github.event.client_payload.sov_data_overall }}' > sov.csv
             - name: Generate New MOV CSV File
               if: ${{ github.event.client_payload.mov }}
               run: |
                 cd $GITHUB_WORKSPACE
-                cd _data/fsgp
+                cd _data/asc/stage${{ github.event.client_payload.stage }}
                 echo -n $'${{ github.event.client_payload.mov_data }}' > mov.csv
+                cd $GITHUB_WORKSPACE
+                cd _data/asc/overall
+                echo -n $'${{ github.event.client_payload.mov_data_overall }}' > mov.csv
             - name: Generate New Score CSV File
               if: ${{ github.event.client_payload.score }}
               run: |
                 cd $GITHUB_WORKSPACE
-                cd _data/fsgp
+                cd _data/asc/stage${{ github.event.client_payload.stage }}
                 echo -n $'${{ github.event.client_payload.score_data }}' > mov-score.csv
+                cd $GITHUB_WORKSPACE
+                cd _data/asc/overall
+                echo -n $'${{ github.event.client_payload.score_data_overall }}' > mov-score.csv
             - name: Push to Git
               run: |
                 git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"

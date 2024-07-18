@@ -19,6 +19,7 @@ The Electrek American Solar Challenge 2024 is an 8 day 1550+ mile competition sp
 <a href="./results/" class="button special" style="margin:5px">Official Results</a>
 <a href="./route/" class="button special" style="margin:5px">Route Information</a>
 <a href="./route/when/" class="button special" style="margin:5px">See the Solar Cars Along the Route</a>
+<a href="https://www.americansolarchallenge.org/ASC/wp-content/uploads/2024/06/ASC-2024-Event-Program.pdf" class="button special" style="margin:5px">Download Event Program</a>
 </ul>
 
 
@@ -34,7 +35,7 @@ The Electrek American Solar Challenge 2024 is an 8 day 1550+ mile competition sp
   - **July 23rd - Checkpoint:** [Uptown Farmers Market](https://www.independencemo.gov/government/city-departments/parks-recreation-and-tourism/independence-uptown-market); _Independence, MO_
   - **July 23rd - Finish:** [Pony Express National Museum](https://www.ponyexpress.org/); _St. Joseph, MO_
 - **Stage 3:**
-  - **July 24 - Start:** [Pony Express National Museum](https://www.ponyexpress.org/); _St. Joseph, MO_
+  - **July 24th - Start:** [Pony Express National Museum](https://www.ponyexpress.org/); _St. Joseph, MO_
   - **July 24th - Checkpoint:** [Homestead National Historical Park](https://www.nps.gov/home/index.htm); _Beatrice, NE_
   - **July 25th - Checkpoint:** [Kearney Archway](https://archway.org/); _Kearney, NE_
   - **July 26th - Finish:** [Scotts Bluff National Monument](https://www.nps.gov/scbl/index.htm); _Gering, NE_

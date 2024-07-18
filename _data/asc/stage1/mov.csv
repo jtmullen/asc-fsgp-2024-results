@@ -1,9 +1,12 @@
-team,number,penalty,trailer,time,speed,checkpoint,1,2,3,4
-data,name,,,,,,Independence to Topeka,Topeka Loop,Topeka to Grand Island,Grand Island Loop
-data,type,,,,,,base,loop,base,loop
-data,miles,,,,,,98.3,43,265.2,21
-Minnesota,35,4,Yes,13:23:09,38.14,✅,98.3,0,265.2,7
-App State,828,10,Yes,14:33:37,29.29,✅,98.3,0,265.2,3
-Poly Montreal,55,6,No,8:44:00,35.53,✅,45.1,0,265.2,0
-Iowa State,9,4,No,5:55:00,3.72,❌ ,22,0,0,0
-data,modified,19 July 2022 – 8:45pm US Central,,,,,,,,
+team,number,penalty,base,time,speed,checkpoint,total,1,2,3,4
+data,name,,,,,,,Nashville to Paducah,Paducah Loop,Paducah to Edwardsville,Edwardsville Loop
+data,type,,,,,,,base,loop,base,loop
+data,miles,,,,,,,159.7,48.8,217.1,29.2
+MIT,4,0,-,-,-,,0,,0,,0
+Iowa State,9,0,-,-,-,,0,,0,,0
+Minnesota,35,0,-,-,-,,0,,0,,0
+Georgia Tech,49,0,-,-,-,,0,,0,,0
+Poly Montreal,55,0,-,-,-,,0,,0,,0
+McMaster,116,0,-,-,-,,0,,0,,0
+App State,828,0,-,-,-,,0,,0,,0
+data,modified,,18 Jul 2024 - 02:29PM Central Daylight Time,,,,,

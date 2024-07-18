@@ -18,7 +18,7 @@ _Running lap counts from the track will be updated periodically throughout the d
 {% tabs class %}
 {% tab class SOV Class%}
 
-{% include fsgp-lap-chart-js-grey class="sov" %}
+{% include fsgp-lap-chart-js class="sov" %}
 <br>
 <div style="margin:auto; text-align:center;"> <i> Scroll right to see all data on small screens. </i>
 {% include fsgp-table class="sov" %}
@@ -38,7 +38,7 @@ Variable Definitions:
 - __T__: Target Speed Derating - 1.0 if the vehicle averages at least <b>30 mph</b> for the duration of the event. If average speed is less than 30 mph, the team will have their score derated based on the following formula: \$$ T = (0.6)^{(30-[Average Speed])^{0.4}} $$
 
 
-
+MOV teams must also complete a minimum number of official laps over the 3 days, teams that do not will be ranked below all teams who do. For 2024 at NCM Motorsports Park this is 153 official laps (482 miles).
 
 -----
 ## MOV Score

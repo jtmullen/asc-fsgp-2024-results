@@ -28,12 +28,14 @@ _Note: While it is our intention that this google map is the correct route, team
 -----
 ## Checkpoint and Stage Stop Information
 
+<a href="https://www.americansolarchallenge.org/ASC/wp-content/uploads/2024/03/FSGPASC-2024-Overview-Schedule-v2.pdf" class="button special" style="margin:5px">Route / Schedule Overview Flyer</a>
+
 {% include alert warning="<b>Note About Opening Times:</b> Stops are scheduled to open at the earliest possible arrival time based on speed limits. Solar cars generally do not travel at the speed limit and may be further delayed by traffic or weather conditions. At some stops the first team may arrive hours after the scheduled opening time. The later hours of the stop time will see more solar cars, please utilize the [live tracker](./../live/) for the most up to date information on solar car locations." %}
 
 #### Nashville, TN
 [Adventure Science Center](https://www.adventuresci.org/); [800 Fort Negley Blvd, Nashville, TN 37203](https://maps.app.goo.gl/XCvLkesEs2CiTHfr7)
-- Display Day: July 19th, Hours TBA
-- MOV Practicality Judging: July 19th, Hours TBA
+- Bridgestone Display Day: July 19th, 12pm-5pm
+- MOV Practicality Judging: July 19th, Starts 1pm
 - Start Line: July 20th, 9am
 
 #### Paducah, KY
@@ -82,10 +84,10 @@ _Note: While it is our intention that this google map is the correct route, team
 - Stage Stop: July 26th, 8:30am-5:00pm
      - All teams spend the night at the stage stop. Teams arriving earlier in the day will complete optional loops or hold at the stage stop. 
 - Evening Charging: July 26th, 5pm-8pm
-- Morning Charging: July 26th, 7am-8am
+- Morning Charging: July 27th, 7am-8am
 - Stage Start: July 27th: 8am
 
 #### Casper, WY
 [National Historic Trails Interpretive Center](http://nhtcf.org/); [1501 N Poplar St, Casper, WY 82601](https://maps.app.goo.gl/3uCh9vMXoCZbBL8s7)
 _Overflow Parking at the [Ford Wyoming Center](https://maps.app.goo.gl/74T8GJyFQwcjoGMG7)_
-- Finish Line and Solar Car Display: July 26th, 11:15am-4:00pm
+- Finish Line and Solar Car Display: July 27th, 11:15am-4:00pm

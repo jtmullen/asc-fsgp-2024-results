@@ -1,11 +1,19 @@
-team,number,penalty,trailer,time,speed,checkpoint,1,2,3,4,5
-data,name,,,,,,Grand Island to Gering,Gering to Casper,Casper Loop,Casper to Lander,Lander Loop
-data,type,,,,,,base,base,loop,base,loop
-data,miles,,,,,,311.2,198.3,20.8,156.4,33.4
-MIT,4,9,Yes,23:31:55,37.3,✅ | ✅,311.2,198.3,7,156.4,2
-Principia,32,29,Yes,33:02:58,36.7,✅ | ✅,311.2,198.3,7,156.4,1
-Kentucky,3,8,Yes,39:53:22,30.6,✅ | ✅,311.2,198.3,3,156.4,1
-Berkeley,6,6,Yes,22:17:40,29.9,✅ | ✅,311.2,198.3,0,156.4,0
-ETS,101,4,No,22:13:09,30.4,✅ | ✅,311.2,198.3,1,145.5,0
-Illinois,22,0,No,25:52:23,21.1,✅ | ❌,311.2,198.3,0,36.1,0
-data,modified,19 July 2022 – 8:45pm US Central,,,,,,,,,
+team,number,penalty,base,time,speed,checkpoint,total,1,2,3,4,5
+data,name,,,,,,,Edwardsville to Jefferson City,Jefferson City Loop,Jefferson City to Independence,Independence to St. Joseph,St. Joseph Loop
+data,type,,,,,,,base,loop,base,base,loop
+data,miles,,,,,,,164.2,28.2,156.6,74,32.8
+Purdue,1,0,-,-,-,,0,,0,,,0
+Michigan,2,0,-,-,-,,0,,0,,,0
+Florida,5,0,-,-,-,,0,,0,,,0
+Texas A&M,12,0,-,-,-,,0,,0,,,0
+Stanford,16,0,-,-,-,,0,,0,,,0
+Illinois State,17,0,-,-,-,,0,,0,,,0
+Illinois,22,0,-,-,-,,0,,0,,,0
+Waterloo,24,0,-,-,-,,0,,0,,,0
+British Columbia,26,0,-,-,-,,0,,0,,,0
+ETS,92,0,-,-,-,,0,,0,,,0
+Wisconsin,608,0,-,-,-,,0,,0,,,0
+Ohio State,614,0,-,-,-,,0,,0,,,0
+UOP,777,0,-,-,-,,0,,0,,,0
+Western Michigan,786,0,-,-,-,,0,,0,,,0
+data,modified,,15 Jul 2024 - 03:52PM Central Daylight Time,,,,,

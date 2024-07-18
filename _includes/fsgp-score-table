@@ -15,7 +15,7 @@ FSGP MOV Table Generator
   <th style="border-bottom-width: 3px;"> Completion Factor [C] </th>
   <th style="border-bottom-width: 3px;"> Speed Derating [T]</th>
   <th style="border-right-width: 3px;border-bottom-width: 3px;"> Total External Energy [E] (kWh) </th>
-  <th style="border-bottom-width: 3px;"> Miles </th>
+  <th style="border-bottom-width: 3px;"> Event Miles Driven </th>
   <th style="border-bottom-width: 3px;"> Person Miles [D]</th>
   <th style="border-bottom-width: 3px;"> Penalty Miles </th>
   <th style="border-bottom-width: 3px;"> Avg. Speed (mph)</th>
@@ -46,4 +46,4 @@ FSGP MOV Table Generator
 {%- endfor -%}
 </tbody>
 </table>
-<b>Last Updated: <i>{{modified}}</i></b>
+<b>Last Updated: <i>{{modified}}</i></b><br>*Indicates not cleared for the track
