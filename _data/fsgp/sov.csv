@@ -1,28 +1,28 @@
 team,number,penalty,fastest,total,1,2,3
 labels,,graph,,,Day 1,Day 2,Day 3
 labels,,table,,,Day 1,Day 2,Day 3
-Florida ✅,5,2,4:52,133,27,42,66
-ETS ✅,92,0,5:04,206,76,65,65
-Purdue,1,1,4:43,70,1,8,62
-Berkeley ✅,6,0,4:24,115,,56,59
-Principia ✅,32,0,4:53,181,69,53,59
-Illinois State ✅,17,0,4:39,145,44,52,49
-Illinois,22,0,5:17,72,,23,49
-British Columbia,26,4,6:05,91,46,3,46
-Florida Poly,79,4,6:18,87,7,44,40
-Texas A&M,12,14,5:14,72,12,38,36
-Western Michigan,786,0,5:15,33,,,33
-Virginia Tech,21,0,5:41,45,,14,31
-Michigan,2,0,5:30,53,18,14,21
-Ohio State,614,10,6:58,38,10,19,19
-Waterloo,24,6,5:55,14,,6,14
+ETS ✅,92,0,5:04,215,76,65,74
+Principia ✅,32,0,5:19,189,69,53,67
+Illinois State ✅,17,2,4:40,149,44,52,55
+Florida ✅,5,3,4:51,135,27,42,69
+Berkeley ✅,6,0,4:21,126,,56,70
+British Columbia,26,4,6:05,94,46,3,49
+Florida Poly,79,6,6:18,87,7,44,42
+Illinois,22,0,5:16,80,,23,57
+Purdue ✅,1,1,5:12,78,1,8,70
+Texas A&M,12,15,5:14,76,12,38,41
+Michigan,2,0,5:24,63,18,14,31
+Virginia Tech,21,0,5:51,49,,14,35
+Ohio State,614,10,6:47,42,10,19,23
+Western Michigan,786,1,6:08,39,,,40
+Dalhousie,7,6,6:07,36,23,6,13
+Virginia,87,0,7:20,20,10,5,5
 Wisconsin,608,0,6:36,13,0,0,13
-Montana State,406,3,7:41,16,,6,13
-Stanford,16,0,6:48,10,,,10
-Dalhousie,7,4,6:07,33,23,6,8
-Virginia,87,0,7:20,18,10,5,3
+Waterloo,24,8,5:55,12,,6,14
+Montana State,406,5,8:07,12,,6,11
+Stanford,16,0,6:16,10,,,10
 UT Austin*,8,0,-,0,,,
 Michigan State*,13,0,-,0,,,
 Kennesaw State*,505,0,-,0,,,
 UOP*,777,0,-,0,,,
-modified,,18 Jul 2024 - 04:21PM Central Daylight Time,,,,,
+modified,,18 Jul 2024 - 08:54PM Central Daylight Time,,,,,
