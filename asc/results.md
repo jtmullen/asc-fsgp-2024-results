@@ -125,6 +125,12 @@ __July 27th:__ Gering, NE to Casper, WY
 _For stage ranking MOV teams are scored solely on Distance, Completion Factor, and Target Speed. Other factors are not considered_
 {% include asc-score-chart-js stage="stage1" %}
 {% include asc-score-table stage="stage1" %}
+
+<ul class="actions">
+<a href="https://www.americansolarchallenge.org/ASC/wp-content/uploads/2024/07/MOV-Team-Window-Stickers.pdf" class="button special" style="margin:5px">MOV Window Stickers</a>
+<a href="https://www.americansolarchallenge.org/ASC/wp-content/uploads/2024/07/ASC-2024-MOV-Practicality-Rubric-Template.pdf" class="button special" style="margin:5px">MOV Practicality Judging Rubric</a>
+</ul>
+
 {% endtab %}
 {% tab stagescore Stage 2%}
 ## MOV Scores
