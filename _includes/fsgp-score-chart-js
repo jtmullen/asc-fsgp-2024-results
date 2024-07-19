@@ -20,7 +20,6 @@ FSGP Lap Chart JS
 {%- if team.team != "labels" -%}
 	{%- assign person_mi_sanitized = team.person | replace: ",", ""-%}
 	{%- assign team_personmi = person_mi_sanitized | plus: 0 -%}
-	{{team_personmi}}--
 	{%- if team_personmi > max_personmi -%}
 		{%- assign max_personmi = team_personmi -%}
 	{%- endif -%}
@@ -58,7 +57,7 @@ FSGP Lap Chart JS
 {%- endif -%}
 {%- endif -%}
 {%- endfor -%}
-{{max_personmi}}
+
 </div>
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
