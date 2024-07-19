@@ -2,7 +2,7 @@
 FSGP Lap Chart JS
 {%- endcomment -%}
 {%- assign teams = site.data.fsgp.mov-score -%}
-{%- assign sorted_teams = teams | sort: "number" -%}
+{%- assign sorted_teams = teams | sort: "score" | reverse -%}
 {%- assign team_count = 0 -%}
 {%- for team in sorted_teams -%}
 {%- if team.team != "modified" -%}
