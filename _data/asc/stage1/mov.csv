@@ -2,13 +2,9 @@ team,number,penalty,base,time,speed,checkpoint,total,1,2,3,4
 data,name,,,,,,,Nashville to Paducah,Paducah Loop,Paducah to Edwardsville,Edwardsville Loop
 data,type,,,,,,,base,loop,base,loop
 data,miles,,,,,,,159.7,48.8,217.1,29.2
-Purdue,1,0,-,-,-,,0,,0,,0
-Michigan,2,0,-,-,-,,0,,0,,0
-Florida,5,0,-,-,-,,0,,0,,0
-Texas A&M,12,0,-,-,-,,0,,0,,0
-Illinois State,17,0,-,-,-,,0,,0,,0
-Illinois,22,0,-,-,-,,0,,0,,0
-British Columbia,26,0,-,-,-,,0,,0,,0
-ETS,92,0,-,-,-,,0,,0,,0
-Western Michigan,786,0,-,-,-,,0,,0,,0
+MIT,4,0,-,-,-,,0,,0,,0
+Iowa State,9,0,-,-,-,,0,,0,,0
+Minnesota,35,0,-,-,-,,0,,0,,0
+Poly Montreal,55,0,-,-,-,,0,,0,,0
+App State,828,0,-,-,-,,0,,0,,0
 data,modified,,19 Jul 2024 - 01:04PM Central Daylight Time,,,,,
