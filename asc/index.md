@@ -14,8 +14,7 @@ header:
 The Electrek American Solar Challenge 2024 is an 8 day 1550+ mile competition split into 4 stages. Solar cars will depart from Nashville, TN and make their way to Casper, WY following 7 [National Historic Trails](https://www.nps.gov/subjects/nationaltrailssystem/national-historic-trails.htm) as they _See America By National Historic Trail!_ Single-Occupant Vehicles will compete to the complete the most miles by driving optional loops at the checkpoint and stage stops. Multi-Occupant Vehicles will compete for the highest score by maximizing their practicality score and person-miles travelled while minimizing the amount of grid-charging needed. Learn more about the [vehicle classes](https://www.americansolarchallenge.org/the-competition/vehicle-classes/).
 
 <ul class="actions">
-<a href="./live/" class="button special" style="margin:5px">Live Tracking</a>
-<a href="./timing/" class="button special" style="margin:5px">Live Timing Board</a>
+<a href="http://fleet.iosix.com/solar/" class="button special" style="margin:5px">Live Tracking</a>
 <a href="./results/" class="button special" style="margin:5px">Official Results</a>
 <a href="./route/" class="button special" style="margin:5px">Route Information</a>
 <a href="./route/when/" class="button special" style="margin:5px">See the Solar Cars Along the Route</a>
