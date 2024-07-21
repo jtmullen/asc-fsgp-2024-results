@@ -26,10 +26,10 @@ Multi-Occupant vehicles are scored on a variety of factors including person-mile
 
 Variable Definitions: 
 - __S__: MOV Score
-- __D__: Person-Mile Distance - the number of miles driven (2.5 miles per lap) times the average number of passengers in the vehicle. 
+- __D__: Person-Mile Distance - the sum of miles travelled by each occupant.  
 - __E__: External Energy Usage - the vehicles battery capacity (assumed to start FSGP full) plus any external charging during the event. 
 - __C__: Completion Factor - the number of miles driven less penalty miles divided by the highest number of miles driven by any team. 
-- __P__: Practicality Score - during display day a panel of judges will evalute the practical features of each vehicle and award a score from 0-100.
+- __P__: Practicality Score - during display day a panel of judges will evalute the practical features of each vehicle and award a score from 0-100%.
 - __T__: Target Speed Derating - vehicles must average at least <b>35 mph</b> for the event, in which case this factor will be 1.0. Otherwise they have their score derated based on the following formula: \$$ T = (0.6)^{(35-[Average Speed])^{0.4}} $$
 
 _Note: For individual stage winners, the pracitcality and external energy factors are not considered, only the "D x C x T" factors_
