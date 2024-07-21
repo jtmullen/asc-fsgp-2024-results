@@ -34,6 +34,11 @@ Variable Definitions:
 
 _Note: For individual stage winners, the pracitcality and external energy factors are not considered, only the "D x C x T" factors_
 
+<ul class="actions">
+<a href="https://www.americansolarchallenge.org/ASC/wp-content/uploads/2024/07/MOV-Team-Window-Stickers.pdf" class="button special" style="margin:5px">MOV Window Stickers</a>
+<a href="https://www.americansolarchallenge.org/ASC/wp-content/uploads/2024/07/ASC-2024-MOV-Practicality-Rubric-Template.pdf" class="button special" style="margin:5px">MOV Practicality Judging Rubric</a>
+
+
 # Results
 
 _Distance Completed, Times, Average Speeds, and Passenger Information will be updated occasionally. Penalties, MOV Charging Information, and MOV Scores will be updated at the end of each stage._
@@ -43,7 +48,7 @@ _Distance Completed, Times, Average Speeds, and Passenger Information will be up
 {% tab stage Overall%}
 
 __July 20th-27th:__ Nashville, TN to Casper, WY
-- 1560.0 Total Base Route Miles
+- 1561.4 Total Base Route Miles
 - 7 Optional Loops
     - 213.4 unique loop miles (teams may complete loops multiple times)
 
@@ -59,8 +64,8 @@ __July 20th & 21st:__ Nashville, TN to Edwardsville, IL via Paducah, KY
 {% endtab %}
 {% tab stage Stage 2%}
 __July 22nd & 23rd:__ Edwardsville, IL to St. Joseph, MO via Jefferson City, MO and Independence, MO
-- Route Segments:
-  - Edwardsville to Jefferson City: <i>164.2 miles</i>
+- Route Segments:s
+  - Edwardsville to Jefferson City: <i>165.6 miles</i>
   - Jefferson City to Independence: <i>156.6 miles</i>
   - Independence to St. Joseph: <i>74.0 miles</i>
 - Optional Loops:
@@ -126,9 +131,6 @@ _For stage ranking MOV teams are scored solely on Distance, Completion Factor, a
 {% include asc-score-chart-js stage="stage1" %}
 {% include asc-score-table stage="stage1" %}
 
-<ul class="actions">
-<a href="https://www.americansolarchallenge.org/ASC/wp-content/uploads/2024/07/MOV-Team-Window-Stickers.pdf" class="button special" style="margin:5px">MOV Window Stickers</a>
-<a href="https://www.americansolarchallenge.org/ASC/wp-content/uploads/2024/07/ASC-2024-MOV-Practicality-Rubric-Template.pdf" class="button special" style="margin:5px">MOV Practicality Judging Rubric</a>
 </ul>
 
 {% endtab %}
