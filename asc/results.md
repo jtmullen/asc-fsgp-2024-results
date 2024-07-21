@@ -37,7 +37,7 @@ _Note: For individual stage winners, the pracitcality and external energy factor
 <ul class="actions">
 <a href="https://www.americansolarchallenge.org/ASC/wp-content/uploads/2024/07/MOV-Team-Window-Stickers.pdf" class="button special" style="margin:5px">MOV Window Stickers</a>
 <a href="https://www.americansolarchallenge.org/ASC/wp-content/uploads/2024/07/ASC-2024-MOV-Practicality-Rubric-Template.pdf" class="button special" style="margin:5px">MOV Practicality Judging Rubric</a>
-
+</ul>
 
 # Results
 
@@ -187,6 +187,7 @@ _For stage ranking MOV teams are scored solely on Distance, Completion Factor, a
 <script src="{{ url }}/assets/js/tabs.js"></script>
 <script> jekyllTabs.init({
     syncTabsWithSameLabels: true,
+    activateTabFromUrl: true,
 });
 </script>
 <script type="text/javascript" async
