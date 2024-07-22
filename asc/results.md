@@ -48,7 +48,7 @@ _Distance Completed, Times, Average Speeds, and Passenger Information will be up
 {% tab stage Overall%}
 
 __July 20th-27th:__ Nashville, TN to Casper, WY
-- 1561.4 Total Base Route Miles
+- 1562.2 Total Base Route Miles
 - 7 Optional Loops
     - 213.4 unique loop miles (teams may complete loops multiple times)
 
@@ -67,7 +67,7 @@ __July 22nd & 23rd:__ Edwardsville, IL to St. Joseph, MO via Jefferson City, MO 
 - Route Segments:s
   - Edwardsville to Jefferson City: <i>165.6 miles</i>
   - Jefferson City to Independence: <i>156.6 miles</i>
-  - Independence to St. Joseph: <i>74.0 miles</i>
+  - Independence to St. Joseph: <i>74.8 miles</i>
 - Optional Loops:
   - Jefferson City Loop: <i>28.2 miles</i>
   - St. Joseph Loop: <i>32.8 miles</i>
