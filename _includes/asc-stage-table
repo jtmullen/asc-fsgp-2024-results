@@ -20,7 +20,7 @@ ASC Stage Chart Generator
 				{% assign miles = miles | push:item[1] %}
 			{% endfor %}
 		{% elsif team.number == "modified" %}
-			{% assign modified = team.penalty %}
+			{% assign modified = team.base %}
 		{% endif %}
 	{% endif %}
 {% endfor %}
