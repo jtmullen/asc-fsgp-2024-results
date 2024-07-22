@@ -30,7 +30,7 @@ FSGP MOV Table Generator
 {% assign completeGroups = site.data.asc.[stage].mov-score | group_by: "base" %}
 {% for group in completeGroups %}
 {% if {{group.name}} == "Yes" %}
-{% assign teamsSorted = group.items | sort: "total" | reverse %}
+{% assign teamsSorted = group.items | sort: "score" | reverse %}
 {% for team in teamsSorted %}
 	{% if team.team != "modified" %}
 		<tr>
@@ -53,7 +53,7 @@ FSGP MOV Table Generator
 {% endfor %}
 {% for group in completeGroups %}
 {% if {{group.name}} contains "-" %}
-{% assign teamsSorted = group.items | sort: "total" | reverse %}
+{% assign teamsSorted = group.items | sort: "score" | reverse %}
 {% for team in teamsSorted %}
 	{% if team.team != "modified" %}
 		<tr>
@@ -76,7 +76,7 @@ FSGP MOV Table Generator
 {% endfor %}
 {% for group in completeGroups %}
 {% if {{group.name}} == "No" %}
-{% assign teamsSorted = group.items | sort: "total" | reverse %}
+{% assign teamsSorted = group.items | sort: "score" | reverse %}
 {% for team in teamsSorted %}
 	{% if team.team != "modified" %}
 		<tr>
