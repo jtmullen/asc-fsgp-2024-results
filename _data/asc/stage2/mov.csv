@@ -1,12 +1,10 @@
 team,number,penalty,base,time,speed,checkpoint,total,1,2,3,4,5
 data,name,,,,,,,Edwardsville to Jefferson City,Jefferson City Loop,Jefferson City to Independence,Independence to St. Joseph,St. Joseph Loop
 data,type,,,,,,,base,loop,base,base,loop
-data,miles,,,,, ,,164.2,28.2,156.6,74,32.8
-MIT,4,0,-,-,-,,0,,0,,,0
-Iowa State,9,0,-,-,-,,0,,0,,,0
-Minnesota,35,0,-,-,-,,0,,0,,,0
-Georgia Tech,49,0,-,-,-,,0,,0,,,0
-Poly Montreal,55,0,-,-,-,,0,,0,,,0
-McMaster,116,0,-,-,-,,0,,0,,,0
-App State,828,0,-,-,-,,0,,0,,,0
-data,modified,,15 Jul 2024 - 03:52PM Central Daylight Time,,,,,
+data,miles,,,,, ,,165.6,28.2,156.6,74.8,32.8
+MIT,4,0,-,-,-,❌,0,0,0,,0,0
+Iowa State,9,0,Yes,-,-,✅,165.6,165.6,0,,0,0
+Minnesota,35,0,-,-,-,❌,0,0,0,,0,0
+Poly Montreal,55,0,Yes,-,-,✅,165.6,165.6,0,,0,0
+App State,828,0,Yes,-,-,✅,165.6,165.6,0,,0,0
+data,modified,,22 Jul 2024 - 09:12PM Central Daylight Time,,,,,
