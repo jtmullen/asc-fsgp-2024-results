@@ -76,7 +76,7 @@ __The Timing Board is currently live!__ _Information on this page automatically 
 
 <script>
 
-update_interval_seconds = 5;
+update_interval_seconds = 90;
 
 function fadeoutHighlight(changeList){
 	changeList.forEach((id) => {
@@ -105,7 +105,9 @@ function updateTable(timingData){
 				existingContent = existingCell.innerHTML;
 				existingCell.innerHTML = cell;
 				if(existingContent != cell){
+					if(!existingContent.includes("Texas){ 
 					changedIds.push(`row${rowIndex}cell${cellIndex}`);
+					}
 				}
 		});
 		}
