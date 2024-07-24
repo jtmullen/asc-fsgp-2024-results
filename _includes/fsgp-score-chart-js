@@ -2,7 +2,7 @@
 FSGP Lap Chart JS
 {%- endcomment -%}
 {%- assign teams = site.data.fsgp.mov-score -%}
-{%- assign sorted_teams = teams | sort: "number" -%}
+{%- assign sorted_teams = teams | sort: "score" | reverse -%}
 {%- assign team_count = 0 -%}
 {%- for team in sorted_teams -%}
 {%- if team.team != "modified" -%}
@@ -18,7 +18,8 @@ FSGP Lap Chart JS
 {%- for team in sorted_teams -%}
 {%- if team.team != "modified" -%}
 {%- if team.team != "labels" -%}
-	{%- assign team_personmi = team.person | plus: 0 -%}
+	{%- assign person_mi_sanitized = team.person | replace: ",", ""-%}
+	{%- assign team_personmi = person_mi_sanitized | plus: 0 -%}
 	{%- if team_personmi > max_personmi -%}
 		{%- assign max_personmi = team_personmi -%}
 	{%- endif -%}
@@ -56,6 +57,7 @@ FSGP Lap Chart JS
 {%- endif -%}
 {%- endif -%}
 {%- endfor -%}
+
 </div>
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
@@ -67,13 +69,14 @@ FSGP Lap Chart JS
 {%- if team.team contains "*" -%}
 {%- else -%}
 	{%- assign team_ext = team.total-ext -%}
+	{%- assign person_mi_sanitized = team.person | replace: ",", ""-%}
 	
 	const ctx_score_{{team.number}} = document.getElementById('fsgp-score-{{team.number}}');
 	const data_score_{{team.number}} = {
 	  labels: labels_score,
 	  datasets: [
 	  {
-		data: [{{ team.person | times: 100 | divided_by: max_personmi }}, {{team.completion}}, {{team.derate | times: 100}}, {{min_external | times: 100 | divided_by: team.total-ext}}],
+		data: [{{ person_mi_sanitized | times: 100 | divided_by: max_personmi }}, {{team.completion}}, {{team.derate | times: 100}}, {{min_external | times: 100 | divided_by: team.total-ext}}],
 		backgroundColor: [
 			"#EE4B2B7F","#FFAC1C7F","#FFEA007F","#00FFFF7F" 
 		]

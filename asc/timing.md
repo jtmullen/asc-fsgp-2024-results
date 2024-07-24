@@ -159,7 +159,7 @@ function createTable(timingData){
 
 function getTimingDataUpdateTable(){
 	console.log("Running Update");
-	fetch("../../assets/timing.json")
+	fetch("../../assets/timing/timing.json")
 		.then(res => res.json())
 		.then(function(res) {updateTable(res)})
 		.catch(function(error){console.log(error)})

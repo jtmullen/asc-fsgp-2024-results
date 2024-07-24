@@ -18,11 +18,25 @@ _Running lap counts from the track will be updated periodically throughout the d
 {% tabs class %}
 {% tab class SOV Class%}
 
+__First Place:__ #92 Éclipse (215 laps / 677.25 miles)<br>
+__Second Place:__ #32 Principia (189 laps / 539.35 miles)<br>
+__Third Place:__ #17 Illinois State (149 laps / 469.35 miles)
+
+__Fastest Lap:__ Jae Won Hwang from #6 Berkeley. 4:21.414 time / 43.4 mph average
+
 {% include fsgp-lap-chart-js class="sov" %}
 <br>
 <div style="margin:auto; text-align:center;"> <i> Scroll right to see all data on small screens. </i>
 {% include fsgp-table class="sov" %}
+</div>
+### Provisional Qualification
 
+The following SOV teams have been granted provisional qualification for the American Solar Challenge:
+- #26 British Columbia
+- #22 Ilinois
+- #12 Texas A&M
+- #2 Michigan
+- #786 Western Michigan
 
 
 {% endtab %}
@@ -43,6 +57,12 @@ MOV teams must also complete a minimum number of official laps over the 3 days, 
 -----
 ## MOV Score
 
+__First Place:__ #55 Poly Montreal (88.57 score / 165 laps)<br>
+__Second Place:__ #828 App State (36.53 score / 201 laps)<br>
+__Third Place:__ #35 Minnesota (20.16 score / 158 laps)
+
+__Fastest Lap:__ Logan Staubus from #9 Iowa State. 4:38.223 time / 40.8 mph average
+
 {% include fsgp-score-chart-js %}
 
 <div style="margin:auto; text-align:center;"> <i> Scroll right to see all data on small screens. </i>
@@ -57,6 +77,11 @@ MOV teams must also complete a minimum number of official laps over the 3 days, 
 <div style="margin:auto; text-align:center;"> <i> Scroll right to see all data on small screens. </i>
 {% include fsgp-table class="mov" %}
 </div>
+
+### Provisional Qualification
+
+The following MOV teams have been granted provisional qualification for the American Solar Challenge:
+- #4 MIT
 
 {% endtab %}
 {% endtabs %}

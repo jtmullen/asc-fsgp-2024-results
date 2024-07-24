@@ -26,13 +26,18 @@ Multi-Occupant vehicles are scored on a variety of factors including person-mile
 
 Variable Definitions: 
 - __S__: MOV Score
-- __D__: Person-Mile Distance - the number of miles driven (2.5 miles per lap) times the average number of passengers in the vehicle. 
+- __D__: Person-Mile Distance - the sum of miles travelled by each occupant.  
 - __E__: External Energy Usage - the vehicles battery capacity (assumed to start FSGP full) plus any external charging during the event. 
 - __C__: Completion Factor - the number of miles driven less penalty miles divided by the highest number of miles driven by any team. 
-- __P__: Practicality Score - during display day a panel of judges will evalute the practical features of each vehicle and award a score from 0-100.
+- __P__: Practicality Score - during display day a panel of judges will evalute the practical features of each vehicle and award a score from 0-100%.
 - __T__: Target Speed Derating - vehicles must average at least <b>35 mph</b> for the event, in which case this factor will be 1.0. Otherwise they have their score derated based on the following formula: \$$ T = (0.6)^{(35-[Average Speed])^{0.4}} $$
 
 _Note: For individual stage winners, the pracitcality and external energy factors are not considered, only the "D x C x T" factors_
+
+<ul class="actions">
+<a href="https://www.americansolarchallenge.org/ASC/wp-content/uploads/2024/07/MOV-Team-Window-Stickers.pdf" class="button special" style="margin:5px">MOV Window Stickers</a>
+<a href="https://www.americansolarchallenge.org/ASC/wp-content/uploads/2024/07/ASC-2024-MOV-Practicality-Rubric-Template.pdf" class="button special" style="margin:5px">MOV Practicality Judging Rubric</a>
+</ul>
 
 # Results
 
@@ -43,7 +48,7 @@ _Distance Completed, Times, Average Speeds, and Passenger Information will be up
 {% tab stage Overall%}
 
 __July 20th-27th:__ Nashville, TN to Casper, WY
-- 1560.0 Total Base Route Miles
+- 1562.2 Total Base Route Miles
 - 7 Optional Loops
     - 213.4 unique loop miles (teams may complete loops multiple times)
 
@@ -59,10 +64,10 @@ __July 20th & 21st:__ Nashville, TN to Edwardsville, IL via Paducah, KY
 {% endtab %}
 {% tab stage Stage 2%}
 __July 22nd & 23rd:__ Edwardsville, IL to St. Joseph, MO via Jefferson City, MO and Independence, MO
-- Route Segments:
-  - Edwardsville to Jefferson City: <i>164.2 miles</i>
+- Route Segments:s
+  - Edwardsville to Jefferson City: <i>165.6 miles</i>
   - Jefferson City to Independence: <i>156.6 miles</i>
-  - Independence to St. Joseph: <i>74.0 miles</i>
+  - Independence to St. Joseph: <i>74.8 miles</i>
 - Optional Loops:
   - Jefferson City Loop: <i>28.2 miles</i>
   - St. Joseph Loop: <i>32.8 miles</i>
@@ -125,6 +130,7 @@ __July 27th:__ Gering, NE to Casper, WY
 _For stage ranking MOV teams are scored solely on Distance, Completion Factor, and Target Speed. Other factors are not considered_
 {% include asc-score-chart-js stage="stage1" %}
 {% include asc-score-table stage="stage1" %}
+
 {% endtab %}
 {% tab stagescore Stage 2%}
 _For stage ranking MOV teams are scored solely on Distance, Completion Factor, and Target Speed. Other factors are not considered_
@@ -178,6 +184,7 @@ _For stage ranking MOV teams are scored solely on Distance, Completion Factor, a
 <script src="{{ url }}/assets/js/tabs.js"></script>
 <script> jekyllTabs.init({
     syncTabsWithSameLabels: true,
+    activateTabFromUrl: true,
 });
 </script>
 <script type="text/javascript" async

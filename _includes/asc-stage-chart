@@ -9,15 +9,15 @@ ASC Stage Chart Generator
 {% for team in site.data.asc.[stage].[class] %}
 	{% if team.team == "data" %}
 		{% if team.number == "name" %}
-			{% for item in team | offset:7 %}
+			{% for item in team | offset:8 %}
 				{% assign name = name | push:item[1] %}
 			{% endfor %}
 		{% elsif team.number == "type" %}
-			{% for item in team | offset:7 %}
+			{% for item in team | offset:8 %}
 				{% assign type = type | push:item[1] %}
 			{% endfor %}
 		{% elsif team.number == "miles" %}
-			{% for item in team | offset:7 %}
+			{% for item in team | offset:8 %}
 				{% assign miles = miles | push:item[1] %}
 			{% endfor %}
 		{% endif %}
@@ -25,14 +25,7 @@ ASC Stage Chart Generator
 {% endfor %}
 {% for team in site.data.asc.[stage].[class] %}
 	{% if team.team != "data" %}
-		{% assign this_miles = 0 %}
-		{% for item in team | offset:7 %}
-			{% if type[forloop.index0] == "base" %}
-				{% assign this_miles = this_miles | plus:item[1] %}
-			{% else %}
-				{% assign this_miles = item[1] | times:miles[forloop.index0] | plus:this_miles %}
-			{% endif %}
-		{% endfor %}
+		{% assign this_miles = team.total | plus: 0 %}
 		{% if this_miles > most_miles %}
 			{% assign most_miles = this_miles %}
 		{% endif %}
@@ -113,7 +106,7 @@ ASC Stage Chart Generator
 		{% if team.team != "data" %}
 		<tr>
 			<th scope="row"> #{{team.number}} </th>
-			{% for item in team | offset:7 %}
+			{% for item in team | offset:8 %}
 			{% if type[forloop.index0] == "base" %}
 				{% assign tooltip = "#" | append: {{team.number}} | append: " - " | append: {{team.team}} | append:" <br> " | append:{{name[forloop.index0]}} | append:" <br> " | append:{{item[1]}} | append: " of " | append:{{miles[forloop.index0]}} | append:" miles" %}
 				<td style="--size: calc({{item[1]}} / {{full}});--color: rgba(29,112,235,1);border:1px solid white"><span class="data"> {{item[1]}} mi. </span><span class="tooltip"> {{tooltip}} </span></td>
@@ -142,7 +135,7 @@ ASC Stage Chart Generator
 		{% if team.team != "data" %}
 		<tr>
 			<th scope="row"> #{{team.number}} </th>
-			{% for item in team | offset:7 %}
+			{% for item in team | offset:8 %}
 			{% if type[forloop.index0] == "base" %}
 				{% assign tooltip = "#" | append: {{team.number}} | append: " - " | append: {{team.team}} | append:" <br> " | append:{{name[forloop.index0]}} | append:" <br> " | append:{{item[1]}} | append: " of " | append:{{miles[forloop.index0]}} | append:" miles" %}
 				<td style="--size: calc({{item[1]}} / {{full}});--color: rgba(29,112,235,1);border:1px solid white"><span class="data"> {{item[1]}} mi. </span><span class="tooltip"> {{tooltip}} </span></td>
@@ -171,7 +164,7 @@ ASC Stage Chart Generator
 		{% if team.team != "data" %}
 		<tr>
 			<th scope="row"> #{{team.number}} </th>
-			{% for item in team | offset:7 %}
+			{% for item in team | offset:8 %}
 			{% if type[forloop.index0] == "base" %}
 				{% assign tooltip = "#" | append: {{team.number}} | append: " - " | append: {{team.team}} | append:" <br> " | append:{{name[forloop.index0]}} | append:" <br> " | append:{{item[1]}} | append: " of " | append:{{miles[forloop.index0]}} | append:" miles" %}
 				<td style="--size: calc({{item[1]}} / {{full}});--color: rgba(29,112,235,1);border:1px solid white"><span class="data"> {{item[1]}} mi. </span><span class="tooltip"> {{tooltip}} </span></td>

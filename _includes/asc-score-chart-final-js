@@ -3,17 +3,19 @@ FSGP Lap Chart JS
 {%- endcomment -%}
 {% assign stage = "overall" %}
 {%- assign teams = site.data.asc.[stage].mov-score -%}
-{%- assign sorted_teams = teams | sort: "number" -%}
+{%- assign sorted_teams = teams | sort: "score" | reverse -%}
 {%- assign team_count = 0 -%}
+{%- assign miles_count = 0 -%}
 {%- for team in sorted_teams -%}
 {%- if team.team != "modified" -%}
 {%- if team.team != "labels" -%}
 {%- assign team_count = team_count | plus: 1 -%}
+{%- assign miles_count = miles_count | plus: team.person -%}
 {%- endif -%}
 {%- endif -%}
 {%- endfor -%}
 {% assign mod_result = team_count | modulo:2 %}
-{%- if team_count == 0 -%}
+{%- if miles_count == 0 -%}
 <i><b>MOV Scores Not Yet Available</b></i>
 {%- else -%}
 <h3 style="text-align: center;">Normalized MOV Score Component Charts</h3>
@@ -52,13 +54,17 @@ FSGP Lap Chart JS
 {%- if team.team != "modified" -%}
 {%- if team.team != "labels" -%}
 		const ctx_score_{{team.number}}_{{stage}} = document.getElementById('asc-score-{{team.number}}-{{stage}}');
+		{% assign practical = {{team.practical}} %}
+		{% if practical contains "-" %}
+			{% assign practical = 0 %}
+		{% endif %}
 
 	
 	const data_score_{{team.number}}_{{stage}} = {
 	  labels: labels_score_{{stage}},
 	  datasets: [
 	  {
-		data: [{{ team.person | times: 100 | divided_by: max_personmi }}, {{team.completion}}, {{team.derate | times: 100}}, {{min_external | times: 100 | divided_by: team.total-ext}}, {{team.practical}} ],
+		data: [{{ team.person | times: 100 | divided_by: max_personmi }}, {{team.completion}}, {{team.derate | times: 100}}, {{min_external | times: 100 | divided_by: team.total-ext}}, {{practical}} ],
 		backgroundColor: [
 			"#EE4B2B7F","#FFAC1C7F","#FFEA007F", "#36a2eb7F", "#4bc0c07F" 
 		]
