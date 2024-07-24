@@ -53,6 +53,27 @@ __The Timing Board is currently live!__ _Information on this page automatically 
 <span id="notlivenote" style="display: none;">__The Timing Board is not current live, live updates will begin at: <span id="livestarttime">-</span>__. Please Refresh at that time.</span>
 
 
+## Completed Timing Boards
+{% tabs stage-timing %}
+{% tab stage-timing Stage 1 %}
+{% include asc-timing-board stage="1" %}
+{% endtab %}
+{% tab stage-timing Stage 2 %}
+{% include asc-timing-board stage="2" %}
+{% endtab %}
+{% tab stage-timing Stage 3 %}
+{% include asc-timing-board stage="3" %}
+{% endtab %}
+{% tab stage-timing Stage 4 %}
+{% include asc-timing-board stage="4" %}
+{% endtab %}
+{% endtabs %}
+
+<link rel="stylesheet" href="{{ url }}/2024/assets/css/tabs.css">
+<script src="{{ url }}/2024/assets/js/tabs.js"></script>
+<script> jekyllTabs.init({
+});</script>
+
 <script>
 
 update_interval_seconds = 5;
@@ -165,38 +186,12 @@ function getTimingDataUpdateTable(){
 		.catch(function(error){console.log(error)})
 }
 
-fetch("../../assets/timing.json")
+fetch("../../assets/timing/timing.json")
   .then(res => res.json())
   .then(function(res) {createTable(res)})
   .catch(function(error){console.log(error)})
 
 </script>
-
-
-<div id="templateheaders" style="display:none">
-
-</div>
-
-## Completed Timing Boards
-{% tabs stage-timing %}
-{% tab stage-timing Stage 1 %}
-{% include asc-timing-board stage="1" %}
-{% endtab %}
-{% tab stage-timing Stage 2 %}
-{% include asc-timing-board stage="2" %}
-{% endtab %}
-{% tab stage-timing Stage 3 %}
-{% include asc-timing-board stage="3" %}
-{% endtab %}
-{% tab stage-timing Stage 4 %}
-{% include asc-timing-board stage="4" %}
-{% endtab %}
-{% endtabs %}
-
-<link rel="stylesheet" href="{{ url }}/assets/css/tabs.css">
-<script src="{{ url }}/assets/js/tabs.js"></script>
-<script> jekyllTabs.init({
-});</script>
 
 
 <div id="templateheaders" style="display:none">
