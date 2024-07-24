@@ -15,6 +15,7 @@ The Electrek American Solar Challenge 2024 is an 8 day 1550+ mile competition sp
 
 <ul class="actions">
 <a href="http://fleet.iosix.com/solar/" class="button special" style="margin:5px">Live Tracking</a>
+<a href="./timing/" class="button special" style="margin:5px">Live Timing Board</a>
 <a href="./results/" class="button special" style="margin:5px">Official Results</a>
 <a href="./route/" class="button special" style="margin:5px">Route Information</a>
 <a href="./route/when/" class="button special" style="margin:5px">See the Solar Cars Along the Route</a>

@@ -11,6 +11,7 @@ breadcrumb: true
 ---
 
 __The Live Timing Board will be updated during Event Hours__
+*See also the [live tracker](http://fleet.iosix.com/solar/)*
 
 *Note: The Live Online Timing Board is not the official timing board. Teams should cross reference with HQ on-site. Every effort is made to keep this up to data and accurate, in the case of descrepencies the on-site HQ specified times are official.*
 
@@ -76,7 +77,7 @@ __The Timing Board is currently live!__ _Information on this page automatically 
 
 <script>
 
-update_interval_seconds = 90;
+update_interval_seconds = 60;
 
 function fadeoutHighlight(changeList){
 	changeList.forEach((id) => {

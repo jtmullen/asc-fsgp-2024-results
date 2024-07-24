@@ -26,7 +26,8 @@
   side: left
   url: "/asc"
   dropdown:
-  - title: 
+  - title: Live Timing Board
+    url: "/asc/timing/"
   - title: "Official Results"
     url: "/asc/results"
   - title: "Route"
