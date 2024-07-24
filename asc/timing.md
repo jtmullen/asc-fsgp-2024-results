@@ -105,7 +105,7 @@ function updateTable(timingData){
 				existingContent = existingCell.innerHTML;
 				existingCell.innerHTML = cell;
 				if(existingContent != cell){
-					if(!existingContent.includes("Texas){ 
+					if(!existingContent.includes("Texas"){ 
 					changedIds.push(`row${rowIndex}cell${cellIndex}`);
 					}
 				}
