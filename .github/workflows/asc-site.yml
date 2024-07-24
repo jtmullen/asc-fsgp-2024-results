@@ -59,4 +59,9 @@ jobs:
               server: ftp.americansolarchallenge.org
               username: ${{ secrets.FTP_USER_2023 }}
               password: ${{ secrets.FTP_PW_2023 }}
+              exclude: |
+                    **/.git*
+                    **/.git*/**
+                    **/node_modules/**
+                    **/assets/timing/**
 
