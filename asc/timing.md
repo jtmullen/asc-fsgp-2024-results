@@ -46,7 +46,7 @@ td:last-child {
 	font-style: italic;
 }
 </style>
-<table id="liveTable" style="margin:auto; border: 2px solid;overflow:auto;">
+<table id="liveTable" style="margin:auto; border: 2px solid;overflow:auto;display:block;">
 <th>Data Loading</th>
 </table>
 <span id="livenote" style="display: none;">
