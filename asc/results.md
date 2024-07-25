@@ -15,7 +15,7 @@ The Electrek American Solar Challenge 2024 is an 8 day 1550+ mile competition sp
 
 ## Scoring 
 
-The 2024 Event is once again a distance-based competition. The primary goal is to compelete the 1560 mile base route; however, teams will have numerous opportuntities to complete additional optional loop segments to gain addition miles (or person miles for Multi-Occupant Vehicles) which will help increase their ranking. See our [vehicle classes](https://www.americansolarchallenge.org/the-competition/vehicle-classes/) page for more info on the classes.
+The 2024 Event is once again a distance-based competition. The primary goal is to complete the 1560 mile base route; however, teams will have numerous opportuntities to complete additional optional loop segments to gain addition miles (or person miles for Multi-Occupant Vehicles) which will help increase their ranking. See our [vehicle classes](https://www.americansolarchallenge.org/the-competition/vehicle-classes/) page for more info on the classes.
 
 
 ### Single Occupant Vehicle (SOV) Class
