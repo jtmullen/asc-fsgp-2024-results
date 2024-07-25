@@ -1,5 +1,5 @@
 {%- assign stage = include.stage | plus: 0 -%}
-<table id="final-timing-stage[stage]" style="margin:auto; border: 2px solid;overflow:auto;">
+<table id="final-timing-stage[stage]" style="margin:auto; border: 2px solid;overflow:auto;display:block;">
 {% include stage{{stage}}-timing-table-template %}
 {% assign data = site.data.asc.[include.folder].timing %}
 <tbody>
