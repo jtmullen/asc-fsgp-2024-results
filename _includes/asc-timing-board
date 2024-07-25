@@ -1,7 +1,14 @@
 {%- assign stage = include.stage | plus: 0 -%}
 <table id="final-timing-stage[stage]" style="margin:auto; border: 2px solid;overflow:auto;">
 {% include stage{{stage}}-timing-table-template %}
-{% assign data = site.data.asc.[stage].timing %}
+{% assign data = site.data.asc.[include.folder].timing %}
 <tbody>
+{% for row in data %}
+	<tr>
+	{% for cell in row %}
+		<td> {{cell[1]}} </td>
+	{% endfor %}
+	</tr>
+{% endfor %}
 </tbody>
 </table>

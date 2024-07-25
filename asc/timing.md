@@ -57,16 +57,16 @@ __The Timing Board is currently live!__ _Information on this page automatically 
 ## Completed Timing Boards
 {% tabs stage-timing %}
 {% tab stage-timing Stage 1 %}
-{% include asc-timing-board stage="1" %}
+{% include asc-timing-board stage="1" folder="stage1" %}
 {% endtab %}
 {% tab stage-timing Stage 2 %}
-{% include asc-timing-board stage="2" %}
+{% include asc-timing-board stage="2" folder="stage2" %}
 {% endtab %}
 {% tab stage-timing Stage 3 %}
-{% include asc-timing-board stage="3" %}
+{% include asc-timing-board stage="3" folder="stage3" %}
 {% endtab %}
 {% tab stage-timing Stage 4 %}
-{% include asc-timing-board stage="4" %}
+{% include asc-timing-board stage="4" folder="stage4" %}
 {% endtab %}
 {% endtabs %}
 
@@ -77,7 +77,7 @@ __The Timing Board is currently live!__ _Information on this page automatically 
 
 <script>
 
-update_interval_seconds = 60;
+update_interval_seconds = 59;
 
 function fadeoutHighlight(changeList){
 	changeList.forEach((id) => {
