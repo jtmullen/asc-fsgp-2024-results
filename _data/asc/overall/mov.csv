@@ -2,9 +2,9 @@ team,number,penalty,base,time,speed,checkpoint,total,1,2,3,4,5,6,7,8,9,10,11,12,
 data,name,,,,,,,Nashville to Paducah,Paducah Loop,Paducah to Edwardsville,Edwardsville Loop,Edwardsville to Jefferson City,Jefferson City Loop,Jefferson City to Independence,Independence to St. Joseph,St. Joseph Loop,St. Joseph to Beatrice,Beatrice Loop,Beatrice to Kearney,Kearney Loop,Kearney to Gering,Gering Loop,Gering to Casper
 data,type,,,,,,,base,loop,base,loop,base,loop,base,base,loop,base,loop,base,loop,base,loop,base
 data,miles,,,,,,,159.7,48.8,217.1,29.2,165.6,28.2,156.6,74.8,32.8,138.2,25.4,178.4,22,273.6,26,198.3
-MIT,4,69,No,27:59:48,23.7,✅ | ❌ | ✅ | ✅ | ,594.5,159.7,0,217.1,0,127.7,0,0,20.8,0,138.2,0,,0,,0,
-Iowa State,9,73,-,23:11:52,39.31,✅ | ✅ | ✅ | ✅ | ,839,159.7,0,217.1,0,165.6,0,156.6,74.8,0,138.2,0,,0,,0,
-Minnesota,35,0,No,5:40:00,1.84,❌ | ❌ | ❌ | ❌ | ,10.4,10.4,0,0,0,0,0,,0,0,,0,,0,,0,
-Poly Montreal,55,5,-,25:27:00,35.83,✅ | ✅ | ✅ | ✅ | ,907,159.7,0,217.1,0,165.6,0,156.6,74.8,0,138.2,0,,0,,0,
-App State,828,11,-,23:55:37,38.12,✅ | ✅ | ✅ | ✅ | ,901,159.7,0,217.1,0,165.6,0,156.6,74.8,0,138.2,0,,0,,0,
-data,modified,,24 Jul 2024 - 11:24PM Central Daylight Time,,,,,
+MIT,4,69,No,27:59:48,23.7,✅ | ❌ | ✅ | ✅ | ❌ | ,594.5,159.7,0,217.1,0,127.7,0,0,20.8,0,138.2,0,,0,,0,
+Iowa State,9,73,-,23:11:52,47,✅ | ✅ | ✅ | ✅ | ✅ | ,1017.4,159.7,0,217.1,0,165.6,0,156.6,74.8,0,138.2,0,178.4,0,,0,
+Minnesota,35,0,No,5:40:00,1.84,❌ | ❌ | ❌ | ❌ | ❌ | ,10.4,10.4,0,0,0,0,0,,0,0,,0,,0,,0,
+Poly Montreal,55,5,-,25:27:00,43.71,✅ | ✅ | ✅ | ✅ | ✅ | ,1107.4,159.7,0,217.1,0,165.6,0,156.6,74.8,0,138.2,0,200.4,1,,0,
+App State,828,11,-,23:55:37,45.57,✅ | ✅ | ✅ | ✅ | ✅ | ,1079.4,159.7,0,217.1,0,165.6,0,156.6,74.8,0,138.2,0,178.4,0,,0,
+data,modified,,25 Jul 2024 - 09:30PM Central Daylight Time,,,,,

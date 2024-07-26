@@ -2,9 +2,9 @@ team,number,penalty,base,time,speed,checkpoint,total,1,2,3,4,5,6
 data,name,,,,,,,St. Joseph to Beatrice,Beatrice Loop,Beatrice to Kearney,Kearney Loop,Kearney to Gering,Gering Loop
 data,type,,,,,,,base,loop,base,loop,base,loop
 data,miles,,,,, ,,138.2,25.4,178.4,22,273.6,26
-MIT,4,6,Yes,-,-,✅,132.2,138.2,0,,0,,0
-Iowa State,9,30,Yes,-,-,✅,108.2,138.2,0,,0,,0
-Minnesota,35,0,No,-,-,❌,0,,0,,0,,0
-Poly Montreal,55,0,Yes,-,-,✅,138.2,138.2,0,,0,,0
-App State,828,0,Yes,-,-,✅,138.2,138.2,0,,0,,0
-data,modified,,24 Jul 2024 - 11:24PM Central Daylight Time,,,,,
+MIT,4,6,Yes,-,-,✅ | ❌,132.2,138.2,0,,0,,0
+Iowa State,9,30,Yes,-,-,✅ | ✅,286.6,138.2,0,178.4,0,,0
+Minnesota,35,0,No,-,-,❌ | ❌,0,,0,,0,,0
+Poly Montreal,55,0,Yes,-,-,✅ | ✅,338.6,138.2,0,200.4,1,,0
+App State,828,0,Yes,-,-,✅ | ✅,316.6,138.2,0,178.4,0,,0
+data,modified,,25 Jul 2024 - 09:30PM Central Daylight Time,,,,,
