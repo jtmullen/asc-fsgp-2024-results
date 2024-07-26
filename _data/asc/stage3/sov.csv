@@ -2,13 +2,13 @@ team,number,penalty,base,time,speed,checkpoint,total,1,2,3,4,5,6
 data,name,,,,,,,St. Joseph to Beatrice,Beatrice Loop,Beatrice to Kearney,Kearney Loop,Kearney to Gering,Gering Loop
 data,type,,,,,,,base,loop,base,loop,base,loop
 data,miles,,,,,,,138.2,25.4,178.4,22,273.6,26
-Purdue,1,0,Yes,-,-,✅,138.2,138.2,0,,0,,0
-Michigan,2,0,Yes,-,-,✅,214.4,214.4,3,,0,,0
-Florida,5,6,Yes,-,-,✅,132.2,138.2,0,,0,,0
-Texas A&M,12,9,No,-,-,✅,82.9,91.9,0,,0,,0
-Illinois State,17,0,Yes,-,-,✅,138.2,138.2,0,,0,,0
-Illinois,22,0,Yes,-,-,✅,163.6,163.6,1,,0,,0
-British Columbia,26,0,No,-,-,❌,0,,0,,0,,0
-ETS,92,0,Yes,-,-,✅,214.4,214.4,3,,0,,0
-Western Michigan,786,0,No,-,-,❌,0,,0,,0,,0
-data,modified,,24 Jul 2024 - 11:24PM Central Daylight Time,,,,,
+Purdue,1,0,Yes,-,-,✅ | ✅,316.6,138.2,0,178.4,0,,0
+Michigan,2,0,Yes,-,-,✅ | ✅,458.8,214.4,3,244.4,3,,0
+Florida,5,6,Yes,-,-,✅ | ✅,310.6,138.2,0,178.4,0,,0
+Texas A&M,12,9,No,-,-,✅ | ❌,82.9,91.9,0,,0,,0
+Illinois State,17,0,Yes,-,-,✅ | ✅,316.6,138.2,0,178.4,0,,0
+Illinois,22,0,Yes,-,-,✅ | ✅,364,163.6,1,200.4,1,,0
+British Columbia,26,0,No,-,-,❌ | ❌,0,,0,,0,,0
+ETS,92,0,Yes,-,-,✅ | ✅,436.8,214.4,3,222.4,2,,0
+Western Michigan,786,0,No,-,-,❌ | ❌,0,,0,,0,,0
+data,modified,,25 Jul 2024 - 09:29PM Central Daylight Time,,,,,
