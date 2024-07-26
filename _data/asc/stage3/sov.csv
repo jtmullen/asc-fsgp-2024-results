@@ -5,10 +5,10 @@ data,miles,,,,,,,138.2,25.4,178.4,22,273.6,26
 Purdue,1,0,Yes,-,-,✅ | ✅,316.6,138.2,0,178.4,0,,0
 Michigan,2,0,Yes,-,-,✅ | ✅,458.8,214.4,3,244.4,3,,0
 Florida,5,6,Yes,-,-,✅ | ✅,310.6,138.2,0,178.4,0,,0
-Texas A&M,12,9,No,-,-,✅ | ❌,82.9,91.9,0,,0,,0
+Texas A&M,12,9,No,-,-,❌ | ❌,82.9,91.9,0,,0,,0
 Illinois State,17,0,Yes,-,-,✅ | ✅,316.6,138.2,0,178.4,0,,0
 Illinois,22,0,Yes,-,-,✅ | ✅,364,163.6,1,200.4,1,,0
 British Columbia,26,0,No,-,-,❌ | ❌,0,,0,,0,,0
 ETS,92,0,Yes,-,-,✅ | ✅,436.8,214.4,3,222.4,2,,0
 Western Michigan,786,0,No,-,-,❌ | ❌,0,,0,,0,,0
-data,modified,,25 Jul 2024 - 09:29PM Central Daylight Time,,,,,
+data,modified,,25 Jul 2024 - 09:52PM Central Daylight Time,,,,,
