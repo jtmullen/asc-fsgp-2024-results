@@ -4,9 +4,7 @@ data,type,,,,,,,base
 data,miles,,,,, ,,198.3
 MIT,4,0,-,-,-,N/A,0,
 Iowa State,9,0,-,-,-,N/A,0,
-Minnesota,35,0,-,-,-,N/A,0,
-Georgia Tech,49,0,-,-,-,N/A,0,
+Minnesota,35,0,No,-,-,N/A,0,
 Poly Montreal,55,0,-,-,-,N/A,0,
-McMaster,116,0,-,-,-,N/A,0,
 App State,828,0,-,-,-,N/A,0,
-data,modified,,18 Jul 2024 - 01:15PM Central Daylight Time,,,,,
+data,modified,,26 Jul 2024 - 11:00PM Central Daylight Time,,,,,
