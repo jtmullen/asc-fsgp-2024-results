@@ -86,7 +86,7 @@ FSGP MOV Table Generator
 	<tr>
 		<td style="border-right-width: 3px;white-space: nowrap;"><b>#{{team.number}} - {{team.team}}</b></td>
 		<td style="border-right-width: 3px;"><b>{{team.score}}</b></td>
-		<td>{{team.practical}}%</td>
+		<td>{{team.practical | times: 100}}%</td>
 		<td>{{team.completion}}%</td>
 		<td>{{team.derate}}</td>
 		<td style="border-right-width: 3px;">{{team.total-ext}}</td>
