@@ -72,7 +72,7 @@ FSGP Lap Chart JS
 	  labels: labels_score_{{stage}},
 	  datasets: [
 	  {
-		data: [{{ team.person | times: 100 | divided_by: max_personmi }}, {{team.completion}}, {{team.derate | times: 100}}, {{min_external | times: 100 | divided_by: team.total-ext}}, {{practical}} ],
+		data: [{{ team.person | times: 100 | divided_by: max_personmi }}, {{team.completion}}, {{team.derate | times: 100}}, {{min_external | times: 100 | divided_by: team.total-ext}}, {{practical | times: 100}} ],
 		backgroundColor: [
 			"#EE4B2B7F","#FFAC1C7F","#FFEA007F", "#36a2eb7F", "#4bc0c07F" 
 		]
