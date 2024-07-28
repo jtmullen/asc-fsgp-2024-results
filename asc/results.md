@@ -93,6 +93,13 @@ __July 27th:__ Gering, NE to Casper, WY
 ## SOV Results
 {% tabs stagesov %}
 {% tab stagesov Overall%}
+
+__SOV Class Podium:__
+- 1st: University of Michigan (2095.5 miles)
+- 2nd: École de technologie supérieure (2004.5 miles)
+- 3rd: Illinois State University (1504.3 miles)
+<br><br>
+
 {% include asc-final-chart stage="overall" class="sov" %}
 <br>&nbsp;
 <br>&nbsp;
@@ -123,6 +130,13 @@ __July 27th:__ Gering, NE to Casper, WY
 ## MOV Scores
 {% tabs stagescore %}
 {% tab stagescore Overall%}
+
+__MOV Class Podium:__
+- 1st: Polytechnique Montréal (73.86 score)
+- 2nd: Appalachian State (25.21 score)
+- 3rd: Iowa State University (25.18 score)
+<br><br>
+
 {% include asc-score-chart-final-js %}
 {% include asc-final-score %}
 {% endtab %}
