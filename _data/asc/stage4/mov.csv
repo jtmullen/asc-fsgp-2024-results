@@ -2,9 +2,9 @@ team,number,penalty,base,time,speed,checkpoint,total,1
 data,name,,,,,,,Gering to Casper
 data,type,,,,,,,base
 data,miles,,,,, ,,198.3
-MIT,4,0,-,-,-,N/A,0,
-Iowa State,9,0,-,-,-,N/A,0,
+Poly Montreal,55,0,Yes,4:43:31,41.97,N/A,198.3,198.3
+App State,828,0,Yes,5:39:53,35.01,N/A,198.3,198.3
+Iowa State,9,18,Yes,4:30:31,43.98,N/A,180.3,180.3
+MIT,4,2,Yes,7:54:53,25.05,N/A,196.3,196.3
 Minnesota,35,0,No,-,-,N/A,0,
-Poly Montreal,55,0,-,-,-,N/A,0,
-App State,828,0,-,-,-,N/A,0,
-data,modified,,26 Jul 2024 - 11:00PM Central Daylight Time,,,,,
+data,modified,,27 Jul 2024 - 11:11PM Central Daylight Time,,,,,

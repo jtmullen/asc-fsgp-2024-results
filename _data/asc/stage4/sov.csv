@@ -2,13 +2,13 @@ team,number,penalty,base,time,speed,checkpoint,total,1
 data,name,,,,,,,Gering to Casper
 data,type,,,,,,,base
 data,miles,,,,,,,198.3
-Purdue,1,0,-,-,-,N/A,0,
-Michigan,2,0,-,-,-,N/A,0,
-Florida,5,0,-,-,-,N/A,0,
-Texas A&M,12,0,-,-,-,N/A,0,
-Illinois State,17,0,-,-,-,N/A,0,
-Illinois,22,0,-,-,-,N/A,0,
-British Columbia,26,0,No,-,-,N/A,0,
-ETS,92,0,-,-,-,N/A,0,
+Michigan,2,4,Yes,5:35:24,35.47,N/A,194.3,194.3
+ETS,92,0,Yes,6:09:06,32.24,N/A,198.3,198.3
+Illinois State,17,8,Yes,7:16:04,27.28,N/A,190.3,190.3
+Illinois,22,10,No,7:14:00,18.33,N/A,122.6,122.6
+Florida,5,2,Yes,5:25:21,36.57,N/A,196.3,196.3
+Purdue,1,0,Yes,6:10:47,32.09,N/A,198.3,198.3
+Texas A&M,12,3,No,4:08:00,1.31,N/A,2.4,2.4
 Western Michigan,786,0,No,-,-,N/A,0,
-data,modified,,26 Jul 2024 - 11:00PM Central Daylight Time,,,,,
+British Columbia,26,0,No,-,-,N/A,0,
+data,modified,,27 Jul 2024 - 11:11PM Central Daylight Time,,,,,
