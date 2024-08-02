@@ -47,11 +47,8 @@ td:last-child {
 }
 </style>
 <table id="liveTable" style="margin:auto; border: 2px solid;overflow:auto;display:block;">
-<th>Data Loading</th>
+<th>The event has finished</th>
 </table>
-<span id="livenote" style="display: none;">
-__The Timing Board is currently live!__ _Information on this page automatically updates, next updating in <b><span id="countdowntime">-</span></b> seconds._</span>
-<span id="notlivenote" style="display: none;">__The Timing Board is not current live, live updates will begin at: <span id="livestarttime">-</span>__. Please Refresh at that time.</span>
 
 
 ## Completed Timing Boards
@@ -188,11 +185,6 @@ function getTimingDataUpdateTable(){
 		.then(function(res) {updateTable(res)})
 		.catch(function(error){console.log(error)})
 }
-
-fetch("../../assets/timing/timing.json")
-  .then(res => res.json())
-  .then(function(res) {createTable(res)})
-  .catch(function(error){console.log(error)})
 
 </script>
 
