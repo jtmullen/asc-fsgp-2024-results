@@ -41,7 +41,27 @@ _Note: For individual stage winners, the pracitcality and external energy factor
 
 # Results
 
-_Distance Completed, Times, Average Speeds, and Passenger Information will be updated occasionally. Penalties, MOV Charging Information, and MOV Scores will be updated at the end of each stage._
+
+__SOV Class Podium:__
+- 1st: University of Michigan (2095.5 miles)
+- 2nd: École de technologie supérieure (2004.5 miles)
+- 3rd: Illinois State University (1504.3 miles)
+
+__MOV Class Podium:__
+- 1st: Polytechnique Montréal (73.86 score)
+- 2nd: Appalachian State (25.21 score)
+- 3rd: Iowa State University (25.18 score)
+
+
+__Inspector Awards:__
+- _Safety:_ Polytechnique Montréal 
+- _Dick Roberto Mechanical Design_: Polytechnique Montréal 
+- _Electrical Design:_ École de technologie supérieure
+- _Aesthetics:_ University of Michigan
+- _Hot Sauce Award:_ Stanford
+- _Abe Poot Teamwork:_ École de technologie supérieure
+- _Spirit of the Event:_ Appalachian State
+
 
 
 {% tabs stage %}
@@ -93,13 +113,6 @@ __July 27th:__ Gering, NE to Casper, WY
 ## SOV Results
 {% tabs stagesov %}
 {% tab stagesov Overall%}
-
-__SOV Class Podium:__
-- 1st: University of Michigan (2095.5 miles)
-- 2nd: École de technologie supérieure (2004.5 miles)
-- 3rd: Illinois State University (1504.3 miles)
-<br><br>
-
 {% include asc-final-chart stage="overall" class="sov" %}
 <br>&nbsp;
 <br>&nbsp;
@@ -130,13 +143,6 @@ __SOV Class Podium:__
 ## MOV Scores
 {% tabs stagescore %}
 {% tab stagescore Overall%}
-
-__MOV Class Podium:__
-- 1st: Polytechnique Montréal (73.86 score)
-- 2nd: Appalachian State (25.21 score)
-- 3rd: Iowa State University (25.18 score)
-<br><br>
-
 {% include asc-score-chart-final-js %}
 {% include asc-final-score %}
 {% endtab %}
