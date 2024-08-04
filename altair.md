@@ -20,6 +20,8 @@ Registered teams with all green [status](https://www.americansolarchallenge.org/
 ## 2024 Altair Challenge Results:
 
 __Grand Prize:__ University of Florida
+__Second Place:__ University of Michigan
+__Third Place:__ University of Minnesota
 
 __Honorable Mentions:__
 - _Robusteness Award:_ Florida Polytechnic
